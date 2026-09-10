@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html data-theme="night" lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
+<meta content="dark light" name="color-scheme"/>
+<meta content="真题语境词卡。持续更新的词库，保存在当前浏览器的复习进度。" name="description"/>
+<title>晚安词卡 · 阅读里的词，慢慢记住</title>
+<link href="./assets/app.css?v=1" rel="stylesheet"/>
+<meta content="noindex, nofollow" name="robots"/><meta content="#101917" name="theme-color"/><meta content="no-referrer" name="referrer"/><link href="./assets/icon.svg" rel="icon" type="image/svg+xml"/><link href="./manifest.webmanifest" rel="manifest"/><meta content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'" http-equiv="Content-Security-Policy"/></head>
+<body>
+<div class="shell">
+<header class="top">
+<div class="brand"><span aria-hidden="true" class="logo"><svg viewbox="0 0 24 24"><path d="M20 14.4A8.5 8.5 0 0 1 9.6 4 8.5 8.5 0 1 0 20 14.4Z"></path><path d="M17 3v4M15 5h4"></path></svg></span><div><div class="brand-title">晚安词卡</div><div class="brand-sub">WORDS FROM YOUR READING</div></div></div>
+<div class="top-actions"><button class="quiet icon" disabled="" id="openList" title="查看本版全部词卡"><svg viewbox="0 0 24 24"><path d="M4 5h16M4 12h16M4 19h16"></path></svg><span class="label-on-wide">词卡目录</span></button><button aria-label="切换深浅色" class="quiet icon" id="theme" title="切换深浅色"><svg viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M2 12h2M20 12h2M5 5l1.5 1.5M17.5 17.5L19 19M19 5l-1.5 1.5M6.5 17.5L5 19"></path></svg></button></div>
+</header>
+<section class="intro"><div class="eyebrow" id="deckTitle">阅读里的词，慢慢记住</div><h1>今晚，记住一点就好。</h1><p>先回想，再翻开答案。没有倒计时，困了就收好。</p></section><div class="deckbar"><label for="deckSelect">阅读篇目</label><select aria-label="选择阅读篇目" disabled="" id="deckSelect"><option>正在读取词库…</option></select><button class="update-btn" disabled="" id="checkUpdate">检查更新</button><span class="edition" id="edition"></span></div><div class="loadingbox" id="loadingBox" role="status"><span id="loadingMessage">正在读取词库。你的复习记录不会被覆盖。</span><br/><button hidden="" id="retryLoad">重新加载</button></div>
+<nav aria-label="选择复习组" class="packbar"><button aria-pressed="true" data-pack="core" disabled="">今晚轻复习<span class="pack-n" id="corePackCount">10 张</span></button><button aria-pressed="false" data-pack="all" disabled="">本篇全部<span class="pack-n" id="allPackCount">32 张</span></button><button aria-pressed="false" data-pack="hard" disabled="">模糊 / 不认识<span class="pack-n" id="hardCount">0</span></button></nav>
+<main class="workspace" hidden="" id="workspace">
+<div class="study-area">
+<div class="round-line"><span id="roundPosition"><strong>01</strong> / 10</span><label class="context-switch"><input checked="" id="contextToggle" type="checkbox"/>显示真题提示</label></div>
+<div aria-label="本轮自评进度" aria-valuemax="10" aria-valuemin="0" aria-valuenow="0" class="progress-track" id="progress" role="progressbar"><div class="progress-fill" id="progressFill"></div></div>
+<section id="studyView">
+<article aria-labelledby="word" class="card">
+<div class="card-meta"><span class="badge" id="kind"></span><span class="loc" id="location"></span></div>
+<div class="term-line"><h2 class="word" id="word" lang="en"></h2><button aria-label="朗读当前英文" class="sound icon" id="speak" title="使用设备已有的离线英语音色"><svg viewbox="0 0 24 24"><path d="M11 4 5 9H2v6h3l6 5Z"></path><path d="M15 8a6 6 0 0 1 0 8M18 5a10 10 0 0 1 0 14"></path></svg></button></div>
+<div class="form" id="form"></div>
+<div class="quote-block" id="quoteBlock"><div class="micro-label" id="quoteType"></div><p class="quote" id="quote" lang="en"></p></div>
+<button aria-controls="answer" aria-expanded="false" class="reveal" id="reveal">想一想，再翻开中文<span class="keyhint">SPACE</span></button>
+<div class="answer" hidden="" id="answer">
+<div class="micro-label">真题语境 · 助手讲解</div><p class="meaning" id="meaning"></p><p class="translation" id="translation"></p><div class="note"><small>这次记住</small><span id="note"></span></div>
+<details id="bookDetails"><summary>对照词表原释义与来源</summary><div class="source-detail"><div id="match"></div><div id="bookEntries"></div><p class="source-foot">释义摘自你上传的《2027考研英语红宝书（乱序版）A4默写版》。仅规范化字形与空白，保留词性和义项；上方语境义、译文与提示是另行整理的讲解。</p></div></details>
+</div>
+</article>
+<div aria-label="按你的实际熟悉程度自评" class="ratings"><button class="known" data-rating="known" disabled="">认识<span class="keyhint">1</span></button><button class="fuzzy" data-rating="fuzzy" disabled="">模糊<span class="keyhint">2</span></button><button class="unknown" data-rating="unknown" disabled="">不认识<span class="keyhint">3</span></button></div>
+<p class="rating-tip" id="ratingTip">先回想，再核对。自评只记录熟悉度，不代表已经掌握。</p>
+<div class="nav"><button class="quiet" id="prev">← 上一张</button><span class="tiny" id="priorStatus"></span><button class="quiet" id="skip">暂时跳过 →</button></div>
+</section>
+<section class="done" hidden="" id="doneView">
+<div aria-hidden="true" class="done-symbol"><svg viewbox="0 0 24 24"><path d="M20 14.4A8.5 8.5 0 0 1 9.6 4 8.5 8.5 0 1 0 20 14.4Z"></path></svg></div><div class="eyebrow">TODAY, THAT'S ENOUGH.</div><h2 id="doneTitle">这一小组，先收到这里。</h2><p id="doneMessage"></p>
+<div class="done-stats"><div><b id="doneKnown">0</b><span>认识 · 自评</span></div><div><b id="doneFuzzy">0</b><span>模糊</span></div><div><b id="doneUnknown">0</b><span>不认识</span></div></div><div class="done-list" id="doneWords"></div>
+<div class="done-buttons"><button class="primary" id="retryHard">只重看本轮不熟的</button><button id="restart">重新看这组</button></div><p class="tiny">不想继续就合上页面。下次还可以从这里接着看。</p>
+</section>
+</div>
+<aside aria-label="本轮概览" class="sidebar">
+<section class="sidebox progress-box"><div class="side-label">本轮已回想</div><div class="side-number"><span id="seenCount">0</span><small id="totalCount"> / 10</small></div><div class="tiny">以你完成的自评为准</div><div class="statrow"><span><i class="dot good"></i>认识</span><span id="knownCount">0</span></div><div class="statrow"><span><i class="dot maybe"></i>模糊</span><span id="fuzzyCount">0</span></div><div class="statrow"><span><i class="dot bad"></i>不认识</span><span id="unknownCount">0</span></div></section>
+<section class="sidebox rest-box"><div class="side-title">新词慢慢加，旧词不清空。</div><p id="deckDescription">篇目词库从网站读取；更新内容不覆盖你的自评。</p><p>词表释义与真题语境分开。复习进度只保存在本机浏览器，不自动跨设备同步。</p></section>
+<button class="session-stop" id="stop">今天先到这里</button><p class="storage-info" id="storageInfo">进度保存在当前浏览器，不会自动同步到聊天或其他设备。</p>
+</aside>
+</main>
+<footer class="bottom"><p>固定网址 · 篇目持续更新 · 不设最低复习时长。<br/>网站无登录，不上传自评；公开网址不是私人网盘。</p><div><button class="quiet" id="openSources">来源与使用说明</button><button class="quiet" disabled="" id="exportQuick">导出复习记录</button></div></footer>
+</div>
+<dialog id="listDialog"><div class="dialog-head"><h2>词卡目录</h2><button aria-label="关闭目录" data-close="listDialog">×</button></div><input aria-label="搜索词卡" class="search" id="searchInput" placeholder="搜索英文、原文形式或中文意思" type="search"/><div class="list-count" id="listCount"></div><div class="word-list" id="wordList"></div><div class="list-foot">词卡目录也先隐藏中文，点“查看释义”再核对。这里的熟悉度来自你的自评。</div></dialog>
+<dialog id="sourceDialog"><div class="dialog-head"><h2>来源与使用说明</h2><button aria-label="关闭说明" data-close="sourceDialog">×</button></div><div class="dialog-text">
+<div class="source-bullet"><strong>本次内容</strong><p>首批为 2010 年考研英语一 Text 4 的 32 张卡：28 张生词与短语，以及 4 张已讲过的对照词。保留原有词卡内容、原文形式、语境解释和释义出处。黄色标出目标词；红色波浪线对应已确认的答案线索。</p></div>
+<div class="source-bullet"><strong>词表与语境分开</strong><p>词表原释义摘自所提供的《2027考研英语红宝书（乱序版）A4默写版》，标注编号及 PDF 页码；英文词表页码另列。“真题语境”是结合阅读整理的解释，不冒充词表原文。关联词条不代表整组短语被独立收录。本网站不提供完整 PDF 或整本词书。</p></div>
+<div class="source-bullet"><strong>词库更新，不清空进度</strong><p>打开网站时读取最新发布的词库，也可点“检查更新”。新篇目加入选择栏，已有词卡保留稳定编号。更新不会重置自评；当前一轮保留原来的卡片列表，需要看新词时重新选择“本篇全部”。</p></div>
+<div class="source-bullet"><strong>手机与电脑：同一词库，进度各自保存</strong><p>这是静态网站，没有账户和云端进度数据库。自评保存在当前浏览器；手机与电脑不会自动同步。清理浏览器数据或使用无痕模式可能丢失记录，请适时导出备份。本页不会上传个人学习记录。</p></div>
+<p><strong>迁移旧 HTML：</strong>在旧版词卡点“导出复习记录”，再在这里导入那个 JSON 文件。支持旧版 2010 Text 4 记录；导入按时间合并，不用较旧记录覆盖较新记录。网站和本地 HTML 属于不同存储位置，不会自动互通。</p>
+<p><strong>怎么用：</strong>先看英文 → 回想 → 翻开中文 → 认识 / 模糊 / 不认识。空格翻面，1 / 2 / 3 自评，方向键翻页。可关闭“显示真题提示”。朗读只使用设备提供的离线英语音色；没有音色也能正常背词。</p>
+<p><strong>访问提示：</strong>部署到 GitHub Pages 后，知道网址的人通常都能访问，私有仓库不等于私人网站。本页的 noindex 提示不构成访问控制。无需把 GitHub 令牌、密码或任何密钥填进页面。</p></div><div class="tools"><button disabled="" id="export">导出复习记录</button><button disabled="" id="import">导入记录（含旧 HTML）</button><button disabled="" id="reset">清空本站复习记录</button></div><input accept=".json,application/json" hidden="" id="importInput" type="file"/></dialog>
+<div class="toast" hidden="" id="toast" role="status"></div><div aria-live="polite" class="sr-only" id="announce"></div>
+<noscript><div class="noscript">词卡需要 JavaScript。请用浏览器打开网站，而不是 GitHub 的代码预览。</div></noscript>
+
+
+<script defer="" src="./assets/app.js?v=1"></script></body>
+</html>

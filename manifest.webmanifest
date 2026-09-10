@@ -1,0 +1,19 @@
+{
+  "name": "晚安词卡",
+  "short_name": "晚安词卡",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#101917",
+  "theme_color": "#101917",
+  "lang": "zh-CN",
+  "icons": [
+    {
+      "src": "./assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

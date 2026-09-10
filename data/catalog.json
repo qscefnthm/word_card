@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "version": "2026-09-11.1",
+  "defaultDeck": "2010-e1-text4",
+  "decks": [
+    {
+      "id": "2010-e1-text4",
+      "title": "2010 · 英语一 · Text 4",
+      "file": "data/decks/2010-e1-text4.json",
+      "count": 32,
+      "updated": "2026-09-11"
+    }
+  ]
+}

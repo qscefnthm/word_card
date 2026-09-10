@@ -1,0 +1,868 @@
+{
+  "schemaVersion": 1,
+  "id": "2010-e1-text4",
+  "title": "2010 · 英语一 · Text 4",
+  "description": "28 张标黄词与短语 + 4 张已讲过的对照词。先看 10 张轻复习，不要求一次背完。",
+  "cards": [
+    {
+      "id": "sympathy",
+      "term": "sympathy",
+      "form": "第40题选项 D",
+      "book": [
+        {
+          "word": "sympathy",
+          "number": 4294,
+          "page": 215,
+          "englishPage": 108,
+          "definition": "n. 同情;支持,赞同;意气相投"
+        }
+      ],
+      "kind": "错题选项词",
+      "loc": "第40题 · 选项 D",
+      "quote": "The author’s attitude towards standard-setters is one of sympathy.",
+      "mark": "sympathy",
+      "meaning": "同情；支持、赞同",
+      "translation": "作者对准则制定者持同情、支持的态度。",
+      "note": "sympathy 不只表示“同情”，也有“支持、赞同”。支持准则制定者的独立立场，并不代表赞成它们的每一次让步。",
+      "core": true,
+      "match": "词条对应",
+      "clue": false,
+      "quoteType": "题干 + 正确选项合成句（非正文原句）",
+      "readingSource": "2010年考研英语一 · Text 4 · 试卷第9—10页"
+    },
+    {
+      "id": "compromise",
+      "term": "compromise",
+      "form": "原文：is being compromised",
+      "book": [
+        {
+          "word": "compromise",
+          "number": 1464,
+          "page": 74,
+          "englishPage": 37,
+          "definition": "n. 折中,妥协;折中办法 \nvi. 妥协,让步 \nvi. vt. 违背 (原则),达不到 (标准) \nvt. 危及,有损"
+        }
+      ],
+      "kind": "标黄 · 错题关键",
+      "loc": "第2段 · 第37题",
+      "quote": "the independence of standard-setters, essential for the proper functioning of capital markets, is being compromised.",
+      "mark": "compromised",
+      "meaning": "损害，危及；此处指独立性被削弱",
+      "translation": "准则制定者的独立性，对资本市场正常运作至关重要，却正在受到损害。",
+      "note": "这里选词表的“危及，有损”，不要只套“妥协”。对应第37题的 the weakening of its independence。",
+      "core": true,
+      "match": "原文变形 → 词表原形",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2010年考研英语一 · Text 4 · 试卷第9—10页"
+    },
+    {
+      "id": "lobby",
+      "term": "lobby",
+      "form": "原文：banks’ lobbying",
+      "book": [
+        {
+          "word": "lobby",
+          "number": 3969,
+          "page": 199,
+          "englishPage": 100,
+          "definition": "n. 门廊,大厅;游说团体;游说 \nvt. vi. 游说 (从政者或政府)"
+        }
+      ],
+      "kind": "标黄生词",
+      "loc": "第2段",
+      "quote": "banks’ lobbying now seems to be working.",
+      "mark": "lobbying",
+      "meaning": "游说",
+      "translation": "银行的游说现在似乎正在奏效。",
+      "note": "这里不是大厅。名词 lobbying 指游说活动；working 在这一句里指“奏效”。",
+      "core": true,
+      "match": "原文形式 → 关联词条 lobby",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2010年考研英语一 · Text 4 · 试卷第9—10页"
+    },
+    {
+      "id": "asset",
+      "term": "asset",
+      "form": "原文：assets；第36题 asset",
+      "book": [
+        {
+          "word": "asset",
+          "number": 3211,
+          "page": 161,
+          "englishPage": 81,
+          "definition": "n. 资产,财产;有用的物 (或人)"
+        }
+      ],
+      "kind": "标黄选项词",
+      "loc": "第1段 / 第36题",
+      "quote": "they must value some assets at the price a third party would pay",
+      "mark": "assets",
+      "meaning": "资产，财产",
+      "translation": "它们必须按第三方愿意支付的价格为一些资产估值。",
+      "note": "assets 是复数。抓住 value assets：给资产估值，而不是“重视资产”。",
+      "core": true,
+      "match": "原文复数 → 词表单数",
+      "clue": true,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2010年考研英语一 · Text 4 · 试卷第9—10页"
+    },
+    {
+      "id": "illiquid",
+      "term": "illiquid",
+      "form": "原文：illiquid assets",
+      "book": [
+        {
+          "word": "liquid",
+          "number": 3148,
+          "page": 158,
+          "englishPage": 79,
+          "definition": "n. 液体,液态物 \nadj. 液体的;流动性好的 (资产)"
+        }
+      ],
+      "kind": "标黄生词",
+      "loc": "第3段",
+      "quote": "use models to value illiquid assets",
+      "mark": "illiquid",
+      "meaning": "流动性差的，难以变现的",
+      "translation": "用模型为难以变现的资产估值。",
+      "note": "词表 liquid 包含“流动性好的（资产）”。原文 illiquid 表示相反的属性；不是说资产呈非液体状态。",
+      "core": true,
+      "match": "关联词条 liquid；illiquid 的语境义另列",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2010年考研英语一 · Text 4 · 试卷第9—10页"
+    },
+    {
+      "id": "booking-losses",
+      "term": "booking losses",
+      "form": "原文：for fear of booking losses",
+      "book": [
+        {
+          "word": "book",
+          "number": 4665,
+          "page": 234,
+          "englishPage": 117,
+          "definition": "n. 书;本子;簿,册;账簿 \nvt. vi. 预订,预约 \nvt. 立案 (控告某人);记名警告"
+        }
+      ],
+      "kind": "标黄短语",
+      "loc": "第5段",
+      "quote": "will not sell assets for fear of booking losses",
+      "mark": "booking losses",
+      "meaning": "将亏损入账，确认亏损",
+      "translation": "由于害怕将亏损入账而不愿出售资产。",
+      "note": "book 在这里是会计语境的动词。你提供的 book 条目列了“账簿”，但未列此动词义；本卡的“将亏损入账”是原文语境讲解。",
+      "core": true,
+      "match": "关联词条 book；该会计动词义为语境补充",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2010年考研英语一 · Text 4 · 试卷第9—10页"
+    },
+    {
+      "id": "reluctant",
+      "term": "reluctant",
+      "form": "搭配：be reluctant to do",
+      "book": [
+        {
+          "word": "reluctant",
+          "number": 2339,
+          "page": 117,
+          "englishPage": 59,
+          "definition": "adj. 勉强的,不情愿的"
+        }
+      ],
+      "kind": "标黄生词",
+      "loc": "第5段",
+      "quote": "yet are reluctant to buy all those supposed bargains.",
+      "mark": "reluctant",
+      "meaning": "不情愿的，勉强的",
+      "translation": "却又不愿意买入所有那些所谓的便宜货。",
+      "note": "be reluctant to do：不愿意做。这里说银行不愿买，不是没有能力买。",
+      "core": true,
+      "match": "词条对应",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2010年考研英语一 · Text 4 · 试卷第9—10页"
+    },
+    {
+      "id": "object-to",
+      "term": "object to",
+      "form": "原文：McCreevy objects to …",
+      "book": [
+        {
+          "word": "object",
+          "number": 20,
+          "page": 1,
+          "englishPage": 1,
+          "definition": "n. 物体,物品;目标;对象;宾语 \nvi. 不同意,反对 \nvt. 提出...作为反对的理由"
+        }
+      ],
+      "kind": "标黄选项词",
+      "loc": "第38题题干",
+      "quote": "McCreevy objects to the IASB’s attempt to",
+      "mark": "objects to",
+      "meaning": "反对，不赞成",
+      "translation": "麦克里维反对国际会计准则理事会试图……",
+      "note": "这里 object 是动词，不是“物体”。to 是介词，后接名词或动名词。题干在问“他反对什么”。",
+      "core": true,
+      "match": "搭配及动词变形 → 词条 object",
+      "clue": false,
+      "quoteType": "题干 / 选项原文",
+      "readingSource": "2010年考研英语一 · Text 4 · 试卷第9—10页"
+    },
+    {
+      "id": "exaggerate",
+      "term": "exaggerate",
+      "form": "选项：exaggerated",
+      "book": [
+        {
+          "word": "exaggerate",
+          "number": 1264,
+          "page": 64,
+          "englishPage": 32,
+          "definition": "vi. vt. 夸张,夸大"
+        }
+      ],
+      "kind": "标黄选项词",
+      "loc": "第39题 · 选项 B",
+      "quote": "exaggerated the real value of their assets.",
+      "mark": "exaggerated",
+      "meaning": "夸大，夸张",
+      "translation": "夸大了其资产的实际价值。",
+      "note": "第5段 overvalued assets 与这里的 exaggerated the real value 对应：都是把价值估得过高。",
+      "core": true,
+      "match": "原文变形 → 词表原形",
+      "clue": false,
+      "quoteType": "题干 / 选项原文",
+      "readingSource": "2010年考研英语一 · Text 4 · 试卷第9—10页"
+    },
+    {
+      "id": "revival",
+      "term": "revival",
+      "form": "选项：the revival of …",
+      "book": [
+        {
+          "word": "revival",
+          "number": 6364,
+          "page": 319,
+          "englishPage": 160,
+          "definition": "n. 复兴,复苏,再流行;重新上演"
+        }
+      ],
+      "kind": "标黄选项词",
+      "loc": "第37题 · 选项 B",
+      "quote": "the revival of the banking system.",
+      "mark": "revival",
+      "meaning": "复苏，复兴",
+      "translation": "银行体系的复苏。",
+      "note": "第37题这个选项虽然提到文章话题，却不是作者认为改规则能带来的结果。认出词义后仍要检查原文逻辑。",
+      "core": true,
+      "match": "词条对应",
+      "clue": false,
+      "quoteType": "题干 / 选项原文",
+      "readingSource": "2010年考研英语一 · Text 4 · 试卷第9—10页"
+    },
+    {
+      "id": "blame",
+      "term": "blame … for …",
+      "form": "原文：blaming themselves for …",
+      "book": [
+        {
+          "word": "blame",
+          "number": 3101,
+          "page": 156,
+          "englishPage": 78,
+          "definition": "vt. 责怪,把...归咎于 \nn. (坏事或错事的) 责任,责备"
+        }
+      ],
+      "kind": "标黄生词",
+      "loc": "第1段",
+      "quote": "Bankers have been blaming themselves for their troubles in public.",
+      "mark": "blaming",
+      "meaning": "因……责怪……；把……归咎于……",
+      "translation": "银行家在公开场合一直因自身的困境责怪自己。",
+      "note": "blame A for B：因 B 责怪 A。原文紧接着用 Behind the scenes 转到幕后真正的指责对象。",
+      "core": false,
+      "match": "动词搭配 → 词条 blame",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2010年考研英语一 · Text 4 · 试卷第9—10页"
+    },
+    {
+      "id": "behind-scenes",
+      "term": "behind the scenes",
+      "form": "标黄部分：scenes",
+      "book": [
+        {
+          "word": "scene",
+          "number": 67,
+          "page": 4,
+          "englishPage": 2,
+          "definition": "n. 现场;场面;景色;圈子"
+        }
+      ],
+      "kind": "标黄短语",
+      "loc": "第1段",
+      "quote": "Behind the scenes, they have been taking aim at someone else: the accounting standard-setters.",
+      "mark": "Behind the scenes",
+      "meaning": "在幕后，暗中",
+      "translation": "在幕后，它们却一直把矛头指向别人：会计准则制定者。",
+      "note": "整组记，不要把 scenes 单独译成“风景”。本句与上一句的 in public 形成对照。",
+      "core": false,
+      "match": "短语语境；关联词条 scene",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2010年考研英语一 · Text 4 · 试卷第9—10页"
+    },
+    {
+      "id": "standard-setter",
+      "term": "standard-setter",
+      "form": "原文：accounting standard-setters",
+      "book": [
+        {
+          "word": "standard",
+          "number": 1388,
+          "page": 70,
+          "englishPage": 35,
+          "definition": "n. 标准,水平;道德水准;军旗 \nadj. 通常的,标准的;规范的"
+        }
+      ],
+      "kind": "标黄生词",
+      "loc": "第1段",
+      "quote": "the accounting standard-setters.",
+      "mark": "standard-setters",
+      "meaning": "准则制定者；这里指会计准则制定者",
+      "translation": "会计准则制定者。",
+      "note": "accounting 限定了是哪一种标准。该复合词在文章中指制定会计准则的机构，不是银行管理层。",
+      "core": false,
+      "match": "复合词语境；关联词条 standard",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2010年考研英语一 · Text 4 · 试卷第9—10页"
+    },
+    {
+      "id": "moan",
+      "term": "moan",
+      "form": "原文：moan the banks",
+      "book": [
+        {
+          "word": "moan",
+          "number": 3839,
+          "page": 192,
+          "englishPage": 96,
+          "definition": "vi. vt. 呻吟;抱怨 \nvi. 呼啸,发出萧萧声 \nn. 呻吟声;抱怨;呼啸声"
+        }
+      ],
+      "kind": "标黄生词",
+      "loc": "第1段",
+      "quote": "Their rules, moan the banks, have forced them to report enormous losses",
+      "mark": "moan",
+      "meaning": "抱怨，发牢骚",
+      "translation": "银行抱怨，这些规则迫使它们报告巨额亏损。",
+      "note": "moan the banks 是插入的说话者说明，相当于“银行抱怨说”。这里不是生理上的呻吟。",
+      "core": false,
+      "match": "词条对应",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2010年考研英语一 · Text 4 · 试卷第9—10页"
+    },
+    {
+      "id": "toxic-assets",
+      "term": "toxic assets",
+      "form": "标黄部分：toxic",
+      "book": [
+        {
+          "word": "toxic",
+          "number": 3257,
+          "page": 163,
+          "englishPage": 82,
+          "definition": "adj. 有毒的;恶劣的,极其有害的"
+        },
+        {
+          "word": "asset",
+          "number": 3211,
+          "page": 161,
+          "englishPage": 81,
+          "definition": "n. 资产,财产;有用的物 (或人)"
+        }
+      ],
+      "kind": "标黄短语",
+      "loc": "第2段",
+      "quote": "unless banks carry toxic assets at prices that attract buyers",
+      "mark": "toxic assets",
+      "meaning": "有毒资产；这里指问题资产",
+      "translation": "除非银行以能吸引买家的价格记录这些问题资产。",
+      "note": "词表 toxic 的基本义是“有毒的；极其有害的”。这里修饰 assets，是金融文章里的比喻用法。",
+      "core": false,
+      "match": "组合短语 → toxic + asset",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2010年考研英语一 · Text 4 · 试卷第9—10页"
+    },
+    {
+      "id": "bruising-encounter",
+      "term": "a bruising encounter with Congress",
+      "form": "保留你标黄的完整短语",
+      "book": [
+        {
+          "word": "bruise",
+          "number": 4138,
+          "page": 207,
+          "englishPage": 104,
+          "definition": "n. 青肿,瘀伤 \nvt. vi. (使) 出现伤痕,擦伤 \nvt. 打击,挫伤 (信心)"
+        },
+        {
+          "word": "encounter",
+          "number": 565,
+          "page": 29,
+          "englishPage": 15,
+          "definition": "vt. 遭遇;偶遇 \nn. 偶遇;冲突;经历"
+        },
+        {
+          "word": "congress",
+          "number": 1275,
+          "page": 64,
+          "englishPage": 32,
+          "definition": "n. 代表大会;国会"
+        }
+      ],
+      "kind": "标黄短语",
+      "loc": "第3段",
+      "quote": "After a bruising encounter with Congress, America’s Financial Accounting Standards Board (FASB) rushed through rule changes.",
+      "mark": "a bruising encounter with Congress",
+      "meaning": "与国会的一场激烈而令人受挫的交锋",
+      "translation": "在与国会经历一场激烈交锋后，美国财务会计准则委员会匆忙通过了规则修改。",
+      "note": "bruise 的“打击、挫伤”在这里形成比喻；encounter 指冲突/交锋；大写 Congress 指美国国会。",
+      "core": false,
+      "match": "完整短语语境；关联 bruise / encounter / congress",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2010年考研英语一 · Text 4 · 试卷第9—10页"
+    },
+    {
+      "id": "flexibility",
+      "term": "flexibility",
+      "form": "原文：more flexibility",
+      "book": [
+        {
+          "word": "flexibility",
+          "number": 6537,
+          "page": 327,
+          "englishPage": 164,
+          "definition": "n. 灵活性,可变性;柔韧性"
+        }
+      ],
+      "kind": "标黄生词",
+      "loc": "第3段",
+      "quote": "more flexibility in recognizing losses on long-term assets",
+      "mark": "flexibility",
+      "meaning": "灵活性，可变通的余地",
+      "translation": "在确认长期资产损失方面有更大的灵活性。",
+      "note": "这里说银行获得更多灵活性，不是管理层作用减弱。与第37题错误选项 diminishing 方向相反。",
+      "core": false,
+      "match": "词条对应",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2010年考研英语一 · Text 4 · 试卷第9—10页"
+    },
+    {
+      "id": "overall",
+      "term": "overall",
+      "form": "原文：overall planning",
+      "book": [
+        {
+          "word": "overall",
+          "number": 1344,
+          "page": 68,
+          "englishPage": 34,
+          "definition": "adj. 全面的,总体的 \nadv. 全部,总计;总体上 \nn. 连身工作服"
+        }
+      ],
+      "kind": "标黄生词",
+      "loc": "第4段",
+      "quote": "it does not want to act without overall planning",
+      "mark": "overall",
+      "meaning": "全面的，总体的",
+      "translation": "它不想在没有总体规划的情况下采取行动。",
+      "note": "overall 在这里修饰 planning，是形容词。先认准结构：without overall planning＝没有整体规划。",
+      "core": false,
+      "match": "词条对应",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2010年考研英语一 · Text 4 · 试卷第9—10页"
+    },
+    {
+      "id": "book-value",
+      "term": "book value",
+      "form": "标黄部分：book",
+      "book": [
+        {
+          "word": "book",
+          "number": 4665,
+          "page": 234,
+          "englishPage": 117,
+          "definition": "n. 书;本子;簿,册;账簿 \nvt. vi. 预订,预约 \nvt. 立案 (控告某人);记名警告"
+        },
+        {
+          "word": "value",
+          "number": 480,
+          "page": 24,
+          "englishPage": 12,
+          "definition": "n. 价值;划算程度;用处;价值观 \nvt. 重视;给...估价"
+        }
+      ],
+      "kind": "标黄短语",
+      "loc": "第5段",
+      "quote": "banks’ shares trade below their book value",
+      "mark": "book value",
+      "meaning": "账面价值",
+      "translation": "银行股票的交易价格低于其账面价值。",
+      "note": "这里 book 与“账簿”相关。book value 是账面价值，不是书本的价格；与 booking losses 一起区分记。",
+      "core": false,
+      "match": "组合短语语境 → book + value",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2010年考研英语一 · Text 4 · 试卷第9—10页"
+    },
+    {
+      "id": "investor",
+      "term": "investor",
+      "form": "原文：investors",
+      "book": [
+        {
+          "word": "investor",
+          "number": 6513,
+          "page": 326,
+          "englishPage": 163,
+          "definition": "n. 投资者,投资机构"
+        }
+      ],
+      "kind": "标黄生词",
+      "loc": "第5段",
+      "quote": "suggesting that investors are skeptical.",
+      "mark": "investors",
+      "meaning": "投资者，投资机构",
+      "translation": "这表明投资者持怀疑态度。",
+      "note": "investor 是投资者，invest 是投资。本句 skeptical 的态度主体是投资者，不要直接当作作者对准则制定者的态度。",
+      "core": false,
+      "match": "原文复数 → 词表单数",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2010年考研英语一 · Text 4 · 试卷第9—10页"
+    },
+    {
+      "id": "paralysis",
+      "term": "paralysis",
+      "form": "原文：the paralysis of banks",
+      "book": [
+        {
+          "word": "paralyse",
+          "number": 349,
+          "page": 18,
+          "englishPage": 9,
+          "definition": "vt. 使瘫痪;使不能正常运作"
+        }
+      ],
+      "kind": "标黄生词",
+      "loc": "第5段",
+      "quote": "dead markets partly reflect the paralysis of banks",
+      "mark": "paralysis",
+      "meaning": "瘫痪，无法正常运作",
+      "translation": "市场的死气沉沉在一定程度上反映了银行的瘫痪状态。",
+      "note": "本卡是名词 paralysis；关联词表动词 paralyse（使瘫痪）。文中指银行不肯买、也不肯卖的停滞。",
+      "core": false,
+      "match": "名词语境；关联动词 paralyse",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2010年考研英语一 · Text 4 · 试卷第9—10页"
+    },
+    {
+      "id": "combative",
+      "term": "combative",
+      "form": "原文：combative standard-setters",
+      "book": [
+        {
+          "word": "combat",
+          "number": 881,
+          "page": 45,
+          "englishPage": 23,
+          "definition": "n. 战斗,搏斗 \nvt. 与...作斗争,打击,战斗"
+        }
+      ],
+      "kind": "标黄生词",
+      "loc": "第6段",
+      "quote": "Successful markets require independent and even combative standard-setters.",
+      "mark": "combative",
+      "meaning": "好斗的；这里指敢于对抗压力的",
+      "translation": "成功的市场需要独立、甚至敢于对抗压力的准则制定者。",
+      "note": "这里作者认可的是敢坚持原则、抵抗利益集团压力的态度，不要机械套成贬义的“爱打架”。",
+      "core": false,
+      "match": "形容词语境；关联词条 combat",
+      "clue": true,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2010年考研英语一 · Text 4 · 试卷第9—10页"
+    },
+    {
+      "id": "pension",
+      "term": "pension",
+      "form": "原文：pensions",
+      "book": [
+        {
+          "word": "pension",
+          "number": 2707,
+          "page": 136,
+          "englishPage": 68,
+          "definition": "n. 养老金;膳宿公寓 \nvt. 给...发养老金,使...退休"
+        }
+      ],
+      "kind": "标黄生词",
+      "loc": "第6段",
+      "quote": "cleaning up rules on stock options and pensions, for example",
+      "mark": "pensions",
+      "meaning": "养老金",
+      "translation": "例如，整顿股票期权和养老金方面的规则。",
+      "note": "此处养老金只是说明准则制定者以往工作的一项例子。按名词复数记。",
+      "core": false,
+      "match": "原文复数 → 词表单数",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2010年考研英语一 · Text 4 · 试卷第9—10页"
+    },
+    {
+      "id": "reevaluate",
+      "term": "reevaluate",
+      "form": "第36题 · 选项 D",
+      "book": [
+        {
+          "word": "evaluate",
+          "number": 1160,
+          "page": 58,
+          "englishPage": 29,
+          "definition": "vt. 评价,评估"
+        }
+      ],
+      "kind": "标黄选项词",
+      "loc": "第36题 · 选项 D",
+      "quote": "reevaluate some of their assets.",
+      "mark": "reevaluate",
+      "meaning": "重新评估，重新估价",
+      "translation": "重新评估它们的一些资产。",
+      "note": "reevaluate＝重新评估。第36题 A 更完整地概括了银行抱怨被迫遵守“不利的资产估值规则”，不只是重估这件事。",
+      "core": false,
+      "match": "带前缀词语境；关联词条 evaluate",
+      "clue": false,
+      "quoteType": "题干 / 选项原文",
+      "readingSource": "2010年考研英语一 · Text 4 · 试卷第9—10页"
+    },
+    {
+      "id": "misinterpret",
+      "term": "misinterpret",
+      "form": "选项：misinterpreted",
+      "book": [
+        {
+          "word": "misinterpret",
+          "number": 6384,
+          "page": 320,
+          "englishPage": 160,
+          "definition": "vt. 误解,曲解"
+        }
+      ],
+      "kind": "标黄选项词",
+      "loc": "第39题 · 选项 A",
+      "quote": "misinterpreted market price indicators.",
+      "mark": "misinterpreted",
+      "meaning": "误解，曲解",
+      "translation": "误解了市场价格指标。",
+      "note": "这句话是干扰选项。题目问 on the wrong planet 时，应回到后面的 overvalued assets，不被相近话题带走。",
+      "core": false,
+      "match": "原文变形 → 词表原形",
+      "clue": false,
+      "quoteType": "题干 / 选项原文",
+      "readingSource": "2010年考研英语一 · Text 4 · 试卷第9—10页"
+    },
+    {
+      "id": "neglect",
+      "term": "neglect",
+      "form": "选项：neglected",
+      "book": [
+        {
+          "word": "neglect",
+          "number": 1112,
+          "page": 56,
+          "englishPage": 28,
+          "definition": "vt. 疏忽,忽略;未做 (某事) \nn. 疏忽,(被) 忽略"
+        }
+      ],
+      "kind": "标黄选项词",
+      "loc": "第39题 · 选项 C",
+      "quote": "neglected the likely existence of bad debts.",
+      "mark": "neglected",
+      "meaning": "忽视，疏忽",
+      "translation": "忽视了坏账可能存在这一情况。",
+      "note": "neglect 是“忽视”，不要与 deny“否认”混淆。词义理解正确，不代表该选项就有原文依据。",
+      "core": false,
+      "match": "原文变形 → 词表原形",
+      "clue": false,
+      "quoteType": "题干 / 选项原文",
+      "readingSource": "2010年考研英语一 · Text 4 · 试卷第9—10页"
+    },
+    {
+      "id": "bad-debts",
+      "term": "bad debts",
+      "form": "原文和第39题选项 C 都有",
+      "book": [
+        {
+          "word": "debt",
+          "number": 2589,
+          "page": 130,
+          "englishPage": 65,
+          "definition": "n. 债务;负债 (状态);人情债"
+        }
+      ],
+      "kind": "标黄短语",
+      "loc": "第5段 / 第39题",
+      "quote": "not the likely extent of bad debts.",
+      "mark": "bad debts",
+      "meaning": "坏账，难以收回的债务",
+      "translation": "而不是坏账可能达到的程度。",
+      "note": "记完整短语 bad debts。这里 likely extent 指可能的程度，并不是在说所有资产都已经成为坏账。",
+      "core": false,
+      "match": "短语语境；关联词条 debt",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2010年考研英语一 · Text 4 · 试卷第9—10页"
+    },
+    {
+      "id": "deny",
+      "term": "deny",
+      "form": "选项：denied",
+      "book": [
+        {
+          "word": "deny",
+          "number": 620,
+          "page": 31,
+          "englishPage": 16,
+          "definition": "vt. 否认;拒绝接受;拒绝给予"
+        }
+      ],
+      "kind": "标黄选项词",
+      "loc": "第39题 · 选项 D",
+      "quote": "denied booking losses in their sale of assets.",
+      "mark": "denied",
+      "meaning": "否认；拒绝接受",
+      "translation": "否认在出售资产时将亏损入账。",
+      "note": "这是选项中的表述，不是作者的正确结论。原文 for fear of booking losses 是“害怕亏损入账”，不是“否认已入账”。",
+      "core": false,
+      "match": "原文变形 → 词表原形",
+      "clue": false,
+      "quoteType": "题干 / 选项原文",
+      "readingSource": "2010年考研英语一 · Text 4 · 试卷第9—10页"
+    },
+    {
+      "id": "objectiveness",
+      "term": "objectiveness",
+      "form": "第40题 · 你当时选的 C",
+      "book": [
+        {
+          "word": "objective",
+          "number": 39,
+          "page": 2,
+          "englishPage": 1,
+          "definition": "n. 目标,目的 \nadj. 客观的,不带个人感情的"
+        }
+      ],
+      "kind": "已讲过 · 选项对照",
+      "loc": "第40题 · 选项 C",
+      "quote": "objectiveness",
+      "mark": "objectiveness",
+      "meaning": "客观性",
+      "translation": "客观性。",
+      "note": "它对应 objective 的形容词义“客观的”。这一题作者支持独立的准则制定者并担忧它们让步，因此不能拿这个选项替代你想选的“赞同”。",
+      "core": false,
+      "match": "名词语境；关联词条 objective",
+      "clue": false,
+      "quoteType": "题干 / 选项原文",
+      "readingSource": "2010年考研英语一 · Text 4 · 试卷第9—10页"
+    },
+    {
+      "id": "skeptical",
+      "term": "skeptical",
+      "form": "原文：investors are skeptical",
+      "book": [
+        {
+          "word": "skeptical",
+          "number": 72,
+          "page": 4,
+          "englishPage": 2,
+          "definition": "adj. 表示怀疑的,持怀疑态度的"
+        }
+      ],
+      "kind": "已讲过 · 态度词",
+      "loc": "第5段",
+      "quote": "investors are skeptical.",
+      "mark": "skeptical",
+      "meaning": "怀疑的，持怀疑态度的",
+      "translation": "投资者持怀疑态度。",
+      "note": "先找态度的主人：这里是 investors。第40题问的却是作者对 standard-setters 的态度，不能搬错对象。",
+      "core": false,
+      "match": "词条对应",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2010年考研英语一 · Text 4 · 试卷第9—10页"
+    },
+    {
+      "id": "diminish",
+      "term": "diminish",
+      "form": "第37题选项 A：diminishing",
+      "book": [
+        {
+          "word": "diminish",
+          "number": 1460,
+          "page": 73,
+          "englishPage": 37,
+          "definition": "vi. vt. 减少,降低,减弱 \nvt. 贬低,轻视"
+        }
+      ],
+      "kind": "已讲过 · 错题对照",
+      "loc": "第37题 · 选项 A",
+      "quote": "the diminishing role of management.",
+      "mark": "diminishing",
+      "meaning": "减弱，减少，降低",
+      "translation": "管理层作用的减弱。",
+      "note": "这是你第37题选过的 A。原文说 more freedom / more flexibility，方向是更多，而不是减弱。",
+      "core": false,
+      "match": "原文形式 → 词表原形",
+      "clue": false,
+      "quoteType": "题干 / 选项原文",
+      "readingSource": "2010年考研英语一 · Text 4 · 试卷第9—10页"
+    },
+    {
+      "id": "fetch",
+      "term": "fetch",
+      "form": "原文：would like them to fetch",
+      "book": [
+        {
+          "word": "fetch",
+          "number": 2071,
+          "page": 104,
+          "englishPage": 52,
+          "definition": "vt. 去拿,去取,去接;售得"
+        }
+      ],
+      "kind": "已讲过 · 熟词生义",
+      "loc": "第1段",
+      "quote": "not the price managers and regulators would like them to fetch.",
+      "mark": "fetch",
+      "meaning": "售得，卖得某个价钱",
+      "translation": "而不是经理和监管者希望这些资产卖得的价格。",
+      "note": "词表本来就列了“售得”。此处不是“去拿”；与前面的 a third party would pay 对照着理解。",
+      "core": false,
+      "match": "词条对应",
+      "clue": true,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2010年考研英语一 · Text 4 · 试卷第9—10页"
+    }
+  ]
+}
