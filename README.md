@@ -1,28 +1,6 @@
 # 晚安词卡
 
-一个持续更新的考研英语阅读词卡静态站点，手机和电脑使用同一网址。首批为 **2010 年英语一 Text 4 的 32 张词卡**，默认 10 张轻复习。保留原有词汇、真题语境、词表释义和出处编号；没有上传完整 PDF 或原书。
-
-> 交付状态：这是可部署的源代码，不代表 Pages 已经上线。首次仓库写入被平台安全检查拦截，远端发布尚未完成。
-
-## 首次发布
-
-把本项目文件放到 `qscefnthm/word_card` 的 main 分支根目录，再进入：
-
-https://github.com/qscefnthm/word_card/settings/pages
-
-在 **Build and deployment** 下选择 **Deploy from a branch → main → / (root) → Save**。
-
-启用并成功完成首次部署后，默认地址应为 **https://qscefnthm.github.io/word_card/**，以 Pages 设置页实际状态为准。此后修改 main 的站点文件即可重新发布，不需要每天另建网站。
-
-本项目不用 npm、不需要 API Key，也不需要配置 GitHub Actions 密钥。`.nojekyll` 必须一起上传；遗漏时也不应把 PDF 或其他无关文件补进来。
-
-### 私有仓库注意事项
-
-仓库创建时为私有，本次没有修改可见性。GitHub Free 的 Pages 要求公开仓库；保留私有仓库需要 GitHub Pro 等支持。GitHub Pro 与 ChatGPT Pro 不是同一订阅。
-
-普通 Pages 网址通常公开可访问，**私有仓库不代表私有网站**。`noindex` 和 `robots.txt` 不是访问控制。不要在仓库或页面里保存个人日程、私密记录、完整课本、密码或令牌。
-
-官方说明：https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+一个持续更新的考研英语阅读词卡静态站点，手机和电脑使用同一网址。首批为 **2010 年英语一 Text 4 的 32 张词卡**，默认 10 张轻复习。保留原有词汇、真题语境、词表释义和出处编号。
 
 ## 功能与保存边界
 
