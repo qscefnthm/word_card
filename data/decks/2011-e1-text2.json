@@ -1,0 +1,718 @@
+{
+  "schemaVersion": 1,
+  "id": "2011-e1-text2",
+  "title": "2011 · 英语一 · Text 2",
+  "description": "以黄标词为主，并把这篇最值得记的职场短语整组收进来。主线很简单：高管开始敢于在没有下家兜底时先离职。",
+  "cards": [
+    {
+      "id": "cloak-vague-excuses",
+      "term": "cloak … in vague excuses",
+      "form": "原文：cloaking his exit in the usual vague excuses",
+      "book": [
+        {
+          "word": "cloak",
+          "number": 2334,
+          "page": 117,
+          "englishPage": 59,
+          "definition": "n. 斗篷，披风；遮盖物，掩盖物\nvt. 遮盖，掩盖"
+        },
+        {
+          "word": "vague",
+          "number": 456,
+          "page": 23,
+          "englishPage": 12,
+          "definition": "adj. 模糊的；含糊的，笼统的"
+        }
+      ],
+      "kind": "标黄词组",
+      "loc": "第1段",
+      "quote": "Rather than cloaking his exit in the usual vague excuses, he came right out and said he was leaving “to pursue my goal of running a company.”",
+      "mark": "cloaking his exit in the usual vague excuses",
+      "meaning": "用含糊的借口掩饰……",
+      "translation": "他没有用惯常的含糊借口来掩饰离职，而是直接说自己要去追求经营一家公司的目标。",
+      "note": "cloak 作动词就是“掩盖、掩饰”；vague excuses＝含糊其辞的借口。整组比单背两个词更好记。",
+      "core": true,
+      "match": "固定语境组合 → cloak + vague",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2011年考研英语一 · Text 2 · 试卷第5—6页"
+    },
+    {
+      "id": "pursue",
+      "term": "pursue a goal",
+      "form": "原文：pursue my goal",
+      "book": [
+        {
+          "word": "pursue",
+          "number": 1703,
+          "page": 86,
+          "englishPage": 43,
+          "definition": "vt. 追求，继续进行；追究；追赶"
+        }
+      ],
+      "kind": "标黄搭配",
+      "loc": "第1段",
+      "quote": "he came right out and said he was leaving “to pursue my goal of running a company.”",
+      "mark": "pursue my goal",
+      "meaning": "追求目标",
+      "translation": "他直言离职是为了追求经营一家公司的目标。",
+      "note": "pursue a goal / career / dream 都是很常见的搭配。第27题 pursuit of new career goals 与它同源。",
+      "core": true,
+      "match": "词条对应；搭配优先记",
+      "clue": true,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2011年考研英语一 · Text 2 · 试卷第5—6页"
+    },
+    {
+      "id": "aspiration",
+      "term": "career aspirations",
+      "form": "原文：about his aspirations",
+      "book": [
+        {
+          "word": "aspire",
+          "number": 3605,
+          "page": 181,
+          "englishPage": 91,
+          "definition": "vi. 向往，渴望，有志于"
+        }
+      ],
+      "kind": "标黄派生词",
+      "loc": "第2段",
+      "quote": "It also sent a clear message to the outside world about his aspirations.",
+      "mark": "aspirations",
+      "meaning": "抱负，志向",
+      "translation": "这也向外界清楚传达了他的职业抱负。",
+      "note": "aspiration 是 aspire 的名词。和 pursue a goal 放在一起记：有志向 → 去追求。",
+      "core": true,
+      "match": "派生词语境；关联词条 aspire",
+      "clue": true,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2011年考研英语一 · Text 2 · 试卷第5—6页"
+    },
+    {
+      "id": "executive",
+      "term": "executive",
+      "form": "原文复数：executives",
+      "book": [
+        {
+          "word": "executive",
+          "number": 1236,
+          "page": 62,
+          "englishPage": 31,
+          "definition": "n. 经理，主管；行政部门\nadj. 执行的，行政的；高级的"
+        }
+      ],
+      "kind": "标黄高频词",
+      "loc": "第2段",
+      "quote": "In recent weeks the No.2 executives at Avon and American Express quit with the explanation that they were looking for a CEO post.",
+      "mark": "executives",
+      "meaning": "高管，管理人员",
+      "translation": "最近，Avon 和 American Express 的二号高管也辞职去寻找 CEO 职位。",
+      "note": "这篇里的 executives 基本都指公司高级管理人员，不是“执行的”那个形容词义。",
+      "core": true,
+      "match": "原文复数 → 词表单数",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2011年考研英语一 · Text 2 · 试卷第5—6页"
+    },
+    {
+      "id": "scrutinize",
+      "term": "scrutinize",
+      "form": "原文：boards scrutinize succession plans",
+      "book": [
+        {
+          "word": "scrutiny",
+          "number": 2675,
+          "page": 134,
+          "englishPage": 67,
+          "definition": "n. 彻底审查，仔细检查"
+        }
+      ],
+      "kind": "标黄生词",
+      "loc": "第2段",
+      "quote": "As boards scrutinize succession plans in response to shareholder pressure, executives who don’t get the nod also may wish to move on.",
+      "mark": "scrutinize",
+      "meaning": "仔细审查，认真检查",
+      "translation": "董事会在股东压力下仔细审查继任计划时，没有被选中的高管也可能想离开。",
+      "note": "词表收录名词 scrutiny；scrutinize 是动词。",
+      "core": true,
+      "match": "动词语境；关联名词 scrutiny",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2011年考研英语一 · Text 2 · 试卷第5—6页"
+    },
+    {
+      "id": "turbulent",
+      "term": "turbulent",
+      "form": "原文：a turbulent business environment",
+      "book": [
+        {
+          "word": "turbulent",
+          "number": 1535,
+          "page": 77,
+          "englishPage": 39,
+          "definition": "adj. 动荡的，混乱的；湍急的"
+        }
+      ],
+      "kind": "标黄生词",
+      "loc": "第2段",
+      "quote": "A turbulent business environment also has senior managers cautious of letting vague pronouncements cloud their reputations.",
+      "mark": "turbulent",
+      "meaning": "动荡的，混乱的",
+      "translation": "动荡的商业环境也让高级经理更加谨慎，不愿让含糊的表态损害自己的声誉。",
+      "note": "business environment 里常译“动荡的商业环境”。",
+      "core": false,
+      "match": "词条对应",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2011年考研英语一 · Text 2 · 试卷第5—6页"
+    },
+    {
+      "id": "cautious",
+      "term": "be cautious of",
+      "form": "原文：managers cautious of letting …",
+      "book": [
+        {
+          "word": "cautious",
+          "number": 90,
+          "page": 5,
+          "englishPage": 3,
+          "definition": "adj. 谨慎的，慎重的，小心的"
+        }
+      ],
+      "kind": "标黄搭配",
+      "loc": "第2段",
+      "quote": "A turbulent business environment also has senior managers cautious of letting vague pronouncements cloud their reputations.",
+      "mark": "cautious of",
+      "meaning": "对……保持谨慎；小心……",
+      "translation": "高级经理会谨慎对待那些可能损害声誉的含糊表态。",
+      "note": "记搭配 be cautious of/about。",
+      "core": false,
+      "match": "词条对应；搭配优先",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2011年考研英语一 · Text 2 · 试卷第5—6页"
+    },
+    {
+      "id": "deputy-chief",
+      "term": "deputy chief",
+      "form": "原文复数：deputy chiefs",
+      "book": [
+        {
+          "word": "deputy",
+          "number": 2394,
+          "page": 120,
+          "englishPage": 60,
+          "definition": "n. 副手，代理人；治安官助理"
+        }
+      ],
+      "kind": "标黄词组",
+      "loc": "第3段",
+      "quote": "As the first signs of recovery begin to take hold, deputy chiefs may be more willing to make the jump without a net.",
+      "mark": "deputy chiefs",
+      "meaning": "副主管，二把手",
+      "translation": "随着复苏迹象开始显现，副主管们可能更愿意在没有安全网的情况下跳出去。",
+      "note": "这里指公司里的二号人物/副主管。",
+      "core": false,
+      "match": "组合短语；关联词条 deputy",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2011年考研英语一 · Text 2 · 试卷第5—6页"
+    },
+    {
+      "id": "abound",
+      "term": "abound",
+      "form": "原文：opportunities will abound",
+      "book": [
+        {
+          "word": "abound",
+          "number": 2812,
+          "page": 141,
+          "englishPage": 71,
+          "definition": "vi. 大量存在"
+        }
+      ],
+      "kind": "标黄生词",
+      "loc": "第3段",
+      "quote": "As the economy picks up, opportunities will abound for aspiring leaders.",
+      "mark": "abound",
+      "meaning": "大量存在，充足",
+      "translation": "随着经济复苏，有志向的领导者将迎来大量机会。",
+      "note": "opportunities abound＝机会很多。",
+      "core": true,
+      "match": "词条对应",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2011年考研英语一 · Text 2 · 试卷第5—6页"
+    },
+    {
+      "id": "aspiring",
+      "term": "aspiring",
+      "form": "原文：aspiring leaders",
+      "book": [
+        {
+          "word": "aspire",
+          "number": 3605,
+          "page": 181,
+          "englishPage": 91,
+          "definition": "vi. 向往，渴望，有志于"
+        }
+      ],
+      "kind": "标黄派生词",
+      "loc": "第3段",
+      "quote": "As the economy picks up, opportunities will abound for aspiring leaders.",
+      "mark": "aspiring",
+      "meaning": "有抱负的，有志向的",
+      "translation": "机会会向有抱负的领导者大量出现。",
+      "note": "aspiring 是 aspire 的形容词形式；和 aspirations 一起记。",
+      "core": true,
+      "match": "派生词语境；关联词条 aspire",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2011年考研英语一 · Text 2 · 试卷第5—6页"
+    },
+    {
+      "id": "unconventional",
+      "term": "unconventional",
+      "form": "原文：is unconventional",
+      "book": [
+        {
+          "word": "unconventional",
+          "number": 5761,
+          "page": 289,
+          "englishPage": 145,
+          "definition": "adj. 不因循守旧的，新奇的"
+        }
+      ],
+      "kind": "标黄生词",
+      "loc": "第4段",
+      "quote": "The decision to quit a senior position to look for a better one is unconventional.",
+      "mark": "unconventional",
+      "meaning": "不按常规的，非传统的",
+      "translation": "辞掉高级职位再去寻找更好的职位，这种做法并不符合传统惯例。",
+      "note": "un- + conventional：不按惯例的。",
+      "core": true,
+      "match": "词条对应",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2011年考研英语一 · Text 2 · 试卷第5—6页"
+    },
+    {
+      "id": "adhere-to",
+      "term": "adhere to the rule",
+      "form": "原文：have adhered to the rule",
+      "book": [
+        {
+          "word": "adhere",
+          "number": 2529,
+          "page": 127,
+          "englishPage": 64,
+          "definition": "vi. 黏附，附着；遵循 (规章等)"
+        }
+      ],
+      "kind": "标黄词组",
+      "loc": "第4段",
+      "quote": "For years executives and headhunters have adhered to the rule that the most attractive CEO candidates are the ones who must be poached.",
+      "mark": "adhered to the rule",
+      "meaning": "遵守、坚持某项规则",
+      "translation": "多年来，高管和猎头一直遵循这样一条规则：最抢手的 CEO 候选人往往需要从别处挖来。",
+      "note": "adhere to＝遵守、坚持。这个 to 是介词。",
+      "core": true,
+      "match": "固定搭配；关联词条 adhere",
+      "clue": true,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2011年考研英语一 · Text 2 · 试卷第5—6页"
+    },
+    {
+      "id": "candidate",
+      "term": "candidate",
+      "form": "原文复数：CEO candidates",
+      "book": [
+        {
+          "word": "candidate",
+          "number": 218,
+          "page": 11,
+          "englishPage": 6,
+          "definition": "n. 候选人，申请人；考生"
+        }
+      ],
+      "kind": "标黄高频词",
+      "loc": "第4段",
+      "quote": "the most attractive CEO candidates are the ones who must be poached.",
+      "mark": "candidates",
+      "meaning": "候选人，应聘者",
+      "translation": "最有吸引力的 CEO 候选人往往是那些必须被挖角的人。",
+      "note": "招聘语境里 candidate 很高频。",
+      "core": false,
+      "match": "原文复数 → 词表单数",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2011年考研英语一 · Text 2 · 试卷第5—6页"
+    },
+    {
+      "id": "poach",
+      "term": "poach a candidate",
+      "form": "原文被动：must be poached",
+      "book": [
+        {
+          "word": "poach",
+          "number": 6409,
+          "page": 321,
+          "englishPage": 161,
+          "definition": "vt. vi. 非法偷猎；盗用，挖走 (人员等)\nvt. 用文火煮，煨；水煮 (荷包蛋)"
+        }
+      ],
+      "kind": "第28题关键词 · 熟词生义",
+      "loc": "第4段 / 第28题",
+      "quote": "the most attractive CEO candidates are the ones who must be poached.",
+      "mark": "poached",
+      "meaning": "挖走、挖角（人才）",
+      "translation": "最抢手的 CEO 候选人往往要从别的公司挖过来。",
+      "note": "职场语境里 poach＝挖角。第28题 hunted for 是对它的近义解释。",
+      "core": true,
+      "match": "原文变形 → 词表原形",
+      "clue": true,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2011年考研英语一 · Text 2 · 试卷第5—6页"
+    },
+    {
+      "id": "recruiter",
+      "term": "recruiter",
+      "form": "原文复数：recruiters",
+      "book": [
+        {
+          "word": "recruiter",
+          "number": 5880,
+          "page": 294,
+          "englishPage": 147,
+          "definition": "n. 招聘人员，征召人员"
+        }
+      ],
+      "kind": "标黄生词",
+      "loc": "第6段",
+      "quote": "Many recruiters say the old disgrace is fading for top performers.",
+      "mark": "recruiters",
+      "meaning": "招聘人员；招聘顾问",
+      "translation": "许多招聘人员说，顶尖人才处于工作空档期的旧有耻辱感正在消退。",
+      "note": "recruit 招募；recruiter 招聘者。",
+      "core": false,
+      "match": "原文复数 → 词表单数",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2011年考研英语一 · Text 2 · 试卷第5—6页"
+    },
+    {
+      "id": "disgrace-fading",
+      "term": "the disgrace is fading",
+      "form": "原文：the old disgrace is fading",
+      "book": [
+        {
+          "word": "fade",
+          "number": 219,
+          "page": 11,
+          "englishPage": 6,
+          "definition": "vi. vt. (使) 褪色，(使) 变暗淡\nvi. 逐渐消失"
+        }
+      ],
+      "kind": "标黄词组",
+      "loc": "第6段",
+      "quote": "Many recruiters say the old disgrace is fading for top performers.",
+      "mark": "disgrace is fading",
+      "meaning": "过去那种“丢脸/污名”正在淡去",
+      "translation": "许多招聘人员认为，对顶尖人才而言，离职后暂时没有工作的那种旧有污名正在消退。",
+      "note": "disgrace＝羞耻、耻辱；fade 在这里是“逐渐消失”。词表未单列 disgrace，本卡重点记整句。",
+      "core": true,
+      "match": "短语语境；fade 对应词表，disgrace 为本文语境补充",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2011年考研英语一 · Text 2 · 试卷第5—6页"
+    },
+    {
+      "id": "fundamentally-inverted",
+      "term": "fundamentally inverted",
+      "form": "原文：that’s been fundamentally inverted",
+      "book": [
+        {
+          "word": "fundamental",
+          "number": 1451,
+          "page": 73,
+          "englishPage": 37,
+          "definition": "adj. 根本的，最重要的；基础的\nn. 根本，基础"
+        },
+        {
+          "word": "invert",
+          "number": 4024,
+          "page": 202,
+          "englishPage": 101,
+          "definition": "vt. (使) 颠倒，逆转，倒置"
+        }
+      ],
+      "kind": "标黄词组 · 第29题关键",
+      "loc": "第6段 / 第29题",
+      "quote": "The traditional rule was it’s safer to stay where you are, but that’s been fundamentally inverted.",
+      "mark": "fundamentally inverted",
+      "meaning": "被从根本上颠倒、逆转",
+      "translation": "传统规则原本是“待在原位更安全”，但现在这一规则已经被彻底颠倒。",
+      "note": "第29题的关键逻辑：以前更安全的是 stay；现在规则反过来了。",
+      "core": true,
+      "match": "派生词 + 词条：fundamental / invert",
+      "clue": true,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2011年考研英语一 · Text 2 · 试卷第5—6页"
+    },
+    {
+      "id": "straight-up",
+      "term": "straight up",
+      "form": "原文：his explanation was surprisingly straight up",
+      "book": [
+        {
+          "word": "frank",
+          "number": 4168,
+          "page": 209,
+          "englishPage": 105,
+          "definition": "adj. 坦率的，直率的"
+        }
+      ],
+      "kind": "第26题同义改写",
+      "loc": "第1段 / 第26题",
+      "quote": "When Liam McGee departed as president of Bank of America in August, his explanation was surprisingly straight up.",
+      "mark": "straight up",
+      "meaning": "坦率直接的，直截了当的",
+      "translation": "McGee 离职时给出的解释出奇地坦率直接。",
+      "note": "这里 straight up ≈ frank。第26题直接同义替换。",
+      "core": true,
+      "match": "语境短语；用题目同义词 frank 对照",
+      "clue": true,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2011年考研英语一 · Text 2 · 试卷第5—6页"
+    },
+    {
+      "id": "frank",
+      "term": "frank",
+      "form": "第26题选项 B",
+      "book": [
+        {
+          "word": "frank",
+          "number": 4168,
+          "page": 209,
+          "englishPage": 105,
+          "definition": "adj. 坦率的，直率的"
+        }
+      ],
+      "kind": "标黄选项词",
+      "loc": "第26题 · 正确选项",
+      "quote": "McGee’s manner can best be described as frank.",
+      "mark": "frank",
+      "meaning": "坦率的，直率的",
+      "translation": "McGee 的表达方式可以最好地概括为坦率直接。",
+      "note": "和正文 straight up 对应。",
+      "core": true,
+      "match": "词条对应",
+      "clue": false,
+      "quoteType": "题干 + 正确选项合成句（非正文原句）",
+      "readingSource": "2011年考研英语一 · Text 2 · 试卷第5—6页"
+    },
+    {
+      "id": "arrogant",
+      "term": "arrogant",
+      "form": "第26题选项 A",
+      "book": [
+        {
+          "word": "arrogant",
+          "number": 3178,
+          "page": 159,
+          "englishPage": 80,
+          "definition": "adj. 傲慢的，自大的"
+        }
+      ],
+      "kind": "标黄选项词",
+      "loc": "第26题 · 选项 A",
+      "quote": "McGee’s manner can best be described as arrogant.",
+      "mark": "arrogant",
+      "meaning": "傲慢的，自大的",
+      "translation": "McGee 的表达方式是傲慢的。",
+      "note": "词义先认清；正文强调的是坦率，不是傲慢。",
+      "core": false,
+      "match": "词条对应",
+      "clue": false,
+      "quoteType": "题干 + 选项合成句（非正文原句）",
+      "readingSource": "2011年考研英语一 · Text 2 · 试卷第5—6页"
+    },
+    {
+      "id": "impulsive",
+      "term": "impulsive",
+      "form": "第26题选项 D",
+      "book": [
+        {
+          "word": "impulse",
+          "number": 907,
+          "page": 46,
+          "englishPage": 23,
+          "definition": "n. 冲动；脉冲；推动力"
+        }
+      ],
+      "kind": "标黄选项词",
+      "loc": "第26题 · 选项 D",
+      "quote": "McGee’s manner can best be described as impulsive.",
+      "mark": "impulsive",
+      "meaning": "冲动的，凭一时冲动的",
+      "translation": "McGee 的表达方式是冲动的。",
+      "note": "词表收录名词 impulse；impulsive 是形容词。",
+      "core": false,
+      "match": "派生词语境；关联词条 impulse",
+      "clue": false,
+      "quoteType": "题干 + 选项合成句（非正文原句）",
+      "readingSource": "2011年考研英语一 · Text 2 · 试卷第5—6页"
+    },
+    {
+      "id": "approve-of",
+      "term": "approve of",
+      "form": "第28题选项 A：approved of",
+      "book": [
+        {
+          "word": "approve",
+          "number": 1316,
+          "page": 66,
+          "englishPage": 33,
+          "definition": "vi. 同意，赞成，赞许\nvt. 批准，通过；认证"
+        }
+      ],
+      "kind": "标黄选项词组",
+      "loc": "第28题 · 选项 A",
+      "quote": "The word “poached” most probably means approved of.",
+      "mark": "approved of",
+      "meaning": "赞成，认可",
+      "translation": "approved of 表示“赞成、认可”，不是 poached 在本文的意思。",
+      "note": "approve of＝赞成；approve 直接作及物动词时还可表示批准。",
+      "core": false,
+      "match": "原文变形 → 词条 approve",
+      "clue": false,
+      "quoteType": "题干 + 选项合成句（非正文原句）",
+      "readingSource": "2011年考研英语一 · Text 2 · 试卷第5—6页"
+    },
+    {
+      "id": "cling-to-post",
+      "term": "cling to one’s post",
+      "form": "第29题选项 A：cling to their posts",
+      "book": [
+        {
+          "word": "cling",
+          "number": 782,
+          "page": 40,
+          "englishPage": 20,
+          "definition": "vi. 紧紧抓住；粘住；依恋；坚守"
+        }
+      ],
+      "kind": "第29题错题关键词",
+      "loc": "第29题 · 正确选项",
+      "quote": "top performers used to cling to their posts.",
+      "mark": "cling to their posts",
+      "meaning": "守着自己的职位不放；坚守职位",
+      "translation": "过去，顶尖人才往往会守着自己的职位不放。",
+      "note": "cling to＝紧抓不放、坚持不放。结合旧规则“stay where you are is safer”就很好推出。",
+      "core": true,
+      "match": "固定搭配；关联词条 cling",
+      "clue": false,
+      "quoteType": "题干 + 正确选项合成句（非正文原句）",
+      "readingSource": "2011年考研英语一 · Text 2 · 试卷第5—6页"
+    },
+    {
+      "id": "out-dated",
+      "term": "out-dated",
+      "form": "第29题选项 B",
+      "book": [
+        {
+          "word": "up-to-date",
+          "number": 193,
+          "page": 10,
+          "englishPage": 5,
+          "definition": "adj. 新式的；掌握最新信息的"
+        }
+      ],
+      "kind": "标黄选项词",
+      "loc": "第29题 · 选项 B",
+      "quote": "loyalty of top performers is getting out-dated.",
+      "mark": "out-dated",
+      "meaning": "过时的，陈旧的",
+      "translation": "顶尖人才的忠诚正在变得过时。",
+      "note": "out-dated＝过时的。词表收录的是反义方向 up-to-date（新式的、最新的）。",
+      "core": false,
+      "match": "反义对照；关联词条 up-to-date",
+      "clue": false,
+      "quoteType": "题干 + 选项合成句（非正文原句）",
+      "readingSource": "2011年考研英语一 · Text 2 · 试卷第5—6页"
+    },
+    {
+      "id": "line-up-position",
+      "term": "line up a position",
+      "form": "原文：without a position lined up",
+      "book": [],
+      "kind": "高价值短语",
+      "loc": "第2段",
+      "quote": "McGee says leaving without a position lined up gave him time to reflect on what kind of company he wanted to run.",
+      "mark": "a position lined up",
+      "meaning": "提前安排好/落实好一个职位",
+      "translation": "McGee 说，在没有提前落实下一份职位的情况下离职，让他有时间思考自己想经营什么样的公司。",
+      "note": "line up 在这里不是“排队”，而是“事先安排、落实”。",
+      "core": true,
+      "match": "短语语境；词表未单列本义",
+      "clue": true,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2011年考研英语一 · Text 2 · 试卷第5—6页"
+    },
+    {
+      "id": "get-the-nod",
+      "term": "get the nod",
+      "form": "原文：executives who don’t get the nod",
+      "book": [],
+      "kind": "高价值短语",
+      "loc": "第2段",
+      "quote": "executives who don’t get the nod also may wish to move on.",
+      "mark": "get the nod",
+      "meaning": "得到认可、被选中",
+      "translation": "那些没有得到认可、没有被选中的高管也可能想另谋出路。",
+      "note": "nod 本义是点头；get the nod 引申为“获准、获选、得到认可”。",
+      "core": true,
+      "match": "习语语境；词表未单列本义",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2011年考研英语一 · Text 2 · 试卷第5—6页"
+    },
+    {
+      "id": "jump-without-net",
+      "term": "jump without a net",
+      "form": "原文：make the jump without a net",
+      "book": [],
+      "kind": "主旨短语 · 第30题关键",
+      "loc": "第3段 / 第30题",
+      "quote": "deputy chiefs may be more willing to make the jump without a net.",
+      "mark": "jump without a net",
+      "meaning": "没有下一份工作作保障就先离职；在没有安全网的情况下冒险一跳",
+      "translation": "副主管们可能更愿意在没有下一份工作兜底的情况下先跳出去。",
+      "note": "这是全文反复出现的核心比喻，也是标题 Top Managers Jump without a Net 的来源。",
+      "core": true,
+      "match": "全文主旨比喻；按整组记忆",
+      "clue": true,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2011年考研英语一 · Text 2 · 试卷第5—6页"
+    },
+    {
+      "id": "reflect-on",
+      "term": "reflect on",
+      "form": "原文：reflect on what kind of company …",
+      "book": [],
+      "kind": "高价值短语",
+      "loc": "第2段",
+      "quote": "McGee says leaving without a position lined up gave him time to reflect on what kind of company he wanted to run.",
+      "mark": "reflect on",
+      "meaning": "认真思考，反思",
+      "translation": "离职给了他时间认真思考自己想经营什么样的公司。",
+      "note": "reflect on/upon＝认真思考、反思某事。",
+      "core": false,
+      "match": "固定搭配语境",
+      "clue": true,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2011年考研英语一 · Text 2 · 试卷第5—6页"
+    }
+  ]
+}
