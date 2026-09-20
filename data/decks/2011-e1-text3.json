@@ -1,0 +1,742 @@
+{
+  "schemaVersion": 1,
+  "id": "2011-e1-text3",
+  "title": "2011 · 英语一 · Text 3",
+  "description": "按本次黄标与错题整理：重点保留营销媒体语境中的词义，以及第31题 enthusiastic、第35题 alternative 两个直接导致失分的关键词。",
+  "cards": [
+    {
+      "id": "rough-guide",
+      "term": "rough guide",
+      "form": "原文：The rough guide to marketing success …",
+      "book": [
+        {
+          "word": "rough",
+          "number": 4081,
+          "page": 205,
+          "englishPage": 103,
+          "definition": "adj. 粗糙的；大致的；粗暴的；艰难的\nn. 草稿，草图\nadv. 粗鲁地，粗野地"
+        }
+      ],
+      "kind": "标黄词组",
+      "loc": "第1段",
+      "quote": "The rough guide to marketing success used to be that you got what you paid for.",
+      "mark": "rough guide",
+      "meaning": "大致的准则；粗略的指导",
+      "translation": "过去关于营销成功的一条大致准则是：一分钱一分货。",
+      "note": "这里 rough 不是“粗糙的”，而是“大致的、粗略的”。",
+      "core": false,
+      "match": "固定语境；rough 取“大致的”义",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2011年考研英语一 · Text 3 · 试卷第7—8页"
+    },
+    {
+      "id": "marketing",
+      "term": "marketing",
+      "form": "原文：marketing success / marketing’s impact",
+      "book": [
+        {
+          "word": "market",
+          "number": 4686,
+          "page": 235,
+          "englishPage": 118,
+          "definition": "n. 市场\nvt. 推销，促销"
+        }
+      ],
+      "kind": "标黄派生词",
+      "loc": "第1段",
+      "quote": "The rough guide to marketing success used to be that you got what you paid for.",
+      "mark": "marketing",
+      "meaning": "市场营销，营销",
+      "translation": "过去关于营销成功的一条大致准则是：一分钱一分货。",
+      "note": "marketing 可直接理解为“市场营销”；词表收录 market，本篇重点记名词用法。",
+      "core": false,
+      "match": "派生词语境；关联词条 market",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2011年考研英语一 · Text 3 · 试卷第7—8页"
+    },
+    {
+      "id": "commercial-advertisement",
+      "term": "commercial / advertisement",
+      "form": "原文复数：television commercials / print advertisements",
+      "book": [
+        {
+          "word": "commercial",
+          "number": 815,
+          "page": 41,
+          "englishPage": 21,
+          "definition": "adj. 商业的；营利的；商业化的\nn. (电视或电台) 广告"
+        },
+        {
+          "word": "advertise",
+          "number": 2534,
+          "page": 127,
+          "englishPage": 64,
+          "definition": "vi. vt. 为…做广告；(在报纸等上) 征聘\nvt. 宣扬，宣传"
+        }
+      ],
+      "kind": "标黄近义词组",
+      "loc": "第1段",
+      "quote": "While traditional “paid” media—such as television commercials and print advertisements—still play a major role, companies today can exploit many alternative forms of media.",
+      "mark": "television commercials and print advertisements",
+      "meaning": "电视广告 / 平面广告",
+      "translation": "电视广告和纸媒广告等传统付费媒体仍然发挥重要作用。",
+      "note": "commercial 作名词常指电视/广播广告；advertisement 是更泛化的“广告”。",
+      "core": false,
+      "match": "commercial 为词表原词；advertisement 关联 advertise",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2011年考研英语一 · Text 3 · 试卷第7—8页"
+    },
+    {
+      "id": "exploit",
+      "term": "exploit",
+      "form": "原文：can exploit many alternative forms of media",
+      "book": [
+        {
+          "word": "exploit",
+          "number": 1772,
+          "page": 89,
+          "englishPage": 45,
+          "definition": "vt. 剥削；利用；开采\nn. 英勇的行为"
+        }
+      ],
+      "kind": "标黄熟词生义",
+      "loc": "第1段",
+      "quote": "While traditional “paid” media—such as television commercials and print advertisements—still play a major role, companies today can exploit many alternative forms of media.",
+      "mark": "exploit",
+      "meaning": "利用，充分利用",
+      "translation": "如今企业可以利用许多替代性的媒体形式。",
+      "note": "这里不是“剥削”，而是中性的“利用”。",
+      "core": true,
+      "match": "词条对应；取“利用”义",
+      "clue": true,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2011年考研英语一 · Text 3 · 试卷第7—8页"
+    },
+    {
+      "id": "alternative",
+      "term": "alternative",
+      "form": "原文：alternative forms of media；第35题 Alternatives",
+      "book": [
+        {
+          "word": "alternative",
+          "number": 554,
+          "page": 28,
+          "englishPage": 14,
+          "definition": "adj. 可替代的，其他的；非传统的\nn. 可供选择的事物"
+        }
+      ],
+      "kind": "第35题错题关键词 · 标黄词",
+      "loc": "第1段 / 第35题",
+      "quote": "companies today can exploit many alternative forms of media.",
+      "mark": "alternative",
+      "meaning": "替代的，其他可供选择的；替代方案",
+      "translation": "如今企业可以利用许多其他可供选择的媒体形式。",
+      "note": "第35题 A 的 Alternatives to conventional paid media 就是“传统付费媒体之外的替代形式”，几乎直接概括全文。",
+      "core": true,
+      "match": "正文与正确选项同词复现",
+      "clue": true,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2011年考研英语一 · Text 3 · 试卷第7—8页"
+    },
+    {
+      "id": "leverage",
+      "term": "leverage",
+      "form": "原文：a company may leverage “owned” media",
+      "book": [
+        {
+          "word": "leverage",
+          "number": 6206,
+          "page": 311,
+          "englishPage": 156,
+          "definition": "n. 影响力，手段；杠杆作用\nvt. 充分利用"
+        }
+      ],
+      "kind": "标黄生词",
+      "loc": "第1段",
+      "quote": "Consumers passionate about a product may create “earned” media by willingly promoting it to friends, and a company may leverage “owned” media by sending e-mail alerts about products and sales to customers registered with its Web site.",
+      "mark": "leverage",
+      "meaning": "充分利用",
+      "translation": "企业可以通过向注册用户发送产品和销售信息邮件来充分利用自有媒体。",
+      "note": "本文是动词用法：leverage sth.＝充分利用某物。",
+      "core": true,
+      "match": "词条对应；动词义",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2011年考研英语一 · Text 3 · 试卷第7—8页"
+    },
+    {
+      "id": "conventional",
+      "term": "conventional",
+      "form": "原文：conventional paid media",
+      "book": [
+        {
+          "word": "convention",
+          "number": 1610,
+          "page": 81,
+          "englishPage": 41,
+          "definition": "n. 习俗，惯例；大会；公约，协定"
+        }
+      ],
+      "kind": "标黄派生词",
+      "loc": "第1段",
+      "quote": "The way consumers now approach the process of making purchase decisions means that marketing’s impact stems from a broad range of factors beyond conventional paid media.",
+      "mark": "conventional",
+      "meaning": "传统的，常规的",
+      "translation": "营销影响已经来自传统付费媒体之外更广泛的因素。",
+      "note": "conventional 来自 convention（惯例）；第35题再次出现 conventional paid media。",
+      "core": true,
+      "match": "派生词语境；关联词条 convention",
+      "clue": true,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2011年考研英语一 · Text 3 · 试卷第7—8页"
+    },
+    {
+      "id": "retailer",
+      "term": "retailer",
+      "form": "原文：an e-commerce retailer",
+      "book": [
+        {
+          "word": "retail",
+          "number": 3944,
+          "page": 198,
+          "englishPage": 99,
+          "definition": "n. 零售\nadv. 以零售方式\nvt. 零售；(详细地) 讲述\nvi. 以…价格零售"
+        }
+      ],
+      "kind": "标黄派生词",
+      "loc": "第2段",
+      "quote": "But in some cases, one marketer’s owned media become another marketer’s paid media—for instance, when an e-commerce retailer sells ad space on its Web site.",
+      "mark": "retailer",
+      "meaning": "零售商",
+      "translation": "例如，当一家电子商务零售商在自己的网站上出售广告位时。",
+      "note": "retail＝零售；retailer＝零售商。",
+      "core": false,
+      "match": "派生词语境；关联词条 retail",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2011年考研英语一 · Text 3 · 试卷第7—8页"
+    },
+    {
+      "id": "ecommerce-engine",
+      "term": "e-commerce engine",
+      "form": "原文复数：e-commerce engines",
+      "book": [
+        {
+          "word": "engine",
+          "number": 3428,
+          "page": 172,
+          "englishPage": 86,
+          "definition": "n. 发动机，引擎；火车头；推动力"
+        }
+      ],
+      "kind": "标黄词组",
+      "loc": "第2段",
+      "quote": "We define such sold media as owned media whose traffic is so strong that other organizations place their content or e-commerce engines within that environment.",
+      "mark": "e-commerce engines",
+      "meaning": "电子商务引擎 / 电商系统",
+      "translation": "这类自有媒体流量足够大，以至于其他组织会把自己的内容或电商系统放进这个环境中。",
+      "note": "engine 不只指机械发动机，也可指驱动某类系统运行的“引擎”。",
+      "core": false,
+      "match": "组合短语；关联词条 engine",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2011年考研英语一 · Text 3 · 试卷第7—8页"
+    },
+    {
+      "id": "infancy",
+      "term": "in its infancy",
+      "form": "原文：is still in its infancy",
+      "book": [
+        {
+          "word": "infancy",
+          "number": 6302,
+          "page": 316,
+          "englishPage": 158,
+          "definition": "n. 婴儿期；初期，初创期"
+        }
+      ],
+      "kind": "标黄词组",
+      "loc": "第2段",
+      "quote": "This trend, which we believe is still in its infancy, effectively began with retailers and travel providers such as airlines and hotels and will no doubt go further.",
+      "mark": "in its infancy",
+      "meaning": "处于初期 / 起步阶段",
+      "translation": "作者认为这种趋势仍处于起步阶段，而且还会继续发展。",
+      "note": "in its infancy 是很常见的抽象引申：某事物尚处于早期阶段。",
+      "core": true,
+      "match": "固定搭配；词条对应",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2011年考研英语一 · Text 3 · 试卷第7—8页"
+    },
+    {
+      "id": "complementary",
+      "term": "complementary",
+      "form": "原文：complementary and even competitive products",
+      "book": [
+        {
+          "word": "complement",
+          "number": 545,
+          "page": 28,
+          "englishPage": 14,
+          "definition": "vt. 补充，补足，使完美\nn. 补充物，补足物；足额；补语"
+        }
+      ],
+      "kind": "标黄派生词",
+      "loc": "第2段",
+      "quote": "Johnson & Johnson, for example, has created BabyCenter, a stand-alone media property that promotes complementary and even competitive products.",
+      "mark": "complementary",
+      "meaning": "互补的，补充性的",
+      "translation": "这个独立媒体平台甚至会推广互补产品和竞争性产品。",
+      "note": "complementary＝互补的；不要和 complimentary（赞美的/免费的）混淆。",
+      "core": true,
+      "match": "派生词语境；关联词条 complement",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2011年考研英语一 · Text 3 · 试卷第7—8页"
+    },
+    {
+      "id": "presence",
+      "term": "presence",
+      "form": "原文：the presence of other marketers",
+      "book": [
+        {
+          "word": "presence",
+          "number": 1097,
+          "page": 55,
+          "englishPage": 28,
+          "definition": "n. 在场，出席；存在，出现；仪态"
+        }
+      ],
+      "kind": "标黄生词",
+      "loc": "第2段",
+      "quote": "Besides generating income, the presence of other marketers makes the site seem objective, gives companies opportunities to learn valuable information about the appeal of other companies’ marketing, and may help expand user traffic for all companies concerned.",
+      "mark": "presence",
+      "meaning": "存在，出现",
+      "translation": "其他营销者的存在会让这个网站显得更客观。",
+      "note": "这里取“存在、出现”义。",
+      "core": false,
+      "match": "词条对应",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2011年考研英语一 · Text 3 · 试卷第7—8页"
+    },
+    {
+      "id": "campaign",
+      "term": "campaign",
+      "form": "原文：social-media response campaign",
+      "book": [
+        {
+          "word": "campaign",
+          "number": 223,
+          "page": 12,
+          "englishPage": 6,
+          "definition": "n. (社会、政治) 运动，活动；战役\nvi. vt. 发起运动，开展活动"
+        }
+      ],
+      "kind": "标黄高频词",
+      "loc": "第3—4段",
+      "quote": "Toyota Motor, for example, alleviated some of the damage from its recall crisis earlier this year with a relatively quick and well-orchestrated social-media response campaign.",
+      "mark": "campaign",
+      "meaning": "（有组织的）活动，宣传行动",
+      "translation": "丰田通过一场较快且组织良好的社交媒体回应行动减轻了部分损害。",
+      "note": "campaign 不只用于政治，也可指营销、公关、宣传等有组织的行动。",
+      "core": true,
+      "match": "词条对应；商业语境",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2011年考研英语一 · Text 3 · 试卷第7—8页"
+    },
+    {
+      "id": "become-hostage-to",
+      "term": "become hostage to",
+      "form": "原文：an asset or campaign becomes hostage to consumers",
+      "book": [
+        {
+          "word": "hostage",
+          "number": 3602,
+          "page": 181,
+          "englishPage": 91,
+          "definition": "n. 人质"
+        }
+      ],
+      "kind": "标黄词组",
+      "loc": "第3段",
+      "quote": "Such hijacked media are the opposite of earned media: an asset or campaign becomes hostage to consumers, other stakeholders, or activists who make negative allegations about a brand or product.",
+      "mark": "becomes hostage to",
+      "meaning": "受制于……；成为……手中的“人质”",
+      "translation": "一项资产或营销活动可能反过来受制于消费者、其他利益相关者或活动人士。",
+      "note": "hostage 本义是“人质”，这里是比喻义。",
+      "core": true,
+      "match": "比喻性固定表达；关联词条 hostage",
+      "clue": true,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2011年考研英语一 · Text 3 · 试卷第7—8页"
+    },
+    {
+      "id": "stakeholder",
+      "term": "stakeholder",
+      "form": "原文复数：stakeholders",
+      "book": [
+        {
+          "word": "stakeholder",
+          "number": 6132,
+          "page": 307,
+          "englishPage": 154,
+          "definition": "n. 股东，利益相关者"
+        }
+      ],
+      "kind": "标黄生词",
+      "loc": "第3段",
+      "quote": "Such hijacked media are the opposite of earned media: an asset or campaign becomes hostage to consumers, other stakeholders, or activists who make negative allegations about a brand or product.",
+      "mark": "stakeholders",
+      "meaning": "利益相关者",
+      "translation": "消费者、其他利益相关者或活动人士都可能对品牌施压。",
+      "note": "商业阅读里的高频词：不仅是股东，也可泛指会受到影响或能施加影响的利益相关者。",
+      "core": true,
+      "match": "原文复数 → 词表单数",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2011年考研英语一 · Text 3 · 试卷第7—8页"
+    },
+    {
+      "id": "allegation",
+      "term": "allegation",
+      "form": "原文复数：negative allegations",
+      "book": [
+        {
+          "word": "allegation",
+          "number": 6355,
+          "page": 318,
+          "englishPage": 159,
+          "definition": "n. 断言，指控"
+        }
+      ],
+      "kind": "标黄生词",
+      "loc": "第3段",
+      "quote": "Such hijacked media are the opposite of earned media: an asset or campaign becomes hostage to consumers, other stakeholders, or activists who make negative allegations about a brand or product.",
+      "mark": "allegations",
+      "meaning": "指控，断言",
+      "translation": "这些人可能会对某个品牌或产品提出负面指控。",
+      "note": "常见搭配：make allegations about/against …",
+      "core": true,
+      "match": "原文复数 → 词表单数",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2011年考研英语一 · Text 3 · 试卷第7—8页"
+    },
+    {
+      "id": "originally",
+      "term": "originally",
+      "form": "原文：the businesses that originally created them",
+      "book": [
+        {
+          "word": "original",
+          "number": 922,
+          "page": 47,
+          "englishPage": 24,
+          "definition": "adj. 起初的；原创的；原作的\nn. 原件，原文"
+        }
+      ],
+      "kind": "标黄派生词",
+      "loc": "第3段",
+      "quote": "Members of social networks, for instance, are learning that they can hijack media to apply pressure on the businesses that originally created them.",
+      "mark": "originally",
+      "meaning": "最初，原先",
+      "translation": "社交网络成员正在学会利用这些媒体向最初创建它们的企业施压。",
+      "note": "originally 是 original 的副词形式。",
+      "core": false,
+      "match": "派生词语境；关联词条 original",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2011年考研英语一 · Text 3 · 试卷第7—8页"
+    },
+    {
+      "id": "boycott",
+      "term": "boycott",
+      "form": "原文：persuade others to boycott products；第34题 boycotting",
+      "book": [
+        {
+          "word": "boycott",
+          "number": 3975,
+          "page": 199,
+          "englishPage": 100,
+          "definition": "vt. 抵制\nn. 抵制行动"
+        }
+      ],
+      "kind": "标黄高频词",
+      "loc": "第4段 / 第34题",
+      "quote": "If that happens, passionate consumers would try to persuade others to boycott products, putting the reputation of the target company at risk.",
+      "mark": "boycott",
+      "meaning": "抵制",
+      "translation": "消费者可能会试图说服其他人抵制产品，使目标公司的声誉陷入风险。",
+      "note": "第34题中的 boycotting 是同一个词的动名词形式。",
+      "core": true,
+      "match": "词条对应；原文与选项变形",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2011年考研英语一 · Text 3 · 试卷第7—8页"
+    },
+    {
+      "id": "steep-learning-curve",
+      "term": "a steep learning curve",
+      "form": "原文：the learning curve has been steep",
+      "book": [
+        {
+          "word": "curve",
+          "number": 4295,
+          "page": 215,
+          "englishPage": 108,
+          "definition": "n. 曲线，弧线；曲线球\nvi. vt. (使) 弯曲，(使) 成曲线"
+        },
+        {
+          "word": "steep",
+          "number": 3835,
+          "page": 192,
+          "englishPage": 96,
+          "definition": "adj. 陡的；急剧的；(价格等) 过高的\nvt. 浸泡 (食物)"
+        }
+      ],
+      "kind": "标黄词组",
+      "loc": "第4段",
+      "quote": "In such a case, the company’s response may not be sufficiently quick or thoughtful, and the learning curve has been steep.",
+      "mark": "learning curve has been steep",
+      "meaning": "学习曲线很陡；需要快速经历较困难的学习过程",
+      "translation": "在这种情况下，企业可能来不及作出充分迅速或周全的回应，而它们付出的学习成本很高。",
+      "note": "curve＝曲线，steep＝陡的；放在 learning curve 里整体理解。",
+      "core": true,
+      "match": "两个词表词组成固定表达",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2011年考研英语一 · Text 3 · 试卷第7—8页"
+    },
+    {
+      "id": "alleviate-damage",
+      "term": "alleviate damage",
+      "form": "原文：alleviated some of the damage",
+      "book": [
+        {
+          "word": "alleviate",
+          "number": 2049,
+          "page": 103,
+          "englishPage": 52,
+          "definition": "vt. 减轻，缓解 (痛苦等)"
+        }
+      ],
+      "kind": "标黄搭配",
+      "loc": "第4段",
+      "quote": "Toyota Motor, for example, alleviated some of the damage from its recall crisis earlier this year with a relatively quick and well-orchestrated social-media response campaign.",
+      "mark": "alleviated some of the damage",
+      "meaning": "减轻损害",
+      "translation": "丰田通过较快的社交媒体回应减轻了召回危机造成的部分损害。",
+      "note": "alleviate 常搭配 pain / pressure / damage 等，表示“减轻、缓解”。",
+      "core": true,
+      "match": "原文变形 → 词表原形",
+      "clue": true,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2011年考研英语一 · Text 3 · 试卷第7—8页"
+    },
+    {
+      "id": "well-orchestrated",
+      "term": "well-orchestrated",
+      "form": "原文：a relatively quick and well-orchestrated social-media response campaign",
+      "book": [],
+      "kind": "标黄生词",
+      "loc": "第4段",
+      "quote": "Toyota Motor, for example, alleviated some of the damage from its recall crisis earlier this year with a relatively quick and well-orchestrated social-media response campaign.",
+      "mark": "well-orchestrated",
+      "meaning": "组织得很好的，精心协调的",
+      "translation": "丰田采取了一场较快且组织协调良好的社交媒体回应行动。",
+      "note": "orchestrate 在这里是“精心组织、协调”，不是字面上的“管弦乐”。词表未单列该词，本卡按本文语境记。",
+      "core": true,
+      "match": "本文语境词；词表未单列",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2011年考研英语一 · Text 3 · 试卷第7—8页"
+    },
+    {
+      "id": "consumer",
+      "term": "consumer",
+      "form": "原文复数：Consumers",
+      "book": [
+        {
+          "word": "consume",
+          "number": 1043,
+          "page": 53,
+          "englishPage": 27,
+          "definition": "vt. 消耗，耗费；吃，喝；使充满…"
+        }
+      ],
+      "kind": "标黄派生词",
+      "loc": "第1段 / 第31题",
+      "quote": "Consumers passionate about a product may create “earned” media by willingly promoting it to friends.",
+      "mark": "Consumers",
+      "meaning": "消费者",
+      "translation": "热爱某种产品的消费者可能会自愿把它推荐给朋友，从而形成“赢得媒体”。",
+      "note": "consume＝消费；consumer＝消费者。第31题题干再次出现 Consumers。",
+      "core": false,
+      "match": "派生词语境；关联词条 consume",
+      "clue": true,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2011年考研英语一 · Text 3 · 试卷第7—8页"
+    },
+    {
+      "id": "certain",
+      "term": "certain",
+      "form": "第31题选项 A：at certain Web sites",
+      "book": [
+        {
+          "word": "certain",
+          "number": 91,
+          "page": 5,
+          "englishPage": 3,
+          "definition": "adj. 必然的；确信的；某个；一点\npron. 某些"
+        }
+      ],
+      "kind": "标黄选项词",
+      "loc": "第31题 · 选项 A",
+      "quote": "obsessed with online shopping at certain Web sites.",
+      "mark": "certain",
+      "meaning": "某些，某个",
+      "translation": "沉迷于在某些网站上购物。",
+      "note": "这里不是“确定的”，而是限定词义“某些”。",
+      "core": false,
+      "match": "词条对应；取“某些”义",
+      "clue": false,
+      "quoteType": "选项原文摘句",
+      "readingSource": "2011年考研英语一 · Text 3 · 试卷第7—8页"
+    },
+    {
+      "id": "enthusiastic",
+      "term": "enthusiastic",
+      "form": "第31题正确选项 D：enthusiastic about …",
+      "book": [
+        {
+          "word": "enthusiastic",
+          "number": 3249,
+          "page": 163,
+          "englishPage": 82,
+          "definition": "adj. 热情的，热衷的，热心的"
+        }
+      ],
+      "kind": "第31题错题关键词 · 标黄选项词",
+      "loc": "第31题 · 正确选项",
+      "quote": "enthusiastic about recommending their favorite products.",
+      "mark": "enthusiastic",
+      "meaning": "热情的，热衷的",
+      "translation": "热衷于推荐自己喜欢的产品。",
+      "note": "第31题的关键同义替换：正文 passionate about ≈ 选项 enthusiastic about。",
+      "core": true,
+      "match": "正确选项词；与 passionate 同义替换",
+      "clue": true,
+      "quoteType": "正确选项原文摘句",
+      "readingSource": "2011年考研英语一 · Text 3 · 试卷第7—8页"
+    },
+    {
+      "id": "competition",
+      "term": "competition",
+      "form": "第32题选项 B：random competition",
+      "book": [
+        {
+          "word": "competition",
+          "number": 562,
+          "page": 29,
+          "englishPage": 15,
+          "definition": "n. 竞争；比赛；竞争对手"
+        }
+      ],
+      "kind": "标黄选项词",
+      "loc": "第32题 · 选项 B",
+      "quote": "random competition.",
+      "mark": "competition",
+      "meaning": "竞争；比赛",
+      "translation": "随机的竞争。",
+      "note": "本题不是正确答案，但 competition 是高频基础词，看到要能直接识别。",
+      "core": false,
+      "match": "词条对应",
+      "clue": false,
+      "quoteType": "选项原文摘句",
+      "readingSource": "2011年考研英语一 · Text 3 · 试卷第7—8页"
+    },
+    {
+      "id": "flexibility",
+      "term": "flexibility",
+      "form": "第32题选项 D：flexibility in organization",
+      "book": [
+        {
+          "word": "flexibility",
+          "number": 6537,
+          "page": 327,
+          "englishPage": 164,
+          "definition": "n. 灵活性，可变性；柔韧性"
+        }
+      ],
+      "kind": "标黄选项词",
+      "loc": "第32题 · 选项 D",
+      "quote": "flexibility in organization.",
+      "mark": "flexibility",
+      "meaning": "灵活性，可变性",
+      "translation": "组织上的灵活性。",
+      "note": "这个词在前面的阅读词卡里已经出现过，沿用同一 card ID，共享熟悉度。",
+      "core": false,
+      "match": "词条对应；跨篇共享 card ID",
+      "clue": false,
+      "quoteType": "选项原文摘句",
+      "readingSource": "2011年考研英语一 · Text 3 · 试卷第7—8页"
+    },
+    {
+      "id": "constant",
+      "term": "constant",
+      "form": "第33题选项 A：constant conflicts",
+      "book": [
+        {
+          "word": "constant",
+          "number": 1435,
+          "page": 72,
+          "englishPage": 36,
+          "definition": "adj. 经常的，不断的；恒定的\nn. 不变的事物，常数，常量"
+        }
+      ],
+      "kind": "标黄选项词",
+      "loc": "第33题 · 选项 A",
+      "quote": "invite constant conflicts with passionate consumers.",
+      "mark": "constant",
+      "meaning": "持续不断的，经常的",
+      "translation": "引发与热情消费者之间持续不断的冲突。",
+      "note": "这里取形容词“持续不断的”。",
+      "core": false,
+      "match": "词条对应",
+      "clue": false,
+      "quoteType": "选项原文摘句",
+      "readingSource": "2011年考研英语一 · Text 3 · 试卷第7—8页"
+    },
+    {
+      "id": "fierce",
+      "term": "fierce",
+      "form": "第33题选项 C：fiercer competition",
+      "book": [
+        {
+          "word": "fierce",
+          "number": 183,
+          "page": 10,
+          "englishPage": 5,
+          "definition": "adj. 凶猛的；激烈的；(天气) 猛烈的"
+        }
+      ],
+      "kind": "标黄选项词",
+      "loc": "第33题 · 选项 C",
+      "quote": "may be responsible for fiercer competition.",
+      "mark": "fiercer",
+      "meaning": "更激烈的",
+      "translation": "可能导致更加激烈的竞争。",
+      "note": "fiercer 是 fierce 的比较级；fierce competition＝激烈竞争。",
+      "core": false,
+      "match": "比较级变形 → 词表原形 fierce",
+      "clue": false,
+      "quoteType": "选项原文摘句",
+      "readingSource": "2011年考研英语一 · Text 3 · 试卷第7—8页"
+    }
+  ]
+}
