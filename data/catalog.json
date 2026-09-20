@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "2026-09-19.2",
+  "version": "2026-09-20.1",
   "defaultDeck": "2010-e1-text4",
   "decks": [
     {
@@ -23,6 +23,13 @@
       "file": "data/decks/2011-e1-text2.json",
       "count": 28,
       "updated": "2026-09-19"
+    },
+    {
+      "id": "2011-e1-text3",
+      "title": "2011 · 英语一 · Text 3",
+      "file": "data/decks/2011-e1-text3.json",
+      "count": 28,
+      "updated": "2026-09-20"
     }
   ]
 }
