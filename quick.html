@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html data-theme="night" lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
+<meta content="dark light" name="color-scheme"/>
+<meta content="中英文对照速览。先把阅读生词混个脸熟，再进入词卡复习。" name="description"/>
+<title>中英速览 · 晚安词卡</title>
+<link href="./assets/app.css?v=3" rel="stylesheet"/>
+<link href="./assets/quick.css?v=1" rel="stylesheet"/>
+<meta content="noindex, nofollow" name="robots"/>
+<meta content="#101917" name="theme-color"/>
+<meta content="no-referrer" name="referrer"/>
+<link href="./assets/icon.svg" rel="icon" type="image/svg+xml"/>
+<meta content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'" http-equiv="Content-Security-Policy"/>
+</head>
+<body>
+<div class="shell quick-shell">
+<header class="top">
+<a class="brand quick-brand" href="./index.html" aria-label="返回晚安词卡">
+<span aria-hidden="true" class="logo"><svg viewBox="0 0 24 24"><path d="M20 14.4A8.5 8.5 0 0 1 9.6 4 8.5 8.5 0 1 0 20 14.4Z"></path><path d="M17 3v4M15 5h4"></path></svg></span>
+<div><div class="brand-title">晚安词卡</div><div class="brand-sub">QUICK BILINGUAL VIEW</div></div>
+</a>
+<div class="top-actions">
+<a class="quiet icon top-link" href="./index.html" title="回到翻卡模式"><svg viewBox="0 0 24 24"><path d="M9 18 3 12l6-6"></path><path d="M3 12h18"></path></svg><span class="label-on-wide">回到词卡</span></a>
+<button aria-label="切换深浅色" class="quiet icon" id="theme" title="切换深浅色"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M2 12h2M20 12h2M5 5l1.5 1.5M17.5 17.5 19 19M19 5l-1.5 1.5M6.5 17.5 5 19"></path></svg></button>
+</div>
+</header>
+
+<section class="intro quick-intro">
+<div class="eyebrow">中英速览</div>
+<h1>先把这些词混个脸熟。</h1>
+<p>英文和中文直接并排看，点喇叭听发音。这里不做自评，也不会改动你的词卡进度。</p>
+</section>
+
+<div class="deckbar">
+<label for="deckSelect">阅读篇目</label>
+<select aria-label="选择阅读篇目" disabled id="deckSelect"><option>正在读取词库…</option></select>
+<span class="edition" id="edition"></span>
+</div>
+
+<div class="quick-controls">
+<nav aria-label="筛选词卡" class="packbar quick-packbar">
+<button aria-pressed="true" data-filter="all" disabled>本篇全部<span class="pack-n" id="allCount">0 张</span></button>
+<button aria-pressed="false" data-filter="core" disabled>只看核心<span class="pack-n" id="coreCount">0 张</span></button>
+</nav>
+<label class="quick-search-wrap">
+<span class="sr-only">搜索中英文</span>
+<input class="search quick-search" disabled id="searchInput" placeholder="搜英文或中文，例如 alternative / 替代" type="search"/>
+</label>
+</div>
+
+<div class="loadingbox" id="loadingBox" role="status"><span id="loadingMessage">正在读取篇目词库…</span></div>
+
+<main hidden id="quickWorkspace">
+<div class="quick-summary"><span id="listCount"></span><span>点击任意一行的喇叭即可听英文发音</span></div>
+<section class="quick-list" id="quickList" aria-live="polite"></section>
+<p class="quick-foot">这是“预习 / 扫一遍”页面：先认识长相和大意，再回到词卡页做主动回忆，会轻松很多。</p>
+</main>
+</div>
+<div class="toast" hidden id="toast" role="status"></div>
+<noscript><div class="noscript">中英速览需要 JavaScript。请通过网站地址访问。</div></noscript>
+<script defer src="./assets/quick.js?v=1"></script>
+</body>
+</html>
