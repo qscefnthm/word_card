@@ -2,7 +2,7 @@
 (() => {
   const $ = id => document.getElementById(id);
   const KEY = 'word-card-site-v2';
-  let catalog = null, deck = null, cards = [], filter = 'all', voice = null, toastTimer = null;
+  let catalog = null, deck = null, cards = [], filter = 'all', voice = null, toastTimer = null, audioPlayer = null;
   const esc = v => String(v).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 
   function readState() {
@@ -31,6 +31,11 @@
   }
   function cancelSpeech() {
     if ('speechSynthesis' in window) window.speechSynthesis.cancel();
+    if (audioPlayer) {
+      audioPlayer.pause();
+      audioPlayer.removeAttribute('src');
+      audioPlayer.load();
+    }
     document.querySelectorAll('.quick-speak.playing').forEach(b => b.classList.remove('playing'));
   }
   function pickVoice() {
@@ -40,20 +45,48 @@
       || voices.find(v => /^en(?:-|_)/i.test(v.lang))
       || null;
   }
-  function speak(id, button) {
-    const card = cards.find(c => c.id === id);
-    if (!card || !('speechSynthesis' in window) || typeof SpeechSynthesisUtterance === 'undefined') {
-      toast('当前浏览器没有可用的语音朗读功能。');
+  function pronunciationText(card) {
+    return card.term.replace(/…/g, ' something ').replace(/\s*\/\s*/g, ', ').trim();
+  }
+  function speakLocal(text, button) {
+    if (!('speechSynthesis' in window) || typeof SpeechSynthesisUtterance === 'undefined') {
+      button.classList.remove('playing');
+      toast('在线发音和本机语音都没有成功，可以稍后再试。');
       return;
     }
-    cancelSpeech();
-    const u = new SpeechSynthesisUtterance(card.term.replace(/…/g, ' something '));
+    const u = new SpeechSynthesisUtterance(text);
     if (voice) { u.voice = voice; u.lang = voice.lang; } else { u.lang = 'en-US'; }
     u.rate = .84;
-    button.classList.add('playing');
     u.onend = () => button.classList.remove('playing');
-    u.onerror = () => { button.classList.remove('playing'); toast('这次朗读没有成功，可以再点一次。'); };
+    u.onerror = () => { button.classList.remove('playing'); toast('这次朗读没有成功，可以稍后再试。'); };
     window.speechSynthesis.speak(u);
+  }
+  function speak(id, button) {
+    const card = cards.find(c => c.id === id);
+    if (!card) return;
+    cancelSpeech();
+    const text = pronunciationText(card);
+    button.classList.add('playing');
+
+    // Mobile-first path: play a normal HTTPS audio file. This is more reliable
+    // than Web Speech on mobile browsers/WebViews. Fall back to system TTS.
+    audioPlayer = new Audio();
+    audioPlayer.preload = 'none';
+    audioPlayer.src = 'https://dict.youdao.com/dictvoice?audio=' + encodeURIComponent(text);
+    let fellBack = false;
+    const fallback = () => {
+      if (fellBack) return;
+      fellBack = true;
+      if (audioPlayer) {
+        audioPlayer.onerror = null;
+        audioPlayer.onended = null;
+      }
+      speakLocal(text, button);
+    };
+    audioPlayer.onended = () => button.classList.remove('playing');
+    audioPlayer.onerror = fallback;
+    const p = audioPlayer.play();
+    if (p && typeof p.catch === 'function') p.catch(fallback);
   }
   async function fetchJSON(path) {
     const response = await fetch(path, {cache:'no-store', credentials:'same-origin'});
