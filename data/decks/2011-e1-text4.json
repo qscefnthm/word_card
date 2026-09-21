@@ -1,0 +1,857 @@
+{
+  "schemaVersion": 1,
+  "id": "2011-e1-text4",
+  "title": "2011 · 英语一 · Text 4",
+  "description": "按本次黄标与错题整理：重点保留育儿/媒体语境中的词义，并单独强化第37题中 permanent / gossip 与 highly valued 的区别。",
+  "cards": [
+    {
+      "id": "insightful",
+      "term": "insightful",
+      "form": "原文：an insightful, provocative magazine cover story",
+      "book": [
+        {
+          "word": "insightful",
+          "number": 6334,
+          "page": 317,
+          "englishPage": 159,
+          "definition": "adj. 富有洞察力的，有深刻见解的"
+        }
+      ],
+      "kind": "标黄生词",
+      "loc": "第1段",
+      "quote": "It’s no surprise that Jennifer Senior’s insightful, provocative magazine cover story is arousing much chatter.",
+      "mark": "insightful",
+      "meaning": "有洞察力的，有深刻见解的",
+      "translation": "Jennifer Senior 那篇富有洞察力、又颇具争议性的封面文章引发了大量讨论。",
+      "note": "看到 insightful 就联想到 insight＝洞察、见解。",
+      "core": false,
+      "match": "词条对应",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2011年考研英语一 · Text 4 · 试卷第9—10页"
+    },
+    {
+      "id": "provocative",
+      "term": "provocative",
+      "form": "原文：an insightful, provocative magazine cover story",
+      "book": [
+        {
+          "word": "provocative",
+          "number": 5641,
+          "page": 283,
+          "englishPage": 142,
+          "definition": "adj. 挑衅的，煽动的；挑逗的"
+        }
+      ],
+      "kind": "标黄熟词生义",
+      "loc": "第1段",
+      "quote": "It’s no surprise that Jennifer Senior’s insightful, provocative magazine cover story is arousing much chatter.",
+      "mark": "provocative",
+      "meaning": "引发争议的，发人思考的",
+      "translation": "这篇封面文章很容易引发争议和讨论。",
+      "note": "本文不是“挑逗的”，而是“会挑起反应、引发争议的”。",
+      "core": true,
+      "match": "词条对应；按本文语境取义",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2011年考研英语一 · Text 4 · 试卷第9—10页"
+    },
+    {
+      "id": "chatter",
+      "term": "chatter",
+      "form": "原文：is arousing much chatter",
+      "book": [
+        {
+          "word": "chatter",
+          "number": 6114,
+          "page": 306,
+          "englishPage": 153,
+          "definition": "vi. 喋喋不休；(牙) 打颤；鸣叫\nn. 唠叨的话；鸣叫声，啼啭声"
+        }
+      ],
+      "kind": "标黄生词",
+      "loc": "第1段",
+      "quote": "It’s no surprise that Jennifer Senior’s insightful, provocative magazine cover story is arousing much chatter.",
+      "mark": "chatter",
+      "meaning": "议论，闲谈",
+      "translation": "这篇文章引发了很多议论。",
+      "note": "媒体语境里 much chatter 常可理解为“很多讨论、议论”。",
+      "core": false,
+      "match": "词条对应；语境义",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2011年考研英语一 · Text 4 · 试卷第9—10页"
+    },
+    {
+      "id": "fulfilling",
+      "term": "fulfilling",
+      "form": "原文：a completely fulfilling, life-enriching experience",
+      "book": [
+        {
+          "word": "fulfill",
+          "number": 1445,
+          "page": 73,
+          "englishPage": 37,
+          "definition": "vt. 实现，达到；履行；使有成就感"
+        }
+      ],
+      "kind": "标黄派生词",
+      "loc": "第1段",
+      "quote": "nothing gets people talking like the suggestion that child rearing is anything less than a completely fulfilling, life-enriching experience.",
+      "mark": "fulfilling",
+      "meaning": "令人满足的，使人有成就感的",
+      "translation": "人们很难接受“养孩子并非完全令人满足、丰富人生的体验”这种说法。",
+      "note": "fulfilling 是 fulfill 的形容词形式。",
+      "core": true,
+      "match": "派生词语境；关联词条 fulfill",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2011年考研英语一 · Text 4 · 试卷第9—10页"
+    },
+    {
+      "id": "past-tense-condition",
+      "term": "a past-tense condition",
+      "form": "原文：consider being happy as a past-tense condition",
+      "book": [
+        {
+          "word": "condition",
+          "number": 1371,
+          "page": 69,
+          "englishPage": 35,
+          "definition": "n. 状态；健康状况；疾病；条件\nvt. 训练，使习惯于；影响；养护"
+        }
+      ],
+      "kind": "第36题关键短语",
+      "loc": "第1段 / 第36题",
+      "quote": "instead of thinking of it as something that can be measured by moment-to-moment joy, we should consider being happy as a past-tense condition.",
+      "mark": "a past-tense condition",
+      "meaning": "一种回过头来才感受到的幸福状态",
+      "translation": "幸福不一定是每时每刻的快乐，而可能是在回顾之后才成立的一种状态。",
+      "note": "这正对应第36题的 happiness in retrospect。",
+      "core": true,
+      "match": "短语语境；关联词条 condition",
+      "clue": true,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2011年考研英语一 · Text 4 · 试卷第9—10页"
+    },
+    {
+      "id": "soul-crushingly-hard",
+      "term": "soul-crushingly hard",
+      "form": "原文：can be soul-crushingly hard",
+      "book": [
+        {
+          "word": "soul",
+          "number": 861,
+          "page": 44,
+          "englishPage": 22,
+          "definition": "n. 灵魂；精神，精髓；某种人"
+        },
+        {
+          "word": "crush",
+          "number": 4213,
+          "page": 211,
+          "englishPage": 106,
+          "definition": "vt. 压坏；捣碎；镇压；使非常伤心\nvt. vi. (使) 变皱\nn. 迷恋；拥挤的人群；果汁饮料"
+        }
+      ],
+      "kind": "标黄词组",
+      "loc": "第1段",
+      "quote": "Even though the day-to-day experience of raising kids can be soul-crushingly hard, Senior writes that the very things that in the moment dampen our moods can later be sources of intense gratification and delight.",
+      "mark": "soul-crushingly hard",
+      "meaning": "令人身心俱疲、几乎被压垮地艰难",
+      "translation": "养孩子的日常体验即使可能艰难到令人身心俱疲，之后仍可能带来强烈满足感。",
+      "note": "按整组记，不必死抠副词后缀。",
+      "core": true,
+      "match": "组合表达；关联 soul / crush",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2011年考研英语一 · Text 4 · 试卷第9—10页"
+    },
+    {
+      "id": "dampen",
+      "term": "dampen",
+      "form": "原文：dampen our moods",
+      "book": [
+        {
+          "word": "dampen",
+          "number": 5887,
+          "page": 295,
+          "englishPage": 148,
+          "definition": "vt. 减弱，抑制 (热情等)；弄湿"
+        }
+      ],
+      "kind": "标黄搭配",
+      "loc": "第1段",
+      "quote": "the very things that in the moment dampen our moods can later be sources of intense gratification and delight.",
+      "mark": "dampen",
+      "meaning": "使情绪低落；减弱",
+      "translation": "当下让我们心情变差的事，之后也可能成为满足和快乐的来源。",
+      "note": "dampen one’s mood / enthusiasm＝打击情绪、热情。",
+      "core": true,
+      "match": "词条对应；抽象义",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2011年考研英语一 · Text 4 · 试卷第9—10页"
+    },
+    {
+      "id": "gratification",
+      "term": "gratification",
+      "form": "原文：intense gratification and delight",
+      "book": [
+        {
+          "word": "gratification",
+          "number": 6382,
+          "page": 320,
+          "englishPage": 160,
+          "definition": "n. 满足，满意，令人喜悦的事物"
+        }
+      ],
+      "kind": "标黄生词",
+      "loc": "第1段",
+      "quote": "the very things that in the moment dampen our moods can later be sources of intense gratification and delight.",
+      "mark": "gratification",
+      "meaning": "满足，满足感",
+      "translation": "这些事情日后可能成为强烈满足感和快乐的来源。",
+      "note": "这里与 delight 并列，都是正向感受。",
+      "core": true,
+      "match": "词条对应",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2011年考研英语一 · Text 4 · 试卷第9—10页"
+    },
+    {
+      "id": "delight",
+      "term": "delight",
+      "form": "原文：gratification and delight",
+      "book": [
+        {
+          "word": "delight",
+          "number": 1951,
+          "page": 98,
+          "englishPage": 49,
+          "definition": "n. 高兴，愉快；令人高兴的事 (人)\nvt. 使高兴，使愉快"
+        }
+      ],
+      "kind": "标黄生词",
+      "loc": "第1段",
+      "quote": "the very things that in the moment dampen our moods can later be sources of intense gratification and delight.",
+      "mark": "delight",
+      "meaning": "快乐，愉悦",
+      "translation": "这些事情日后可能成为满足感和快乐的来源。",
+      "note": "和 gratification 并列时直接理解为“快乐、愉悦”。",
+      "core": false,
+      "match": "词条对应",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2011年考研英语一 · Text 4 · 试卷第9—10页"
+    },
+    {
+      "id": "madonna-and-child",
+      "term": "Madonna-and-child image",
+      "form": "原文：the only Madonna-and-child image on newsstands",
+      "book": [],
+      "kind": "标黄文化表达",
+      "loc": "第2段",
+      "quote": "The magazine cover showing an attractive mother holding a cute baby is hardly the only Madonna-and-child image on newsstands this week.",
+      "mark": "Madonna-and-child image",
+      "meaning": "“圣母与圣婴”式的母子形象",
+      "translation": "这种漂亮母亲抱着可爱婴儿的“圣母与圣婴”式画面，本周在报摊上远不止这一张。",
+      "note": "这里借宗教艺术中的典型母子形象，泛指被理想化、美化的母子画面。",
+      "core": false,
+      "match": "文化语境表达；词表未单列",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2011年考研英语一 · Text 4 · 试卷第9—10页"
+    },
+    {
+      "id": "newsstand",
+      "term": "newsstand",
+      "form": "原文复数：newsstands",
+      "book": [
+        {
+          "word": "newsstand",
+          "number": 6163,
+          "page": 309,
+          "englishPage": 155,
+          "definition": "n. 报摊，书报亭"
+        }
+      ],
+      "kind": "标黄生词",
+      "loc": "第2段",
+      "quote": "Practically every week features at least one celebrity mom, or mom-to-be, smiling on the newsstands.",
+      "mark": "newsstands",
+      "meaning": "报摊，书报亭",
+      "translation": "几乎每周，报摊上的杂志都会出现至少一位明星妈妈或准妈妈。",
+      "note": "原文是复数形式。",
+      "core": false,
+      "match": "原文复数 → 词表单数",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2011年考研英语一 · Text 4 · 试卷第9—10页"
+    },
+    {
+      "id": "persistently",
+      "term": "persistently",
+      "form": "原文：a society that so persistently celebrates procreation",
+      "book": [
+        {
+          "word": "persistent",
+          "number": 5885,
+          "page": 295,
+          "englishPage": 148,
+          "definition": "adj. 执着的，锲而不舍的；持续的"
+        }
+      ],
+      "kind": "标黄派生词",
+      "loc": "第3段",
+      "quote": "In a society that so persistently celebrates procreation, is it any wonder that admitting you regret having children is equivalent to admitting you support kitten-killing?",
+      "mark": "persistently",
+      "meaning": "持续地，不断地",
+      "translation": "在一个如此持续颂扬生育的社会里，承认自己后悔生孩子会显得极其冒犯。",
+      "note": "persistently 是 persistent 的副词。",
+      "core": true,
+      "match": "派生词语境；关联词条 persistent",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2011年考研英语一 · Text 4 · 试卷第9—10页"
+    },
+    {
+      "id": "celebrate",
+      "term": "celebrate",
+      "form": "原文：celebrates procreation",
+      "book": [
+        {
+          "word": "celebrate",
+          "number": 128,
+          "page": 7,
+          "englishPage": 4,
+          "definition": "vi. vt. 祝贺，庆贺\nvt. 主持 (宗教仪式)；颂扬，赞美"
+        }
+      ],
+      "kind": "标黄熟词生义",
+      "loc": "第3段",
+      "quote": "In a society that so persistently celebrates procreation, is it any wonder that admitting you regret having children is equivalent to admitting you support kitten-killing?",
+      "mark": "celebrates",
+      "meaning": "颂扬，赞美",
+      "translation": "这个社会持续在颂扬生育。",
+      "note": "本文不是“庆祝某个节日”，而是“赞美、推崇”。",
+      "core": true,
+      "match": "原文变形 → 词表原形；取“颂扬”义",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2011年考研英语一 · Text 4 · 试卷第9—10页"
+    },
+    {
+      "id": "procreation",
+      "term": "procreation",
+      "form": "原文：celebrates procreation",
+      "book": [
+        {
+          "word": "procreation",
+          "number": 6387,
+          "page": 320,
+          "englishPage": 160,
+          "definition": "n. 生殖，生育，繁衍"
+        }
+      ],
+      "kind": "标黄生词",
+      "loc": "第3段",
+      "quote": "In a society that so persistently celebrates procreation, is it any wonder that admitting you regret having children is equivalent to admitting you support kitten-killing?",
+      "mark": "procreation",
+      "meaning": "生育，繁衍",
+      "translation": "作者说社会持续颂扬生育。",
+      "note": "这篇文章主题词之一。",
+      "core": true,
+      "match": "词条对应",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2011年考研英语一 · Text 4 · 试卷第9—10页"
+    },
+    {
+      "id": "equivalent-to",
+      "term": "be equivalent to",
+      "form": "原文：is equivalent to admitting …",
+      "book": [
+        {
+          "word": "equivalent",
+          "number": 3407,
+          "page": 171,
+          "englishPage": 86,
+          "definition": "adj. 等同的，等值的，相当的\nn. 等价物，等效物，对应词"
+        }
+      ],
+      "kind": "标黄搭配",
+      "loc": "第3段",
+      "quote": "admitting you regret having children is equivalent to admitting you support kitten-killing.",
+      "mark": "is equivalent to",
+      "meaning": "等同于，相当于",
+      "translation": "承认自己后悔生孩子，仿佛就等同于承认自己支持杀小猫。",
+      "note": "be equivalent to 中的 to 是介词。",
+      "core": true,
+      "match": "固定搭配；关联词条 equivalent",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2011年考研英语一 · Text 4 · 试卷第9—10页"
+    },
+    {
+      "id": "regret",
+      "term": "regret",
+      "form": "原文：regret having children / the regrets of parents",
+      "book": [
+        {
+          "word": "regret",
+          "number": 4645,
+          "page": 233,
+          "englishPage": 117,
+          "definition": "vt. 为…感到后悔；对…感到抱歉\nn. 懊悔，遗憾"
+        }
+      ],
+      "kind": "标黄高频词",
+      "loc": "第3段",
+      "quote": "It doesn’t seem quite fair, then, to compare the regrets of parents to the regrets of the childless.",
+      "mark": "regrets",
+      "meaning": "后悔，遗憾",
+      "translation": "把父母的后悔与没有孩子的人的后悔直接比较，也并不公平。",
+      "note": "既可作动词，也可作名词。",
+      "core": false,
+      "match": "原文复数 → 词表单数",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2011年考研英语一 · Text 4 · 试卷第9—10页"
+    },
+    {
+      "id": "provoke",
+      "term": "provoke",
+      "form": "原文被动：are provoked to wonder",
+      "book": [
+        {
+          "word": "provoke",
+          "number": 4243,
+          "page": 213,
+          "englishPage": 107,
+          "definition": "vt. 激起，引起；挑衅，煽动"
+        }
+      ],
+      "kind": "标黄熟词生义",
+      "loc": "第3段",
+      "quote": "Unhappy parents rarely are provoked to wonder if they shouldn’t have had kids.",
+      "mark": "provoked",
+      "meaning": "促使，引发",
+      "translation": "不幸福的父母很少会被促使去怀疑自己是不是不该生孩子。",
+      "note": "这里取“引起、促使”义，不是“挑衅”。",
+      "core": true,
+      "match": "原文变形 → 词表原形",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2011年考研英语一 · Text 4 · 试卷第9—10页"
+    },
+    {
+      "id": "misery",
+      "term": "misery",
+      "form": "原文：their misery",
+      "book": [
+        {
+          "word": "misery",
+          "number": 1128,
+          "page": 57,
+          "englishPage": 29,
+          "definition": "n. 痛苦；穷困；不幸的事"
+        }
+      ],
+      "kind": "标黄生词",
+      "loc": "第3段",
+      "quote": "obviously their misery must be a direct result of the gaping baby-size holes in their lives.",
+      "mark": "misery",
+      "meaning": "痛苦，不幸",
+      "translation": "作者讽刺地说，没有孩子的人的痛苦似乎都被归因于生活中缺少孩子。",
+      "note": "注意这里整句有明显讽刺意味。",
+      "core": true,
+      "match": "词条对应",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2011年考研英语一 · Text 4 · 试卷第9—10页"
+    },
+    {
+      "id": "hugely",
+      "term": "hugely",
+      "form": "原文：is hugely unrealistic",
+      "book": [
+        {
+          "word": "huge",
+          "number": 4102,
+          "page": 206,
+          "englishPage": 103,
+          "definition": "adj. 巨大的，极多的，程度深的"
+        }
+      ],
+      "kind": "标黄派生词",
+      "loc": "第4段",
+      "quote": "Of course, the image of parenthood that celebrity magazines like Us Weekly and People present is hugely unrealistic.",
+      "mark": "hugely",
+      "meaning": "极其，非常",
+      "translation": "明星杂志呈现的育儿形象极其不现实。",
+      "note": "hugely 在这里相当于 very / extremely。",
+      "core": false,
+      "match": "派生词语境；关联词条 huge",
+      "clue": true,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2011年考研英语一 · Text 4 · 试卷第9—10页"
+    },
+    {
+      "id": "dumb",
+      "term": "dumb",
+      "form": "原文：many people are dumb enough to want children …",
+      "book": [
+        {
+          "word": "dumb",
+          "number": 4183,
+          "page": 210,
+          "englishPage": 105,
+          "definition": "adj. 傻的；哑的；哑口无言的\nvt. 降低…的理解难度"
+        }
+      ],
+      "kind": "标黄生词",
+      "loc": "第5段",
+      "quote": "It’s hard to imagine that many people are dumb enough to want children just because Reese and Angelina make it look so glamorous.",
+      "mark": "dumb",
+      "meaning": "愚蠢的，傻的",
+      "translation": "作者认为，很难想象很多人会蠢到只因为明星把育儿拍得很光鲜就决定生孩子。",
+      "note": "本文语气比较直接，dumb＝stupid。",
+      "core": false,
+      "match": "词条对应",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2011年考研英语一 · Text 4 · 试卷第9—10页"
+    },
+    {
+      "id": "glamorous",
+      "term": "glamorous",
+      "form": "原文：make it look so glamorous",
+      "book": [
+        {
+          "word": "glamour",
+          "number": 312,
+          "page": 16,
+          "englishPage": 8,
+          "definition": "n. 魅力，吸引力"
+        }
+      ],
+      "kind": "标黄派生词",
+      "loc": "第5段",
+      "quote": "It’s hard to imagine that many people are dumb enough to want children just because Reese and Angelina make it look so glamorous.",
+      "mark": "glamorous",
+      "meaning": "光鲜迷人的，富有魅力的",
+      "translation": "明星把养孩子这件事呈现得非常光鲜迷人。",
+      "note": "glamorous 是 glamour 的形容词。",
+      "core": true,
+      "match": "派生词语境；关联词条 glamour",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2011年考研英语一 · Text 4 · 试卷第9—10页"
+    },
+    {
+      "id": "haircut",
+      "term": "haircut",
+      "form": "原文：a baby is not a haircut",
+      "book": [
+        {
+          "word": "hair",
+          "number": 5315,
+          "page": 266,
+          "englishPage": 133,
+          "definition": "n. 毛发，尤指头发；(植物的) 茸毛"
+        }
+      ],
+      "kind": "标黄语境词",
+      "loc": "第5段",
+      "quote": "most adults understand that a baby is not a haircut.",
+      "mark": "haircut",
+      "meaning": "理发；发型",
+      "translation": "大多数成年人都明白，生孩子可不像换个发型那么轻率简单。",
+      "note": "作者是在强调“生孩子不是可以随便模仿明星做出的轻量决定”。",
+      "core": false,
+      "match": "派生/组合词语境；关联词条 hair",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2011年考研英语一 · Text 4 · 试卷第9—10页"
+    },
+    {
+      "id": "subconscious",
+      "term": "subconscious",
+      "form": "原文：in some small, subconscious way",
+      "book": [
+        {
+          "word": "subconscious",
+          "number": 6242,
+          "page": 313,
+          "englishPage": 157,
+          "definition": "adj. 潜意识的\nn. 潜意识"
+        }
+      ],
+      "kind": "标黄生词",
+      "loc": "第5段",
+      "quote": "the images we see every week of stress-free, happiness-enhancing parenthood aren’t in some small, subconscious way contributing to our own dissatisfactions with the actual experience.",
+      "mark": "subconscious",
+      "meaning": "潜意识的",
+      "translation": "这些理想化育儿形象也许会以很轻微、潜意识的方式加剧我们对真实育儿体验的不满。",
+      "note": "最后一段推断的关键程度词之一。",
+      "core": true,
+      "match": "词条对应",
+      "clue": true,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2011年考研英语一 · Text 4 · 试卷第9—10页"
+    },
+    {
+      "id": "in-retrospect",
+      "term": "in retrospect",
+      "form": "第36题正确选项：happiness in retrospect",
+      "book": [
+        {
+          "word": "retrospect",
+          "number": 3981,
+          "page": 200,
+          "englishPage": 100,
+          "definition": "n. 回顾，回想"
+        }
+      ],
+      "kind": "第36题关键词",
+      "loc": "第36题 · 正确选项",
+      "quote": "happiness in retrospect.",
+      "mark": "in retrospect",
+      "meaning": "回想起来，回顾过去时",
+      "translation": "回过头来感受到的幸福。",
+      "note": "与正文 a past-tense condition 构成同义改写。",
+      "core": true,
+      "match": "固定短语；关联词条 retrospect",
+      "clue": false,
+      "quoteType": "正确选项原文摘句",
+      "readingSource": "2011年考研英语一 · Text 4 · 试卷第9—10页"
+    },
+    {
+      "id": "permanent",
+      "term": "permanent",
+      "form": "第37题选项 A：a permanent source for gossip",
+      "book": [
+        {
+          "word": "permanent",
+          "number": 2697,
+          "page": 135,
+          "englishPage": 68,
+          "definition": "adj. 永久的，永恒的"
+        }
+      ],
+      "kind": "第37题错题选项词",
+      "loc": "第37题 · 选项 A",
+      "quote": "celebrity moms are a permanent source for gossip.",
+      "mark": "permanent",
+      "meaning": "永久的，长期不变的",
+      "translation": "明星妈妈是八卦的永久来源。",
+      "note": "这个选项把“几乎每周都会出现明星妈妈报道”夸大成了“永久的八卦来源”。",
+      "core": true,
+      "match": "词条对应；错题语境",
+      "clue": false,
+      "quoteType": "选项原文摘句",
+      "readingSource": "2011年考研英语一 · Text 4 · 试卷第9—10页"
+    },
+    {
+      "id": "gossip",
+      "term": "gossip",
+      "form": "第37题选项 A：a permanent source for gossip",
+      "book": [
+        {
+          "word": "gossip",
+          "number": 2430,
+          "page": 122,
+          "englishPage": 61,
+          "definition": "n. 流言蜚语；闲聊；爱说闲话的人\nvi. 闲聊，说长道短"
+        }
+      ],
+      "kind": "第37题错题选项词",
+      "loc": "第37题 · 选项 A",
+      "quote": "celebrity moms are a permanent source for gossip.",
+      "mark": "gossip",
+      "meaning": "八卦，闲话，流言",
+      "translation": "明星妈妈是八卦的永久来源。",
+      "note": "原文说有很多相关报道，但没有把这些报道概括成 gossip。",
+      "core": true,
+      "match": "词条对应；错题语境",
+      "clue": false,
+      "quoteType": "选项原文摘句",
+      "readingSource": "2011年考研英语一 · Text 4 · 试卷第9—10页"
+    },
+    {
+      "id": "pregnant",
+      "term": "pregnant",
+      "form": "第37题选项 C / 正文：Jennifer Aniston is pregnant",
+      "book": [
+        {
+          "word": "pregnant",
+          "number": 3158,
+          "page": 158,
+          "englishPage": 79,
+          "definition": "adj. 怀孕的；耐人寻味的"
+        }
+      ],
+      "kind": "标黄选项词",
+      "loc": "第2段 / 第37题",
+      "quote": "There are also stories about newly adoptive — and newly single — mom Sandra Bullock, as well as the usual “Jennifer Aniston is pregnant” news.",
+      "mark": "pregnant",
+      "meaning": "怀孕的",
+      "translation": "还有常见的“Jennifer Aniston 怀孕了”之类的新闻。",
+      "note": "本文取最常见的“怀孕的”义。",
+      "core": false,
+      "match": "词条对应",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2011年考研英语一 · Text 4 · 试卷第9—10页"
+    },
+    {
+      "id": "entertaining",
+      "term": "entertaining",
+      "form": "第37题选项 C：news … is entertaining",
+      "book": [
+        {
+          "word": "entertain",
+          "number": 1401,
+          "page": 71,
+          "englishPage": 36,
+          "definition": "vt. vi. 使快乐，使有兴趣，娱乐；款待\nvt. 怀有…想法 (或感受)"
+        }
+      ],
+      "kind": "标黄选项派生词",
+      "loc": "第37题 · 选项 C",
+      "quote": "news about pregnant celebrities is entertaining.",
+      "mark": "entertaining",
+      "meaning": "有趣的，令人愉快的",
+      "translation": "关于怀孕明星的新闻很有趣。",
+      "note": "entertaining 是 entertain 的形容词形式。原文没有评价这些新闻“有趣”。",
+      "core": false,
+      "match": "派生词语境；关联词条 entertain",
+      "clue": false,
+      "quoteType": "选项原文摘句",
+      "readingSource": "2011年考研英语一 · Text 4 · 试卷第9—10页"
+    },
+    {
+      "id": "folk",
+      "term": "folk / folks",
+      "form": "第38题题干：childless folks",
+      "book": [
+        {
+          "word": "folk",
+          "number": 660,
+          "page": 33,
+          "englishPage": 17,
+          "definition": "n. 人们；各位；家属；民间音乐\nadj. 民间的，民俗的；流传民间的"
+        }
+      ],
+      "kind": "标黄高频口语词",
+      "loc": "第3段 / 第38题",
+      "quote": "unhappy childless folks are bothered with the message that children are the single most important thing in the world.",
+      "mark": "folks",
+      "meaning": "人们，人",
+      "translation": "没有孩子且不幸福的人，会不断受到“孩子是世上最重要的东西”这种信息的困扰。",
+      "note": "folks 在这里就是 people。",
+      "core": false,
+      "match": "原文复数/口语形式 → 词表 folk",
+      "clue": true,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2011年考研英语一 · Text 4 · 试卷第9—10页"
+    },
+    {
+      "id": "be-exposed-to",
+      "term": "be exposed to",
+      "form": "第38题选项 A：are constantly exposed to criticism",
+      "book": [
+        {
+          "word": "expose",
+          "number": 1848,
+          "page": 93,
+          "englishPage": 47,
+          "definition": "vt. 显露；揭露；使遭受；使体验"
+        }
+      ],
+      "kind": "标黄选项词组",
+      "loc": "第38题 · 正确选项",
+      "quote": "are constantly exposed to criticism.",
+      "mark": "exposed to",
+      "meaning": "暴露于；遭受",
+      "translation": "不断遭受批评。",
+      "note": "be exposed to criticism / risk / danger 都很常见。",
+      "core": true,
+      "match": "固定搭配；关联词条 expose",
+      "clue": false,
+      "quoteType": "正确选项原文摘句",
+      "readingSource": "2011年考研英语一 · Text 4 · 试卷第9—10页"
+    },
+    {
+      "id": "compensatory",
+      "term": "compensatory",
+      "form": "第39题选项 C",
+      "book": [
+        {
+          "word": "compensate",
+          "number": 524,
+          "page": 27,
+          "englishPage": 14,
+          "definition": "vi. 弥补，补偿\nvt. 给…赔偿"
+        }
+      ],
+      "kind": "标黄选项派生词",
+      "loc": "第39题 · 选项 C",
+      "quote": "compensatory.",
+      "mark": "compensatory",
+      "meaning": "补偿性的，弥补性的",
+      "translation": "补偿性的。",
+      "note": "compensatory 来自 compensate＝补偿。",
+      "core": false,
+      "match": "派生词语境；关联词条 compensate",
+      "clue": false,
+      "quoteType": "选项原文摘句",
+      "readingSource": "2011年考研英语一 · Text 4 · 试卷第9—10页"
+    },
+    {
+      "id": "intensify",
+      "term": "intensify",
+      "form": "第40题选项 C：intensifies our dissatisfaction",
+      "book": [
+        {
+          "word": "intense",
+          "number": 1797,
+          "page": 90,
+          "englishPage": 45,
+          "definition": "adj. 强烈的；紧张激烈的；热切的"
+        }
+      ],
+      "kind": "标黄选项派生词",
+      "loc": "第40题 · 选项 C",
+      "quote": "Having children intensifies our dissatisfaction with life.",
+      "mark": "intensifies",
+      "meaning": "加剧，使增强",
+      "translation": "生孩子会加剧我们对生活的不满。",
+      "note": "intensify＝使更强烈；本文正确推断不是“孩子本身加剧不满”，而是媒体塑造的理想化育儿形象可能加剧现实中的不满。",
+      "core": true,
+      "match": "派生词语境；关联词条 intense",
+      "clue": false,
+      "quoteType": "选项原文摘句",
+      "readingSource": "2011年考研英语一 · Text 4 · 试卷第9—10页"
+    },
+    {
+      "id": "highly-valued",
+      "term": "be highly valued",
+      "form": "第37题正确选项：having children is highly valued by the public",
+      "book": [],
+      "kind": "第37题错题核心改写",
+      "loc": "第37题 · 正确选项",
+      "quote": "having children is highly valued by the public.",
+      "mark": "highly valued",
+      "meaning": "受到高度重视 / 被高度认可",
+      "translation": "公众高度重视生育和为人父母。",
+      "note": "第二段反复出现明星妈妈、准妈妈与怀孕新闻，说明社会媒体持续把“成为父母”放在显眼、正面的文化位置上。下一段的 persistently celebrates procreation 进一步把这种含义说白了。",
+      "core": true,
+      "match": "错题核心概括；按整组理解",
+      "clue": false,
+      "quoteType": "正确选项原文摘句",
+      "readingSource": "2011年考研英语一 · Text 4 · 试卷第9—10页"
+    }
+  ]
+}
