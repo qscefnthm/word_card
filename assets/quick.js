@@ -2,7 +2,7 @@
 (() => {
   const $ = id => document.getElementById(id);
   const KEY = 'word-card-site-v2';
-  let catalog = null, deck = null, cards = [], filter = 'all', voice = null, toastTimer = null, audioPlayer = null;
+  let catalog = null, deck = null, cards = [], filter = 'all', voice = null, toastTimer = null, audioPlayer = null, audioBundle = null, audioUrls = new Map();
   const esc = v => String(v).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 
   function readState() {
@@ -38,6 +38,25 @@
     }
     document.querySelectorAll('.quick-speak.playing').forEach(b => b.classList.remove('playing'));
   }
+  function clearAudioBundle() {
+    for (const url of audioUrls.values()) URL.revokeObjectURL(url);
+    audioUrls.clear();
+    audioBundle = null;
+  }
+  function bundledAudioUrl(id) {
+    if (!audioBundle || !audioBundle[id]) return null;
+    if (audioUrls.has(id)) return audioUrls.get(id);
+    try {
+      const raw = atob(audioBundle[id]);
+      const bytes = new Uint8Array(raw.length);
+      for (let i = 0; i < raw.length; i++) bytes[i] = raw.charCodeAt(i);
+      const url = URL.createObjectURL(new Blob([bytes], {type:'audio/mpeg'}));
+      audioUrls.set(id, url);
+      return url;
+    } catch (_) {
+      return null;
+    }
+  }
   function pickVoice() {
     if (!('speechSynthesis' in window)) return;
     const voices = window.speechSynthesis.getVoices();
@@ -61,32 +80,38 @@
     u.onerror = () => { button.classList.remove('playing'); toast('这次朗读没有成功，可以稍后再试。'); };
     window.speechSynthesis.speak(u);
   }
+  function playAudioSource(src, onFail, button) {
+    audioPlayer = new Audio();
+    audioPlayer.preload = 'auto';
+    audioPlayer.src = src;
+    audioPlayer.onended = () => button.classList.remove('playing');
+    audioPlayer.onerror = onFail;
+    const p = audioPlayer.play();
+    if (p && typeof p.catch === 'function') p.catch(onFail);
+  }
   function speak(id, button) {
     const card = cards.find(c => c.id === id);
     if (!card) return;
     cancelSpeech();
     const text = pronunciationText(card);
     button.classList.add('playing');
-
-    // Mobile-first path: play a normal HTTPS audio file. This is more reliable
-    // than Web Speech on mobile browsers/WebViews. Fall back to system TTS.
-    audioPlayer = new Audio();
-    audioPlayer.preload = 'none';
-    audioPlayer.src = 'https://dict.youdao.com/dictvoice?audio=' + encodeURIComponent(text);
-    let fellBack = false;
+    let stage = 0;
     const fallback = () => {
-      if (fellBack) return;
-      fellBack = true;
       if (audioPlayer) {
         audioPlayer.onerror = null;
         audioPlayer.onended = null;
       }
-      speakLocal(text, button);
+      if (stage === 0) {
+        stage = 1;
+        playAudioSource('https://dict.youdao.com/dictvoice?audio=' + encodeURIComponent(text) + '&type=2', fallback, button);
+      } else if (stage === 1) {
+        stage = 2;
+        speakLocal(text, button);
+      }
     };
-    audioPlayer.onended = () => button.classList.remove('playing');
-    audioPlayer.onerror = fallback;
-    const p = audioPlayer.play();
-    if (p && typeof p.catch === 'function') p.catch(fallback);
+    const bundled = bundledAudioUrl(id);
+    if (bundled) playAudioSource(bundled, fallback, button);
+    else fallback();
   }
   async function fetchJSON(path) {
     const response = await fetch(path, {cache:'no-store', credentials:'same-origin'});
@@ -121,6 +146,7 @@
   }
   async function load(id) {
     cancelSpeech();
+    clearAudioBundle();
     $('loadingBox').hidden = false;
     $('quickWorkspace').hidden = true;
     $('loadingMessage').textContent = '正在读取篇目词库…';
@@ -132,6 +158,14 @@
       const entry = catalog.decks.find(d => d.id === id) || catalog.decks.find(d => d.id === catalog.defaultDeck);
       deck = await fetchJSON('./' + entry.file);
       cards = deck.cards;
+      try {
+        const audioData = await fetchJSON('./data/audio/' + entry.id + '.json');
+        if (audioData && audioData.schemaVersion === 1 && audioData.deckId === entry.id && audioData.codec === 'audio/mpeg' && audioData.audio) {
+          audioBundle = audioData.audio;
+        }
+      } catch (_) {
+        audioBundle = null;
+      }
       $('deckSelect').innerHTML = catalog.decks.map(d => '<option value="' + esc(d.id) + '">' + esc(d.title) + ' · ' + d.count + ' 张</option>').join('');
       $('deckSelect').value = deck.id;
       $('edition').textContent = '词库版本 ' + catalog.version;
@@ -164,7 +198,7 @@
     document.documentElement.dataset.theme = next;
     writePrefs({theme: next});
   });
-  window.addEventListener('pagehide', cancelSpeech);
+  window.addEventListener('pagehide',() => { cancelSpeech(); clearAudioBundle(); });
   if ('speechSynthesis' in window) {
     pickVoice();
     window.speechSynthesis.addEventListener('voiceschanged', pickVoice);
