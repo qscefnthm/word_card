@@ -8,7 +8,7 @@
 <meta content="真题语境词卡。持续更新的词库，保存在当前浏览器的复习进度。" name="description"/>
 <title>晚安词卡 · 阅读里的词，慢慢记住</title>
 <link href="./assets/app.css?v=3" rel="stylesheet"/>
-<meta content="noindex, nofollow" name="robots"/><meta content="#101917" name="theme-color"/><meta content="no-referrer" name="referrer"/><link href="./assets/icon.svg" rel="icon" type="image/svg+xml"/><link href="./manifest.webmanifest" rel="manifest"/><meta content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'" http-equiv="Content-Security-Policy"/></head>
+<meta content="noindex, nofollow" name="robots"/><meta content="#101917" name="theme-color"/><meta content="no-referrer" name="referrer"/><link href="./assets/icon.svg" rel="icon" type="image/svg+xml"/><link href="./manifest.webmanifest" rel="manifest"/><meta content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; media-src 'self' https://dict.youdao.com; object-src 'none'; base-uri 'self'; form-action 'none'" http-equiv="Content-Security-Policy"/></head>
 <body>
 <div class="shell">
 <header class="top">
@@ -24,7 +24,7 @@
 <section id="studyView">
 <article aria-labelledby="word" class="card">
 <div class="card-meta"><span class="badge" id="kind"></span><span class="loc" id="location"></span></div>
-<div class="term-line"><h2 class="word" id="word" lang="en"></h2><button aria-label="朗读当前英文" class="sound icon" id="speak" title="使用设备已有的离线英语音色"><svg viewbox="0 0 24 24"><path d="M11 4 5 9H2v6h3l6 5Z"></path><path d="M15 8a6 6 0 0 1 0 8M18 5a10 10 0 0 1 0 14"></path></svg></button></div>
+<div class="term-line"><h2 class="word" id="word" lang="en"></h2><button aria-label="朗读当前英文" class="sound icon" id="speak" title="播放英语发音"><svg viewbox="0 0 24 24"><path d="M11 4 5 9H2v6h3l6 5Z"></path><path d="M15 8a6 6 0 0 1 0 8M18 5a10 10 0 0 1 0 14"></path></svg></button></div>
 <div class="form" id="form"></div>
 <div class="quote-block" id="quoteBlock"><div class="micro-label" id="quoteType"></div><p class="quote" id="quote" lang="en"></p></div>
 <button aria-controls="answer" aria-expanded="false" class="reveal" id="reveal">想一想，再翻开中文<span class="keyhint">SPACE</span></button>
@@ -58,11 +58,11 @@
 <div class="source-bullet"><strong>词库更新，不清空进度</strong><p>打开网站时读取最新发布的词库，也可点“检查更新”。新篇目加入选择栏，已有词卡保留稳定编号。更新不会重置自评；当前一轮保留原来的卡片列表，需要看新词时重新选择“本篇全部”。</p></div>
 <div class="source-bullet"><strong>手机与电脑：同一词库，进度各自保存</strong><p>这是静态网站，没有账户和云端进度数据库。自评保存在当前浏览器；手机与电脑不会自动同步。清理浏览器数据或使用无痕模式可能丢失记录，请适时导出备份。本页不会上传个人学习记录。</p></div>
 <p><strong>迁移旧 HTML：</strong>在旧版词卡点“导出复习记录”，再在这里导入那个 JSON 文件。支持旧版 2010 Text 4 记录；导入按时间合并，不用较旧记录覆盖较新记录。网站和本地 HTML 属于不同存储位置，不会自动互通。</p>
-<p><strong>怎么用：</strong>先看英文 → 回想 → 翻开中文 → 认识 / 模糊 / 不认识。空格翻面，1 / 2 / 3 自评，方向键翻页。可关闭“显示真题提示”。朗读只使用设备提供的离线英语音色；没有音色也能正常背词。</p>
+<p><strong>怎么用：</strong>先看英文 → 回想 → 翻开中文 → 认识 / 模糊 / 不认识。空格翻面，1 / 2 / 3 自评，方向键翻页。可关闭“显示真题提示”。朗读优先使用在线英语发音；在线音频不可用时会自动尝试设备自带的英语语音。</p>
 <p><strong>访问提示：</strong>部署到 GitHub Pages 后，知道网址的人通常都能访问，私有仓库不等于私人网站。本页的 noindex 提示不构成访问控制。无需把 GitHub 令牌、密码或任何密钥填进页面。</p></div><div class="tools"><button disabled="" id="export">导出复习记录</button><button disabled="" id="import">导入记录（含旧 HTML）</button><button disabled="" id="reset">清空本站复习记录</button></div><input accept=".json,application/json" hidden="" id="importInput" type="file"/></dialog>
 <div class="toast" hidden="" id="toast" role="status"></div><div aria-live="polite" class="sr-only" id="announce"></div>
 <noscript><div class="noscript">词卡需要 JavaScript。请用浏览器打开网站，而不是 GitHub 的代码预览。</div></noscript>
 
 
-<script defer="" src="./assets/app.js?v=1"></script></body>
+<script defer="" src="./assets/app.js?v=2"></script></body>
 </html>
