@@ -26,7 +26,7 @@ jobs:
         run: python3 tools/generate_audio.py
       - name: Commit generated audio when changed
         run: |
-          if git diff --quiet -- data/audio; then
+          if [ -z "$(git status --porcelain -- data/audio)" ]; then
             echo "Pronunciation audio is already up to date."
             exit 0
           fi
