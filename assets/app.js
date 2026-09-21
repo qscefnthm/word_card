@@ -7,7 +7,7 @@
   const statuses = new Set(['known', 'fuzzy', 'unknown']);
   const names = {known: '认识', fuzzy: '模糊', unknown: '不认识'};
   let cards = [], byId = new Map(), catalog = null, deck = null;
-  let flipped = false, storageOK = true, voice = null, toastTimer, loadSerial = 0;
+  let flipped = false, storageOK = true, voice = null, toastTimer, loadSerial = 0, audioPlayer = null;
   let state = {version: 2, theme: 'night', showContext: true, deckId: '', ratings: {}, runs: {}};
   const validId = id => typeof id === 'string' && VALID_ID.test(id) && !['constructor', 'prototype', '__proto__'].includes(id);
   const isObject = o => o && typeof o === 'object' && !Array.isArray(o);
@@ -75,7 +75,14 @@
     toastTimer = setTimeout(() => { $('toast').hidden = true; }, 4500);
   }
   const run = () => deck ? state.runs[deck.id] : null;
-  function cancelSpeech() { if ('speechSynthesis' in window) window.speechSynthesis.cancel(); }
+  function cancelSpeech() {
+    if ('speechSynthesis' in window) window.speechSynthesis.cancel();
+    if (audioPlayer) {
+      audioPlayer.pause();
+      audioPlayer.removeAttribute('src');
+      audioPlayer.load();
+    }
+  }
   function cleanRun(raw) {
     if (!isObject(raw) || !Array.isArray(raw.ids)) return null;
     const ids = [...new Set(raw.ids.filter(id => byId.has(id)))];
@@ -188,9 +195,48 @@
   }
   function voiceState() {
     voice = 'speechSynthesis' in window && typeof SpeechSynthesisUtterance !== 'undefined'
-      ? window.speechSynthesis.getVoices().find(v => /^en(?:-|_)/i.test(v.lang) && v.localService) : null;
-    $('speak').disabled = !voice;
-    $('speak').title = voice ? '使用本机离线英语音色朗读' : '此设备没有可用的离线英语音色；不影响背词';
+      ? (window.speechSynthesis.getVoices().find(v => /^en(?:-|_)/i.test(v.lang) && v.localService)
+        || window.speechSynthesis.getVoices().find(v => /^en(?:-|_)/i.test(v.lang))
+        || null) : null;
+    $('speak').disabled = false;
+    $('speak').title = '在线英语发音优先；不可用时自动尝试本机语音';
+  }
+  function pronunciationText(card) {
+    return card.term.replace(/…/g,' something ').replace(/\s*\/\s*/g, ', ').trim();
+  }
+  function speakLocal(text) {
+    if (!('speechSynthesis' in window) || typeof SpeechSynthesisUtterance === 'undefined') {
+      toast('在线发音和本机语音都没有成功，可以稍后再试。');
+      return;
+    }
+    const u = new SpeechSynthesisUtterance(text);
+    if (voice) { u.voice = voice; u.lang = voice.lang; } else { u.lang = 'en-US'; }
+    u.rate = .85;
+    u.onerror = e => { if (!['canceled','interrupted'].includes(e.error)) toast('这次朗读没有成功，可以稍后再试。'); };
+    window.speechSynthesis.speak(u);
+  }
+  function speakCurrent() {
+    if (!run() || run().done) return;
+    cancelSpeech();
+    const card = byId.get(run().ids[run().index]);
+    if (!card) return;
+    const text = pronunciationText(card);
+    audioPlayer = new Audio();
+    audioPlayer.preload = 'none';
+    audioPlayer.src = 'https://dict.youdao.com/dictvoice?audio=' + encodeURIComponent(text);
+    let fellBack = false;
+    const fallback = () => {
+      if (fellBack) return;
+      fellBack = true;
+      if (audioPlayer) {
+        audioPlayer.onerror = null;
+        audioPlayer.onended = null;
+      }
+      speakLocal(text);
+    };
+    audioPlayer.onerror = fallback;
+    const p = audioPlayer.play();
+    if (p && typeof p.catch === 'function') p.catch(fallback);
   }
   async function fetchJSON(path) {
     const controller = new AbortController();
@@ -297,13 +343,7 @@
     if (!confirm('清空本站所有篇目的本地自评和位置？建议先导出备份。此操作不会删除词库。')) return;
     state.ratings = {}; state.runs = {}; save(false); closeDialog('sourceDialog'); start('core'); toast('本站复习记录已清空，词库没有删除。');
   });
-  $('speak').addEventListener('click',() => {
-    if (!voice || !run() || run().done) return;
-    cancelSpeech(); const u = new SpeechSynthesisUtterance(byId.get(run().ids[run().index]).term.replace(/…/g,' something '));
-    u.voice = voice; u.lang = voice.lang; u.rate = .85;
-    u.onerror = e => { if (!['canceled','interrupted'].includes(e.error)) toast('设备未能播放语音，文字复习不受影响。'); };
-    speechSynthesis.speak(u);
-  });
+  $('speak').addEventListener('click',speakCurrent);
   if ('speechSynthesis' in window) speechSynthesis.addEventListener('voiceschanged',voiceState);
   document.addEventListener('keydown',e => {
     if (!run() || run().done || document.querySelector('dialog[open]') || e.ctrlKey || e.metaKey || e.altKey || e.target.matches('input,textarea,select')) return;
