@@ -7,7 +7,7 @@
   const statuses = new Set(['known', 'fuzzy', 'unknown']);
   const names = {known: '认识', fuzzy: '模糊', unknown: '不认识'};
   let cards = [], byId = new Map(), catalog = null, deck = null;
-  let flipped = false, storageOK = true, voice = null, toastTimer, loadSerial = 0, audioPlayer = null;
+  let flipped = false, storageOK = true, voice = null, toastTimer, loadSerial = 0, audioPlayer = null, audioBundle = null, audioUrls = new Map();
   let state = {version: 2, theme: 'night', showContext: true, deckId: '', ratings: {}, runs: {}};
   const validId = id => typeof id === 'string' && VALID_ID.test(id) && !['constructor', 'prototype', '__proto__'].includes(id);
   const isObject = o => o && typeof o === 'object' && !Array.isArray(o);
@@ -81,6 +81,25 @@
       audioPlayer.pause();
       audioPlayer.removeAttribute('src');
       audioPlayer.load();
+    }
+  }
+  function clearAudioBundle() {
+    for (const url of audioUrls.values()) URL.revokeObjectURL(url);
+    audioUrls.clear();
+    audioBundle = null;
+  }
+  function bundledAudioUrl(id) {
+    if (!audioBundle || !audioBundle[id]) return null;
+    if (audioUrls.has(id)) return audioUrls.get(id);
+    try {
+      const raw = atob(audioBundle[id]);
+      const bytes = new Uint8Array(raw.length);
+      for (let i = 0; i < raw.length; i++) bytes[i] = raw.charCodeAt(i);
+      const url = URL.createObjectURL(new Blob([bytes], {type:'audio/mpeg'}));
+      audioUrls.set(id, url);
+      return url;
+    } catch (_) {
+      return null;
     }
   }
   function cleanRun(raw) {
@@ -215,28 +234,34 @@
     u.onerror = e => { if (!['canceled','interrupted'].includes(e.error)) toast('这次朗读没有成功，可以稍后再试。'); };
     window.speechSynthesis.speak(u);
   }
+  function playAudioSource(src, onFail) {
+    audioPlayer = new Audio();
+    audioPlayer.preload = 'auto';
+    audioPlayer.src = src;
+    audioPlayer.onerror = onFail;
+    const p = audioPlayer.play();
+    if (p && typeof p.catch === 'function') p.catch(onFail);
+  }
   function speakCurrent() {
     if (!run() || run().done) return;
     cancelSpeech();
     const card = byId.get(run().ids[run().index]);
     if (!card) return;
     const text = pronunciationText(card);
-    audioPlayer = new Audio();
-    audioPlayer.preload = 'none';
-    audioPlayer.src = 'https://dict.youdao.com/dictvoice?audio=' + encodeURIComponent(text);
-    let fellBack = false;
+    let stage = 0;
     const fallback = () => {
-      if (fellBack) return;
-      fellBack = true;
-      if (audioPlayer) {
-        audioPlayer.onerror = null;
-        audioPlayer.onended = null;
+      if (audioPlayer) audioPlayer.onerror = null;
+      if (stage === 0) {
+        stage = 1;
+        playAudioSource('https://dict.youdao.com/dictvoice?audio=' + encodeURIComponent(text) + '&type=2', fallback);
+      } else if (stage === 1) {
+        stage = 2;
+        speakLocal(text);
       }
-      speakLocal(text);
     };
-    audioPlayer.onerror = fallback;
-    const p = audioPlayer.play();
-    if (p && typeof p.catch === 'function') p.catch(fallback);
+    const bundled = bundledAudioUrl(card.id);
+    if (bundled) playAudioSource(bundled, fallback);
+    else fallback();
   }
   async function fetchJSON(path) {
     const controller = new AbortController();
@@ -285,8 +310,16 @@
       const nextCatalog = checkCatalog(await fetchJSON('./data/catalog.json'));
       const entry = nextCatalog.decks.find(d => d.id === requestedId) || nextCatalog.decks.find(d => d.id === nextCatalog.defaultDeck);
       const nextDeck = checkDeck(await fetchJSON('./' + entry.file), entry);
+      let nextAudio = null;
+      try {
+        const candidateAudio = await fetchJSON('./data/audio/' + entry.id + '.json');
+        if (candidateAudio && candidateAudio.schemaVersion === 1 && candidateAudio.deckId === entry.id && candidateAudio.codec === 'audio/mpeg' && candidateAudio.audio) {
+          nextAudio = candidateAudio.audio;
+        }
+      } catch (_) {}
       if (serial !== loadSerial) return;
-      cancelSpeech(); catalog = nextCatalog; deck = nextDeck; cards = deck.cards; byId = new Map(cards.map(c => [c.id,c]));
+      cancelSpeech(); clearAudioBundle(); audioBundle = nextAudio;
+      catalog = nextCatalog; deck = nextDeck; cards = deck.cards; byId = new Map(cards.map(c => [c.id,c]));
       state.deckId = deck.id; state.runs[deck.id] = cleanRun(state.runs[deck.id]);
       $('deckSelect').innerHTML = catalog.decks.map(d => '<option value="' + esc(d.id) + '">' + esc(d.title) + ' · ' + d.count + ' 张</option>').join('');
       $('deckSelect').value = deck.id; $('deckTitle').textContent = deck.title;
@@ -356,6 +389,6 @@
     if (e.key !== KEY || !e.newValue) return;
     try { const next = JSON.parse(e.newValue); if (next.version === 2) { state.ratings = mergeRatings(state.ratings,safeRatings(next.ratings)); if (run()) updateSummary(); } } catch (_) {}
   });
-  window.addEventListener('pagehide',cancelSpeech);
+  window.addEventListener('pagehide',() => { cancelSpeech(); clearAudioBundle(); });
   storageLabel(); voiceState(); load(state.deckId);
 })();
