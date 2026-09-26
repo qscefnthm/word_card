@@ -1,0 +1,1163 @@
+{
+  "schemaVersion": 1,
+  "id": "2012-e1-text1",
+  "title": "2012 · 英语一 · Text 1",
+  "description": "这篇优先补“文章骨架词”：peer pressure、social cure、作者态度词和第22/23/25题错题词。先认骨架，再刷完整词卡。",
+  "cards": [
+    {
+      "id": "peer-pressure",
+      "term": "peer pressure",
+      "form": "原文：when we hear the words peer pressure",
+      "book": [
+        {
+          "word": "peer",
+          "number": 406,
+          "page": 21,
+          "englishPage": 11,
+          "definition": "n. 同龄人，同辈；(英国的) 贵族\nvi. 端详，费力地看"
+        },
+        {
+          "word": "pressure",
+          "number": 1102,
+          "page": 56,
+          "englishPage": 28,
+          "definition": "n. 压力；挤压；液压，气压\nvt. 对…施压，逼迫"
+        }
+      ],
+      "kind": "骨架词组 · 标黄",
+      "loc": "第1段",
+      "quote": "That whispered message, half invitation and half forcing, is what most of us think of when we hear the words peer pressure.",
+      "mark": "peer pressure",
+      "meaning": "同伴压力",
+      "translation": "我们通常把 peer pressure 理解成来自同龄人、同伴群体的压力。",
+      "note": "全文第一核心概念。先分清：作者承认 peer pressure 本身很强，但怀疑专家能否人为操控它。",
+      "core": true,
+      "match": "两个词表词组成固定表达",
+      "clue": true,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2012年考研英语一 · Text 1 · 试卷第3—4页"
+    },
+    {
+      "id": "social-cure",
+      "term": "social cure",
+      "form": "原文：what she calls the social cure",
+      "book": [
+        {
+          "word": "cure",
+          "number": 4304,
+          "page": 216,
+          "englishPage": 108,
+          "definition": "vt. 治愈，治好；解决；矫正\nn. 药物，疗法；治疗；对策，措施"
+        }
+      ],
+      "kind": "骨架概念 · 标黄",
+      "loc": "第1段",
+      "quote": "peer pressure can also be a positive force through what she calls the social cure.",
+      "mark": "social cure",
+      "meaning": "“社会疗法”：利用群体影响改善行为",
+      "translation": "Rosenberg 认为同伴压力也能成为正面力量，她把这种做法称作 social cure。",
+      "note": "全文第二核心概念。争议不是 peer pressure 有没有力量，而是这种人为设计的 social cure 是否长期有效。",
+      "core": true,
+      "match": "语境概念；关联词条 cure",
+      "clue": true,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2012年考研英语一 · Text 1 · 试卷第3—4页"
+    },
+    {
+      "id": "whispered",
+      "term": "whispered",
+      "form": "原文：That whispered message",
+      "book": [
+        {
+          "word": "whisper",
+          "number": 471,
+          "page": 24,
+          "englishPage": 12,
+          "definition": "vi. vt. 耳语，小声说\nvt. 私下说，秘密告诉\nvi. (叶子、风等) 沙沙作响\nn. 耳语(声)；轻柔的声音；传闻"
+        }
+      ],
+      "kind": "标黄词",
+      "loc": "第1段",
+      "quote": "That whispered message, half invitation and half forcing, is what most of us think of when we hear the words peer pressure.",
+      "mark": "whispered",
+      "meaning": "低声说出的；悄悄传递的",
+      "translation": "这种半邀请、半强迫的低声信息，就是我们通常想到的同伴压力。",
+      "note": "whispered 是 whisper 的过去分词作定语。",
+      "core": false,
+      "match": "原文变形 → 词表原形",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2012年考研英语一 · Text 1 · 试卷第3—4页"
+    },
+    {
+      "id": "recipient",
+      "term": "recipient",
+      "form": "原文：the recipient of a Pulitzer Prize",
+      "book": [
+        {
+          "word": "recipient",
+          "number": 2988,
+          "page": 150,
+          "englishPage": 75,
+          "definition": "n. 接受者，领受人"
+        }
+      ],
+      "kind": "标黄词",
+      "loc": "第2段",
+      "quote": "Rosenberg, the recipient of a Pulitzer Prize, offers a host of examples of the social cure in action.",
+      "mark": "recipient",
+      "meaning": "获得者，接受者",
+      "translation": "Rosenberg 是普利策奖获得者，并列举了很多 social cure 的实际例子。",
+      "note": "recipient of a prize＝奖项获得者。",
+      "core": false,
+      "match": "词条对应",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2012年考研英语一 · Text 1 · 试卷第3—4页"
+    },
+    {
+      "id": "state-sponsored-antismoking",
+      "term": "state-sponsored antismoking",
+      "form": "原文：a state-sponsored antismoking program",
+      "book": [
+        {
+          "word": "sponsor",
+          "number": 1498,
+          "page": 75,
+          "englishPage": 38,
+          "definition": "n. 赞助商，资助者；倡议者；保人\nvt. 赞助，资助；举办；倡议(法案)"
+        },
+        {
+          "word": "smoke",
+          "number": 5259,
+          "page": 263,
+          "englishPage": 132,
+          "definition": "n. 烟；吸烟\nvt. vi. 吸烟\nvi. 冒烟\nvt. 熏制(肉或鱼)"
+        }
+      ],
+      "kind": "标黄词组",
+      "loc": "第2段",
+      "quote": "In South Carolina, a state-sponsored antismoking program called Rage Against the Haze sets out to make cigarettes uncool.",
+      "mark": "state-sponsored antismoking",
+      "meaning": "州政府资助的反吸烟",
+      "translation": "南卡罗来纳州有一个由州政府资助的反吸烟项目。",
+      "note": "state-sponsored＝州/政府资助的；antismoking＝反吸烟的。",
+      "core": false,
+      "match": "派生组合；关联 sponsor / smoke",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2012年考研英语一 · Text 1 · 试卷第3—4页"
+    },
+    {
+      "id": "cigarette",
+      "term": "cigarettes",
+      "form": "原文复数：cigarettes",
+      "book": [
+        {
+          "word": "cigarette",
+          "number": 5122,
+          "page": 257,
+          "englishPage": 129,
+          "definition": "n. 香烟，卷烟"
+        }
+      ],
+      "kind": "标黄词",
+      "loc": "第2段",
+      "quote": "Rage Against the Haze sets out to make cigarettes uncool.",
+      "mark": "cigarettes",
+      "meaning": "香烟",
+      "translation": "这个项目试图让“抽烟”在年轻人眼里变得不酷。",
+      "note": "基础名词，直接识别即可。",
+      "core": false,
+      "match": "原文复数 → 词表单数",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2012年考研英语一 · Text 1 · 试卷第3—4页"
+    },
+    {
+      "id": "recruit",
+      "term": "recruit",
+      "form": "原文：recruits young people",
+      "book": [
+        {
+          "word": "recruit",
+          "number": 739,
+          "page": 37,
+          "englishPage": 19,
+          "definition": "vt. vi. 招收，招聘，征召\nn. 新兵；新成员"
+        }
+      ],
+      "kind": "标黄高频词",
+      "loc": "第2段",
+      "quote": "an HIV-prevention initiative known as loveLife recruits young people to promote safe sex among their peers.",
+      "mark": "recruits",
+      "meaning": "招募，吸收",
+      "translation": "loveLife 项目招募年轻人，让他们在同龄人中推广安全性行为。",
+      "note": "这里是动词：recruit somebody to do something。",
+      "core": true,
+      "match": "原文变形 → 词表原形",
+      "clue": true,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2012年考研英语一 · Text 1 · 试卷第3—4页"
+    },
+    {
+      "id": "perceptive",
+      "term": "perceptive",
+      "form": "原文：Rosenberg is a perceptive observer",
+      "book": [
+        {
+          "word": "perceptive",
+          "number": 6363,
+          "page": 319,
+          "englishPage": 160,
+          "definition": "adj. 洞察力强的；感知的"
+        }
+      ],
+      "kind": "骨架态度词 · 标黄",
+      "loc": "第3段",
+      "quote": "The idea seems promising, and Rosenberg is a perceptive observer.",
+      "mark": "perceptive",
+      "meaning": "有洞察力的，观察敏锐的",
+      "translation": "作者认为 Rosenberg 的观察很敏锐。",
+      "note": "这是作者前半段对 Rosenberg 的正面评价，后面 But 才开始转向质疑。",
+      "core": true,
+      "match": "词条对应",
+      "clue": true,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2012年考研英语一 · Text 1 · 试卷第3—4页"
+    },
+    {
+      "id": "critique",
+      "term": "critique",
+      "form": "原文：Her critique of the lameness...",
+      "book": [
+        {
+          "word": "critique",
+          "number": 5742,
+          "page": 288,
+          "englishPage": 144,
+          "definition": "n. 评论，评论文章\nvt. 对…发表评论，批判"
+        }
+      ],
+      "kind": "骨架词 · 标黄",
+      "loc": "第3段",
+      "quote": "Her critique of the lameness of many public-health campaigns is spot-on.",
+      "mark": "critique",
+      "meaning": "批评，评论",
+      "translation": "作者认同她对很多公共卫生宣传乏力问题的批评。",
+      "note": "critique 比普通 comment 更偏“分析性批评”。",
+      "core": true,
+      "match": "词条对应",
+      "clue": true,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2012年考研英语一 · Text 1 · 试卷第3—4页"
+    },
+    {
+      "id": "lameness",
+      "term": "lameness",
+      "form": "原文：the lameness of many public-health campaigns",
+      "book": [
+        {
+          "word": "lame",
+          "number": 2844,
+          "page": 143,
+          "englishPage": 72,
+          "definition": "adj. 瘸的；无说服力的；差劲的\nvt. 使(人或动物)跛，使残废"
+        }
+      ],
+      "kind": "标黄派生词",
+      "loc": "第3段",
+      "quote": "Her critique of the lameness of many public-health campaigns is spot-on.",
+      "mark": "lameness",
+      "meaning": "乏力、差劲、缺乏说服力",
+      "translation": "她指出很多公共卫生宣传做得很差劲。",
+      "note": "lameness 是 lame 的名词形式，这里不是字面的“跛”。",
+      "core": false,
+      "match": "派生词语境；关联词条 lame",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2012年考研英语一 · Text 1 · 试卷第3—4页"
+    },
+    {
+      "id": "spot-on",
+      "term": "spot-on",
+      "form": "原文：is spot-on",
+      "book": [],
+      "kind": "骨架态度词 · 标黄",
+      "loc": "第3段",
+      "quote": "Her critique of the lameness of many public-health campaigns is spot-on.",
+      "mark": "spot-on",
+      "meaning": "完全正确的，非常准确的",
+      "translation": "作者认为她的这部分批评非常准确。",
+      "note": "非常重要的态度词。这里说明作者赞同 Rosenberg 对传统宣传方式的批评。",
+      "core": true,
+      "match": "固定表达；词表未单列",
+      "clue": true,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2012年考研英语一 · Text 1 · 试卷第3—4页"
+    },
+    {
+      "id": "mobilize",
+      "term": "mobilize",
+      "form": "原文：fail to mobilize peer pressure",
+      "book": [
+        {
+          "word": "mobilize",
+          "number": 3901,
+          "page": 196,
+          "englishPage": 98,
+          "definition": "vt. vi. 动员，鼓动\nvt. 调动，调用"
+        }
+      ],
+      "kind": "骨架词 · 标黄",
+      "loc": "第3段",
+      "quote": "they fail to mobilize peer pressure for healthy habits.",
+      "mark": "mobilize",
+      "meaning": "调动、利用（某种力量）",
+      "translation": "这些公共卫生宣传没能把同伴压力调动起来用于培养健康习惯。",
+      "note": "这词直接连接“peer pressure”与“social cure”两个核心概念。",
+      "core": true,
+      "match": "词条对应；取“调动”义",
+      "clue": true,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2012年考研英语一 · Text 1 · 试卷第3—4页"
+    },
+    {
+      "id": "flawed",
+      "term": "flawed",
+      "form": "原文：a seriously flawed understanding",
+      "book": [
+        {
+          "word": "flaw",
+          "number": 953,
+          "page": 48,
+          "englishPage": 24,
+          "definition": "n. 瑕疵，缺点；错误；性格缺陷"
+        }
+      ],
+      "kind": "骨架评价词 · 标黄",
+      "loc": "第3段",
+      "quote": "they demonstrate a seriously flawed understanding of psychology.",
+      "mark": "flawed",
+      "meaning": "有缺陷的，有错误的",
+      "translation": "这些宣传体现出对心理学存在严重缺陷的理解。",
+      "note": "flawed 来自 flaw。看到 flawed understanding / argument 就要警觉是负面评价。",
+      "core": true,
+      "match": "派生词语境；关联词条 flaw",
+      "clue": true,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2012年考研英语一 · Text 1 · 试卷第3—4页"
+    },
+    {
+      "id": "billboard",
+      "term": "billboard",
+      "form": "原文：one billboard campaign",
+      "book": [
+        {
+          "word": "billboard",
+          "number": 6333,
+          "page": 317,
+          "englishPage": 159,
+          "definition": "n. 大幅广告牌"
+        }
+      ],
+      "kind": "标黄词",
+      "loc": "第3段",
+      "quote": "“Dare to be different, please don’t smoke!” pleads one billboard campaign aimed at reducing smoking among teenagers.",
+      "mark": "billboard",
+      "meaning": "大型广告牌",
+      "translation": "一个面向青少年的大型广告牌宣传写着“敢于与众不同，请不要吸烟”。",
+      "note": "细节词，不影响主线。",
+      "core": false,
+      "match": "词条对应",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2012年考研英语一 · Text 1 · 试卷第3—4页"
+    },
+    {
+      "id": "convincingly",
+      "term": "convincingly",
+      "form": "原文：Rosenberg argues convincingly",
+      "book": [
+        {
+          "word": "convince",
+          "number": 3887,
+          "page": 195,
+          "englishPage": 98,
+          "definition": "vt. 使确信，使信服；说服，劝服"
+        }
+      ],
+      "kind": "骨架态度词 · 标黄",
+      "loc": "第3段",
+      "quote": "Rosenberg argues convincingly that public-health advocates ought to take a page from advertisers.",
+      "mark": "convincingly",
+      "meaning": "有说服力地",
+      "translation": "作者认为 Rosenberg 在这一点上的论证很有说服力。",
+      "note": "这是作者前半段继续肯定 Rosenberg 的信号。",
+      "core": true,
+      "match": "派生词语境；关联词条 convince",
+      "clue": true,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2012年考研英语一 · Text 1 · 试卷第3—4页"
+    },
+    {
+      "id": "ought-to",
+      "term": "ought to",
+      "form": "原文：advocates ought to take a page...",
+      "book": [
+        {
+          "word": "ought",
+          "number": 3976,
+          "page": 199,
+          "englishPage": 100,
+          "definition": "modal. 应该"
+        }
+      ],
+      "kind": "标黄搭配",
+      "loc": "第3段",
+      "quote": "public-health advocates ought to take a page from advertisers.",
+      "mark": "ought to",
+      "meaning": "应该",
+      "translation": "公共卫生倡导者应该向广告商学习。",
+      "note": "与 should 基本同义。",
+      "core": false,
+      "match": "固定搭配；关联词条 ought",
+      "clue": true,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2012年考研英语一 · Text 1 · 试卷第3—4页"
+    },
+    {
+      "id": "take-a-page-from",
+      "term": "take a page from",
+      "form": "原文：take a page from advertisers",
+      "book": [],
+      "kind": "第22题错题关键习语",
+      "loc": "第3段 / 第22题",
+      "quote": "public-health advocates ought to take a page from advertisers.",
+      "mark": "take a page from",
+      "meaning": "向……学习，借鉴……的做法",
+      "translation": "公共卫生倡导者应该借鉴广告商的经验。",
+      "note": "第22题 B 的 learn from advertisers’ experience 就是它的同义改写。不是“招聘广告商”。",
+      "core": true,
+      "match": "固定习语；错题核心",
+      "clue": true,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2012年考研英语一 · Text 1 · 试卷第3—4页"
+    },
+    {
+      "id": "fit-in",
+      "term": "fit in",
+      "form": "原文：teenagers ... desire nothing more than fitting in",
+      "book": [],
+      "kind": "骨架短语",
+      "loc": "第3段",
+      "quote": "teenagers, who desire nothing more than fitting in.",
+      "mark": "fitting in",
+      "meaning": "融入群体，合群",
+      "translation": "青少年最想要的往往就是融入同伴群体。",
+      "note": "这解释了为什么“Dare to be different”这种宣传可能反心理。",
+      "core": true,
+      "match": "固定短语；词表未单列",
+      "clue": true,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2012年考研英语一 · Text 1 · 试卷第3—4页"
+    },
+    {
+      "id": "persuasive",
+      "term": "persuasive",
+      "form": "原文：Rosenberg is less persuasive",
+      "book": [
+        {
+          "word": "persuasive",
+          "number": 6360,
+          "page": 318,
+          "englishPage": 159,
+          "definition": "adj. 有说服力的，令人信服的"
+        }
+      ],
+      "kind": "核心转折词 · 标黄",
+      "loc": "第4段",
+      "quote": "But on the general effectiveness of the social cure, Rosenberg is less persuasive.",
+      "mark": "less persuasive",
+      "meaning": "说服力较弱的；没那么令人信服",
+      "translation": "但一谈到 social cure 的整体有效性，Rosenberg 就没那么有说服力了。",
+      "note": "这是全文最重要的转折句。前面认可，到了这里开始质疑。",
+      "core": true,
+      "match": "词条对应；less persuasive 为否定性态度",
+      "clue": true,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2012年考研英语一 · Text 1 · 试卷第3—4页"
+    },
+    {
+      "id": "irrelevant",
+      "term": "irrelevant",
+      "form": "原文：too much irrelevant detail",
+      "book": [
+        {
+          "word": "relevant",
+          "number": 1269,
+          "page": 64,
+          "englishPage": 32,
+          "definition": "adj. 有关的，切题的；有价值的"
+        }
+      ],
+      "kind": "核心评价词 · 标黄",
+      "loc": "第4段",
+      "quote": "Join the Club is filled with too much irrelevant detail and not enough exploration of the social and biological factors.",
+      "mark": "irrelevant",
+      "meaning": "不相关的，不切题的",
+      "translation": "这本书塞进了太多无关细节，却没有充分探究社会和生物因素。",
+      "note": "ir- 表否定。第23题正是抓住后半句 not enough exploration。",
+      "core": true,
+      "match": "反义派生；关联词条 relevant",
+      "clue": true,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2012年考研英语一 · Text 1 · 试卷第3—4页"
+    },
+    {
+      "id": "adequately-probe",
+      "term": "adequately probe",
+      "form": "第23题正确选项：adequately probe social and biological factors",
+      "book": [
+        {
+          "word": "adequate",
+          "number": 772,
+          "page": 39,
+          "englishPage": 20,
+          "definition": "adj. 足够的，满足要求的"
+        },
+        {
+          "word": "probe",
+          "number": 1632,
+          "page": 82,
+          "englishPage": 41,
+          "definition": "vt. vi. 追问，探究，打探\nvt. (用细长工具)探查\nn. 详细调查；航天探测器；探针"
+        }
+      ],
+      "kind": "第23题错题核心",
+      "loc": "第23题 · 正确选项",
+      "quote": "adequately probe social and biological factors.",
+      "mark": "adequately probe",
+      "meaning": "充分探究",
+      "translation": "充分探究社会和生物因素。",
+      "note": "对应正文 not enough exploration of the social and biological factors。",
+      "core": true,
+      "match": "同义改写：not enough exploration ↔ fail to adequately probe",
+      "clue": false,
+      "quoteType": "正确选项原文摘句",
+      "readingSource": "2012年考研英语一 · Text 1 · 试卷第3—4页"
+    },
+    {
+      "id": "evade",
+      "term": "evade",
+      "form": "第23题选项 B：effectively evade the flaws",
+      "book": [
+        {
+          "word": "evade",
+          "number": 4001,
+          "page": 201,
+          "englishPage": 101,
+          "definition": "vt. 躲避(追捕)；逃避，规避；回避\nvt. 难倒，使困惑"
+        }
+      ],
+      "kind": "标黄选项词",
+      "loc": "第23题 · 选项 B",
+      "quote": "effectively evade the flaws of the social cure.",
+      "mark": "evade",
+      "meaning": "逃避，规避",
+      "translation": "有效规避 social cure 的缺陷。",
+      "note": "本题干扰项词汇，先认义即可。",
+      "core": false,
+      "match": "词条对应",
+      "clue": false,
+      "quoteType": "选项原文摘句",
+      "readingSource": "2012年考研英语一 · Text 1 · 试卷第3—4页"
+    },
+    {
+      "id": "glaring-flaw",
+      "term": "glaring flaw",
+      "form": "原文：The most glaring flaw",
+      "book": [
+        {
+          "word": "glare",
+          "number": 2547,
+          "page": 128,
+          "englishPage": 64,
+          "definition": "vi. 瞪，怒视；发出强烈刺眼的光\nn. 瞪，怒视；强烈刺眼的光"
+        },
+        {
+          "word": "flaw",
+          "number": 953,
+          "page": 48,
+          "englishPage": 24,
+          "definition": "n. 瑕疵，缺点；错误；性格缺陷"
+        }
+      ],
+      "kind": "核心评价短语 · 标黄",
+      "loc": "第4段",
+      "quote": "The most glaring flaw of the social cure as it’s presented here is that it doesn’t work very well for very long.",
+      "mark": "glaring flaw",
+      "meaning": "非常明显的缺陷",
+      "translation": "social cure 最明显的问题是它难以长期有效。",
+      "note": "glaring 在这里由“刺眼”引申为“显眼、明显”。",
+      "core": true,
+      "match": "语境短语；关联 glare / flaw",
+      "clue": true,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2012年考研英语一 · Text 1 · 试卷第3—4页"
+    },
+    {
+      "id": "exert-enormous-influence",
+      "term": "exert enormous influence",
+      "form": "原文：peer groups exert enormous influence",
+      "book": [
+        {
+          "word": "exert",
+          "number": 1228,
+          "page": 62,
+          "englishPage": 31,
+          "definition": "vt. 施加，运用，行使；努力，竭力"
+        },
+        {
+          "word": "enormous",
+          "number": 3442,
+          "page": 173,
+          "englishPage": 87,
+          "definition": "adj. 巨大的，庞大的"
+        }
+      ],
+      "kind": "全文骨架短语 · 标黄",
+      "loc": "第5段",
+      "quote": "There’s no doubt that our peer groups exert enormous influence on our behavior.",
+      "mark": "exert enormous influence",
+      "meaning": "施加巨大的影响",
+      "translation": "毫无疑问，同伴群体会对我们的行为产生巨大影响。",
+      "note": "第25题容易被这句带去选 profound，但题目问的是最后一段对“人为操控 peer pressure”的评价。",
+      "core": true,
+      "match": "固定搭配；关联 exert / enormous",
+      "clue": true,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2012年考研英语一 · Text 1 · 试卷第3—4页"
+    },
+    {
+      "id": "subtle",
+      "term": "subtle",
+      "form": "原文：a subtle form of peer pressure",
+      "book": [
+        {
+          "word": "subtle",
+          "number": 1231,
+          "page": 62,
+          "englishPage": 31,
+          "definition": "adj. 细微的，微妙的；含蓄的；巧妙的"
+        }
+      ],
+      "kind": "标黄骨架词",
+      "loc": "第5段",
+      "quote": "This is a subtle form of peer pressure: we unconsciously imitate the behavior we see every day.",
+      "mark": "subtle",
+      "meaning": "细微而不易察觉的",
+      "translation": "这种同伴压力很微妙，常常在不知不觉中发生。",
+      "note": "和后面的 unconsciously 一起理解。",
+      "core": true,
+      "match": "词条对应",
+      "clue": true,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2012年考研英语一 · Text 1 · 试卷第3—4页"
+    },
+    {
+      "id": "imitate",
+      "term": "imitate",
+      "form": "原文：we unconsciously imitate the behavior",
+      "book": [
+        {
+          "word": "imitate",
+          "number": 345,
+          "page": 18,
+          "englishPage": 9,
+          "definition": "vt. (为逗乐)模仿；仿效，模拟"
+        }
+      ],
+      "kind": "第24题关键 · 标黄",
+      "loc": "第5段 / 第24题",
+      "quote": "we unconsciously imitate the behavior we see every day.",
+      "mark": "imitate",
+      "meaning": "模仿，仿效",
+      "translation": "我们会无意识地模仿每天看到的行为。",
+      "note": "第24题 C occurs without our realizing it 对应 unconsciously。",
+      "core": true,
+      "match": "词条对应",
+      "clue": true,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2012年考研英语一 · Text 1 · 试卷第3—4页"
+    },
+    {
+      "id": "imitation",
+      "term": "imitation",
+      "form": "第24题题干：our imitation of behaviors",
+      "book": [
+        {
+          "word": "imitation",
+          "number": 359,
+          "page": 18,
+          "englishPage": 9,
+          "definition": "n. 模仿，效仿；仿制品；滑稽模仿"
+        }
+      ],
+      "kind": "标黄派生词",
+      "loc": "第24题题干",
+      "quote": "our imitation of behaviors",
+      "mark": "imitation",
+      "meaning": "模仿，效仿",
+      "translation": "我们对行为的模仿。",
+      "note": "与正文 imitate 同源。",
+      "core": false,
+      "match": "词条对应",
+      "clue": false,
+      "quoteType": "题干原文摘句",
+      "readingSource": "2012年考研英语一 · Text 1 · 试卷第3—4页"
+    },
+    {
+      "id": "certain",
+      "term": "certain",
+      "form": "原文：Far less certain, however...",
+      "book": [
+        {
+          "word": "certain",
+          "number": 91,
+          "page": 5,
+          "englishPage": 3,
+          "definition": "adj. 必然的；确信的；某个；一点\npron. 某些"
+        }
+      ],
+      "kind": "最后一段核心词 · 标黄",
+      "loc": "第6段",
+      "quote": "Far less certain, however, is how successfully experts and bureaucrats can select our peer groups and steer their activities in virtuous directions.",
+      "mark": "Far less certain",
+      "meaning": "远没有那么确定",
+      "translation": "但专家和官僚能否成功挑选我们的同伴群体并引导他们，远没有那么确定。",
+      "note": "最后一段一开头就把作者态度定成“怀疑、不确定”。",
+      "core": true,
+      "match": "同一词义；跨篇稳定 ID",
+      "clue": true,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2012年考研英语一 · Text 1 · 试卷第3—4页"
+    },
+    {
+      "id": "bureaucrat",
+      "term": "bureaucrats",
+      "form": "原文复数：experts and bureaucrats",
+      "book": [
+        {
+          "word": "bureaucracy",
+          "number": 4293,
+          "page": 215,
+          "englishPage": 108,
+          "definition": "n. 官僚制度，官僚主义；官僚"
+        }
+      ],
+      "kind": "标黄派生词",
+      "loc": "第6段",
+      "quote": "Far less certain, however, is how successfully experts and bureaucrats can select our peer groups.",
+      "mark": "bureaucrats",
+      "meaning": "官僚，行政人员",
+      "translation": "作者质疑专家和行政人员能否替我们设计同伴群体。",
+      "note": "bureaucrat 是“官僚/行政人员”；词表收录 bureaucracy。",
+      "core": false,
+      "match": "派生词语境；关联词条 bureaucracy",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2012年考研英语一 · Text 1 · 试卷第3—4页"
+    },
+    {
+      "id": "virtuous",
+      "term": "virtuous",
+      "form": "原文：in virtuous directions",
+      "book": [
+        {
+          "word": "virtue",
+          "number": 1143,
+          "page": 58,
+          "englishPage": 29,
+          "definition": "n. 美德；优点，长处"
+        }
+      ],
+      "kind": "标黄派生词",
+      "loc": "第6段",
+      "quote": "experts and bureaucrats can select our peer groups and steer their activities in virtuous directions.",
+      "mark": "virtuous",
+      "meaning": "良性的；有道德的",
+      "translation": "专家试图把同伴群体的活动引向良性方向。",
+      "note": "virtue → virtuous。这里按“良性的、好的方向”理解。",
+      "core": false,
+      "match": "派生词语境；关联词条 virtue",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2012年考研英语一 · Text 1 · 试卷第3—4页"
+    },
+    {
+      "id": "troublemaker",
+      "term": "troublemakers",
+      "form": "原文复数：the troublemakers",
+      "book": [
+        {
+          "word": "troublemaker",
+          "number": 5974,
+          "page": 299,
+          "englishPage": 150,
+          "definition": "n. 闹事者，捣蛋鬼"
+        }
+      ],
+      "kind": "标黄词",
+      "loc": "第6段",
+      "quote": "It’s like the teacher who breaks up the troublemakers in the back row by pairing them with better-behaved classmates.",
+      "mark": "troublemakers",
+      "meaning": "捣蛋鬼，闹事者",
+      "translation": "作者举老师拆散后排捣蛋学生的例子。",
+      "note": "用于解释“外部人为设计同伴关系”为什么可能无效。",
+      "core": false,
+      "match": "原文复数 → 词表单数",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2012年考研英语一 · Text 1 · 试卷第3—4页"
+    },
+    {
+      "id": "pair-with",
+      "term": "pair ... with ...",
+      "form": "原文：pairing them with better-behaved classmates",
+      "book": [
+        {
+          "word": "pair",
+          "number": 2900,
+          "page": 145,
+          "englishPage": 73,
+          "definition": "n. 一双，一对，一副\nvt. 使成对，配对"
+        }
+      ],
+      "kind": "标黄搭配",
+      "loc": "第6段",
+      "quote": "the teacher who breaks up the troublemakers in the back row by pairing them with better-behaved classmates.",
+      "mark": "pairing them with",
+      "meaning": "把……与……配对",
+      "translation": "老师把捣蛋学生分别和表现更好的同学配对。",
+      "note": "pair A with B＝把 A 和 B 配成一对。",
+      "core": false,
+      "match": "固定搭配；关联词条 pair",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2012年考研英语一 · Text 1 · 试卷第3—4页"
+    },
+    {
+      "id": "tactic",
+      "term": "tactic",
+      "form": "原文：The tactic never really works",
+      "book": [
+        {
+          "word": "tactic",
+          "number": 2989,
+          "page": 150,
+          "englishPage": 75,
+          "definition": "n. 策略，手段；战术，兵法"
+        }
+      ],
+      "kind": "最后一段核心词 · 标黄",
+      "loc": "第6段",
+      "quote": "The tactic never really works.",
+      "mark": "tactic",
+      "meaning": "策略，手段",
+      "translation": "这种人为配对的策略实际上并不怎么奏效。",
+      "note": "这句直接支持作者对 engineered social cure 的怀疑。",
+      "core": true,
+      "match": "词条对应",
+      "clue": true,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2012年考研英语一 · Text 1 · 试卷第3—4页"
+    },
+    {
+      "id": "insist-on",
+      "term": "insist on",
+      "form": "原文：we insist on choosing our own friends",
+      "book": [
+        {
+          "word": "insist",
+          "number": 3098,
+          "page": 155,
+          "englishPage": 78,
+          "definition": "vt. vi. 坚持，坚决要求；坚称"
+        }
+      ],
+      "kind": "最后一段核心搭配 · 标黄",
+      "loc": "第6段",
+      "quote": "in the real world, as in school, we insist on choosing our own friends.",
+      "mark": "insist on",
+      "meaning": "坚持要；坚持做",
+      "translation": "无论现实还是学校里，我们都坚持自己选择朋友。",
+      "note": "这就是人为安排同伴关系难以奏效的原因。",
+      "core": true,
+      "match": "固定搭配；关联词条 insist",
+      "clue": true,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2012年考研英语一 · Text 1 · 试卷第3—4页"
+    },
+    {
+      "id": "emerge-as",
+      "term": "emerge as",
+      "form": "第21题题干：peer pressure often emerges as",
+      "book": [
+        {
+          "word": "emerge",
+          "number": 622,
+          "page": 32,
+          "englishPage": 16,
+          "definition": "vi. 出现，浮现；开始为人所知\nvi. vt. (事实)显露，暴露\nvi. (从困境中)摆脱出来"
+        }
+      ],
+      "kind": "标黄题干短语",
+      "loc": "第21题题干",
+      "quote": "peer pressure often emerges as",
+      "mark": "emerges as",
+      "meaning": "表现为；以……形式出现",
+      "translation": "同伴压力经常表现为……",
+      "note": "题目要求根据第一段判断它通常表现成什么。",
+      "core": false,
+      "match": "固定搭配；关联词条 emerge",
+      "clue": false,
+      "quoteType": "题干原文摘句",
+      "readingSource": "2012年考研英语一 · Text 1 · 试卷第3—4页"
+    },
+    {
+      "id": "stimulus",
+      "term": "stimulus",
+      "form": "第21题选项 B：a stimulus to group dynamics",
+      "book": [
+        {
+          "word": "stimulate",
+          "number": 1322,
+          "page": 67,
+          "englishPage": 34,
+          "definition": "vt. 刺激；激发，激励；使活跃"
+        }
+      ],
+      "kind": "标黄选项派生词",
+      "loc": "第21题 · 选项 B",
+      "quote": "a stimulus to group dynamics.",
+      "mark": "stimulus",
+      "meaning": "刺激物；促进因素",
+      "translation": "群体动态的一个促进因素。",
+      "note": "stimulus 是 stimulate 的名词。",
+      "core": false,
+      "match": "派生词语境；关联词条 stimulate",
+      "clue": false,
+      "quoteType": "选项原文摘句",
+      "readingSource": "2012年考研英语一 · Text 1 · 试卷第3—4页"
+    },
+    {
+      "id": "group-dynamics",
+      "term": "group dynamics",
+      "form": "第21题选项 B / 正文：the power of group dynamics",
+      "book": [
+        {
+          "word": "dynamic",
+          "number": 1522,
+          "page": 77,
+          "englishPage": 39,
+          "definition": "adj. 充满活力的；动态的\nn. 动态；力学，动力学"
+        }
+      ],
+      "kind": "标黄概念词",
+      "loc": "第1段 / 第21题",
+      "quote": "organizations and officials use the power of group dynamics to help individuals improve their lives.",
+      "mark": "group dynamics",
+      "meaning": "群体互动机制；群体动力",
+      "translation": "组织和官员利用群体互动的力量影响个人。",
+      "note": "不是“动力学”字面义，而是群体成员相互影响的机制。",
+      "core": true,
+      "match": "概念短语；关联词条 dynamic",
+      "clue": false,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2012年考研英语一 · Text 1 · 试卷第3—4页"
+    },
+    {
+      "id": "obstacle",
+      "term": "obstacle",
+      "form": "第21题选项 C：an obstacle to social progress",
+      "book": [
+        {
+          "word": "obstacle",
+          "number": 2641,
+          "page": 133,
+          "englishPage": 67,
+          "definition": "n. 阻碍；障碍物"
+        }
+      ],
+      "kind": "标黄选项词",
+      "loc": "第21题 · 选项 C",
+      "quote": "an obstacle to social progress.",
+      "mark": "obstacle",
+      "meaning": "障碍，阻碍",
+      "translation": "社会进步的障碍。",
+      "note": "本题干扰项词汇。",
+      "core": false,
+      "match": "词条对应",
+      "clue": false,
+      "quoteType": "选项原文摘句",
+      "readingSource": "2012年考研英语一 · Text 1 · 试卷第3—4页"
+    },
+    {
+      "id": "undesirable",
+      "term": "undesirable",
+      "form": "第21题正确选项 D：undesirable behaviors",
+      "book": [
+        {
+          "word": "undesirable",
+          "number": 5566,
+          "page": 279,
+          "englishPage": 140,
+          "definition": "adj. 不良的，不合心意的，不想要的\nn. 不良分子，不受欢迎的人"
+        }
+      ],
+      "kind": "第21题关键词 · 标黄",
+      "loc": "第21题 · 正确选项",
+      "quote": "a cause of undesirable behaviors.",
+      "mark": "undesirable",
+      "meaning": "不良的，不希望出现的",
+      "translation": "造成不良行为的原因。",
+      "note": "对应第一段 drinking, drugs and casual sex。",
+      "core": true,
+      "match": "词条对应；正确选项关键词",
+      "clue": true,
+      "quoteType": "正确选项原文摘句",
+      "readingSource": "2012年考研英语一 · Text 1 · 试卷第3—4页"
+    },
+    {
+      "id": "advocate",
+      "term": "advocates",
+      "form": "原文 / 第22题题干：public-health advocates",
+      "book": [
+        {
+          "word": "advocate",
+          "number": 827,
+          "page": 42,
+          "englishPage": 21,
+          "definition": "vt. 提倡，主张\nn. 拥护者，提倡者；辩护律师"
+        }
+      ],
+      "kind": "标黄高频词",
+      "loc": "第3段 / 第22题",
+      "quote": "Rosenberg argues convincingly that public-health advocates ought to take a page from advertisers.",
+      "mark": "advocates",
+      "meaning": "倡导者，支持者",
+      "translation": "公共卫生倡导者应该借鉴广告商的做法。",
+      "note": "此处是名词复数。",
+      "core": false,
+      "match": "原文复数 → 词表单数",
+      "clue": true,
+      "quoteType": "正文原文摘句",
+      "readingSource": "2012年考研英语一 · Text 1 · 试卷第3—4页"
+    },
+    {
+      "id": "commercial",
+      "term": "commercial advertisers",
+      "form": "第22题选项 C",
+      "book": [
+        {
+          "word": "commercial",
+          "number": 815,
+          "page": 41,
+          "englishPage": 21,
+          "definition": "adj. 商业的；营利的；商业化的\nn. (电视或电台)广告"
+        }
+      ],
+      "kind": "标黄选项词组",
+      "loc": "第22题 · 选项 C",
+      "quote": "stay away from commercial advertisers.",
+      "mark": "commercial advertisers",
+      "meaning": "商业广告商",
+      "translation": "远离商业广告商。",
+      "note": "commercial 这里是形容词“商业的”。",
+      "core": false,
+      "match": "词条对应；与 advertisers 组合",
+      "clue": false,
+      "quoteType": "选项原文摘句",
+      "readingSource": "2012年考研英语一 · Text 1 · 试卷第3—4页"
+    },
+    {
+      "id": "desirable",
+      "term": "desirable",
+      "form": "第25题选项 B",
+      "book": [
+        {
+          "word": "desirable",
+          "number": 939,
+          "page": 47,
+          "englishPage": 24,
+          "definition": "adj. 理想的，值得拥有的；性感的"
+        }
+      ],
+      "kind": "标黄选项词",
+      "loc": "第25题 · 选项 B",
+      "quote": "desirable.",
+      "mark": "desirable",
+      "meaning": "可取的，理想的",
+      "translation": "可取的、理想的。",
+      "note": "第25题作者并不是说效果“理想”，而是说这种人为操控是否有效值得怀疑。",
+      "core": false,
+      "match": "词条对应",
+      "clue": false,
+      "quoteType": "选项原文摘句",
+      "readingSource": "2012年考研英语一 · Text 1 · 试卷第3—4页"
+    },
+    {
+      "id": "profound",
+      "term": "profound",
+      "form": "第25题选项 C",
+      "book": [
+        {
+          "word": "profound",
+          "number": 1789,
+          "page": 90,
+          "englishPage": 45,
+          "definition": "adj. 深远的；知识渊博的；玄奥的"
+        }
+      ],
+      "kind": "第25题错题词 · 标黄",
+      "loc": "第25题 · 选项 C",
+      "quote": "profound.",
+      "mark": "profound",
+      "meaning": "深远的，影响巨大的",
+      "translation": "影响深远的。",
+      "note": "第五段的 enormous influence 容易让你选它，但最后一段讨论的是“人为操控效果是否可靠”。",
+      "core": true,
+      "match": "词条对应；错题干扰来源",
+      "clue": false,
+      "quoteType": "选项原文摘句",
+      "readingSource": "2012年考研英语一 · Text 1 · 试卷第3—4页"
+    },
+    {
+      "id": "questionable",
+      "term": "questionable",
+      "form": "第25题正确选项 D",
+      "book": [
+        {
+          "word": "questionable",
+          "number": 6029,
+          "page": 302,
+          "englishPage": 151,
+          "definition": "adj. 有问题的，不确定的，可疑的"
+        }
+      ],
+      "kind": "第25题错题核心",
+      "loc": "第25题 · 正确选项",
+      "quote": "questionable.",
+      "mark": "questionable",
+      "meaning": "值得怀疑的，不确定的",
+      "translation": "这种人为操控同伴压力的效果值得怀疑。",
+      "note": "对应最后一段 Far less certain + The tactic never really works。",
+      "core": true,
+      "match": "同义概括；正确选项",
+      "clue": true,
+      "quoteType": "正确选项原文摘句",
+      "readingSource": "2012年考研英语一 · Text 1 · 试卷第3—4页"
+    }
+  ]
+}
