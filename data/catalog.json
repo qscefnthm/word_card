@@ -1,42 +1,13 @@
 {
   "schemaVersion": 1,
-  "version": "2026-09-21.1",
+  "version": "2026-09-26.1",
   "defaultDeck": "2010-e1-text4",
   "decks": [
-    {
-      "id": "2010-e1-text4",
-      "title": "2010 · 英语一 · Text 4",
-      "file": "data/decks/2010-e1-text4.json",
-      "count": 32,
-      "updated": "2026-09-11"
-    },
-    {
-      "id": "2011-e1-text1",
-      "title": "2011 · 英语一 · Text 1",
-      "file": "data/decks/2011-e1-text1.json",
-      "count": 27,
-      "updated": "2026-09-19"
-    },
-    {
-      "id": "2011-e1-text2",
-      "title": "2011 · 英语一 · Text 2",
-      "file": "data/decks/2011-e1-text2.json",
-      "count": 28,
-      "updated": "2026-09-19"
-    },
-    {
-      "id": "2011-e1-text3",
-      "title": "2011 · 英语一 · Text 3",
-      "file": "data/decks/2011-e1-text3.json",
-      "count": 28,
-      "updated": "2026-09-20"
-    },
-    {
-      "id": "2011-e1-text4",
-      "title": "2011 · 英语一 · Text 4",
-      "file": "data/decks/2011-e1-text4.json",
-      "count": 33,
-      "updated": "2026-09-21"
-    }
+    {"id":"2010-e1-text4","title":"2010 · 英语一 · Text 4","file":"data/decks/2010-e1-text4.json","count":32,"updated":"2026-09-11"},
+    {"id":"2011-e1-text1","title":"2011 · 英语一 · Text 1","file":"data/decks/2011-e1-text1.json","count":27,"updated":"2026-09-19"},
+    {"id":"2011-e1-text2","title":"2011 · 英语一 · Text 2","file":"data/decks/2011-e1-text2.json","count":28,"updated":"2026-09-19"},
+    {"id":"2011-e1-text3","title":"2011 · 英语一 · Text 3","file":"data/decks/2011-e1-text3.json","count":28,"updated":"2026-09-20"},
+    {"id":"2011-e1-text4","title":"2011 · 英语一 · Text 4","file":"data/decks/2011-e1-text4.json","count":33,"updated":"2026-09-21"},
+    {"id":"2012-e1-text1","title":"2012 · 英语一 · Text 1","file":"data/decks/2012-e1-text1.json","count":44,"updated":"2026-09-26"}
   ]
 }
