@@ -7,7 +7,7 @@
 <meta content="中英文对照速览。先把阅读生词混个脸熟，再进入词卡复习。" name="description"/>
 <title>中英速览 · 晚安词卡</title>
 <link href="./assets/app.css?v=3" rel="stylesheet"/>
-<link href="./assets/quick.css?v=1" rel="stylesheet"/>
+<link href="./assets/quick.css?v=2" rel="stylesheet"/>
 <meta content="noindex, nofollow" name="robots"/>
 <meta content="#101917" name="theme-color"/>
 <meta content="no-referrer" name="referrer"/>
@@ -22,15 +22,15 @@
 <div><div class="brand-title">晚安词卡</div><div class="brand-sub">QUICK BILINGUAL VIEW</div></div>
 </a>
 <div class="top-actions">
-<a class="quiet icon top-link" href="./index.html" title="回到翻卡模式"><svg viewBox="0 0 24 24"><path d="M9 18 3 12l6-6"></path><path d="M3 12h18"></path></svg><span class="label-on-wide">回到词卡</span></a>
+<a class="quiet icon top-link" href="./index.html" title="回到正式词卡"><svg viewBox="0 0 24 24"><path d="M9 18 3 12l6-6"></path><path d="M3 12h18"></path></svg><span class="label-on-wide">正式词卡</span></a>
 <button aria-label="切换深浅色" class="quiet icon" id="theme" title="切换深浅色"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M2 12h2M20 12h2M5 5l1.5 1.5M17.5 17.5 19 19M19 5l-1.5 1.5M6.5 17.5 5 19"></path></svg></button>
 </div>
 </header>
 
 <section class="intro quick-intro">
 <div class="eyebrow">中英速览</div>
-<h1>先把这些词混个脸熟。</h1>
-<p>英文和中文直接并排看，点喇叭听发音；手机端优先走站内音频。这里不做自评，也不会改动你的词卡进度。</p>
+<h1>先看懂，再去回忆。</h1>
+<p>英文、中文和真题语境直接一起看。适合阅读做完后的 5–20 分钟快速过词，不会改动正式词卡的熟悉度。</p>
 </section>
 
 <div class="deckbar">
@@ -39,27 +39,83 @@
 <span class="edition" id="edition"></span>
 </div>
 
-<div class="quick-controls">
+<div class="quick-toolbar">
 <nav aria-label="筛选词卡" class="packbar quick-packbar">
-<button aria-pressed="true" data-filter="all" disabled>本篇全部<span class="pack-n" id="allCount">0 张</span></button>
 <button aria-pressed="false" data-filter="core" disabled>只看核心<span class="pack-n" id="coreCount">0 张</span></button>
+<button aria-pressed="true" data-filter="all" disabled>本篇全部<span class="pack-n" id="allCount">0 张</span></button>
 </nav>
-<label class="quick-search-wrap">
-<span class="sr-only">搜索中英文</span>
-<input class="search quick-search" disabled id="searchInput" placeholder="搜英文或中文，例如 alternative / 替代" type="search"/>
-</label>
+<div class="view-switch" role="group" aria-label="速览形式">
+<button aria-pressed="true" data-view="cards" disabled>翻页速览</button>
+<button aria-pressed="false" data-view="list" disabled>列表总览</button>
+</div>
+</div>
+
+<div class="quick-search-line">
+<input aria-label="搜索中英文" class="search quick-search" disabled id="searchInput" placeholder="搜英文或中文，例如 persuasive / 有说服力" type="search"/>
 </div>
 
 <div class="loadingbox" id="loadingBox" role="status"><span id="loadingMessage">正在读取篇目词库…</span></div>
 
 <main hidden id="quickWorkspace">
-<div class="quick-summary"><span id="listCount"></span><span>点击任意一行的喇叭即可听英文发音</span></div>
+<section id="cardView">
+<div class="quick-card-head">
+<div><strong id="cardPosition">01 / 01</strong><span id="cardScope"> · 本篇全部</span></div>
+<span id="cardKind"></span>
+</div>
+<div class="quick-progress" aria-label="速览进度"><div id="quickProgressFill"></div></div>
+
+<article class="overview-card" id="overviewCard">
+<div class="overview-top">
+<div class="overview-term-wrap">
+<div class="overview-term" id="cardTerm" lang="en"></div>
+<div class="overview-form" id="cardForm"></div>
+</div>
+<button class="overview-speak" id="cardSpeak" aria-label="播放当前英文发音" title="播放发音">
+<svg viewBox="0 0 24 24"><path d="M11 4 5 9H2v6h3l6 5Z"></path><path d="M15 8a6 6 0 0 1 0 8M18 5a10 10 0 0 1 0 14"></path></svg>
+</button>
+</div>
+
+<div class="overview-meaning" id="cardMeaning"></div>
+
+<div class="overview-context">
+<div class="overview-label">真题语境</div>
+<p class="overview-quote" id="cardQuote" lang="en"></p>
+<p class="overview-translation" id="cardTranslation"></p>
+</div>
+
+<div class="overview-note">
+<span>这次记住</span>
+<p id="cardNote"></p>
+</div>
+</article>
+
+<div class="overview-nav">
+<button class="quiet" id="prevCard">← 上一个</button>
+<button class="primary" id="nextCard">下一个 →</button>
+</div>
+<p class="swipe-tip">手机可左右滑动 · 键盘可用 ← →</p>
+
+<section class="quick-done" hidden id="quickDone">
+<div class="done-ring"><span>100%</span></div>
+<h2 id="doneTitle">这一篇，已经速览完了。</h2>
+<p id="doneMessage"></p>
+<div class="done-actions">
+<button id="restartQuick">重新开始</button>
+<a class="primary-link" id="goFlashcards" href="./index.html">去正式词卡</a>
+</div>
+</section>
+</section>
+
+<section hidden id="listView">
+<div class="quick-summary"><span id="listCount"></span><span>点喇叭即可听英文发音</span></div>
 <section class="quick-list" id="quickList" aria-live="polite"></section>
-<p class="quick-foot">这是“预习 / 扫一遍”页面：先认识长相和大意，再回到词卡页做主动回忆，会轻松很多。</p>
+</section>
+
+<p class="quick-foot">建议：时间少时先“只看核心”翻一遍；有余量再看“本篇全部”，最后回正式词卡做主动回忆。</p>
 </main>
 </div>
 <div class="toast" hidden id="toast" role="status"></div>
 <noscript><div class="noscript">中英速览需要 JavaScript。请通过网站地址访问。</div></noscript>
-<script defer src="./assets/quick.js?v=3"></script>
+<script defer src="./assets/quick.js?v=4"></script>
 </body>
 </html>
