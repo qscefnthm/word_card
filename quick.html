@@ -6,8 +6,8 @@
 <meta content="dark light" name="color-scheme"/>
 <meta content="中英文对照速览。先把阅读生词混个脸熟，再进入词卡复习。" name="description"/>
 <title>中英速览 · 晚安词卡</title>
-<link href="./assets/app.css?v=3" rel="stylesheet"/>
-<link href="./assets/quick.css?v=2" rel="stylesheet"/>
+<link href="./assets/app.css?v=20260927-audit" rel="stylesheet"/>
+<link href="./assets/quick.css?v=20260927-audit" rel="stylesheet"/>
 <meta content="noindex, nofollow" name="robots"/>
 <meta content="#101917" name="theme-color"/>
 <meta content="no-referrer" name="referrer"/>
@@ -76,9 +76,14 @@
 </div>
 
 <div class="overview-meaning" id="cardMeaning"></div>
+<div class="usage-pair" id="cardCollocationBlock" hidden>
+<div class="overview-label">例句中的搭配 · 单独理解</div>
+<p class="usage-en" id="cardCollocation" lang="en"></p>
+<p class="usage-zh" id="cardCollocationMeaning"></p>
+</div>
 
 <div class="overview-context">
-<div class="overview-label">真题语境</div>
+<div class="overview-label" id="cardQuoteType">例句来源</div>
 <p class="overview-quote" id="cardQuote" lang="en"></p>
 <p class="overview-translation" id="cardTranslation"></p>
 </div>
@@ -116,6 +121,6 @@
 </div>
 <div class="toast" hidden id="toast" role="status"></div>
 <noscript><div class="noscript">中英速览需要 JavaScript。请通过网站地址访问。</div></noscript>
-<script defer src="./assets/quick.js?v=4"></script>
+<script defer src="./assets/quick.js?v=20260927-audit"></script>
 </body>
 </html>

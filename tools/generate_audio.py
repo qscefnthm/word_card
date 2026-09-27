@@ -44,8 +44,13 @@ def main() -> None:
         deck_path = ROOT / entry["file"]
         deck = json.loads(deck_path.read_text(encoding="utf-8"))
         audio = {}
+        terms = {}
+        spoken_texts = {}
         for card in deck["cards"]:
-            audio[card["id"]] = base64.b64encode(render_mp3(spoken_text(card["term"]))).decode("ascii")
+            text = spoken_text(card.get("spokenText", card["term"]))
+            terms[card["id"]] = card["term"]
+            spoken_texts[card["id"]] = text
+            audio[card["id"]] = base64.b64encode(render_mp3(text)).decode("ascii")
 
         target = OUT_DIR / f'{deck["id"]}.json'
         wanted.add(target.name)
@@ -55,6 +60,8 @@ def main() -> None:
             "codec": "audio/mpeg",
             "generatedBy": "espeak en-us",
             "audio": audio,
+            "terms": terms,
+            "spokenTexts": spoken_texts,
         }
         target.write_text(
             json.dumps(payload, ensure_ascii=False, separators=(",", ":")) + "\n",

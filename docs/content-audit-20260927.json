@@ -1,0 +1,2790 @@
+{
+  "version": "2026-09-27.1",
+  "scope": "all published reading decks",
+  "decks": [
+    {
+      "id": "2010-e1-text4",
+      "count": 32,
+      "cards": [
+        {
+          "id": "sympathy",
+          "term": "sympathy",
+          "changedFields": [
+            "form",
+            "kind",
+            "quote",
+            "translation",
+            "note",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "supplemental",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "compromise",
+          "term": "compromise",
+          "changedFields": [
+            "kind",
+            "quote",
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "lobby",
+          "term": "lobby",
+          "changedFields": [
+            "quote",
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "asset",
+          "term": "asset",
+          "changedFields": [
+            "quote",
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "illiquid",
+          "term": "illiquid",
+          "changedFields": [
+            "quote",
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "booking-losses",
+          "term": "booking losses",
+          "changedFields": [
+            "quote",
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "reluctant",
+          "term": "reluctant",
+          "changedFields": [
+            "quote",
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "object-to",
+          "term": "object to",
+          "changedFields": [
+            "quote",
+            "translation",
+            "note",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "supplemental",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "exaggerate",
+          "term": "exaggerate",
+          "changedFields": [
+            "quote",
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "supplemental",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "revival",
+          "term": "revival",
+          "changedFields": [
+            "quote",
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "supplemental",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "blame",
+          "term": "blame … for …",
+          "changedFields": [
+            "mark",
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "behind-scenes",
+          "term": "behind the scenes",
+          "changedFields": [
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "standard-setter",
+          "term": "standard-setter",
+          "changedFields": [
+            "quote",
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "moan",
+          "term": "moan",
+          "changedFields": [
+            "quote",
+            "translation",
+            "clue",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "toxic-assets",
+          "term": "toxic assets",
+          "changedFields": [
+            "quote",
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "bruising-encounter",
+          "term": "a bruising encounter with Congress",
+          "changedFields": [
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "flexibility",
+          "term": "flexibility",
+          "changedFields": [
+            "quote",
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "overall",
+          "term": "overall",
+          "changedFields": [
+            "quote",
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "book-value",
+          "term": "book value",
+          "changedFields": [
+            "quote",
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "investor",
+          "term": "investor",
+          "changedFields": [
+            "quote",
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "paralysis",
+          "term": "paralysis",
+          "changedFields": [
+            "quote",
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "combative",
+          "term": "combative",
+          "changedFields": [
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "pension",
+          "term": "pension",
+          "changedFields": [
+            "quote",
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "reevaluate",
+          "term": "reevaluate",
+          "changedFields": [
+            "quote",
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "supplemental",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "misinterpret",
+          "term": "misinterpret",
+          "changedFields": [
+            "quote",
+            "mark",
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "supplemental",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "neglect",
+          "term": "neglect",
+          "changedFields": [
+            "quote",
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "supplemental",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "bad-debts",
+          "term": "bad debts",
+          "changedFields": [
+            "quote",
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "deny",
+          "term": "deny",
+          "changedFields": [
+            "quote",
+            "translation",
+            "note",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "supplemental",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "objectiveness",
+          "term": "objectiveness",
+          "changedFields": [
+            "form",
+            "quote",
+            "translation",
+            "note",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "supplemental",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "skeptical",
+          "term": "skeptical",
+          "changedFields": [
+            "quote",
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "diminish",
+          "term": "diminish",
+          "changedFields": [
+            "kind",
+            "quote",
+            "mark",
+            "translation",
+            "note",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "supplemental",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "fetch",
+          "term": "fetch",
+          "changedFields": [
+            "quote",
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        }
+      ]
+    },
+    {
+      "id": "2011-e1-text1",
+      "count": 27,
+      "cards": [
+        {
+          "id": "announcement",
+          "term": "announcement",
+          "changedFields": [
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "unpretentious",
+          "term": "unpretentious",
+          "changedFields": [
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "formidable",
+          "term": "formidable",
+          "changedFields": [
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "description",
+          "term": "description",
+          "changedFields": [
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "orchestra",
+          "term": "orchestra",
+          "changedFields": [
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "hitherto",
+          "term": "hitherto",
+          "changedFields": [
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "orchestral",
+          "term": "orchestral",
+          "changedFields": [
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "substitute",
+          "term": "substitute",
+          "changedFields": [
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "instrumentalist",
+          "term": "instrumentalist",
+          "changedFields": [
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "troupe",
+          "term": "troupe",
+          "changedFields": [
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "museum",
+          "term": "museum",
+          "changedFields": [
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "vibrant",
+          "term": "vibrant",
+          "changedFields": [
+            "quote",
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "repertoire",
+          "term": "repertoire",
+          "changedFields": [
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "appointment",
+          "term": "appointment",
+          "changedFields": [
+            "form",
+            "quote",
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "incur",
+          "term": "incur",
+          "changedFields": [
+            "quote",
+            "translation",
+            "note",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "supplemental",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "suspicion",
+          "term": "suspicion",
+          "changedFields": [
+            "quote",
+            "translation",
+            "note",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "supplemental",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "curiosity",
+          "term": "curiosity",
+          "changedFields": [
+            "quote",
+            "translation",
+            "note",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "supplemental",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "modest",
+          "term": "modest",
+          "changedFields": [
+            "quote",
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "supplemental",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "concertgoer",
+          "term": "concertgoer",
+          "changedFields": [
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "expense",
+          "term": "expense",
+          "changedFields": [
+            "quote",
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "supplemental",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "exaggerate",
+          "term": "exaggerate",
+          "changedFields": [
+            "quote",
+            "mark",
+            "translation",
+            "note",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "supplemental",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "overestimate",
+          "term": "overestimate",
+          "changedFields": [
+            "quote",
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "supplemental",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "for-the-most-part",
+          "term": "for the most part",
+          "changedFields": [
+            "translation",
+            "note",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "to-say-the-least",
+          "term": "to say the least",
+          "changedFields": [
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "faint-praise",
+          "term": "faint praise",
+          "changedFields": [
+            "quote",
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "no-substitute-for",
+          "term": "no substitute for",
+          "changedFields": [
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "miss-the-point",
+          "term": "miss the point",
+          "changedFields": [
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        }
+      ]
+    },
+    {
+      "id": "2011-e1-text2",
+      "count": 28,
+      "cards": [
+        {
+          "id": "cloak-vague-excuses",
+          "term": "cloak … in vague excuses",
+          "changedFields": [
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "pursue",
+          "term": "pursue a goal",
+          "changedFields": [
+            "quote",
+            "translation",
+            "clue",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "aspiration",
+          "term": "aspiration",
+          "changedFields": [
+            "term",
+            "form",
+            "translation",
+            "note",
+            "clue",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": true
+        },
+        {
+          "id": "executive",
+          "term": "executive",
+          "changedFields": [
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "scrutinize",
+          "term": "scrutinize",
+          "changedFields": [
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "turbulent",
+          "term": "turbulent",
+          "changedFields": [
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "cautious",
+          "term": "be cautious of",
+          "changedFields": [
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "deputy-chief",
+          "term": "deputy chief",
+          "changedFields": [
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "abound",
+          "term": "abound",
+          "changedFields": [
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "aspiring",
+          "term": "aspiring",
+          "changedFields": [
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "unconventional",
+          "term": "unconventional",
+          "changedFields": [
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "adhere-to",
+          "term": "adhere to the rule",
+          "changedFields": [
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "candidate",
+          "term": "candidate",
+          "changedFields": [
+            "quote",
+            "translation",
+            "clue",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "poach",
+          "term": "poach a candidate",
+          "changedFields": [
+            "quote",
+            "meaning",
+            "translation",
+            "note",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "recruiter",
+          "term": "recruiter",
+          "changedFields": [
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "disgrace-fading",
+          "term": "the disgrace is fading",
+          "changedFields": [
+            "meaning",
+            "translation",
+            "note",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "fundamentally-inverted",
+          "term": "fundamentally inverted",
+          "changedFields": [
+            "quote",
+            "translation",
+            "clue",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "straight-up",
+          "term": "straight up",
+          "changedFields": [
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "frank",
+          "term": "frank",
+          "changedFields": [
+            "quote",
+            "translation",
+            "note",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "supplemental",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "arrogant",
+          "term": "arrogant",
+          "changedFields": [
+            "quote",
+            "translation",
+            "note",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "supplemental",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "impulsive",
+          "term": "impulsive",
+          "changedFields": [
+            "quote",
+            "translation",
+            "note",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "supplemental",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "approve-of",
+          "term": "approve of",
+          "changedFields": [
+            "quote",
+            "mark",
+            "translation",
+            "note",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "supplemental",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "cling-to-post",
+          "term": "cling to one’s post",
+          "changedFields": [
+            "kind",
+            "quote",
+            "translation",
+            "note",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "supplemental",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "out-dated",
+          "term": "out-dated",
+          "changedFields": [
+            "quote",
+            "translation",
+            "note",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "supplemental",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "line-up-position",
+          "term": "line up a position",
+          "changedFields": [
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "get-the-nod",
+          "term": "get the nod",
+          "changedFields": [
+            "quote",
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "jump-without-net",
+          "term": "jump without a net",
+          "changedFields": [
+            "quote",
+            "translation",
+            "clue",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "reflect-on",
+          "term": "reflect on",
+          "changedFields": [
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        }
+      ]
+    },
+    {
+      "id": "2011-e1-text3",
+      "count": 28,
+      "cards": [
+        {
+          "id": "rough-guide",
+          "term": "rough guide",
+          "changedFields": [
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "marketing",
+          "term": "marketing",
+          "changedFields": [
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "commercial-advertisement",
+          "term": "commercial / advertisement",
+          "changedFields": [
+            "meaning",
+            "translation",
+            "note",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "exploit",
+          "term": "exploit",
+          "changedFields": [
+            "translation",
+            "clue",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "alternative",
+          "term": "alternative",
+          "changedFields": [
+            "kind",
+            "quote",
+            "translation",
+            "clue",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "leverage",
+          "term": "leverage",
+          "changedFields": [
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "conventional",
+          "term": "conventional",
+          "changedFields": [
+            "translation",
+            "clue",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "retailer",
+          "term": "retailer",
+          "changedFields": [
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "ecommerce-engine",
+          "term": "e-commerce engine",
+          "changedFields": [
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "infancy",
+          "term": "in its infancy",
+          "changedFields": [
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "complementary",
+          "term": "complementary",
+          "changedFields": [
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "presence",
+          "term": "presence",
+          "changedFields": [
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "campaign",
+          "term": "campaign",
+          "changedFields": [
+            "quote",
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "become-hostage-to",
+          "term": "become hostage to",
+          "changedFields": [
+            "translation",
+            "clue",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "stakeholder",
+          "term": "stakeholder",
+          "changedFields": [
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "allegation",
+          "term": "allegation",
+          "changedFields": [
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "originally",
+          "term": "originally",
+          "changedFields": [
+            "translation",
+            "clue",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "boycott",
+          "term": "boycott",
+          "changedFields": [
+            "translation",
+            "clue",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "steep-learning-curve",
+          "term": "a steep learning curve",
+          "changedFields": [
+            "meaning",
+            "translation",
+            "note",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "alleviate-damage",
+          "term": "alleviate damage",
+          "changedFields": [
+            "quote",
+            "translation",
+            "clue",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "well-orchestrated",
+          "term": "well-orchestrated",
+          "changedFields": [
+            "quote",
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "consumer",
+          "term": "consumer",
+          "changedFields": [
+            "quote",
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "certain",
+          "term": "certain",
+          "changedFields": [
+            "quote",
+            "mark",
+            "meaning",
+            "translation",
+            "note",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "supplemental",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "enthusiastic",
+          "term": "enthusiastic",
+          "changedFields": [
+            "kind",
+            "quote",
+            "translation",
+            "clue",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "supplemental",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "competition",
+          "term": "competition",
+          "changedFields": [
+            "quote",
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "supplemental",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "flexibility",
+          "term": "flexibility",
+          "changedFields": [
+            "quote",
+            "meaning",
+            "translation",
+            "note",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "supplemental",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "constant",
+          "term": "constant",
+          "changedFields": [
+            "quote",
+            "mark",
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "supplemental",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "fierce",
+          "term": "fierce",
+          "changedFields": [
+            "quote",
+            "meaning",
+            "translation",
+            "note",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "supplemental",
+          "pronunciationChanged": false
+        }
+      ]
+    },
+    {
+      "id": "2011-e1-text4",
+      "count": 33,
+      "cards": [
+        {
+          "id": "insightful",
+          "term": "insightful",
+          "changedFields": [
+            "quote",
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "provocative",
+          "term": "provocative",
+          "changedFields": [
+            "quote",
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "chatter",
+          "term": "chatter",
+          "changedFields": [
+            "quote",
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "fulfilling",
+          "term": "fulfilling",
+          "changedFields": [
+            "quote",
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "past-tense-condition",
+          "term": "a past-tense condition",
+          "changedFields": [
+            "quote",
+            "meaning",
+            "translation",
+            "note",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "soul-crushingly-hard",
+          "term": "soul-crushingly hard",
+          "changedFields": [
+            "quote",
+            "meaning",
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "dampen",
+          "term": "dampen",
+          "changedFields": [
+            "quote",
+            "meaning",
+            "translation",
+            "note",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "gratification",
+          "term": "gratification",
+          "changedFields": [
+            "quote",
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "delight",
+          "term": "delight",
+          "changedFields": [
+            "quote",
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "madonna-and-child",
+          "term": "Madonna-and-child image",
+          "changedFields": [
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "newsstand",
+          "term": "newsstand",
+          "changedFields": [
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "persistently",
+          "term": "persistently",
+          "changedFields": [
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "celebrate",
+          "term": "celebrate",
+          "changedFields": [
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "procreation",
+          "term": "procreation",
+          "changedFields": [
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "equivalent-to",
+          "term": "be equivalent to",
+          "changedFields": [
+            "quote",
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "regret",
+          "term": "regret",
+          "changedFields": [
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "provoke",
+          "term": "provoke",
+          "changedFields": [
+            "quote",
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "misery",
+          "term": "misery",
+          "changedFields": [
+            "quote",
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "hugely",
+          "term": "hugely",
+          "changedFields": [
+            "quote",
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "dumb",
+          "term": "dumb",
+          "changedFields": [
+            "quote",
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "glamorous",
+          "term": "glamorous",
+          "changedFields": [
+            "quote",
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "haircut",
+          "term": "haircut",
+          "changedFields": [
+            "quote",
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "subconscious",
+          "term": "subconscious",
+          "changedFields": [
+            "quote",
+            "translation",
+            "note",
+            "clue",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "in-retrospect",
+          "term": "in retrospect",
+          "changedFields": [
+            "quote",
+            "mark",
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "supplemental",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "permanent",
+          "term": "permanent",
+          "changedFields": [
+            "kind",
+            "quote",
+            "translation",
+            "note",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "supplemental",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "gossip",
+          "term": "gossip",
+          "changedFields": [
+            "kind",
+            "quote",
+            "translation",
+            "note",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "supplemental",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "pregnant",
+          "term": "pregnant",
+          "changedFields": [
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "entertaining",
+          "term": "entertaining",
+          "changedFields": [
+            "quote",
+            "translation",
+            "note",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "supplemental",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "folk",
+          "term": "folk / folks",
+          "changedFields": [
+            "quote",
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "be-exposed-to",
+          "term": "be exposed to",
+          "changedFields": [
+            "quote",
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "supplemental",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "compensatory",
+          "term": "compensatory",
+          "changedFields": [
+            "quote",
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "supplemental",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "intensify",
+          "term": "intensify",
+          "changedFields": [
+            "quote",
+            "mark",
+            "translation",
+            "note",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "supplemental",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "highly-valued",
+          "term": "be highly valued",
+          "changedFields": [
+            "kind",
+            "quote",
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "supplemental",
+          "pronunciationChanged": false
+        }
+      ]
+    },
+    {
+      "id": "2012-e1-text1",
+      "count": 44,
+      "cards": [
+        {
+          "id": "peer-pressure",
+          "term": "peer pressure",
+          "changedFields": [
+            "translation",
+            "clue",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "social-cure",
+          "term": "social cure",
+          "changedFields": [
+            "quote",
+            "translation",
+            "clue",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "whispered",
+          "term": "whispered",
+          "changedFields": [
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "recipient",
+          "term": "recipient",
+          "changedFields": [
+            "quote",
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "state-sponsored-antismoking",
+          "term": "state-sponsored antismoking",
+          "changedFields": [
+            "quote",
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "cigarette",
+          "term": "cigarette",
+          "changedFields": [
+            "term",
+            "quote",
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": true
+        },
+        {
+          "id": "recruit",
+          "term": "recruit",
+          "changedFields": [
+            "quote",
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "perceptive",
+          "term": "perceptive",
+          "changedFields": [
+            "translation",
+            "clue",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "critique",
+          "term": "critique",
+          "changedFields": [
+            "quote",
+            "translation",
+            "clue",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "lameness",
+          "term": "lameness",
+          "changedFields": [
+            "quote",
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "spot-on",
+          "term": "spot-on",
+          "changedFields": [
+            "quote",
+            "translation",
+            "clue",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "mobilize",
+          "term": "mobilize",
+          "changedFields": [
+            "quote",
+            "translation",
+            "clue",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "flawed",
+          "term": "flawed",
+          "changedFields": [
+            "quote",
+            "translation",
+            "clue",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "billboard",
+          "term": "billboard",
+          "changedFields": [
+            "quote",
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "convincingly",
+          "term": "convincingly",
+          "changedFields": [
+            "quote",
+            "translation",
+            "clue",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "ought-to",
+          "term": "ought to",
+          "changedFields": [
+            "quote",
+            "translation",
+            "clue",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "take-a-page-from",
+          "term": "take a page from",
+          "changedFields": [
+            "kind",
+            "quote",
+            "translation",
+            "clue",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "fit-in",
+          "term": "fit in",
+          "changedFields": [
+            "quote",
+            "translation",
+            "clue",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "persuasive",
+          "term": "persuasive",
+          "changedFields": [
+            "mark",
+            "meaning",
+            "translation",
+            "note",
+            "clue",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "irrelevant",
+          "term": "irrelevant",
+          "changedFields": [
+            "quote",
+            "translation",
+            "clue",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "adequately-probe",
+          "term": "adequately probe",
+          "changedFields": [
+            "kind",
+            "quote",
+            "translation",
+            "note",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "supplemental",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "evade",
+          "term": "evade",
+          "changedFields": [
+            "quote",
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "supplemental",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "glaring-flaw",
+          "term": "glaring flaw",
+          "changedFields": [
+            "translation",
+            "clue",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "exert-enormous-influence",
+          "term": "exert enormous influence",
+          "changedFields": [
+            "translation",
+            "clue",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "subtle",
+          "term": "subtle",
+          "changedFields": [
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "imitate",
+          "term": "imitate",
+          "changedFields": [
+            "quote",
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "imitation",
+          "term": "imitation",
+          "changedFields": [
+            "quote",
+            "mark",
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "supplemental",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "certain",
+          "term": "certain",
+          "changedFields": [
+            "mark",
+            "meaning",
+            "translation",
+            "note",
+            "clue",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "bureaucrat",
+          "term": "bureaucrat",
+          "changedFields": [
+            "term",
+            "form",
+            "quote",
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": true
+        },
+        {
+          "id": "virtuous",
+          "term": "virtuous",
+          "changedFields": [
+            "quote",
+            "translation",
+            "note",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "troublemaker",
+          "term": "troublemaker",
+          "changedFields": [
+            "term",
+            "form",
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": true
+        },
+        {
+          "id": "pair-with",
+          "term": "pair A with B",
+          "changedFields": [
+            "term",
+            "quote",
+            "translation",
+            "note",
+            "quoteType",
+            "exampleType",
+            "spokenText",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": true
+        },
+        {
+          "id": "tactic",
+          "term": "tactic",
+          "changedFields": [
+            "translation",
+            "clue",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "insist-on",
+          "term": "insist on",
+          "changedFields": [
+            "quote",
+            "translation",
+            "clue",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "emerge-as",
+          "term": "emerge as",
+          "changedFields": [
+            "quote",
+            "mark",
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "supplemental",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "stimulus",
+          "term": "stimulus",
+          "changedFields": [
+            "quote",
+            "translation",
+            "note",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "supplemental",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "group-dynamics",
+          "term": "group dynamics",
+          "changedFields": [
+            "quote",
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "obstacle",
+          "term": "obstacle",
+          "changedFields": [
+            "quote",
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "supplemental",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "undesirable",
+          "term": "undesirable",
+          "changedFields": [
+            "quote",
+            "translation",
+            "clue",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "supplemental",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "advocate",
+          "term": "advocate",
+          "changedFields": [
+            "term",
+            "form",
+            "quote",
+            "translation",
+            "clue",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "original",
+          "pronunciationChanged": true
+        },
+        {
+          "id": "commercial",
+          "term": "commercial advertisers",
+          "changedFields": [
+            "quote",
+            "mark",
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "supplemental",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "desirable",
+          "term": "desirable",
+          "changedFields": [
+            "quote",
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "supplemental",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "profound",
+          "term": "profound",
+          "changedFields": [
+            "kind",
+            "quote",
+            "translation",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "supplemental",
+          "pronunciationChanged": false
+        },
+        {
+          "id": "questionable",
+          "term": "questionable",
+          "changedFields": [
+            "kind",
+            "quote",
+            "translation",
+            "clue",
+            "quoteType",
+            "exampleType",
+            "collocation",
+            "collocationMeaning"
+          ],
+          "exampleType": "supplemental",
+          "pronunciationChanged": false
+        }
+      ]
+    }
+  ],
+  "totalCards": 192,
+  "idChanges": 0,
+  "bookReferenceChanges": 0,
+  "pronunciationChanges": 6,
+  "supplementalExamples": 48,
+  "originalExamples": 144
+}

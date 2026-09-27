@@ -159,7 +159,10 @@
     $('kind').textContent = c.kind; $('location').textContent = c.loc;
     $('word').textContent = c.term; $('word').classList.toggle('long', c.term.length > 22);
     $('form').textContent = c.form;
-    $('quoteType').textContent = c.quoteType + (c.clue ? ' · 已标注的答案线索' : '');
+    $('quoteType').textContent = c.quoteType;
+    $('collocationBlock').hidden = !(c.collocation && c.collocationMeaning);
+    $('collocation').textContent = c.collocation || '';
+    $('collocationMeaning').textContent = c.collocationMeaning || '';
     const pos = c.quote.indexOf(c.mark);
     $('quote').innerHTML = pos < 0 ? esc(c.quote) : esc(c.quote.slice(0, pos)) + '<mark>' + esc(c.mark) + '</mark>' + esc(c.quote.slice(pos + c.mark.length));
     $('quote').classList.toggle('clue', c.clue); $('quoteBlock').hidden = !state.showContext;
@@ -221,7 +224,7 @@
     $('speak').title = '在线英语发音优先；不可用时自动尝试本机语音';
   }
   function pronunciationText(card) {
-    return card.term.replace(/…/g,' something ').replace(/\s*\/\s*/g, ', ').trim();
+    return (card.spokenText || card.term).replace(/…/g,' something ').replace(/\s*\/\s*/g, ', ').trim();
   }
   function speakLocal(text) {
     if (!('speechSynthesis' in window) || typeof SpeechSynthesisUtterance === 'undefined') {

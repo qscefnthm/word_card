@@ -32,3 +32,15 @@
 4. Use project-relative asset paths to work under `/word_card/`.
 5. Commits, Pages enablement, deployment success, and live HTTP verification are separate states. Report only what is verified.
 6. Never bypass connector safety blocks. If writes are blocked, leave the remote untouched and provide the prepared source and exact blocker.
+
+## Content audit guard (2026-09-27)
+
+- `meaning` describes the displayed `term`. Do not silently include a negation, comparison, subject or object found only in the example.
+- Keep the example's exact phrase in `collocation` and translate that phrase separately in `collocationMeaning`.
+- Every `quote` must be a complete example sentence, not a standalone option, headword or unfinished question stem.
+- Preserve negation, conditions, attribution and scope. Do not turn uncertainty or a rejected claim into an asserted fact by clipping its context.
+- `exampleType: original` uses `quoteType: 真题正文原句` only for a complete sentence checked against the supplied reading. Newly written examples use `exampleType: supplemental` and `quoteType: 补充例句（助手编写，非真题原句）`; they cannot be marked as original answer evidence.
+- Both card views must show example provenance and distinguish headword meaning from phrase meaning.
+- Preserve stable IDs and source-book records during repairs. Shared IDs must have agreeing headword meanings.
+- Regenerate pronunciation after any headword or `spokenText` change. Audio `terms` and `spokenTexts` must match the card.
+- Run `python3 tools/validate.py`, including `check_card_content.py`, plus syntax checks for both page scripts. Mechanical checks do not replace source/content review.

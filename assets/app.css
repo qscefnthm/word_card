@@ -12,3 +12,11 @@
 @media(max-width:520px){.deckbar{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px}.deckbar label{grid-column:1/-1}.deckbar select{min-width:0;width:100%;font-size:13px;padding-right:20px}.deckbar .edition{grid-column:1/-1}.deckbar .update-btn{font-size:12px}.intro{padding-top:18px}}
 
 .top-link{color:var(--muted);text-decoration:none;border:1px solid transparent;border-radius:12px;min-height:44px;padding:8px 12px;display:inline-flex;align-items:center;justify-content:center;gap:7px;font-size:13px;transition:background .15s,border-color .15s}.top-link:hover{background:var(--subtle);border-color:var(--dim)}.top-link:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
+
+/* Keep the headword meaning separate from the meaning of a longer phrase. */
+.usage-pair{border:1px solid var(--line);border-radius:12px;background:var(--panel);padding:12px 14px;margin:0 0 20px;overflow-wrap:anywhere}
+.usage-pair .usage-en{font:18px/1.55 Georgia,"Times New Roman",serif;color:var(--ink);margin:0 0 5px}
+.usage-pair .usage-zh{font-size:13px;line-height:1.7;color:var(--muted);margin:0}
+.usage-pair .micro-label,.usage-pair .overview-label{color:var(--dim)}
+.quick-usage{font-size:12px;color:var(--muted);margin-top:6px;line-height:1.6;overflow-wrap:anywhere}
+.overview-quote,.overview-translation{overflow-wrap:anywhere;text-decoration:none}

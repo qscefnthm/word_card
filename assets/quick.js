@@ -89,7 +89,7 @@
       || null;
   }
   function pronunciationText(card) {
-    return card.term.replace(/…/g, ' something ').replace(/\s*\/\s*/g, ', ').trim();
+    return (card.spokenText || card.term).replace(/…/g, ' something ').replace(/\s*\/\s*/g, ', ').trim();
   }
   function speakLocal(text, button) {
     if (!('speechSynthesis' in window) || typeof SpeechSynthesisUtterance === 'undefined') {
@@ -188,6 +188,10 @@
     $('cardTerm').textContent = c.term;
     $('cardForm').textContent = c.form;
     $('cardMeaning').textContent = c.meaning;
+    $('cardQuoteType').textContent = c.quoteType;
+    $('cardCollocationBlock').hidden = !(c.collocation && c.collocationMeaning);
+    $('cardCollocation').textContent = c.collocation || '';
+    $('cardCollocationMeaning').textContent = c.collocationMeaning || '';
     $('cardQuote').innerHTML = highlightedQuote(c);
     $('cardTranslation').textContent = c.translation;
     $('cardNote').textContent = c.note;
@@ -204,7 +208,8 @@
           '<svg viewBox="0 0 24 24"><path d="M11 4 5 9H2v6h3l6 5Z"></path><path d="M15 8a6 6 0 0 1 0 8M18 5a10 10 0 0 1 0 14"></path></svg>' +
         '</button>' +
         '<div class="quick-en"><div class="quick-term" lang="en">' + esc(c.term) + '</div><div class="quick-form">' + esc(c.form) + '</div></div>' +
-        '<div class="quick-zh">' + esc(c.meaning) + '</div>' +
+        '<div class="quick-zh">' + esc(c.meaning) +
+          (c.collocation && c.collocationMeaning ? '<div class="quick-usage"><span lang="en">' + esc(c.collocation) + '</span> — ' + esc(c.collocationMeaning) + '</div>' : '') + '</div>' +
         (c.core ? '<span class="quick-core">核心</span>' : '<span></span>') +
       '</article>'
     ).join('') : '<div class="quick-empty">没有匹配的词，换个关键词试试。</div>';

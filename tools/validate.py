@@ -63,8 +63,11 @@ def main():
                 require(shared_terms[ident] == card['term'], 'A shared ID must identify the same term/sense: ' + ident)
             shared_terms[ident] = card['term']
         total += len(cards)
+    from check_card_content import check_content
+    check_content(ROOT)
     parser = ResourceParser()
-    parser.feed((ROOT / 'index.html').read_text(encoding='utf-8'))
+    for filename in ('index.html', 'quick.html'):
+        parser.feed((ROOT / filename).read_text(encoding='utf-8'))
     for path in parser.resources:
         require(path.startswith('./'), 'Resources must be local and project-relative: ' + path)
         require((ROOT / path.split('?')[0]).is_file(), 'Missing static resource: ' + path)
