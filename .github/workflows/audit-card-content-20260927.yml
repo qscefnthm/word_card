@@ -1,0 +1,77 @@
+name: Apply reviewed card-content audit
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - tools/apply_card_audit_20260927.py
+      - tools/apply_card_audit_ui_20260927.py
+      - .github/workflows/audit-card-content-20260927.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: word-card-content-audit-20260927
+  cancel-in-progress: false
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Check whether the reviewed revision is already installed
+        id: pending
+        run: |
+          if [ -f docs/content-audit-20260927.json ]; then
+            echo 'needed=false' >> "$GITHUB_OUTPUT"
+          else
+            echo 'needed=true' >> "$GITHUB_OUTPUT"
+          fi
+      - name: Apply source-checked data and UI changes
+        if: steps.pending.outputs.needed == 'true'
+        run: |
+          python3 tools/apply_card_audit_20260927.py --apply
+          python3 tools/apply_card_audit_ui_20260927.py
+      - name: Install the existing pronunciation tools
+        if: steps.pending.outputs.needed == 'true'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y espeak ffmpeg
+      - name: Regenerate pronunciation and validate the complete site
+        if: steps.pending.outputs.needed == 'true'
+        run: |
+          python3 tools/generate_audio.py
+          python3 tools/validate.py
+          node --check assets/app.js
+          node --check assets/quick.js
+          python3 - <<'PY'
+          import json, subprocess
+          from pathlib import Path
+          catalog=json.loads(Path('data/catalog.json').read_text())
+          count=0
+          for entry in catalog['decks']:
+              old=json.loads(subprocess.check_output(['git','show','HEAD:'+entry['file']]))
+              new=json.loads(Path(entry['file']).read_text())
+              assert [c['id'] for c in old['cards']]==[c['id'] for c in new['cards']]
+              for a,b in zip(old['cards'],new['cards']):
+                  assert a['book']==b['book']
+                  count+=1
+          assert count==192
+          print('PASS: all 192 stable card IDs and original book references preserved.')
+          PY
+      - name: Publish only the audited paths without a force push
+        if: steps.pending.outputs.needed == 'true'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/decks data/catalog.json data/audio docs/content-audit-20260927.json
+          git add index.html quick.html assets/app.js assets/quick.js assets/app.css
+          git add tools/generate_audio.py tools/validate.py AGENTS.md .nojekyll
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Repair all 192 cards: complete examples, accurate meanings and separate collocations'
+          git push origin HEAD:main
