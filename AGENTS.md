@@ -44,3 +44,9 @@
 - Preserve stable IDs and source-book records during repairs. Shared IDs must have agreeing headword meanings.
 - Regenerate pronunciation after any headword or `spokenText` change. Audio `terms` and `spokenTexts` must match the card.
 - Run `python3 tools/validate.py`, including `check_card_content.py`, plus syntax checks for both page scripts. Mechanical checks do not replace source/content review.
+
+## Required update workflow
+
+Before adding, supplementing, correcting, or publishing vocabulary cards, read and follow [WORD_CARD_UPDATE_WORKFLOW.md](WORD_CARD_UPDATE_WORKFLOW.md). This is the canonical end-to-end maintenance workflow: source review, headword/phrase/example alignment, book references, stable IDs and progress, audio, validation, and deployment evidence.
+
+Do not silently change its content standards or teaching approach. Changes to the workflow require the user's explicit request or approval. A routine vocabulary update must not rewrite this workflow.
