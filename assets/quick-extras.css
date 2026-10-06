@@ -1,0 +1,26 @@
+/* English recall is an opt-in section of list view, not a replacement for review. */
+.quick-shell [hidden]{display:none!important}
+.list-mode-switch{display:flex;gap:8px;margin:0 0 14px;flex-wrap:wrap}
+.list-mode-switch button{background:var(--panel);font-size:13px;border-radius:12px;min-height:44px;padding:9px 15px}
+.list-mode-switch button[aria-pressed="true"]{background:var(--soft);border-color:var(--accent);color:var(--ink)}
+.recall-tools{display:flex;justify-content:space-between;align-items:center;gap:18px;padding:18px 20px;margin-bottom:16px;border:1px solid var(--line);border-radius:16px;background:var(--panel)}
+.recall-tools strong{font-size:16px;color:var(--ink)}
+.recall-tools p{font-size:12px;line-height:1.75;color:var(--muted);margin:5px 0 0}
+.recall-tools #recallStorage{font-size:11px;color:var(--dim)}
+.recall-tools button{flex-shrink:0}
+.quick-row.recall-row{grid-template-columns:40px minmax(150px,.85fr) minmax(170px,1.15fr) auto;align-items:start;gap:14px}
+.recall-row .quick-term{padding-top:6px}
+.recall-label{display:block;font-size:11px;color:var(--dim);line-height:1.6;margin-bottom:5px}
+.recall-writing{min-width:0}
+.recall-writing textarea{display:block;width:100%;min-height:70px;box-sizing:border-box;background:var(--panel);color:var(--ink);border:1px solid var(--line);border-radius:10px;padding:10px 12px;font:inherit;font-size:15px;line-height:1.6;resize:vertical;overflow-wrap:anywhere}
+.recall-writing textarea::placeholder{color:var(--dim);font-size:12px}
+.recall-writing textarea:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.recall-reveal{min-height:44px;margin-top:21px;white-space:nowrap}
+.recall-answer{grid-column:2/-1;padding:12px 14px;background:var(--panel);border:1px solid var(--line);border-radius:12px;font-size:15px;line-height:1.7;color:var(--ink);overflow-wrap:anywhere}
+.recall-answer .quick-usage{margin-top:12px}
+.next-deck{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:20px 22px;margin-top:22px;border:1px solid var(--line);border-radius:18px;background:var(--card)}
+.next-deck strong{font-size:16px;line-height:1.5;overflow-wrap:anywhere}
+.next-deck p{font-size:12px;color:var(--muted);line-height:1.7;margin:6px 0 0}
+.next-deck button{flex-shrink:0;min-height:46px;min-width:126px}
+.quick-build{text-align:center;font-size:10px;color:var(--dim);margin:16px 0 0}
+@media(max-width:760px){.recall-tools{display:block;padding:16px}.recall-tools button{margin-top:12px;width:100%}.list-mode-switch{flex-wrap:nowrap}.list-mode-switch button{flex:1;padding:9px 10px}.quick-row.recall-row{grid-template-columns:40px minmax(0,1fr);gap:10px}.recall-writing{grid-column:2/-1}.recall-reveal{grid-column:2/-1;margin-top:0;justify-self:start}.recall-answer{grid-column:1/-1}.recall-writing textarea{font-size:16px}.next-deck{display:block;padding:18px}.next-deck button{margin-top:14px;width:100%}}

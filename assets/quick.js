@@ -3,6 +3,8 @@
   const $ = id => document.getElementById(id);
   const KEY = 'word-card-site-v2';
   const QUICK_KEY = 'word-card-quick-v1';
+  const extras = window.WordCardQuickExtras;
+  let loading = false;
   let catalog = null, deck = null, cards = [], filtered = [];
   let filter = 'all', view = 'cards', index = 0;
   let voice = null, toastTimer = null, audioPlayer = null, audioBundle = null, audioUrls = new Map();
@@ -28,7 +30,11 @@
   function readQuickState() {
     try {
       const raw = JSON.parse(localStorage.getItem(QUICK_KEY) || 'null');
-      return raw && raw.version === 1 ? raw : {version:1, view:'cards', filter:'all', indices:{}};
+      if (raw && raw.version === 1) {
+        if (!raw.indices || typeof raw.indices !== 'object' || Array.isArray(raw.indices)) raw.indices = {};
+        return raw;
+      }
+      return {version:1, view:'cards', filter:'all', indices:{}};
     } catch (_) {
       return {version:1, view:'cards', filter:'all', indices:{}};
     }
@@ -43,7 +49,7 @@
     try {
       quickState.filter = filter;
       quickState.view = view;
-      if (deck) quickState.indices[deck.id + ':' + filter] = index;
+      if (deck && view === 'cards' && !$('searchInput').value.trim()) quickState.indices[deck.id + ':' + filter] = index;
       localStorage.setItem(QUICK_KEY, JSON.stringify(quickState));
     } catch (_) {}
   }
@@ -150,7 +156,7 @@
     const q = $('searchInput').value.trim().toLowerCase();
     return cards.filter(c =>
       (filter === 'all' || c.core) &&
-      (!q || [c.term,c.form,c.meaning,c.translation,c.note,...c.book.map(b => b.word)].join(' ').toLowerCase().includes(q))
+      (!q || (extras.isRecall(view) ? c.term : [c.term,c.form,c.meaning,c.translation,c.note,...c.book.map(b => b.word)].join(' ')).toLowerCase().includes(q))
     );
   }
   function highlightedQuote(card) {
@@ -170,7 +176,6 @@
     const hasCards = filtered.length > 0;
     $('quickDone').hidden = true;
     $('overviewCard').hidden = !hasCards;
-    $('.overview-nav');
     $('prevCard').hidden = !hasCards;
     $('nextCard').hidden = !hasCards;
     $('cardPosition').textContent = hasCards ? String(index + 1).padStart(2,'0') + ' / ' + String(filtered.length).padStart(2,'0') : '0 / 0';
@@ -202,6 +207,7 @@
   }
   function renderList() {
     $('listCount').textContent = '显示 ' + filtered.length + ' / ' + cards.length + ' 张 · ' + (filter === 'core' ? '核心' : '全部');
+    if (extras.isRecall(view)) return;
     $('quickList').innerHTML = filtered.length ? filtered.map(c =>
       '<article class="quick-row">' +
         '<button class="quick-speak" data-speak="' + esc(c.id) + '" aria-label="朗读 ' + esc(c.term) + '" title="播放发音">' +
@@ -224,6 +230,10 @@
     $('listView').hidden = view !== 'list';
     renderCard();
     renderList();
+    renderExtras();
+  }
+  function renderExtras() {
+    if (deck && catalog) extras.render({deck, catalog, filtered, view, atEnd:filtered.length > 0 && index === filtered.length - 1});
   }
   function move(delta) {
     if (!filtered.length) return;
@@ -236,6 +246,7 @@
     cancelSpeech();
     index = next;
     renderCard();
+    renderExtras();
   }
   function showDone() {
     cancelSpeech();
@@ -248,6 +259,7 @@
     $('doneTitle').textContent = filter === 'core' ? '核心词，已经速览完了。' : '这一篇，已经速览完了。';
     $('doneMessage').textContent = '这轮看过 ' + filtered.length + ' 张中英对照。现在回正式词卡做主动回忆，会容易很多。';
     $('goFlashcards').href = './index.html?deck=' + encodeURIComponent(deck.id);
+    renderExtras();
   }
   function restart() {
     index = 0;
@@ -256,41 +268,50 @@
     $('prevCard').hidden = false;
     $('nextCard').hidden = false;
     renderCard();
+    renderExtras();
   }
   function setFilter(next) {
+    cancelSpeech();
     filter = next === 'core' ? 'core' : 'all';
-    index = 0;
-    quickState.indices[deck.id + ':' + filter] = 0;
+    index = view === 'list' ? (quickState.indices[deck.id + ':' + filter] || 0) : 0;
+    if (view === 'cards') quickState.indices[deck.id + ':' + filter] = index;
     saveQuickState();
     render();
   }
   function setView(next) {
+    cancelSpeech();
     view = next === 'list' ? 'list' : 'cards';
+    if (view === 'cards' && !$('searchInput').value.trim()) index = quickState.indices[deck.id + ':' + filter] || 0;
     saveQuickState();
     render();
   }
-  async function load(id) {
+  async function load(id, scrollToTop = false) {
+    if (loading) return false;
+    loading = true;
     cancelSpeech();
-    clearAudioBundle();
     $('loadingBox').hidden = false;
+    $('retryQuickLoad').hidden = true;
     $('quickWorkspace').hidden = true;
     $('loadingMessage').textContent = '正在读取篇目词库…';
     $('deckSelect').disabled = true;
     $('searchInput').disabled = true;
     document.querySelectorAll('[data-filter],[data-view]').forEach(b => b.disabled = true);
     try {
-      catalog = await fetchJSON('./data/catalog.json');
-      const entry = catalog.decks.find(d => d.id === id) || catalog.decks.find(d => d.id === catalog.defaultDeck);
-      deck = await fetchJSON('./' + entry.file);
-      cards = deck.cards;
+      const nextCatalog = await fetchJSON('./data/catalog.json');
+      const entry = nextCatalog.decks.find(d => d.id === id) || nextCatalog.decks.find(d => d.id === nextCatalog.defaultDeck);
+      if (!entry) throw new Error('词库目录没有可读取的篇目。');
+      const nextDeck = await fetchJSON('./' + entry.file);
+      if (nextDeck.id !== entry.id || !Array.isArray(nextDeck.cards)) throw new Error('篇目数据不完整，请重试。');
+      let nextAudio = null;
       try {
         const audioData = await fetchJSON('./data/audio/' + entry.id + '.json');
-        if (audioData && audioData.schemaVersion === 1 && audioData.deckId === entry.id && audioData.codec === 'audio/mpeg' && audioData.audio) {
-          audioBundle = audioData.audio;
-        }
-      } catch (_) {
-        audioBundle = null;
-      }
+        if (audioData && audioData.schemaVersion === 1 && audioData.deckId === entry.id && audioData.codec === 'audio/mpeg' && audioData.audio) nextAudio = audioData.audio;
+      } catch (_) { /* The existing fallback remains available when a bundle is unavailable. */ }
+      clearAudioBundle();
+      catalog = nextCatalog;
+      deck = nextDeck;
+      cards = deck.cards;
+      audioBundle = nextAudio;
       $('deckSelect').innerHTML = catalog.decks.map(d => '<option value="' + esc(d.id) + '">' + esc(d.title) + ' · ' + d.count + ' 张</option>').join('');
       $('deckSelect').value = deck.id;
       $('edition').textContent = '词库版本 ' + catalog.version;
@@ -298,22 +319,42 @@
       $('coreCount').textContent = cards.filter(c => c.core).length + ' 张';
       $('searchInput').value = '';
       index = Number.isInteger(quickState.indices[deck.id + ':' + filter]) ? quickState.indices[deck.id + ':' + filter] : 0;
-      $('deckSelect').disabled = false;
-      $('searchInput').disabled = false;
-      document.querySelectorAll('[data-filter],[data-view]').forEach(b => b.disabled = false);
       $('loadingBox').hidden = true;
       $('quickWorkspace').hidden = false;
       writePrefs({deckId: deck.id});
       history.replaceState(null, '', './quick.html?deck=' + encodeURIComponent(deck.id));
       document.title = '中英速览 · ' + deck.title;
       render();
+      if (scrollToTop) window.scrollTo(0, 0);
+      return true;
     } catch (err) {
-      $('loadingMessage').textContent = (err && err.message) || '词库读取失败，请稍后重试。';
+      const message = (err && err.message) || '词库读取失败，请稍后重试。';
+      if (deck) {
+        $('loadingBox').hidden = true;
+        $('quickWorkspace').hidden = false;
+        $('deckSelect').value = deck.id;
+        toast('未能切换篇目，已保留当前内容。' + message);
+      } else {
+        $('loadingMessage').textContent = message;
+        $('retryQuickLoad').hidden = false;
+      }
+      return false;
+    } finally {
+      loading = false;
+      $('deckSelect').disabled = !deck;
+      $('searchInput').disabled = !deck;
+      document.querySelectorAll('[data-filter],[data-view]').forEach(b => b.disabled = !deck);
     }
   }
 
+  extras.setup({
+    modeChanged: () => { cancelSpeech(); $('searchInput').value = ''; render(); },
+    nextDeck: id => load(id, true)
+  });
+  $('retryQuickLoad').addEventListener('click', () => load(requestedDeck()));
+
   $('deckSelect').addEventListener('change', e => load(e.target.value));
-  $('searchInput').addEventListener('input', () => { index = 0; rebuildFiltered(true); });
+  $('searchInput').addEventListener('input', () => { cancelSpeech(); index = 0; rebuildFiltered(true); });
   document.querySelectorAll('[data-filter]').forEach(b => b.addEventListener('click', () => setFilter(b.dataset.filter)));
   document.querySelectorAll('[data-view]').forEach(b => b.addEventListener('click', () => setView(b.dataset.view)));
   $('quickList').addEventListener('click', e => {
@@ -337,7 +378,7 @@
     move(dx < 0 ? 1 : -1);
   }, {passive:true});
   document.addEventListener('keydown', e => {
-    if (view !== 'cards' || e.target.matches('input,select,textarea') || e.ctrlKey || e.metaKey || e.altKey) return;
+    if (loading || view !== 'cards' || e.isComposing || e.target.matches('input,select,textarea') || e.ctrlKey || e.metaKey || e.altKey) return;
     if (e.key === 'ArrowRight') { e.preventDefault(); move(1); }
     if (e.key === 'ArrowLeft') { e.preventDefault(); move(-1); }
   });

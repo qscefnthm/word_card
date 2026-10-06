@@ -8,6 +8,7 @@
 <title>中英速览 · 晚安词卡</title>
 <link href="./assets/app.css?v=20260927-audit" rel="stylesheet"/>
 <link href="./assets/quick.css?v=20260927-audit" rel="stylesheet"/>
+<link href="./assets/quick-extras.css?v=20261006-quick1" rel="stylesheet"/>
 <meta content="noindex, nofollow" name="robots"/>
 <meta content="#101917" name="theme-color"/>
 <meta content="no-referrer" name="referrer"/>
@@ -30,7 +31,7 @@
 <section class="intro quick-intro">
 <div class="eyebrow">中英速览</div>
 <h1>先看懂，再去回忆。</h1>
-<p>英文、中文和真题语境直接一起看。适合阅读做完后的 5–20 分钟快速过词，不会改动正式词卡的熟悉度。</p>
+<p>英文、中文和真题语境直接一起看。适合阅读做完后的 5–20 分钟快速过词，列表可切换英文回忆，先默写中文再核对；不会改动正式词卡的熟悉度。</p>
 </section>
 
 <div class="deckbar">
@@ -54,7 +55,7 @@
 <input aria-label="搜索中英文" class="search quick-search" disabled id="searchInput" placeholder="搜英文或中文，例如 persuasive / 有说服力" type="search"/>
 </div>
 
-<div class="loadingbox" id="loadingBox" role="status"><span id="loadingMessage">正在读取篇目词库…</span></div>
+<div class="loadingbox" id="loadingBox" role="status"><span id="loadingMessage">正在读取篇目词库…</span><button id="retryQuickLoad" hidden>重试读取</button></div>
 
 <main hidden id="quickWorkspace">
 <section id="cardView">
@@ -112,15 +113,29 @@
 </section>
 
 <section hidden id="listView">
-<div class="quick-summary"><span id="listCount"></span><span>点喇叭即可听英文发音</span></div>
+<div class="list-mode-switch" role="group" aria-label="列表学习方式">
+<button data-list-mode="bilingual" aria-pressed="true">中英对照</button>
+<button data-list-mode="english" aria-pressed="false">英文回忆 · 默写中文</button>
+</div>
+<div class="recall-tools" id="recallTools" hidden>
+<div><strong>看英文，回想中文。</strong><p>不显示中文提示；可在下方默写或写在纸上，写完再核对。按意思自行判断，不自动打分。</p><p id="recallStorage"></p></div>
+<button class="quiet" id="toggleRecallAnswers">展开全部释义</button>
+</div>
+<div class="quick-summary"><span id="listCount"></span><span id="listHint">点喇叭即可听英文发音</span></div>
 <section class="quick-list" id="quickList" aria-live="polite"></section>
 </section>
 
+<section class="next-deck" id="nextDeckSection" hidden aria-label="切换下一篇">
+<div><strong id="nextDeckTitle"></strong><p id="nextDeckHint"></p></div>
+<button class="primary" id="nextDeckButton" disabled>下一篇 →</button>
+</section>
+<p class="quick-build">速览界面 2026-10-06.1</p>
 <p class="quick-foot">建议：时间少时先“只看核心”翻一遍；有余量再看“本篇全部”，最后回正式词卡做主动回忆。</p>
 </main>
 </div>
 <div class="toast" hidden id="toast" role="status"></div>
 <noscript><div class="noscript">中英速览需要 JavaScript。请通过网站地址访问。</div></noscript>
-<script defer src="./assets/quick.js?v=20260927-audit"></script>
+<script defer src="./assets/quick-extras.js?v=20261006-quick1"></script>
+<script defer src="./assets/quick.js?v=20261006-quick1"></script>
 </body>
 </html>
