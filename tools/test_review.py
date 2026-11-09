@@ -47,7 +47,7 @@ try:
         ok('Source filter '+kind,page.locator('.review-item').count()==len(expected))
     page.fill('#reviewSearch',items[0]['term'].upper());ok('Case-insensitive English search',page.locator('.review-item').count()==sum(items[0]['term'].lower() in x['term'].lower() for x in items))
     page.fill('#reviewSearch','__no_such_term__');ok('Empty-search explanation',page.locator('#reviewEmpty').is_visible());page.fill('#reviewSearch','')
-    page.locator('[data-reveal]').first.click();ok('Reveal contextual meaning and original book definition',items[0]['context_meaning'] in page.locator('.review-answer').first.inner_text() and items[0]['book'][0]['original_meaning'] in page.locator('.review-answer').first.inner_text())
+    page.locator('[data-reveal]').first.click();ok('Reveal contextual meaning and original book definition',items[0]['context_meaning'] in page.locator('.review-answer').first.inner_text() and items[0]['book'][0]['original_meaning'] in page.locator('.review-answer').first.text_content() and page.locator('.review-answer').first.is_visible())
     page.locator('[data-rate=unknown]').first.click();rk=data['id']+'/'+items[0]['id'];ok('Rating saved natively',store(page)['ratings'][rk]['status']=='unknown');untouched(page)
     page.click('#reviewHideAll');ok('Hide all conceals answers',page.locator('.review-answer:visible').count()==0)
     page.select_option('#reviewStatus','hard');ok('Hard filter',page.locator('.review-item').count()==1)
