@@ -17,7 +17,7 @@ def untouched(page):
 def store(page):return page.evaluate('(k)=>JSON.parse(localStorage.getItem(k))',KEY)
 def upload(page,payload):
     page.locator('#reviewImportInput').set_input_files({'name':'synthetic.json','mimeType':'application/json','buffer':(payload if isinstance(payload,str) else json.dumps(payload)).encode()})
-    page.wait_for_timeout(150)
+    expect(page.locator('#reviewImportInput')).to_have_value('')
 class Quiet(http.server.SimpleHTTPRequestHandler):
     def log_message(self,*args):pass
 server=http.server.ThreadingHTTPServer(('127.0.0.1',0),functools.partial(Quiet,directory=str(R)))
@@ -30,7 +30,7 @@ try:
     context=browser.new_context(viewport={'width':1440,'height':1000},accept_downloads=True)
     page=context.new_page();page.on('pageerror',lambda e:errors.append(str(e)))
     page.goto(BASE+'/');page.evaluate('(values)=>{for(const [k,v] of Object.entries(values))localStorage.setItem(k,v)}',OLD);page.reload()
-    ok('Home keeps legacy collapsed and never loads old app',not page.locator('#legacy').get_attribute('open') and page.locator('script[src*="assets/app.js"]').count()==0)
+    ok('Home keeps legacy collapsed and never loads old app',page.locator('#legacy').get_attribute('open') is None and page.locator('script[src*="assets/app.js"]').count()==0)
     untouched(page);page.screenshot(path=str(O/'desktop-home.png'),full_page=True)
     page.goto(BASE+'/review.html');page.wait_for_selector('#reviewWorkspace:visible')
     ok('Real dataset count loaded',page.locator('.review-item').count()==len(items))
@@ -70,6 +70,12 @@ try:
     before=page.evaluate('(k)=>localStorage.getItem(k)',KEY);page.once('dialog',lambda d:d.dismiss());page.click('#reviewReset');ok('Cancelled reset preserves bytes',page.evaluate('(k)=>localStorage.getItem(k)',KEY)==before)
     page.once('dialog',lambda d:d.accept());page.click('#reviewReset');ok('Confirmed reset removes only review key',page.evaluate('(k)=>localStorage.getItem(k)',KEY) is None);untouched(page)
     upload(page,export);ok('Export/import round trip restores ratings',store(page)['ratings']==export['state']['ratings']);untouched(page)
+    # Same context means real shared origin storage and genuine cross-tab storage events.
+    peer=context.new_page();peer.on('pageerror',lambda e:errors.append(str(e)));peer.goto(BASE+'/review.html');peer.wait_for_selector('#reviewWorkspace:visible')
+    expect(peer.locator('#reviewProgress')).to_have_text(f"本试卷已自评 {len(export['state']['ratings'])} / {len(items)} 项")
+    page.once('dialog',lambda d:d.accept());page.click('#reviewReset');expect(peer.locator('#reviewProgress')).to_have_text(f'本试卷已自评 0 / {len(items)} 项')
+    peer.click('#reviewTheme');ok('Cross-tab reset cannot revive old ratings on later save',store(peer)['ratings']=={} and store(page)['ratings']=={});untouched(peer);peer.close()
+    upload(page,export);ok('Ratings restore after cross-tab reset test',store(page)['ratings']==export['state']['ratings']);untouched(page)
     # A second batch is injected only through the test browser; no fixture is committed.
     two=copy.deepcopy(data);two['id']='synthetic-second';two['title']='Synthetic isolation test'
     cats=copy.deepcopy(cat);extra=copy.deepcopy(entry);extra.update(id=two['id'],title=two['title'],file='data/review/synthetic-second.json');cats['sets'].append(extra)
@@ -94,12 +100,15 @@ try:
     ok('Corrupt storage disclosed and preserved','无法识别' in bad.locator('#reviewSave').inner_text() and bad.evaluate('(k)=>localStorage.getItem(k)',KEY)=='{broken')
     with bad.expect_download() as dl:bad.click('#reviewExport')
     ok('Protected raw data recoverable in export',json.loads(Path(dl.value.path()).read_text())['unrecognizedOriginal']=='{broken')
+    upload(bad,export);expect(bad.locator('#reviewToast')).to_contain_text('当前会话');expect(bad.locator('#reviewToast')).to_contain_text('刷新会丢失')
+    ok('Protected import warns about session-only data and preserves raw bytes',bad.evaluate('(k)=>localStorage.getItem(k)',KEY)=='{broken')
+    bad.reload();bad.wait_for_selector('#reviewWorkspace:visible');expect(bad.locator('#reviewProgress')).to_have_text(f'本试卷已自评 0 / {len(items)} 项');ok('Protected import correctly does not claim persistence',bad.evaluate('(k)=>localStorage.getItem(k)',KEY)=='{broken')
     failure=browser.new_page();failure.route('**/data/review/catalog.json',lambda route:route.fulfill(status=503,body='unavailable'));failure.goto(BASE+'/review.html');failure.wait_for_selector('#reviewRetry:visible');ok('Fetch failure accurately disclosed','暂未加载成功' in failure.locator('#reviewLoadingMessage').inner_text())
     failure.unroute('**/data/review/catalog.json');failure.click('#reviewRetry');failure.wait_for_selector('#reviewWorkspace:visible');ok('Retry recovers real dataset',failure.locator('.review-item').count()==len(items))
     blocked=browser.new_context();blocked.add_init_script("Storage.prototype.setItem=function(){throw new Error('unavailable')}");bp=blocked.new_page();bp.goto(BASE+'/review.html');bp.wait_for_selector('#reviewWorkspace:visible');bp.locator('[data-reveal]').first.click();bp.locator('[data-rate=unknown]').first.click();ok('Write failure disclosed but studying usable','不能保存' in bp.locator('#reviewSave').inner_text() and '已自评 1' in bp.locator('#reviewProgress').inner_text())
     legacy=browser.new_page();legacy.goto(BASE+'/#legacy');legacy.wait_for_selector('#workspace:visible');ok('Legacy hash opens unchanged app',legacy.locator('#legacy').get_attribute('open') is not None and legacy.locator('#word').inner_text()=='sympathy')
-    legacy.goto(BASE+'/?deck=2010-e1-text4&card=compromise');legacy.wait_for_selector('#workspace:visible');ok('Legacy query opens old section',legacy.locator('#legacy').get_attribute('open') is not None)
-    legacy.goto(BASE+'/quick.html?deck=2010-e1-text4');legacy.wait_for_timeout(800);ok('Quick deep link remains reachable',legacy.locator('script[src*="quick.js"]').count()==1)
+    legacy.goto(BASE+'/?deck=2012-e1-text2');legacy.wait_for_selector('#workspace:visible');expect(legacy.locator('#deckSelect')).to_have_value('2012-e1-text2');expect(legacy.locator('#deckTitle')).to_have_text('2012 · 英语一 · Text 2');ok('Legacy query loads requested non-default deck',legacy.locator('#legacy').get_attribute('open') is not None)
+    legacy.goto(BASE+'/quick.html?deck=2012-e1-text1');legacy.wait_for_selector('#quickWorkspace:visible');expect(legacy.locator('#deckSelect')).to_have_value('2012-e1-text1');quick_data=json.loads((R/'data/decks/2012-e1-text1.json').read_text());expect(legacy.locator('#cardTerm')).to_have_text(quick_data['cards'][0]['term']);ok('Quick deep link loads requested non-default deck',legacy.locator('script[src*="quick.js"]').count()==1)
     ok('No runtime exceptions in primary review flow',not errors);browser.close()
 finally:server.shutdown()
 result={'mode':'Real localhost HTTP, Chromium native localStorage; real repository review JSON','checksPassed':len(checks),'checks':checks,'runtimeErrors':errors,'boundaries':['No live deployment test','390px emulation, not physical phone','Synthetic records only','Source/book factual verification is separate']}
