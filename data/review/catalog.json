@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "version": "2026-11-09.1",
+  "defaultSet": "2014-e1",
+  "sets": [
+    {
+      "id": "2014-e1",
+      "title": "2014 · 英语一 · 阅读词汇复盘",
+      "file": "data/review/2014-e1.json",
+      "count": 129,
+      "counts": {
+        "highlight": 117,
+        "supplement": 12
+      },
+      "updated": "2026-11-09"
+    }
+  ]
+}

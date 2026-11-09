@@ -20,6 +20,7 @@ def ok(n,b):
     checks.append(n)
 def boot(page,saved=None,blocked=False):
     page.set_content(HTML)
+    page.evaluate("()=>{const legacy=document.getElementById('legacy');if(legacy)legacy.open=true}")
     page.evaluate('''({fixtures,saved,blocked})=>{
         window.__fixtures=fixtures;window.__offline=false;window.__saved=saved||{};
         Object.defineProperty(window,'localStorage',{configurable:true,value:{

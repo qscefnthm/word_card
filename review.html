@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="night">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="color-scheme" content="dark light"><meta name="robots" content="noindex,nofollow"><meta name="referrer" content="no-referrer"><meta name="description" content="真题阅读词汇复盘：先看英文，再核对语境义与红宝书出处。"><meta name="theme-color" content="#101917">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
+<title>真题词汇复盘 · 晚安词卡</title><link rel="icon" href="./assets/icon.svg" type="image/svg+xml"><link rel="stylesheet" href="./assets/app.css?v=20260927-audit"><link rel="stylesheet" href="./assets/review.css?v=20261109-1"><script defer src="./assets/review.js?v=20261109-1"></script>
+</head><body><div class="shell review-shell">
+<header class="top"><a class="brand brand-home" href="./"><span class="logo" aria-hidden="true">阅</span><span><span class="brand-title">真题词汇复盘</span><span class="brand-sub">BACK TO THE READING</span></span></a><div class="top-actions"><a class="top-link" href="./#legacy">旧词卡</a><button id="reviewTheme" class="quiet" aria-label="切换深浅色">深 / 浅</button></div></header>
+<section class="intro"><div class="eyebrow" id="reviewEdition">READ · RECALL · REVISIT</div><h1 id="reviewTitle">回到读过的文章。</h1><p>先看英文，回想当时的意思。再点击核对语境义和红宝书，不必从头背一遍。</p></section>
+<div class="loadingbox" id="reviewLoading" role="status"><span id="reviewLoadingMessage">正在读取复盘内容…</span><button id="reviewRetry" hidden>重新加载</button></div>
+<main id="reviewWorkspace" hidden>
+<div class="review-controls"><label>试卷<select id="reviewDataset" aria-label="选择试卷"></select></label><label>篇目 / 批次<select id="reviewScope" aria-label="选择篇目或两篇批次"></select></label></div>
+<div class="review-filters"><label>来源<select id="reviewKind"><option value="all">全部来源</option><option value="highlight">黄标词与短语</option><option value="supplement">补充关键表达</option><option value="option">题目 / 选项</option></select></label><label>熟悉度<select id="reviewStatus"><option value="all">全部熟悉度</option><option value="hard">模糊 / 不认识</option><option value="unrated">尚未自评</option><option value="known">认识</option></select></label><label class="review-search">搜索英文<input type="search" id="reviewSearch" placeholder="输入英文词或短语" autocomplete="off"></label></div>
+<div class="review-viewbar"><div role="group" aria-label="显示方式"><button data-review-view="list" aria-pressed="true">英文清单</button><button data-review-view="cards" aria-pressed="false">逐项复盘</button></div><button id="reviewHideAll" class="quiet">收起所有释义</button></div>
+<div class="review-summary" aria-live="polite"><span id="reviewCount"></span><span id="reviewProgress"></span></div>
+<p class="review-legend">黄标与补充项分开标记。P = 正文段落，Q = 题号；题目 / 选项中的表达不等于文章事实。</p>
+<div id="reviewList" class="review-list"></div><p id="reviewEmpty" class="loadingbox" hidden>当前筛选下没有词项。可切回“全部来源 / 全部熟悉度”。</p>
+<nav id="reviewPagination" class="review-pagination" aria-label="逐项复盘翻页" hidden><button id="reviewPrev">← 上一项</button><span id="reviewPosition"></span><button id="reviewNext">下一项 →</button></nav>
+<div class="review-resume"><button id="reviewResume" hidden>回到上次查看的词项</button><span id="reviewSave" role="status"></span></div>
+</main>
+<footer class="bottom review-footer"><div><p>本模块不配音，不计时，不自动同步。记录只保存在当前浏览器，独立于旧词卡。</p><p>公开页面仅含词汇复盘条目，不提供完整试卷、整本词书或私人笔迹。</p></div><div><button class="quiet" id="reviewExport" disabled>导出本模块记录</button><button class="quiet" id="reviewImport" disabled>导入本模块记录</button><button class="quiet" id="reviewReset" disabled>清空本模块记录</button></div></footer>
+<details class="review-help"><summary>来源与使用说明</summary><p>语境义是结合阅读整理的讲解，红宝书原释义独立展示。词组关联基础词条，不代表整组短语被红宝书独立收录。每条列明词书编号、A4 PDF 页码与英文词表 PDF 页码。</p><p>本模块的自评和位置不会改动旧词卡熟悉度、速览位置或默写草稿。导出仅包含本模块记录，不是全站备份。清理浏览器数据、换浏览器或无痕模式可能使本地记录丢失，请定期导出。</p><p>“认识 / 模糊 / 不认识”仅为自评，不代表已经掌握。支持 Text 1–4 单篇，也可按 Text 1+2、Text 3+4 两篇一批复盘。</p><a class="site-link" href="./quick.html">旧中英速览</a> · <a class="site-link" href="./#legacy">旧正式词卡与旧记录导入导出</a></details>
+<input type="file" id="reviewImportInput" accept=".json,application/json" hidden><div id="reviewToast" class="toast" role="status" hidden></div><noscript><p>需要启用 JavaScript 才能加载复盘内容。旧页面地址和记录未改变。</p></noscript>
+</div></body></html>

@@ -1,0 +1,57 @@
+name: Validate reading review and legacy cards
+
+on:
+  push:
+    branches: [main, 'review/**']
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: reading-review-check-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install test dependencies
+        run: |
+          python -m pip install beautifulsoup4 playwright
+          python -m playwright install --with-deps chromium
+          npm install --prefix "$RUNNER_TEMP/review-dom" --no-audit --no-fund linkedom@0.18.12
+      - name: Validate both data modules and JavaScript
+        run: |
+          python3 tools/validate.py
+          python3 tools/validate_review.py
+          for script in assets/app.js assets/quick.js assets/quick-extras.js assets/home.js assets/review.js; do node --check "$script"; done
+      - name: Offline DOM regression
+        run: NODE_PATH="$RUNNER_TEMP/review-dom/node_modules" node tools/test_review_dom.cjs
+      - name: Legacy card and quick-view browser regressions
+        run: |
+          python3 tools/test_components.py
+          python3 tools/test_quick_review.py
+      - name: Real HTTP and native storage review regression
+        run: python3 tools/test_review.py
+        env:
+          REVIEW_TEST_OUTPUT: test-results-review
+      - name: Retain synthetic QA results and screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: reading-review-qa
+          path: |
+            test-results/
+            test-results-quick/
+            test-results-review/
+          retention-days: 14
