@@ -3,7 +3,7 @@ Outputs stay outside the repository. This is not live Pages or physical-device Q
 """
 from pathlib import Path
 import copy, functools, http.server, json, os, shutil, threading
-from playwright.sync_api import sync_playwright
+from playwright.sync_api import sync_playwright, expect
 R=Path(__file__).resolve().parents[1]
 O=Path(os.environ.get('REVIEW_TEST_OUTPUT','/tmp/wordcard-review-tests'));O.mkdir(parents=True,exist_ok=True)
 KEY='exam-reading-review-v1'
@@ -75,10 +75,10 @@ try:
     cats=copy.deepcopy(cat);extra=copy.deepcopy(entry);extra.update(id=two['id'],title=two['title'],file='data/review/synthetic-second.json');cats['sets'].append(extra)
     page.route('**/data/review/catalog.json',lambda r:r.fulfill(json=cats))
     page.route('**/data/review/synthetic-second.json',lambda r:r.fulfill(json=two))
-    preserved=copy.deepcopy(store(page)['ratings']);page.reload();page.wait_for_selector('#reviewWorkspace:visible');page.select_option('#reviewDataset',two['id']);page.wait_for_function("document.getElementById('reviewTitle').textContent==='Synthetic isolation test'")
+    preserved=copy.deepcopy(store(page)['ratings']);page.reload();page.wait_for_selector('#reviewWorkspace:visible');page.select_option('#reviewDataset',two['id']);expect(page.locator('#reviewTitle')).to_have_text(two['title'])
     page.click('[data-review-view=list]');page.locator('[data-reveal]').first.click();page.locator('[data-rate=fuzzy]').first.click()
     ok('Second batch ratings isolated',all(store(page)['ratings'][k]==v for k,v in preserved.items()) and store(page)['ratings'][two['id']+'/'+items[0]['id']]['status']=='fuzzy')
-    page.select_option('#reviewDataset',data['id']);page.wait_for_function('(title)=>document.getElementById("reviewTitle").textContent===title',arg=data['title']);untouched(page)
+    page.select_option('#reviewDataset',data['id']);expect(page.locator('#reviewTitle')).to_have_text(data['title']);untouched(page)
     page.click('[data-review-view=cards]')
     # Repeated next reaches the final card without wrapping or out-of-range positions.
     page.evaluate("()=>{for(let i=0;i<200;i++)document.getElementById('reviewNext').click()}")
