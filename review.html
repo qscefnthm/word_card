@@ -1,19 +1,20 @@
 <!doctype html>
 <html lang="zh-CN" data-theme="night">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="color-scheme" content="dark light"><meta name="robots" content="noindex,nofollow"><meta name="referrer" content="no-referrer"><meta name="description" content="真题阅读词汇复盘：先看英文，再核对语境义与红宝书出处。"><meta name="theme-color" content="#101917">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="color-scheme" content="dark light"><meta name="robots" content="noindex,nofollow"><meta name="referrer" content="no-referrer"><meta name="description" content="真题阅读词汇复盘：一页多条，左英文、右中文，可整页显示或遮蔽释义。"><meta name="theme-color" content="#101917">
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
-<title>真题词汇复盘 · 晚安词卡</title><link rel="icon" href="./assets/icon.svg" type="image/svg+xml"><link rel="stylesheet" href="./assets/app.css?v=20260927-audit"><link rel="stylesheet" href="./assets/review.css?v=20261109-1"><script defer src="./assets/review.js?v=20261109-1"></script>
+<title>真题词汇复盘 · 晚安词卡</title><link rel="icon" href="./assets/icon.svg" type="image/svg+xml"><link rel="stylesheet" href="./assets/app.css?v=20260927-audit"><link rel="stylesheet" href="./assets/review.css?v=20261110-columns"><script defer src="./assets/review.js?v=20261110-columns"></script>
 </head><body><div class="shell review-shell">
 <header class="top"><a class="brand brand-home" href="./"><span class="logo" aria-hidden="true">阅</span><span><span class="brand-title">真题词汇复盘</span><span class="brand-sub">BACK TO THE READING</span></span></a><div class="top-actions"><a class="top-link" href="./#legacy">旧词卡</a><button id="reviewTheme" class="quiet" aria-label="切换深浅色">深 / 浅</button></div></header>
-<section class="intro"><div class="eyebrow" id="reviewEdition">READ · RECALL · REVISIT</div><h1 id="reviewTitle">回到读过的文章。</h1><p>先看英文，回想当时的意思。再点击核对语境义和红宝书，不必从头背一遍。</p></section>
+<section class="intro"><div class="eyebrow" id="reviewEdition">READ · RECALL · REVISIT</div><h1 id="reviewTitle">回到读过的文章。</h1><p>像翻词书一样，一页看多条：左边英文，右边语境义。中文默认遮蔽，可整页显示，不必逐词点开。</p></section>
 <div class="loadingbox" id="reviewLoading" role="status"><span id="reviewLoadingMessage">正在读取复盘内容…</span><button id="reviewRetry" hidden>重新加载</button></div>
 <main id="reviewWorkspace" hidden>
 <div class="review-controls"><label>试卷<select id="reviewDataset" aria-label="选择试卷"></select></label><label>篇目 / 批次<select id="reviewScope" aria-label="选择篇目或两篇批次"></select></label></div>
 <div class="review-filters"><label>来源<select id="reviewKind"><option value="all">全部来源</option><option value="highlight">黄标词与短语</option><option value="supplement">补充关键表达</option><option value="option">题目 / 选项</option></select></label><label>熟悉度<select id="reviewStatus"><option value="all">全部熟悉度</option><option value="hard">模糊 / 不认识</option><option value="unrated">尚未自评</option><option value="known">认识</option></select></label><label class="review-search">搜索英文<input type="search" id="reviewSearch" placeholder="输入英文词或短语" autocomplete="off"></label></div>
-<div class="review-viewbar"><div role="group" aria-label="显示方式"><button data-review-view="list" aria-pressed="true">英文清单</button><button data-review-view="cards" aria-pressed="false">逐项复盘</button></div><button id="reviewHideAll" class="quiet">收起所有释义</button></div>
-<div class="review-summary" aria-live="polite"><span id="reviewCount"></span><span id="reviewProgress"></span></div>
-<p class="review-legend">黄标与补充项分开标记。P = 正文段落，Q = 题号；题目 / 选项中的表达不等于文章事实。</p>
+<div class="review-viewbar"><div role="group" aria-label="显示方式"><button data-review-view="list" aria-pressed="true">中英对照清单</button><button data-review-view="cards" aria-pressed="false">逐项复盘（可选）</button></div><div class="review-visibility" role="group" aria-label="整页中文显隐"><button id="reviewShowAll" class="primary">显示整页中文</button><button id="reviewHideAll" class="quiet">遮蔽整页中文</button></div></div>
+<div class="review-summary" aria-live="polite"><span id="reviewCount"></span><span id="reviewProgress"></span><span id="reviewVisibilityStatus"></span></div>
+<p class="review-legend">按上方按钮统一显示或遮蔽当前清单的中文；也可点英文单独查看。原文位置、红宝书和自评在各行的可选详情中。P = 正文段落，Q = 题号。</p>
+<div class="review-columns" id="reviewColumns" aria-hidden="true"><span>英文词与短语</span><span>中文 · 真题语境义</span></div>
 <div id="reviewList" class="review-list"></div><p id="reviewEmpty" class="loadingbox" hidden>当前筛选下没有词项。可切回“全部来源 / 全部熟悉度”。</p>
 <nav id="reviewPagination" class="review-pagination" aria-label="逐项复盘翻页" hidden><button id="reviewPrev">← 上一项</button><span id="reviewPosition"></span><button id="reviewNext">下一项 →</button></nav>
 <div class="review-resume"><button id="reviewResume" hidden>回到上次查看的词项</button><span id="reviewSave" role="status"></span></div>

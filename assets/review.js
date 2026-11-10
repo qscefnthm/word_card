@@ -80,7 +80,7 @@
   }
   function row(item) {
     const show=opened.has(item.id), id='answer-'+item.id;
-    return `<article class="review-item" id="item-${esc(item.id)}" data-item="${esc(item.id)}"><div class="review-item-top"><button class="review-term-button" data-reveal="${esc(item.id)}" aria-expanded="${show}" aria-controls="${id}"><span class="review-term" lang="en">${esc(item.term)}</span><span class="review-meta"><span>Text ${item.text} · ${esc(item.loc)}</span><span class="${isSupplement(item)?'source-supplement':'source-highlight'}">${source(item)}</span></span><span class="review-reveal-hint">${show?'点击收起释义':'点击英文，核对语境义与红宝书'}</span></button><span class="review-state">${names[status(item)]||'未自评'}</span></div><div class="review-answer" id="${id}" ${show?'':'hidden'}><h3>真题语境义 · 整理讲解</h3><p class="review-meaning">${esc(item.context_meaning)}</p><p class="review-note">原文位置：Text ${item.text} · ${esc(item.loc)}${item.source_evidence?.pdf_page?' · 原卷 PDF 第 '+esc(item.source_evidence.pdf_page)+' 页':''}。${item.kind==='highlight'&&item.source_evidence?.highlight_parts?.length?'实际黄标：'+esc(item.source_evidence.highlight_parts.join(' / '))+'。本条可含必要的未标黄上下文。':'补充关键表达，不计为黄标分组。'}</p>${item.note?`<p class="review-note">${esc(item.note)}</p>`:''}<h3>红宝书原释义 · 独立对照</h3>${bookHTML(item)}<div class="review-rating" role="group" aria-label="${esc(item.term)} 的熟悉度">${Object.entries(names).map(([k,v])=>`<button data-rate="${k}" data-id="${item.id}" aria-pressed="${status(item)===k}">${v}</button>`).join('')}</div></div></article>`;
+    return `<article class="review-item" id="item-${esc(item.id)}" data-item="${esc(item.id)}"><div class="review-item-top"><button class="review-term-button" data-reveal="${esc(item.id)}" aria-label="${esc(item.term)}：${show?'单独遮蔽':'单独显示'}中文" aria-expanded="${show}" aria-controls="${id}"><span class="review-term" lang="en">${esc(item.term)}</span><span class="review-meta"><span>Text ${item.text} · ${esc(item.loc)}</span><span class="${isSupplement(item)?'source-supplement':'source-highlight'}">${source(item)}</span></span></button><span class="review-state">${names[status(item)]||'未自评'}</span></div><div class="review-mask" ${show?'hidden':''}><span aria-hidden="true">••••••</span><span>中文已遮蔽</span></div><div class="review-answer" id="${id}" ${show?'':'hidden'}><h3>真题语境义 · 整理讲解</h3><p class="review-meaning">${esc(item.context_meaning)}</p><details class="review-detail" ${state.view==='cards'?'open':''}><summary>原文 · 红宝书对照 · 自评</summary><p class="review-note">原文位置：Text ${item.text} · ${esc(item.loc)}${item.source_evidence?.pdf_page?' · 原卷 PDF 第 '+esc(item.source_evidence.pdf_page)+' 页':''}。${item.kind==='highlight'&&item.source_evidence?.highlight_parts?.length?'实际黄标：'+esc(item.source_evidence.highlight_parts.join(' / '))+'。本条可含必要的未标黄上下文。':'补充关键表达，不计为黄标分组。'}</p>${item.note?`<p class="review-note">${esc(item.note)}</p>`:''}<h3>红宝书原释义 · 独立对照</h3>${bookHTML(item)}<div class="review-rating" role="group" aria-label="${esc(item.term)} 的熟悉度">${Object.entries(names).map(([k,v])=>`<button data-rate="${k}" data-id="${item.id}" aria-pressed="${status(item)===k}">${v}</button>`).join('')}</div></details></div></article>`;
   }
   function applyFilters(restore=true) {
     const query=$('reviewSearch').value.trim().toLowerCase();
@@ -92,6 +92,11 @@
     const shown=state.view==='cards'?filtered.slice(index,index+1):filtered;
     $('reviewList').innerHTML=shown.map(row).join('');$('reviewList').classList.toggle('card-mode',state.view==='cards');
     $('reviewEmpty').hidden=filtered.length>0;
+    $('reviewColumns').hidden=state.view==='cards'||!filtered.length;
+    const visible=shown.filter(item=>opened.has(item.id)).length;
+    $('reviewVisibilityStatus').textContent=visible?`中文已显示 ${visible} / ${shown.length} 项`:'中文已遮蔽';
+    $('reviewShowAll').disabled=!shown.length;
+    $('reviewHideAll').disabled=!shown.length;
     $('reviewCount').textContent=`当前 ${filtered.length} 项 · ${scopes[state.scope]}`;
     const rated=dataset.items.filter(c=>!!status(c)).length;
     $('reviewProgress').textContent=`本试卷已自评 ${rated} / ${dataset.items.length} 项`;
@@ -137,6 +142,7 @@
   $('reviewDataset').addEventListener('change',()=>{state.dataset=$('reviewDataset').value;state.scope='all';save();const u=new URL(location.href);u.searchParams.set('set',state.dataset);u.searchParams.set('scope','all');history.replaceState(null,'',u);load();});
   $('reviewSearch').addEventListener('input',()=>{opened.clear();applyFilters(false);});
   document.querySelectorAll('[data-review-view]').forEach(b=>b.addEventListener('click',()=>{state.view=b.dataset.reviewView;opened.clear();save();applyFilters();}));
+  $('reviewShowAll').addEventListener('click',()=>{const shown=state.view==='cards'?filtered.slice(index,index+1):filtered;shown.forEach(item=>opened.add(item.id));render();});
   $('reviewHideAll').addEventListener('click',()=>{opened.clear();render();});
   function move(direction){index=Math.max(0,Math.min(filtered.length-1,index+direction));if(filtered[index]){opened.clear();savePosition(filtered[index]);render();}}
   $('reviewPrev').addEventListener('click',()=>move(-1));$('reviewNext').addEventListener('click',()=>move(1));

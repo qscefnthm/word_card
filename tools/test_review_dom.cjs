@@ -32,6 +32,11 @@ async function boot(saved={},options={}) {
  const saved=Object.fromEntries(OLD.map(k=>[k,' SENTINEL '+k+' ']));const original=structuredClone(saved);let p=await boot(saved);
  ok('129 audited items load',p.document.querySelectorAll('.review-item').length===129);
  ok('All meanings start concealed',p.document.querySelectorAll('.review-answer:not([hidden])').length===0);
+ const beforeBulk=JSON.stringify(saved);
+ for(let i=0;i<3;i++){p.click('#reviewShowAll');ok('Bulk display reveals all meanings without per-word clicks',p.document.querySelectorAll('.review-answer:not([hidden])').length===129);p.click('#reviewHideAll');ok('Bulk hide conceals all meanings',p.document.querySelectorAll('.review-answer:not([hidden])').length===0);}
+ ok('Bulk visibility never rewrites saved bytes',JSON.stringify(saved)===beforeBulk);
+ p.click('#reviewShowAll');p.change('#reviewScope','1');ok('Scope change conceals Chinese',p.document.querySelectorAll('.review-answer:not([hidden])').length===0);
+ p.click('#reviewShowAll');p.input('UPFRONT');ok('Search change conceals Chinese',p.document.querySelectorAll('.review-answer:not([hidden])').length===0);p.input('');
  for(const scope of ['1','2','3','4','1-2','3-4','all']){p.change('#reviewScope',scope);ok('Scope '+scope,p.document.querySelectorAll('.review-item').length===data.items.filter(x=>scope==='all'||scope.split('-').map(Number).includes(x.text)).length);}
  p.change('#reviewKind','supplement');ok('12 supplemental groups',p.document.querySelectorAll('.review-item').length===12);p.change('#reviewKind','highlight');ok('117 highlight groups',p.document.querySelectorAll('.review-item').length===117);p.change('#reviewKind','all');
  p.input('UPFRONT');ok('Case-insensitive search',p.document.querySelectorAll('.review-item').length===1);p.input('nothing123');ok('Empty filter shown',!p.$('#reviewEmpty').hidden);p.input('');
