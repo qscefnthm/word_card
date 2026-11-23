@@ -88,9 +88,89 @@
     const refs=item.book.map(ref=>`<div class="review-book"><p><strong lang="en">${esc(ref.headword)}</strong></p><p class="review-book-ref">红宝书 #${esc(ref.entry_id)} · A4 PDF 第 ${esc(ref.a4_page)} 页 · 英文词表 PDF 第 ${esc(ref.english_page)} 页</p><p>${esc(ref.original_meaning)}</p><p class="review-match">${esc(ref.mapping_note || '')}</p>${ref.transcription_note?`<p class="review-match">转写说明：${esc(ref.transcription_note)}</p>`:''}</div>`).join('');
     return `${refs || '<p class="review-match">已查所提供的两份红宝书 PDF，未找到合适的直接词条或基础词映射。</p>'}<p class="review-match">${esc(item.book_note || item.match || item.book_status_note || item.book_lookup?.note || '')}</p>${item.book_status==='not_found'?`<p class="review-match">查找范围：${esc(item.book_lookup?.search_scope||'')}</p>`:''}`;
   }
+  const synth = window.speechSynthesis;
+  let activeSpeech = null;
+  // Ask Edge for its voice catalog early. The list can arrive after the first render.
+  synth?.getVoices();
+
+  function englishVoices() {
+    const voices = synth.getVoices().filter(v => /^en(?:[-_]|$)/i.test(v.lang));
+    function preference(voice) {
+      const natural = /natural|neural/i.test(voice.name);
+      const us = /^en[-_]US$/i.test(voice.lang);
+      return (natural ? 4 : 0) + (us ? 2 : 0) + (voice.default ? 1 : 0);
+    }
+    return voices.sort((a, b) => preference(b) - preference(a));
+  }
+
+  function setSpeechState(state) {
+    if (!activeSpeech) return;
+    const button = document.querySelector('[data-speak="' + activeSpeech.id + '"]');
+    if (button) button.dataset.speechState = state;
+    activeSpeech.state = state;
+  }
+
+  function stopSpeech() {
+    if (!activeSpeech) return;
+    setSpeechState('idle');
+    clearTimeout(activeSpeech.startTimer);
+    activeSpeech = null;
+    synth.cancel();
+  }
+
+  function speakTerm(item) {
+    stopSpeech();
+    if (!synth || !window.SpeechSynthesisUtterance) {
+      toast('此窗口无法使用语音朗读。请用桌面版 Edge 打开本页。');
+      return;
+    }
+    const text = item.term.replace(/\s*(?:\.{3}|…|\/)\s*/g, ', ')
+      .replace(/\b(?:GDP|CSR|DNT)\b/g, word => [...word].join(' ')).trim();
+    function play(voice, allowRetry) {
+      const utterance = new window.SpeechSynthesisUtterance(text);
+      utterance.lang = voice?.lang || 'en-US';
+      if (voice) utterance.voice = voice;
+      utterance.rate = 0.92;
+      const request = {id:item.id, utterance, state:'pending'};
+      activeSpeech = request;
+      setSpeechState('pending');
+
+      function failed() {
+        if (activeSpeech !== request) return;
+        stopSpeech();
+        const local = allowRetry && englishVoices().find(v => v.localService && v !== voice);
+        if (local) play(local, false);
+        else toast('英语朗读未能启动。请重试，或检查 Windows 是否已安装英语语音。');
+      }
+      utterance.onstart = () => {
+        if (activeSpeech !== request) return;
+        clearTimeout(request.startTimer);
+        setSpeechState('speaking');
+      };
+      utterance.onend = () => {
+        if (activeSpeech !== request) return;
+        clearTimeout(request.startTimer);
+        setSpeechState('idle');
+        activeSpeech = null;
+      };
+      utterance.onerror = failed;
+      // A disconnected online voice can stay queued without dispatching an error.
+      request.startTimer = setTimeout(failed, 6000);
+      try { synth.speak(utterance); }
+      catch { failed(); }
+    }
+    const voice = englishVoices()[0];
+    play(voice, !voice?.localService);
+  }
+
+  function speakButton(item) {
+    const label = esc('朗读 ' + item.term);
+    const state = activeSpeech?.id === item.id ? activeSpeech.state : 'idle';
+    return `<button type="button" class="review-speak" data-speak="${esc(item.id)}" data-speech-state="${state}" title="${label}" aria-label="${label}"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M11 4 5 9H2v6h3l6 5Z M15 8a6 6 0 0 1 0 8 M18 5a10 10 0 0 1 0 14"/></svg></button>`;
+  }
   function row(item) {
     const show=opened.has(item.id), id='answer-'+item.id;
-    return `<article class="review-item" id="item-${esc(item.id)}" data-item="${esc(item.id)}"><div class="review-item-top"><button class="review-term-button" data-reveal="${esc(item.id)}" aria-label="${esc(item.term)}：${show?'单独遮蔽':'单独显示'}中文" aria-expanded="${show}" aria-controls="${id}"><span class="review-term" lang="en">${esc(item.term)}</span><span class="review-meta"><span>${esc(sectionLabel(item))} · ${esc(item.loc)}</span><span class="${isSupplement(item)?'source-supplement':'source-highlight'}">${source(item)}</span></span></button><span class="review-state">${names[status(item)]||'未自评'}</span></div><div class="review-mask" ${show?'hidden':''}><span aria-hidden="true">••••••</span><span>中文已遮蔽</span></div><div class="review-answer" id="${id}" ${show?'':'hidden'}><h3>真题语境义 · 整理讲解</h3><p class="review-meaning">${esc(item.context_meaning)}</p><details class="review-detail" ${state.view==='cards'?'open':''}><summary>原文 · 红宝书对照 · 自评</summary><p class="review-note">原文位置：${esc(sectionLabel(item))} · ${esc(item.loc)}${item.source_evidence?.pdf_page?' · 原卷 PDF 第 '+esc(item.source_evidence.pdf_page)+' 页':''}。${item.kind==='highlight'&&item.source_evidence?.highlight_parts?.length?'实际黄标：'+esc(item.source_evidence.highlight_parts.join(' / '))+'。本条可含必要的未标黄上下文。':'补充关键表达，不计为黄标分组。'}</p>${item.note?`<p class="review-note">${esc(item.note)}</p>`:''}<h3>红宝书原释义 · 独立对照</h3>${bookHTML(item)}<div class="review-rating" role="group" aria-label="${esc(item.term)} 的熟悉度">${Object.entries(names).map(([k,v])=>`<button data-rate="${k}" data-id="${item.id}" aria-pressed="${status(item)===k}">${v}</button>`).join('')}</div></details></div></article>`;
+    return `<article class="review-item" id="item-${esc(item.id)}" data-item="${esc(item.id)}"><div class="review-item-top"><div class="review-term-line"><button class="review-term-button" data-reveal="${esc(item.id)}" aria-label="${esc(item.term)}：${show?'单独遮蔽':'单独显示'}中文" aria-expanded="${show}" aria-controls="${id}"><span class="review-term" lang="en">${esc(item.term)}</span><span class="review-meta"><span>${esc(sectionLabel(item))} · ${esc(item.loc)}</span><span class="${isSupplement(item)?'source-supplement':'source-highlight'}">${source(item)}</span></span></button>${speakButton(item)}</div><span class="review-state">${names[status(item)]||'未自评'}</span></div><div class="review-mask" ${show?'hidden':''}><span aria-hidden="true">••••••</span><span>中文已遮蔽</span></div><div class="review-answer" id="${id}" ${show?'':'hidden'}><h3>真题语境义 · 整理讲解</h3><p class="review-meaning">${esc(item.context_meaning)}</p><details class="review-detail" ${state.view==='cards'?'open':''}><summary>原文 · 红宝书对照 · 自评</summary><p class="review-note">原文位置：${esc(sectionLabel(item))} · ${esc(item.loc)}${item.source_evidence?.pdf_page?' · 原卷 PDF 第 '+esc(item.source_evidence.pdf_page)+' 页':''}。${item.kind==='highlight'&&item.source_evidence?.highlight_parts?.length?'实际黄标：'+esc(item.source_evidence.highlight_parts.join(' / '))+'。本条可含必要的未标黄上下文。':'补充关键表达，不计为黄标分组。'}</p>${item.note?`<p class="review-note">${esc(item.note)}</p>`:''}<h3>红宝书原释义 · 独立对照</h3>${bookHTML(item)}<div class="review-rating" role="group" aria-label="${esc(item.term)} 的熟悉度">${Object.entries(names).map(([k,v])=>`<button data-rate="${k}" data-id="${item.id}" aria-pressed="${status(item)===k}">${v}</button>`).join('')}</div></details></div></article>`;
   }
   function applyFilters(restore=true) {
     const query=$('reviewSearch').value.trim().toLowerCase();
@@ -100,6 +180,7 @@
   }
   function render() {
     const shown=state.view==='cards'?filtered.slice(index,index+1):filtered;
+    if (activeSpeech && !shown.some(item => item.id === activeSpeech.id)) stopSpeech();
     $('reviewList').innerHTML=shown.map(row).join('');$('reviewList').classList.toggle('card-mode',state.view==='cards');
     $('reviewEmpty').hidden=filtered.length>0;
     $('reviewColumns').hidden=state.view==='cards'||!filtered.length;
@@ -118,6 +199,7 @@
   }
   function settingsToUI() { for(const [id,k] of [['reviewDataset','dataset'],['reviewScope','scope'],['reviewKind','kind'],['reviewStatus','status']])$(id).value=state[k]; }
   async function load() {
+    stopSpeech();
     const token=++serial;$('reviewWorkspace').hidden=true;$('reviewLoading').hidden=false;$('reviewRetry').hidden=true;$('reviewLoadingMessage').textContent='正在读取复盘内容…';
     try {
       const response=await fetch('./data/review/catalog.json',{cache:'no-cache'});if(!response.ok)throw new Error('catalog');
@@ -141,7 +223,8 @@
   }
   $('reviewList').addEventListener('click',event=>{
     const button=event.target.closest('button');if(!button)return;
-    const id=button.dataset.reveal||button.dataset.id,item=dataset.items.find(c=>c.id===id);if(!item)return;
+    const id=button.dataset.speak||button.dataset.reveal||button.dataset.id,item=dataset.items.find(c=>c.id===id);if(!item)return;
+    if (button.dataset.speak) { speakTerm(item); return; }
     if(button.dataset.reveal){if(opened.has(id))opened.delete(id);else opened.add(id);savePosition(item);render();const focused=$('item-'+id)?.querySelector('[data-reveal]');focused?.focus({preventScroll:true});}
     else if(button.dataset.rate&&Object.hasOwn(names,button.dataset.rate)){
       state.ratings[key(item)]={status:button.dataset.rate,updatedAt:now()};savePosition(item);const previousIndex=index;applyFilters(false);
@@ -183,6 +266,7 @@
     state=fresh();state.dataset=dataset.id;opened.clear();$('reviewSearch').value='';document.documentElement.dataset.theme=state.theme;settingsToUI();applyFilters();writeRoute();labelStorage();toast('本模块记录已清空，旧词卡记录未改动。');
   });
   window.addEventListener('storage',event=>{if(event.key!==KEY||!dataset)return;try{const next=JSON.parse(event.newValue||'null');if(event.newValue===null){state=fresh();state.dataset=dataset.id;opened.clear();$('reviewSearch').value='';settingsToUI();document.documentElement.dataset.theme=state.theme;applyFilters();toast('本模块记录已在另一标签页清空。');return;}if(next?.version===1){const incoming=sanitize(next);state.ratings=merge(state.ratings,incoming.ratings);state.positions=merge(state.positions,incoming.positions);applyFilters(false);}}catch(_){} });
+  window.addEventListener('pagehide',stopSpeech);
   window.addEventListener('popstate',()=>load());
   load();
 })();

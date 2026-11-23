@@ -74,6 +74,97 @@ def check_real_batch_routes(browser, base, catalog):
     finally:
         context.close()
 
+def check_desktop_pronunciation(browser, base, catalog):
+    """Exercise the browser UI with deterministic Edge-style Web Speech events."""
+    context = browser.new_context(viewport={'width': 1440, 'height': 1000})
+    context.add_init_script("""
+      class MockUtterance extends EventTarget {
+        constructor(text) { super(); this.text = text; }
+      }
+      const voices = [
+        {name: 'Microsoft Xiaoxiao', lang: 'zh-CN', default: true, localService: true},
+        {name: 'Microsoft Jenny Online (Natural) - English (United States)',
+         lang: 'en-US', default: false, localService: false}
+      ];
+      const calls = [];
+      let active;
+      function finish(type, error) {
+        if (!active) return;
+        const utterance = active;
+        active = null;
+        const event = Object.assign(new Event(type), {error});
+        utterance.dispatchEvent(event);
+        utterance['on' + type]?.(event);
+      }
+      const speech = Object.assign(new EventTarget(), {
+        getVoices: () => voices,
+        cancel() { if (active) { calls.push({type: 'cancel'}); finish('error', 'canceled'); } },
+        speak(u) {
+          calls.push({type: 'speak', text: u.text, lang: u.lang, voice: u.voice?.name});
+          active = u;
+          const event = new Event('start');
+          u.dispatchEvent(event);
+          u.onstart?.(event);
+        }
+      });
+      Object.defineProperty(speech, 'speaking', {get: () => !!active});
+      Object.defineProperty(window, 'speechSynthesis', {value: speech});
+      Object.defineProperty(window, 'SpeechSynthesisUtterance', {value: MockUtterance});
+      window.voiceTest = {calls, finish, addLocal() {
+        voices.push({name: 'Microsoft David', lang: 'en-US', localService: true});
+      }};
+    """)
+    try:
+        dataset = next(entry for entry in catalog['sets'] if entry['id'] == '2012-e1')
+        rows = json.loads((R / dataset['file']).read_text())['items']
+        page = context.new_page()
+        page.on('pageerror', lambda error: errors.append(str(error)))
+        page.goto(base + '/review.html?set=2012-e1&scope=4')
+        expect(page.locator('#reviewTitle')).to_have_text(dataset['title'])
+        say = page.locator('[data-speak]')
+        expect(say).to_have_count(len(rows))
+        page.evaluate('(values)=>Object.entries(values).forEach(([k,v])=>localStorage.setItem(k,v))', OLD)
+        before = raw_storage(page)
+
+        def hear(index, term, count):
+            say.nth(index).click()
+            page.wait_for_function(
+                "n => voiceTest.calls.filter(c => c.type === 'speak').length === n",
+                arg=count)
+            spoken = page.evaluate("voiceTest.calls.filter(c => c.type === 'speak').at(-1)")
+            ok('Pronounces the displayed English: ' + term, spoken['text'] == term)
+            ok('Selects the English voice despite the Chinese system default',
+               spoken['lang'].lower() == 'en-us' and 'Jenny' in (spoken['voice'] or ''))
+            expect(page.locator('.review-answer:visible')).to_have_count(0)
+
+        hear(0, rows[0]['term'], 1)
+        hear(1, rows[1]['term'], 2)
+        ok('Changing word cancels previous speech',
+           page.evaluate("voiceTest.calls.filter(c => c.type === 'cancel').length") == 1)
+        page.evaluate("voiceTest.finish('error', 'synthesis-failed')")
+        hear(1, rows[1]['term'], 3)
+        page.evaluate("voiceTest.finish('end')")
+        hear(1, rows[1]['term'], 4)
+        page.evaluate("voiceTest.finish('end')")
+        ok('Listening and retry leave every storage byte untouched', raw_storage(page) == before)
+
+        page.click('[data-review-view=cards]')
+        expect(say).to_have_count(1)
+        before = raw_storage(page)
+        hear(0, rows[0]['term'], 5)
+        page.evaluate("voiceTest.addLocal(); voiceTest.finish('error', 'network')")
+        page.wait_for_function("voiceTest.calls.at(-1)?.voice === 'Microsoft David'")
+        ok('Online failure retries the same English on a local voice',
+           page.evaluate("voiceTest.calls.at(-1).text") == rows[0]['term'])
+        expect(say).to_have_attribute('data-speech-state', 'speaking')
+        page.evaluate("voiceTest.finish('end')")
+        expect(say).to_have_attribute('data-speech-state', 'idle')
+        expect(page.locator('.review-answer:visible')).to_have_count(0)
+        ok('Single item listening leaves ratings and position intact', raw_storage(page) == before)
+        untouched(page)
+    finally:
+        context.close()
+
 class Quiet(http.server.SimpleHTTPRequestHandler):
     def log_message(self,*args):pass
 server=http.server.ThreadingHTTPServer(('127.0.0.1',0),functools.partial(Quiet,directory=str(R)))
@@ -179,6 +270,7 @@ try:
     legacy.goto(BASE+'/?deck=2012-e1-text2');legacy.wait_for_selector('#workspace:visible');expect(legacy.locator('#deckSelect')).to_have_value('2012-e1-text2');expect(legacy.locator('#deckTitle')).to_have_text('2012 · 英语一 · Text 2');ok('Legacy query loads requested non-default deck',legacy.locator('#legacy').get_attribute('open') is not None)
     legacy.goto(BASE+'/quick.html?deck=2012-e1-text1');legacy.wait_for_selector('#quickWorkspace:visible');expect(legacy.locator('#deckSelect')).to_have_value('2012-e1-text1');quick_data=json.loads((R/'data/decks/2012-e1-text1.json').read_text());expect(legacy.locator('#cardTerm')).to_have_text(quick_data['cards'][0]['term']);ok('Quick deep link loads requested non-default deck',legacy.locator('script[src*="quick.js"]').count()==1)
     check_real_batch_routes(browser, BASE, cat)
+    check_desktop_pronunciation(browser, BASE, cat)
     ok('No runtime exceptions in primary review flow',not errors);browser.close()
 finally:server.shutdown()
 result={'mode':'Real localhost HTTP, Chromium native localStorage; real repository review JSON','checksPassed':len(checks),'checks':checks,'runtimeErrors':errors,'boundaries':['No live deployment test','320/390/600px emulation, not physical phone','Synthetic records only','Source/book factual verification is separate']}
