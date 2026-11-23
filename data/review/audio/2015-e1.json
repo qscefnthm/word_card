@@ -1,0 +1,881 @@
+{
+  "version": 1,
+  "dataset": "2015-e1",
+  "codec": "audio/mpeg",
+  "bytes": 1258659,
+  "sha256": "38bdf509772fb4395ba4dc18b7933ff7fc454464c881d2c3955979ab8d2bcbaf",
+  "voice": "Piper en_US-ljspeech-medium",
+  "modelCard": "https://huggingface.co/rhasspy/piper-voices/blob/main/en/en_US/ljspeech/medium/MODEL_CARD",
+  "items": {
+    "2015-text1-h001": {
+      "offset": 0,
+      "length": 5373,
+      "term": "abdicate",
+      "spokenText": "abdicate"
+    },
+    "2015-text1-h002": {
+      "offset": 5373,
+      "length": 10388,
+      "term": "embarrassing scandals",
+      "spokenText": "embarrassing scandals"
+    },
+    "2015-text1-h003": {
+      "offset": 15761,
+      "length": 5373,
+      "term": "crisis",
+      "spokenText": "crisis"
+    },
+    "2015-text1-h004": {
+      "offset": 21134,
+      "length": 4589,
+      "term": "monarchy",
+      "spokenText": "monarchy"
+    },
+    "2015-text1-h005": {
+      "offset": 25723,
+      "length": 5373,
+      "term": "royals",
+      "spokenText": "royals"
+    },
+    "2015-text1-h006": {
+      "offset": 31096,
+      "length": 5373,
+      "term": "majestic",
+      "spokenText": "majestic"
+    },
+    "2015-text1-h007": {
+      "offset": 36469,
+      "length": 6470,
+      "term": "polarised",
+      "spokenText": "polarised"
+    },
+    "2015-text1-h008": {
+      "offset": 42939,
+      "length": 4746,
+      "term": "regime",
+      "spokenText": "regime"
+    },
+    "2015-text1-h009": {
+      "offset": 47685,
+      "length": 4903,
+      "term": "monarchs",
+      "spokenText": "monarchs"
+    },
+    "2015-text1-h010": {
+      "offset": 52588,
+      "length": 11329,
+      "term": "transcendence of politics",
+      "spokenText": "transcendence of politics"
+    },
+    "2015-text1-h011": {
+      "offset": 63917,
+      "length": 7880,
+      "term": "monarch-infested",
+      "spokenText": "monarch-infested"
+    },
+    "2015-text1-h012": {
+      "offset": 71797,
+      "length": 11485,
+      "term": "absolutist counterparts",
+      "spokenText": "absolutist counterparts"
+    },
+    "2015-text1-h013": {
+      "offset": 83282,
+      "length": 4746,
+      "term": "voters",
+      "spokenText": "voters"
+    },
+    "2015-text1-h014": {
+      "offset": 88028,
+      "length": 8194,
+      "term": "non-controversial",
+      "spokenText": "non-controversial"
+    },
+    "2015-text1-h015": {
+      "offset": 96222,
+      "length": 5373,
+      "term": "downside",
+      "spokenText": "downside"
+    },
+    "2015-text1-h016": {
+      "offset": 101595,
+      "length": 12269,
+      "term": "Symbolic of national unity",
+      "spokenText": "Symbolic of national unity"
+    },
+    "2015-text1-h017": {
+      "offset": 113864,
+      "length": 23711,
+      "term": "outdated and indefensible privileges and inequalities",
+      "spokenText": "outdated and indefensible privileges and inequalities"
+    },
+    "2015-text1-h018": {
+      "offset": 137575,
+      "length": 7097,
+      "term": "economists",
+      "spokenText": "economists"
+    },
+    "2015-text1-h019": {
+      "offset": 144672,
+      "length": 8037,
+      "term": "inherited wealth",
+      "spokenText": "inherited wealth"
+    },
+    "2015-text1-h020": {
+      "offset": 152709,
+      "length": 3805,
+      "term": "bizarre",
+      "spokenText": "bizarre"
+    },
+    "2015-text1-h021": {
+      "offset": 156514,
+      "length": 10702,
+      "term": "aristocratic families",
+      "spokenText": "aristocratic families"
+    },
+    "2015-text1-h022": {
+      "offset": 167216,
+      "length": 12896,
+      "term": "strive to abandon or hide",
+      "spokenText": "strive to abandon or hide"
+    },
+    "2015-text1-h023": {
+      "offset": 180112,
+      "length": 9448,
+      "term": "aristocratic ways",
+      "spokenText": "aristocratic ways"
+    },
+    "2015-text1-h024": {
+      "offset": 189560,
+      "length": 6783,
+      "term": "intrusiveness",
+      "spokenText": "intrusiveness"
+    },
+    "2015-text1-h025": {
+      "offset": 196343,
+      "length": 5059,
+      "term": "ordinary",
+      "spokenText": "ordinary"
+    },
+    "2015-text1-h026": {
+      "offset": 201402,
+      "length": 5216,
+      "term": "well-heeled",
+      "spokenText": "well-heeled"
+    },
+    "2015-text1-h027": {
+      "offset": 206618,
+      "length": 6783,
+      "term": "granny style",
+      "spokenText": "granny style"
+    },
+    "2015-text1-h028": {
+      "offset": 213401,
+      "length": 6000,
+      "term": "hierarchical",
+      "spokenText": "hierarchical"
+    },
+    "2015-text1-h029": {
+      "offset": 219401,
+      "length": 6000,
+      "term": "survived",
+      "spokenText": "survived"
+    },
+    "2015-text1-h030": {
+      "offset": 225401,
+      "length": 13993,
+      "term": "non-controversial and non-political",
+      "spokenText": "non-controversial and non-political"
+    },
+    "2015-text1-h031": {
+      "offset": 239394,
+      "length": 5059,
+      "term": "ought to",
+      "spokenText": "ought to"
+    },
+    "2015-text1-h032": {
+      "offset": 244453,
+      "length": 16031,
+      "term": "eased his relationship with his rivals",
+      "spokenText": "eased his relationship with his rivals"
+    },
+    "2015-text1-h033": {
+      "offset": 260484,
+      "length": 6156,
+      "term": "everlasting",
+      "spokenText": "everlasting"
+    },
+    "2015-text1-h034": {
+      "offset": 266640,
+      "length": 9448,
+      "term": "political embodiment",
+      "spokenText": "political embodiment"
+    },
+    "2015-text1-h035": {
+      "offset": 276088,
+      "length": 16658,
+      "term": "excessive reliance on inherited wealth",
+      "spokenText": "excessive reliance on inherited wealth"
+    },
+    "2015-text1-h036": {
+      "offset": 292746,
+      "length": 6000,
+      "term": "nobility",
+      "spokenText": "nobility"
+    },
+    "2015-text1-h037": {
+      "offset": 298746,
+      "length": 10702,
+      "term": "aristocratic families",
+      "spokenText": "aristocratic families"
+    },
+    "2015-text1-h038": {
+      "offset": 309448,
+      "length": 11799,
+      "term": "adherence to their privileges",
+      "spokenText": "adherence to their privileges"
+    },
+    "2015-text1-h039": {
+      "offset": 321247,
+      "length": 4746,
+      "term": "allies",
+      "spokenText": "allies"
+    },
+    "2015-text1-h040": {
+      "offset": 325993,
+      "length": 12583,
+      "term": "Anxious to Succeed to the Throne",
+      "spokenText": "Anxious to Succeed to the Throne"
+    },
+    "2015-text1-h041": {
+      "offset": 338576,
+      "length": 4746,
+      "term": "Monarchs",
+      "spokenText": "Monarchs"
+    },
+    "2015-text1-s001": {
+      "offset": 343322,
+      "length": 11642,
+      "term": "rise above \"mere\" politics",
+      "spokenText": "rise above mere politics"
+    },
+    "2015-text1-s002": {
+      "offset": 354964,
+      "length": 36406,
+      "term": "He has failed to understand that monarchies have largely survived because they provide a service",
+      "spokenText": "He has failed to understand that monarchies have largely survived because they provide a service"
+    },
+    "2015-text2-h001": {
+      "offset": 391370,
+      "length": 7254,
+      "term": "Constitution",
+      "spokenText": "Constitution"
+    },
+    "2015-text2-h002": {
+      "offset": 398624,
+      "length": 4276,
+      "term": "warrant",
+      "spokenText": "warrant"
+    },
+    "2015-text2-h003": {
+      "offset": 402900,
+      "length": 4432,
+      "term": "arrest",
+      "spokenText": "arrest"
+    },
+    "2015-text2-h004": {
+      "offset": 407332,
+      "length": 11329,
+      "term": "refrain from a sweeping ruling",
+      "spokenText": "refrain from a sweeping ruling"
+    },
+    "2015-text2-h005": {
+      "offset": 418661,
+      "length": 7254,
+      "term": "sweeping ruling",
+      "spokenText": "sweeping ruling"
+    },
+    "2015-text2-h006": {
+      "offset": 425915,
+      "length": 5216,
+      "term": "upsets",
+      "spokenText": "upsets"
+    },
+    "2015-text2-h007": {
+      "offset": 431131,
+      "length": 5059,
+      "term": "assumption",
+      "spokenText": "assumption"
+    },
+    "2015-text2-h008": {
+      "offset": 436190,
+      "length": 5843,
+      "term": "possessions",
+      "spokenText": "possessions"
+    },
+    "2015-text2-h009": {
+      "offset": 442033,
+      "length": 7254,
+      "term": "suspects",
+      "spokenText": "suspects"
+    },
+    "2015-text2-h010": {
+      "offset": 449287,
+      "length": 4589,
+      "term": "assess",
+      "spokenText": "assess"
+    },
+    "2015-text2-h011": {
+      "offset": 453876,
+      "length": 12896,
+      "term": "rapidly changing technologies",
+      "spokenText": "rapidly changing technologies"
+    },
+    "2015-text2-h012": {
+      "offset": 466772,
+      "length": 8507,
+      "term": "recklessly modest",
+      "spokenText": "recklessly modest"
+    },
+    "2015-text2-h013": {
+      "offset": 475279,
+      "length": 4903,
+      "term": "discernable",
+      "spokenText": "discernable"
+    },
+    "2015-text2-h014": {
+      "offset": 480182,
+      "length": 5216,
+      "term": "discarding",
+      "spokenText": "discarding"
+    },
+    "2015-text2-h015": {
+      "offset": 485398,
+      "length": 7097,
+      "term": "lame argument",
+      "spokenText": "lame argument"
+    },
+    "2015-text2-h016": {
+      "offset": 492495,
+      "length": 4276,
+      "term": "purse",
+      "spokenText": "purse"
+    },
+    "2015-text2-h017": {
+      "offset": 496771,
+      "length": 5843,
+      "term": "violate",
+      "spokenText": "violate"
+    },
+    "2015-text2-h018": {
+      "offset": 502614,
+      "length": 5373,
+      "term": "arrestee",
+      "spokenText": "arrestee"
+    },
+    "2015-text2-h019": {
+      "offset": 507987,
+      "length": 7880,
+      "term": "correspondence",
+      "spokenText": "correspondence"
+    },
+    "2015-text2-h020": {
+      "offset": 515867,
+      "length": 5529,
+      "term": "meanwhile",
+      "spokenText": "meanwhile"
+    },
+    "2015-text2-h021": {
+      "offset": 521396,
+      "length": 6783,
+      "term": "exploration",
+      "spokenText": "exploration"
+    },
+    "2015-text2-h022": {
+      "offset": 528179,
+      "length": 8664,
+      "term": "stating that principle",
+      "spokenText": "stating that principle"
+    },
+    "2015-text2-h023": {
+      "offset": 536843,
+      "length": 6000,
+      "term": "line-drawing",
+      "spokenText": "line-drawing"
+    },
+    "2015-text2-h024": {
+      "offset": 542843,
+      "length": 5686,
+      "term": "burdensome",
+      "spokenText": "burdensome"
+    },
+    "2015-text2-h025": {
+      "offset": 548529,
+      "length": 6000,
+      "term": "protections",
+      "spokenText": "protections"
+    },
+    "2015-text2-h026": {
+      "offset": 554529,
+      "length": 14777,
+      "term": "severe, urgent circumstances",
+      "spokenText": "severe, urgent circumstances"
+    },
+    "2015-text2-h027": {
+      "offset": 569306,
+      "length": 5373,
+      "term": "erased",
+      "spokenText": "erased"
+    },
+    "2015-text2-h028": {
+      "offset": 574679,
+      "length": 15090,
+      "term": "swallow California's argument whole",
+      "spokenText": "swallow California's argument whole"
+    },
+    "2015-text2-h029": {
+      "offset": 589769,
+      "length": 9918,
+      "term": "disruptive technology",
+      "spokenText": "disruptive technology"
+    },
+    "2015-text2-h030": {
+      "offset": 599687,
+      "length": 4432,
+      "term": "arrest",
+      "spokenText": "arrest"
+    },
+    "2015-text2-h031": {
+      "offset": 604119,
+      "length": 7254,
+      "term": "suspects",
+      "spokenText": "suspects"
+    },
+    "2015-text2-h032": {
+      "offset": 611373,
+      "length": 5216,
+      "term": "prohibit",
+      "spokenText": "prohibit"
+    },
+    "2015-text2-h033": {
+      "offset": 616589,
+      "length": 8978,
+      "term": "correspondences",
+      "spokenText": "correspondences"
+    },
+    "2015-text2-h034": {
+      "offset": 625567,
+      "length": 5843,
+      "term": "principles",
+      "spokenText": "principles"
+    },
+    "2015-text2-h035": {
+      "offset": 631410,
+      "length": 5373,
+      "term": "flexibly",
+      "spokenText": "flexibly"
+    },
+    "2015-text2-h036": {
+      "offset": 636783,
+      "length": 5843,
+      "term": "violates",
+      "spokenText": "violates"
+    },
+    "2015-text2-h037": {
+      "offset": 642626,
+      "length": 7254,
+      "term": "Constitution",
+      "spokenText": "Constitution"
+    },
+    "2015-text2-h038": {
+      "offset": 649880,
+      "length": 7254,
+      "term": "reinterpretation",
+      "spokenText": "reinterpretation"
+    },
+    "2015-text2-s001": {
+      "offset": 657134,
+      "length": 19636,
+      "term": "search the contents of a mobile phone without a warrant",
+      "spokenText": "search the contents of a mobile phone without a warrant"
+    },
+    "2015-text2-s002": {
+      "offset": 676770,
+      "length": 22614,
+      "term": "stating that principle doesn't ease the challenge of line-drawing",
+      "spokenText": "stating that principle doesn't ease the challenge of line-drawing"
+    },
+    "2015-text3-h001": {
+      "offset": 699384,
+      "length": 11642,
+      "term": "round of statistical checks",
+      "spokenText": "round of statistical checks"
+    },
+    "2015-text3-h002": {
+      "offset": 711026,
+      "length": 5529,
+      "term": "policy",
+      "spokenText": "policy"
+    },
+    "2015-text3-h003": {
+      "offset": 716555,
+      "length": 8351,
+      "term": "widespread concern",
+      "spokenText": "widespread concern"
+    },
+    "2015-text3-h004": {
+      "offset": 724906,
+      "length": 8507,
+      "term": "irreproducibility",
+      "spokenText": "irreproducibility"
+    },
+    "2015-text3-h005": {
+      "offset": 733413,
+      "length": 7097,
+      "term": "Manuscripts",
+      "spokenText": "Manuscripts"
+    },
+    "2015-text3-h006": {
+      "offset": 740510,
+      "length": 5216,
+      "term": "scrutiny",
+      "spokenText": "scrutiny"
+    },
+    "2015-text3-h007": {
+      "offset": 745726,
+      "length": 3492,
+      "term": "panel",
+      "spokenText": "panel"
+    },
+    "2015-text3-h008": {
+      "offset": 749218,
+      "length": 7880,
+      "term": "impelled the change",
+      "spokenText": "impelled the change"
+    },
+    "2015-text3-h009": {
+      "offset": 757098,
+      "length": 7880,
+      "term": "reproducibility",
+      "spokenText": "reproducibility"
+    },
+    "2015-text3-h010": {
+      "offset": 764978,
+      "length": 14934,
+      "term": "play primarily an advisory role",
+      "spokenText": "play primarily an advisory role"
+    },
+    "2015-text3-h011": {
+      "offset": 779912,
+      "length": 4746,
+      "term": "foresight",
+      "spokenText": "foresight"
+    },
+    "2015-text3-h012": {
+      "offset": 784658,
+      "length": 6313,
+      "term": "methodology",
+      "spokenText": "methodology"
+    },
+    "2015-text3-h013": {
+      "offset": 790971,
+      "length": 6783,
+      "term": "long overdue",
+      "spokenText": "long overdue"
+    },
+    "2015-text3-h014": {
+      "offset": 797754,
+      "length": 3962,
+      "term": "merit",
+      "spokenText": "merit"
+    },
+    "2015-text3-h015": {
+      "offset": 801716,
+      "length": 5216,
+      "term": "scrutiny",
+      "spokenText": "scrutiny"
+    },
+    "2015-text3-h016": {
+      "offset": 806932,
+      "length": 16031,
+      "term": "blamed for mistakes in data analysis",
+      "spokenText": "blamed for mistakes in data analysis"
+    },
+    "2015-text3-h017": {
+      "offset": 822963,
+      "length": 9918,
+      "term": "meet with strong opposition",
+      "spokenText": "meet with strong opposition"
+    },
+    "2015-text3-h018": {
+      "offset": 832881,
+      "length": 6470,
+      "term": "circulation",
+      "spokenText": "circulation"
+    },
+    "2015-text3-h019": {
+      "offset": 839351,
+      "length": 4746,
+      "term": "workload",
+      "spokenText": "workload"
+    },
+    "2015-text3-h020": {
+      "offset": 844097,
+      "length": 5373,
+      "term": "foreseeable",
+      "spokenText": "foreseeable"
+    },
+    "2015-text3-h021": {
+      "offset": 849470,
+      "length": 4903,
+      "term": "Deserve",
+      "spokenText": "Deserve"
+    },
+    "2015-text3-s001": {
+      "offset": 854373,
+      "length": 15247,
+      "term": "follows similar efforts from other journals",
+      "spokenText": "follows similar efforts from other journals"
+    },
+    "2015-text3-s002": {
+      "offset": 869620,
+      "length": 13523,
+      "term": "model their approach after Science",
+      "spokenText": "model their approach after Science"
+    },
+    "2015-text3-s003": {
+      "offset": 883143,
+      "length": 12739,
+      "term": "has some merit, but a weakness",
+      "spokenText": "has some merit, but a weakness"
+    },
+    "2015-text4-h001": {
+      "offset": 895882,
+      "length": 30607,
+      "term": "unsettling dearth of integrity across so many of our institutions",
+      "spokenText": "unsettling dearth of integrity across so many of our institutions"
+    },
+    "2015-text4-h002": {
+      "offset": 926489,
+      "length": 4903,
+      "term": "collapsed",
+      "spokenText": "collapsed"
+    },
+    "2015-text4-h003": {
+      "offset": 931392,
+      "length": 8507,
+      "term": "sorting mechanism",
+      "spokenText": "sorting mechanism"
+    },
+    "2015-text4-h004": {
+      "offset": 939899,
+      "length": 7724,
+      "term": "moral language",
+      "spokenText": "moral language"
+    },
+    "2015-text4-h005": {
+      "offset": 947623,
+      "length": 5843,
+      "term": "capitalism",
+      "spokenText": "capitalism"
+    },
+    "2015-text4-h006": {
+      "offset": 953466,
+      "length": 4432,
+      "term": "purpose",
+      "spokenText": "purpose"
+    },
+    "2015-text4-h007": {
+      "offset": 957898,
+      "length": 11485,
+      "term": "conspiring to hack phones",
+      "spokenText": "conspiring to hack phones"
+    },
+    "2015-text4-h008": {
+      "offset": 969383,
+      "length": 8507,
+      "term": "dearth of integrity",
+      "spokenText": "dearth of integrity"
+    },
+    "2015-text4-h009": {
+      "offset": 977890,
+      "length": 10388,
+      "term": "on an industrial scale",
+      "spokenText": "on an industrial scale"
+    },
+    "2015-text4-h010": {
+      "offset": 988278,
+      "length": 5059,
+      "term": "frames",
+      "spokenText": "frames"
+    },
+    "2015-text4-h011": {
+      "offset": 993337,
+      "length": 11642,
+      "term": "astonishing revelations",
+      "spokenText": "astonishing revelations"
+    },
+    "2015-text4-h012": {
+      "offset": 1004979,
+      "length": 8664,
+      "term": "be accountable for",
+      "spokenText": "be accountable for"
+    },
+    "2015-text4-h013": {
+      "offset": 1013643,
+      "length": 8507,
+      "term": "sorting mechanism",
+      "spokenText": "sorting mechanism"
+    },
+    "2015-text4-h014": {
+      "offset": 1022150,
+      "length": 4276,
+      "term": "mattered",
+      "spokenText": "mattered"
+    },
+    "2015-text4-h015": {
+      "offset": 1026426,
+      "length": 6940,
+      "term": "flexibility",
+      "spokenText": "flexibility"
+    },
+    "2015-text4-h016": {
+      "offset": 1033366,
+      "length": 8194,
+      "term": "shareholder value",
+      "spokenText": "shareholder value"
+    },
+    "2015-text4-h017": {
+      "offset": 1041560,
+      "length": 9134,
+      "term": "degraded to the margin",
+      "spokenText": "degraded to the margin"
+    },
+    "2015-text4-h018": {
+      "offset": 1050694,
+      "length": 7724,
+      "term": "proportionality",
+      "spokenText": "proportionality"
+    },
+    "2015-text4-h019": {
+      "offset": 1058418,
+      "length": 11642,
+      "term": "betray any common humanity",
+      "spokenText": "betray any common humanity"
+    },
+    "2015-text4-h020": {
+      "offset": 1070060,
+      "length": 6470,
+      "term": "suspicions",
+      "spokenText": "suspicions"
+    },
+    "2015-text4-h021": {
+      "offset": 1076530,
+      "length": 13366,
+      "term": "traceable, recorded answers",
+      "spokenText": "traceable, recorded answers"
+    },
+    "2015-text4-h022": {
+      "offset": 1089896,
+      "length": 4589,
+      "term": "immoral",
+      "spokenText": "immoral"
+    },
+    "2015-text4-h023": {
+      "offset": 1094485,
+      "length": 21046,
+      "term": "the wide misuse of integrity among institutions",
+      "spokenText": "the wide misuse of integrity among institutions"
+    },
+    "2015-text4-h024": {
+      "offset": 1115531,
+      "length": 12896,
+      "term": "should be held innocent of the charge",
+      "spokenText": "should be held innocent of the charge"
+    },
+    "2015-text4-h025": {
+      "offset": 1128427,
+      "length": 8507,
+      "term": "certain occasions",
+      "spokenText": "certain occasions"
+    },
+    "2015-text4-h026": {
+      "offset": 1136934,
+      "length": 5529,
+      "term": "convincing",
+      "spokenText": "convincing"
+    },
+    "2015-text4-h027": {
+      "offset": 1142463,
+      "length": 11956,
+      "term": "centered on trivial issues",
+      "spokenText": "centered on trivial issues"
+    },
+    "2015-text4-h028": {
+      "offset": 1154419,
+      "length": 3805,
+      "term": "cunning",
+      "spokenText": "cunning"
+    },
+    "2015-text4-h029": {
+      "offset": 1158224,
+      "length": 6627,
+      "term": "conspiracy",
+      "spokenText": "conspiracy"
+    },
+    "2015-text4-h030": {
+      "offset": 1164851,
+      "length": 4746,
+      "term": "doctrine",
+      "spokenText": "doctrine"
+    },
+    "2015-text4-h031": {
+      "offset": 1169597,
+      "length": 7254,
+      "term": "marginalized",
+      "spokenText": "marginalized"
+    },
+    "2015-text4-h032": {
+      "offset": 1176851,
+      "length": 6313,
+      "term": "distribution",
+      "spokenText": "distribution"
+    },
+    "2015-text4-h033": {
+      "offset": 1183164,
+      "length": 4432,
+      "term": "rigid",
+      "spokenText": "rigid"
+    },
+    "2015-text4-h034": {
+      "offset": 1187596,
+      "length": 4746,
+      "term": "stricter",
+      "spokenText": "stricter"
+    },
+    "2015-text4-s001": {
+      "offset": 1192342,
+      "length": 26375,
+      "term": "the only \"sorting mechanism\" in society should be profit and the market",
+      "spokenText": "the only sorting mechanism in society should be profit and the market"
+    },
+    "2015-text4-s002": {
+      "offset": 1218717,
+      "length": 8664,
+      "term": "Others await trial",
+      "spokenText": "Others await trial"
+    },
+    "2015-text4-s003": {
+      "offset": 1227381,
+      "length": 19949,
+      "term": "The core of her successful defence was that she knew nothing",
+      "spokenText": "The core of her successful defence was that she knew nothing"
+    },
+    "2015-text4-s004": {
+      "offset": 1247330,
+      "length": 11329,
+      "term": "Words degraded to the margin",
+      "spokenText": "Words degraded to the margin"
+    }
+  }
+}

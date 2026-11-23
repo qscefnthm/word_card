@@ -1,0 +1,185 @@
+{
+  "version": 1,
+  "dataset": "2012-e1",
+  "codec": "audio/mpeg",
+  "bytes": 257999,
+  "sha256": "f1bd47641a3e4fd0cd2eab3532fe741cd99d70e6c448e14496b35160143e9b88",
+  "voice": "Piper en_US-ljspeech-medium",
+  "modelCard": "https://huggingface.co/rhasspy/piper-voices/blob/main/en/en_US/ljspeech/medium/MODEL_CARD",
+  "items": {
+    "2012-text4-h001": {
+      "offset": 0,
+      "length": 6940,
+      "term": "trade unionist",
+      "spokenText": "trade unionist"
+    },
+    "2012-text4-h002": {
+      "offset": 6940,
+      "length": 5373,
+      "term": "represent",
+      "spokenText": "represent"
+    },
+    "2012-text4-h003": {
+      "offset": 12313,
+      "length": 7880,
+      "term": "civil servants",
+      "spokenText": "civil servants"
+    },
+    "2012-text4-h004": {
+      "offset": 20193,
+      "length": 6627,
+      "term": "public sector",
+      "spokenText": "public sector"
+    },
+    "2012-text4-h005": {
+      "offset": 26820,
+      "length": 6627,
+      "term": "fellow members",
+      "spokenText": "fellow members"
+    },
+    "2012-text4-h006": {
+      "offset": 33447,
+      "length": 14620,
+      "term": "dominate left-of-centre politics",
+      "spokenText": "dominate left-of-centre politics"
+    },
+    "2012-text4-h007": {
+      "offset": 48067,
+      "length": 14620,
+      "term": "associated with trade unionism",
+      "spokenText": "associated with trade unionism"
+    },
+    "2012-text4-h008": {
+      "offset": 62687,
+      "length": 13993,
+      "term": "votes from public-sector unions",
+      "spokenText": "votes from public-sector unions"
+    },
+    "2012-text4-h009": {
+      "offset": 76680,
+      "length": 4276,
+      "term": "fearsome",
+      "spokenText": "fearsome"
+    },
+    "2012-text4-h010": {
+      "offset": 80956,
+      "length": 9291,
+      "term": "patrolled by unions",
+      "spokenText": "patrolled by unions"
+    },
+    "2012-text4-h011": {
+      "offset": 90247,
+      "length": 8037,
+      "term": "average wages",
+      "spokenText": "average wages"
+    },
+    "2012-text4-h012": {
+      "offset": 98284,
+      "length": 5059,
+      "term": "pensions",
+      "spokenText": "pensions"
+    },
+    "2012-text4-h013": {
+      "offset": 103343,
+      "length": 9134,
+      "term": "vigorously opposed",
+      "spokenText": "vigorously opposed"
+    },
+    "2012-text4-h014": {
+      "offset": 112477,
+      "length": 6783,
+      "term": "notoriously",
+      "spokenText": "notoriously"
+    },
+    "2012-text4-h015": {
+      "offset": 119260,
+      "length": 5373,
+      "term": "merit pay",
+      "spokenText": "merit pay"
+    },
+    "2012-text4-h016": {
+      "offset": 124633,
+      "length": 8351,
+      "term": "plenty of evidence",
+      "spokenText": "plenty of evidence"
+    },
+    "2012-text4-h017": {
+      "offset": 132984,
+      "length": 4119,
+      "term": "clearer",
+      "spokenText": "clearer"
+    },
+    "2012-text4-h018": {
+      "offset": 137103,
+      "length": 6313,
+      "term": "clamp down",
+      "spokenText": "clamp down"
+    },
+    "2012-text4-h019": {
+      "offset": 143416,
+      "length": 12896,
+      "term": "rallied thousands of supporters",
+      "spokenText": "rallied thousands of supporters"
+    },
+    "2012-text4-h020": {
+      "offset": 156312,
+      "length": 12269,
+      "term": "the hardline Republican governor",
+      "spokenText": "the hardline Republican governor"
+    },
+    "2012-text4-h021": {
+      "offset": 168581,
+      "length": 9291,
+      "term": "public-sector membership",
+      "spokenText": "public-sector membership"
+    },
+    "2012-text4-h022": {
+      "offset": 177872,
+      "length": 11015,
+      "term": "prudent in taking actions",
+      "spokenText": "prudent in taking actions"
+    },
+    "2012-text4-h023": {
+      "offset": 188887,
+      "length": 8664,
+      "term": "seldom get in trouble",
+      "spokenText": "seldom get in trouble"
+    },
+    "2012-text4-h024": {
+      "offset": 197551,
+      "length": 9605,
+      "term": "income in the state sector",
+      "spokenText": "income in the state sector"
+    },
+    "2012-text4-h025": {
+      "offset": 207156,
+      "length": 9134,
+      "term": "illegally secured",
+      "spokenText": "illegally secured"
+    },
+    "2012-text4-h026": {
+      "offset": 216290,
+      "length": 10388,
+      "term": "indirectly augmented",
+      "spokenText": "indirectly augmented"
+    },
+    "2012-text4-h027": {
+      "offset": 226678,
+      "length": 10388,
+      "term": "excessively increased",
+      "spokenText": "excessively increased"
+    },
+    "2012-text4-h028": {
+      "offset": 237066,
+      "length": 14463,
+      "term": "a barrier to public-sector reforms",
+      "spokenText": "a barrier to public-sector reforms"
+    },
+    "2012-text4-h029": {
+      "offset": 251529,
+      "length": 6470,
+      "term": "appreciation",
+      "spokenText": "appreciation"
+    }
+  }
+}

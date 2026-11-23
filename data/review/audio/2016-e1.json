@@ -1,0 +1,731 @@
+{
+  "version": 1,
+  "dataset": "2016-e1",
+  "codec": "audio/mpeg",
+  "bytes": 1047225,
+  "sha256": "24d217c8561d5afccaa24f0ae94c55e76a9865b1df713154611dcd45f6f67ded",
+  "voice": "Piper en_US-ljspeech-medium",
+  "modelCard": "https://huggingface.co/rhasspy/piper-voices/blob/main/en/en_US/ljspeech/medium/MODEL_CARD",
+  "items": {
+    "2016-text1-h001": {
+      "offset": 0,
+      "length": 8351,
+      "term": "an absolute right",
+      "spokenText": "an absolute right"
+    },
+    "2016-text1-h002": {
+      "offset": 8351,
+      "length": 8664,
+      "term": "preliminary approval",
+      "spokenText": "preliminary approval"
+    },
+    "2016-text1-h003": {
+      "offset": 17015,
+      "length": 5373,
+      "term": "parliament",
+      "spokenText": "parliament"
+    },
+    "2016-text1-h004": {
+      "offset": 22388,
+      "length": 8507,
+      "term": "uplifting motives",
+      "spokenText": "uplifting motives"
+    },
+    "2016-text1-h005": {
+      "offset": 30895,
+      "length": 8821,
+      "term": "the social tape-measure",
+      "spokenText": "the social tape-measure"
+    },
+    "2016-text1-h006": {
+      "offset": 39716,
+      "length": 9918,
+      "term": "arbiters of their beauty",
+      "spokenText": "arbiters of their beauty"
+    },
+    "2016-text1-h007": {
+      "offset": 49634,
+      "length": 4276,
+      "term": "faintly",
+      "spokenText": "faintly"
+    },
+    "2016-text1-h008": {
+      "offset": 53910,
+      "length": 11015,
+      "term": "intangible qualities",
+      "spokenText": "intangible qualities"
+    },
+    "2016-text1-h009": {
+      "offset": 64925,
+      "length": 5216,
+      "term": "intellect",
+      "spokenText": "intellect"
+    },
+    "2016-text1-h010": {
+      "offset": 70141,
+      "length": 9134,
+      "term": "wasp-waist physiques",
+      "spokenText": "wasp-waist physiques"
+    },
+    "2016-text1-h011": {
+      "offset": 79275,
+      "length": 8351,
+      "term": "an inherent problem",
+      "spokenText": "an inherent problem"
+    },
+    "2016-text1-h012": {
+      "offset": 87626,
+      "length": 8194,
+      "term": "material adornment",
+      "spokenText": "material adornment"
+    },
+    "2016-text1-h013": {
+      "offset": 95820,
+      "length": 10545,
+      "term": "voluntary standards",
+      "spokenText": "voluntary standards"
+    },
+    "2016-text1-h014": {
+      "offset": 106365,
+      "length": 5686,
+      "term": "sanctions",
+      "spokenText": "sanctions"
+    },
+    "2016-text1-h015": {
+      "offset": 112051,
+      "length": 8351,
+      "term": "newly revised",
+      "spokenText": "newly revised"
+    },
+    "2016-text1-h016": {
+      "offset": 120402,
+      "length": 8978,
+      "term": "modeling agencies",
+      "spokenText": "modeling agencies"
+    },
+    "2016-text1-h017": {
+      "offset": 129380,
+      "length": 12739,
+      "term": "the misuse of body ideals",
+      "spokenText": "the misuse of body ideals"
+    },
+    "2016-text1-h018": {
+      "offset": 142119,
+      "length": 10702,
+      "term": "elevate notions of beauty",
+      "spokenText": "elevate notions of beauty"
+    },
+    "2016-text1-h019": {
+      "offset": 152821,
+      "length": 11329,
+      "term": "a high age threshold",
+      "spokenText": "a high age threshold"
+    },
+    "2016-text1-h020": {
+      "offset": 164150,
+      "length": 11172,
+      "term": "Threats to the Fashion Industry",
+      "spokenText": "Threats to the Fashion Industry"
+    },
+    "2016-text1-h021": {
+      "offset": 175322,
+      "length": 8194,
+      "term": "Struggle for Beauty",
+      "spokenText": "Struggle for Beauty"
+    },
+    "2016-text1-s001": {
+      "offset": 183516,
+      "length": 8821,
+      "term": "impinging on health",
+      "spokenText": "impinging on health"
+    },
+    "2016-text1-s002": {
+      "offset": 192337,
+      "length": 6156,
+      "term": "peer pressure",
+      "spokenText": "peer pressure"
+    },
+    "2016-text1-s003": {
+      "offset": 198493,
+      "length": 8507,
+      "term": "a name-and-shame method",
+      "spokenText": "a name-and-shame method"
+    },
+    "2016-text1-s004": {
+      "offset": 207000,
+      "length": 13209,
+      "term": "ethical persuasion rather than law",
+      "spokenText": "ethical persuasion rather than law"
+    },
+    "2016-text2-h001": {
+      "offset": 220209,
+      "length": 4432,
+      "term": "polls",
+      "spokenText": "polls"
+    },
+    "2016-text2-h002": {
+      "offset": 224641,
+      "length": 5686,
+      "term": "alongside",
+      "spokenText": "alongside"
+    },
+    "2016-text2-h003": {
+      "offset": 230327,
+      "length": 7724,
+      "term": "the royal family",
+      "spokenText": "the royal family"
+    },
+    "2016-text2-h004": {
+      "offset": 238051,
+      "length": 9134,
+      "term": "proudest of their country",
+      "spokenText": "proudest of their country"
+    },
+    "2016-text2-h005": {
+      "offset": 247185,
+      "length": 7880,
+      "term": "the National Trust",
+      "spokenText": "the National Trust"
+    },
+    "2016-text2-h006": {
+      "offset": 255065,
+      "length": 9134,
+      "term": "stylish houses",
+      "spokenText": "stylish houses"
+    },
+    "2016-text2-h007": {
+      "offset": 264199,
+      "length": 7254,
+      "term": "city dwellers",
+      "spokenText": "city dwellers"
+    },
+    "2016-text2-h008": {
+      "offset": 271453,
+      "length": 8978,
+      "term": "spaces for leisure",
+      "spokenText": "spaces for leisure"
+    },
+    "2016-text2-h009": {
+      "offset": 280431,
+      "length": 6627,
+      "term": "green belts",
+      "spokenText": "green belts"
+    },
+    "2016-text2-h010": {
+      "offset": 287058,
+      "length": 4746,
+      "term": "concrete",
+      "spokenText": "concrete"
+    },
+    "2016-text2-h011": {
+      "offset": 291804,
+      "length": 8507,
+      "term": "constant guardianship",
+      "spokenText": "constant guardianship"
+    },
+    "2016-text2-h012": {
+      "offset": 300311,
+      "length": 9448,
+      "term": "endorse this sentiment",
+      "spokenText": "endorse this sentiment"
+    },
+    "2016-text2-h013": {
+      "offset": 309759,
+      "length": 6783,
+      "term": "explicitly",
+      "spokenText": "explicitly"
+    },
+    "2016-text2-h014": {
+      "offset": 316542,
+      "length": 7254,
+      "term": "rural development",
+      "spokenText": "rural development"
+    },
+    "2016-text2-h015": {
+      "offset": 323796,
+      "length": 20889,
+      "term": "gives rural development priority over conservation",
+      "spokenText": "gives rural development priority over conservation"
+    },
+    "2016-text2-h016": {
+      "offset": 344685,
+      "length": 5373,
+      "term": "councils",
+      "spokenText": "councils"
+    },
+    "2016-text2-h017": {
+      "offset": 350058,
+      "length": 8978,
+      "term": "sensing its chance",
+      "spokenText": "sensing its chance"
+    },
+    "2016-text2-h018": {
+      "offset": 359036,
+      "length": 8037,
+      "term": "struck terror into",
+      "spokenText": "struck terror into"
+    },
+    "2016-text2-h019": {
+      "offset": 367073,
+      "length": 8664,
+      "term": "concreted meadows",
+      "spokenText": "concreted meadows"
+    },
+    "2016-text2-h020": {
+      "offset": 375737,
+      "length": 6000,
+      "term": "lobby talk",
+      "spokenText": "lobby talk"
+    },
+    "2016-text2-h021": {
+      "offset": 381737,
+      "length": 12739,
+      "term": "urban renovation and renewal",
+      "spokenText": "urban renovation and renewal"
+    },
+    "2016-text2-h022": {
+      "offset": 394476,
+      "length": 4119,
+      "term": "permitting",
+      "spokenText": "permitting"
+    },
+    "2016-text2-h023": {
+      "offset": 398595,
+      "length": 10545,
+      "term": "low-density urban living",
+      "spokenText": "low-density urban living"
+    },
+    "2016-text2-h024": {
+      "offset": 409140,
+      "length": 9448,
+      "term": "unite the left and right",
+      "spokenText": "unite the left and right"
+    },
+    "2016-text2-h025": {
+      "offset": 418588,
+      "length": 8507,
+      "term": "the political spectrum",
+      "spokenText": "the political spectrum"
+    },
+    "2016-text2-h026": {
+      "offset": 427095,
+      "length": 13523,
+      "term": "public sentiment about the countryside",
+      "spokenText": "public sentiment about the countryside"
+    },
+    "2016-text2-h027": {
+      "offset": 440618,
+      "length": 6627,
+      "term": "overshadowed",
+      "spokenText": "overshadowed"
+    },
+    "2016-text2-h028": {
+      "offset": 447245,
+      "length": 6627,
+      "term": "reinforced",
+      "spokenText": "reinforced"
+    },
+    "2016-text2-h029": {
+      "offset": 453872,
+      "length": 7880,
+      "term": "disregard for",
+      "spokenText": "disregard for"
+    },
+    "2016-text2-h030": {
+      "offset": 461752,
+      "length": 8507,
+      "term": "prejudice against",
+      "spokenText": "prejudice against"
+    },
+    "2016-text2-h031": {
+      "offset": 470259,
+      "length": 8351,
+      "term": "appreciation of",
+      "spokenText": "appreciation of"
+    },
+    "2016-text2-s001": {
+      "offset": 478610,
+      "length": 11015,
+      "term": "limited political support",
+      "spokenText": "limited political support"
+    },
+    "2016-text2-s002": {
+      "offset": 489625,
+      "length": 8194,
+      "term": "rural coherence",
+      "spokenText": "rural coherence"
+    },
+    "2016-text2-s003": {
+      "offset": 497819,
+      "length": 4903,
+      "term": "not … but …",
+      "spokenText": "not, but"
+    },
+    "2016-text3-h001": {
+      "offset": 502722,
+      "length": 13366,
+      "term": "a Nobel prize-winning economist",
+      "spokenText": "a Nobel prize-winning economist"
+    },
+    "2016-text3-h002": {
+      "offset": 516088,
+      "length": 5373,
+      "term": "clear-cut",
+      "spokenText": "clear-cut"
+    },
+    "2016-text3-h003": {
+      "offset": 521461,
+      "length": 8821,
+      "term": "monetary value",
+      "spokenText": "monetary value"
+    },
+    "2016-text3-h004": {
+      "offset": 530282,
+      "length": 10702,
+      "term": "prosecuted for corruption",
+      "spokenText": "prosecuted for corruption"
+    },
+    "2016-text3-h005": {
+      "offset": 540984,
+      "length": 8351,
+      "term": "a consulting firm",
+      "spokenText": "a consulting firm"
+    },
+    "2016-text3-h006": {
+      "offset": 549335,
+      "length": 10858,
+      "term": "bribery prosecutions",
+      "spokenText": "bribery prosecutions"
+    },
+    "2016-text3-h007": {
+      "offset": 560193,
+      "length": 7097,
+      "term": "prosecutors",
+      "spokenText": "prosecutors"
+    },
+    "2016-text3-h008": {
+      "offset": 567290,
+      "length": 9134,
+      "term": "prosecuted firms",
+      "spokenText": "prosecuted firms"
+    },
+    "2016-text3-h009": {
+      "offset": 576424,
+      "length": 17912,
+      "term": "comprehensive CSR programmes",
+      "spokenText": "comprehensive C S R programmes"
+    },
+    "2016-text3-h010": {
+      "offset": 594336,
+      "length": 5843,
+      "term": "penalties",
+      "spokenText": "penalties"
+    },
+    "2016-text3-h011": {
+      "offset": 600179,
+      "length": 6313,
+      "term": "leniency",
+      "spokenText": "leniency"
+    },
+    "2016-text3-h012": {
+      "offset": 606492,
+      "length": 7097,
+      "term": "prosecutors",
+      "spokenText": "prosecutors"
+    },
+    "2016-text3-h013": {
+      "offset": 613589,
+      "length": 8821,
+      "term": "based on its merits",
+      "spokenText": "based on its merits"
+    },
+    "2016-text3-h014": {
+      "offset": 622410,
+      "length": 17912,
+      "term": "eliminating a substantial labour-rights concern",
+      "spokenText": "eliminating a substantial labour-rights concern"
+    },
+    "2016-text3-h015": {
+      "offset": 640322,
+      "length": 10702,
+      "term": "bribing foreign officials",
+      "spokenText": "bribing foreign officials"
+    },
+    "2016-text3-h016": {
+      "offset": 651024,
+      "length": 12896,
+      "term": "statement about CSR",
+      "spokenText": "statement about C S R"
+    },
+    "2016-text3-h017": {
+      "offset": 663920,
+      "length": 7567,
+      "term": "malpractices",
+      "spokenText": "malpractices"
+    },
+    "2016-text3-h018": {
+      "offset": 671487,
+      "length": 7567,
+      "term": "being defamed",
+      "spokenText": "being defamed"
+    },
+    "2016-text3-h019": {
+      "offset": 679054,
+      "length": 7097,
+      "term": "prosecutors",
+      "spokenText": "prosecutors"
+    },
+    "2016-text3-s001": {
+      "offset": 686151,
+      "length": 19165,
+      "term": "corporate social responsibility (CSR)",
+      "spokenText": "corporate social responsibility (C S R)"
+    },
+    "2016-text3-s002": {
+      "offset": 705316,
+      "length": 6783,
+      "term": "halo effect",
+      "spokenText": "halo effect"
+    },
+    "2016-text3-s003": {
+      "offset": 712099,
+      "length": 10232,
+      "term": "more lenient penalties",
+      "spokenText": "more lenient penalties"
+    },
+    "2016-text3-s004": {
+      "offset": 722331,
+      "length": 11015,
+      "term": "ruled out the possibility that",
+      "spokenText": "ruled out the possibility that"
+    },
+    "2016-text3-s005": {
+      "offset": 733346,
+      "length": 11172,
+      "term": "accounted for the leniency",
+      "spokenText": "accounted for the leniency"
+    },
+    "2016-text3-s006": {
+      "offset": 744518,
+      "length": 15874,
+      "term": "take CSR spending as a “signal”",
+      "spokenText": "take C S R spending as a signal"
+    },
+    "2016-text3-s007": {
+      "offset": 760392,
+      "length": 5843,
+      "term": "less severe",
+      "spokenText": "less severe"
+    },
+    "2016-text4-h001": {
+      "offset": 766235,
+      "length": 8664,
+      "term": "ceases to publish",
+      "spokenText": "ceases to publish"
+    },
+    "2016-text4-h002": {
+      "offset": 774899,
+      "length": 9605,
+      "term": "plenty of incentive",
+      "spokenText": "plenty of incentive"
+    },
+    "2016-text4-h003": {
+      "offset": 784504,
+      "length": 5843,
+      "term": "ditch print",
+      "spokenText": "ditch print"
+    },
+    "2016-text4-h004": {
+      "offset": 790347,
+      "length": 6627,
+      "term": "infrastructure",
+      "spokenText": "infrastructure"
+    },
+    "2016-text4-h005": {
+      "offset": 796974,
+      "length": 7567,
+      "term": "delivery trucks",
+      "spokenText": "delivery trucks"
+    },
+    "2016-text4-h006": {
+      "offset": 804541,
+      "length": 5059,
+      "term": "excessive",
+      "spokenText": "excessive"
+    },
+    "2016-text4-h007": {
+      "offset": 809600,
+      "length": 9761,
+      "term": "financial constraints",
+      "spokenText": "financial constraints"
+    },
+    "2016-text4-h008": {
+      "offset": 819361,
+      "length": 9918,
+      "term": "migrating away from print",
+      "spokenText": "migrating away from print"
+    },
+    "2016-text4-h009": {
+      "offset": 829279,
+      "length": 3805,
+      "term": "dwarf",
+      "spokenText": "dwarf"
+    },
+    "2016-text4-h010": {
+      "offset": 833084,
+      "length": 14150,
+      "term": "their online and mobile counterparts",
+      "spokenText": "their online and mobile counterparts"
+    },
+    "2016-text4-h011": {
+      "offset": 847234,
+      "length": 7880,
+      "term": "revenue from print",
+      "spokenText": "revenue from print"
+    },
+    "2016-text4-h012": {
+      "offset": 855114,
+      "length": 11329,
+      "term": "accelerate that transition",
+      "spokenText": "accelerate that transition"
+    },
+    "2016-text4-h013": {
+      "offset": 866443,
+      "length": 8037,
+      "term": "loyal customers",
+      "spokenText": "loyal customers"
+    },
+    "2016-text4-h014": {
+      "offset": 874480,
+      "length": 5216,
+      "term": "a blunder",
+      "spokenText": "a blunder"
+    },
+    "2016-text4-h015": {
+      "offset": 879696,
+      "length": 8194,
+      "term": "a legacy product",
+      "spokenText": "a legacy product"
+    },
+    "2016-text4-h016": {
+      "offset": 887890,
+      "length": 8507,
+      "term": "overpaying for print",
+      "spokenText": "overpaying for print"
+    },
+    "2016-text4-h017": {
+      "offset": 896397,
+      "length": 5373,
+      "term": "essentially",
+      "spokenText": "essentially"
+    },
+    "2016-text4-h018": {
+      "offset": 901770,
+      "length": 10858,
+      "term": "generate additional revenue",
+      "spokenText": "generate additional revenue"
+    },
+    "2016-text4-h019": {
+      "offset": 912628,
+      "length": 6940,
+      "term": "obsessed with it",
+      "spokenText": "obsessed with it"
+    },
+    "2016-text4-h020": {
+      "offset": 919568,
+      "length": 9134,
+      "term": "a tremendous luxury",
+      "spokenText": "a tremendous luxury"
+    },
+    "2016-text4-h021": {
+      "offset": 928702,
+      "length": 6313,
+      "term": "more aggressive",
+      "spokenText": "more aggressive"
+    },
+    "2016-text4-h022": {
+      "offset": 935015,
+      "length": 6156,
+      "term": "investors",
+      "spokenText": "investors"
+    },
+    "2016-text4-h023": {
+      "offset": 941171,
+      "length": 11172,
+      "term": "make strategic adjustments",
+      "spokenText": "make strategic adjustments"
+    },
+    "2016-text4-h024": {
+      "offset": 952343,
+      "length": 11329,
+      "term": "the glory of former times",
+      "spokenText": "the glory of former times"
+    },
+    "2016-text4-h025": {
+      "offset": 963672,
+      "length": 9134,
+      "term": "traditional luxuries",
+      "spokenText": "traditional luxuries"
+    },
+    "2016-text4-h026": {
+      "offset": 972806,
+      "length": 12426,
+      "term": "facilitates problem-solving",
+      "spokenText": "facilitates problem-solving"
+    },
+    "2016-text4-h027": {
+      "offset": 985232,
+      "length": 6627,
+      "term": "aggressiveness",
+      "spokenText": "aggressiveness"
+    },
+    "2016-text4-h028": {
+      "offset": 991859,
+      "length": 7254,
+      "term": "a Luxury Good",
+      "spokenText": "a Luxury Good"
+    },
+    "2016-text4-h029": {
+      "offset": 999113,
+      "length": 4746,
+      "term": "Cherish",
+      "spokenText": "Cherish"
+    },
+    "2016-text4-s001": {
+      "offset": 1003859,
+      "length": 4746,
+      "term": "Overhead",
+      "spokenText": "Overhead"
+    },
+    "2016-text4-s002": {
+      "offset": 1008605,
+      "length": 6470,
+      "term": "circulation",
+      "spokenText": "circulation"
+    },
+    "2016-text4-s003": {
+      "offset": 1015075,
+      "length": 5216,
+      "term": "foresighted",
+      "spokenText": "foresighted"
+    },
+    "2016-text4-s004": {
+      "offset": 1020291,
+      "length": 6000,
+      "term": "make sense",
+      "spokenText": "make sense"
+    },
+    "2016-text4-s005": {
+      "offset": 1026291,
+      "length": 6000,
+      "term": "discontinue",
+      "spokenText": "discontinue"
+    },
+    "2016-text4-s006": {
+      "offset": 1032291,
+      "length": 14934,
+      "term": "Make Your Print Newspaper a Luxury Good",
+      "spokenText": "Make Your Print Newspaper a Luxury Good"
+    }
+  }
+}

@@ -1,0 +1,797 @@
+{
+  "version": 1,
+  "dataset": "2014-e1",
+  "codec": "audio/mpeg",
+  "bytes": 1142370,
+  "sha256": "6870e9bca94b51216d3bb9d21ee569645616af32908b05f1817a4627e5eb89c4",
+  "voice": "Piper en_US-ljspeech-medium",
+  "modelCard": "https://huggingface.co/rhasspy/piper-voices/blob/main/en/en_US/ljspeech/medium/MODEL_CARD",
+  "items": {
+    "2014-text1-h001": {
+      "offset": 0,
+      "length": 11485,
+      "term": "upfront work search scheme",
+      "spokenText": "upfront work search scheme"
+    },
+    "2014-text1-h002": {
+      "offset": 11485,
+      "length": 9918,
+      "term": "eligible for benefit",
+      "spokenText": "eligible for benefit"
+    },
+    "2014-text1-h003": {
+      "offset": 21403,
+      "length": 5843,
+      "term": "fortnightly",
+      "spokenText": "fortnightly"
+    },
+    "2014-text1-h004": {
+      "offset": 27246,
+      "length": 9761,
+      "term": "jobseeker’s allowance",
+      "spokenText": "jobseeker's allowance"
+    },
+    "2014-text1-h005": {
+      "offset": 37007,
+      "length": 5216,
+      "term": "chancellor",
+      "spokenText": "chancellor"
+    },
+    "2014-text1-h006": {
+      "offset": 42223,
+      "length": 6313,
+      "term": "reforms",
+      "spokenText": "reforms"
+    },
+    "2014-text1-h007": {
+      "offset": 48536,
+      "length": 7880,
+      "term": "indulgent system",
+      "spokenText": "indulgent system"
+    },
+    "2014-text1-h008": {
+      "offset": 56416,
+      "length": 11642,
+      "term": "subsidises laziness",
+      "spokenText": "subsidises laziness"
+    },
+    "2014-text1-h009": {
+      "offset": 68058,
+      "length": 12896,
+      "term": "zeal for fundamental fairness",
+      "spokenText": "zeal for fundamental fairness"
+    },
+    "2014-text1-h010": {
+      "offset": 80954,
+      "length": 5529,
+      "term": "taxpayer",
+      "spokenText": "taxpayer"
+    },
+    "2014-text1-h011": {
+      "offset": 86483,
+      "length": 8194,
+      "term": "deserving claimants",
+      "spokenText": "deserving claimants"
+    },
+    "2014-text1-h012": {
+      "offset": 94677,
+      "length": 11485,
+      "term": "delighted at the prospect of",
+      "spokenText": "delighted at the prospect of"
+    },
+    "2014-text1-h013": {
+      "offset": 106162,
+      "length": 11642,
+      "term": "psychologically embarrassing",
+      "spokenText": "psychologically embarrassing"
+    },
+    "2014-text1-h014": {
+      "offset": 117804,
+      "length": 8664,
+      "term": "permanent dependency",
+      "spokenText": "permanent dependency"
+    },
+    "2014-text1-h015": {
+      "offset": 126468,
+      "length": 5373,
+      "term": "indulge",
+      "spokenText": "indulge"
+    },
+    "2014-text1-h016": {
+      "offset": 131841,
+      "length": 9761,
+      "term": "ever-tougher reforms",
+      "spokenText": "ever-tougher reforms"
+    },
+    "2014-text1-h017": {
+      "offset": 141602,
+      "length": 5686,
+      "term": "disaster",
+      "spokenText": "disaster"
+    },
+    "2014-text1-h018": {
+      "offset": 147288,
+      "length": 7410,
+      "term": "fundamental right",
+      "spokenText": "fundamental right"
+    },
+    "2014-text1-h019": {
+      "offset": 154698,
+      "length": 4276,
+      "term": "claimant",
+      "spokenText": "claimant"
+    },
+    "2014-text1-h020": {
+      "offset": 158974,
+      "length": 6627,
+      "term": "entitlement",
+      "spokenText": "entitlement"
+    },
+    "2014-text1-h021": {
+      "offset": 165601,
+      "length": 12739,
+      "term": "legitimate right to benefits",
+      "spokenText": "legitimate right to benefits"
+    },
+    "2014-text1-h022": {
+      "offset": 178340,
+      "length": 11329,
+      "term": "restrictions on the allowance",
+      "spokenText": "restrictions on the allowance"
+    },
+    "2014-text1-h023": {
+      "offset": 189669,
+      "length": 4589,
+      "term": "eagerness",
+      "spokenText": "eagerness"
+    },
+    "2014-text1-h024": {
+      "offset": 194258,
+      "length": 5529,
+      "term": "uneasy",
+      "spokenText": "uneasy"
+    },
+    "2014-text1-h025": {
+      "offset": 199787,
+      "length": 5216,
+      "term": "insulted",
+      "spokenText": "insulted"
+    },
+    "2014-text1-h026": {
+      "offset": 205003,
+      "length": 5373,
+      "term": "enraged",
+      "spokenText": "enraged"
+    },
+    "2014-text1-h027": {
+      "offset": 210376,
+      "length": 4119,
+      "term": "guilty",
+      "spokenText": "guilty"
+    },
+    "2014-text1-k001": {
+      "offset": 214495,
+      "length": 20106,
+      "term": "Only if ... will they be eligible for benefit",
+      "spokenText": "Only if, will they be eligible for benefit"
+    },
+    "2014-text1-k002": {
+      "offset": 234601,
+      "length": 23084,
+      "term": "What motivated him ... was his zeal for “fundamental fairness”",
+      "spokenText": "What motivated him, was his zeal for fundamental fairness"
+    },
+    "2014-text1-k003": {
+      "offset": 257685,
+      "length": 13993,
+      "term": "no entitlement and no insurance",
+      "spokenText": "no entitlement and no insurance"
+    },
+    "2014-text2-h001": {
+      "offset": 271678,
+      "length": 5843,
+      "term": "hostility",
+      "spokenText": "hostility"
+    },
+    "2014-text2-h002": {
+      "offset": 277521,
+      "length": 5373,
+      "term": "clients",
+      "spokenText": "clients"
+    },
+    "2014-text2-h003": {
+      "offset": 282894,
+      "length": 8507,
+      "term": "grounds for complaint",
+      "spokenText": "grounds for complaint"
+    },
+    "2014-text2-h004": {
+      "offset": 291401,
+      "length": 5686,
+      "term": "inflation",
+      "spokenText": "inflation"
+    },
+    "2014-text2-h005": {
+      "offset": 297087,
+      "length": 10858,
+      "term": "skyscrapers-full of money",
+      "spokenText": "skyscrapers-full of money"
+    },
+    "2014-text2-h006": {
+      "offset": 307945,
+      "length": 6313,
+      "term": "tort system",
+      "spokenText": "tort system"
+    },
+    "2014-text2-h007": {
+      "offset": 314258,
+      "length": 8507,
+      "term": "costly nightmare",
+      "spokenText": "costly nightmare"
+    },
+    "2014-text2-h008": {
+      "offset": 322765,
+      "length": 9291,
+      "term": "excessive costs",
+      "spokenText": "excessive costs"
+    },
+    "2014-text2-h009": {
+      "offset": 332056,
+      "length": 9448,
+      "term": "undergraduate degree",
+      "spokenText": "undergraduate degree"
+    },
+    "2014-text2-h010": {
+      "offset": 341504,
+      "length": 6000,
+      "term": "authorized",
+      "spokenText": "authorized"
+    },
+    "2014-text2-h011": {
+      "offset": 347504,
+      "length": 5843,
+      "term": "bar exam",
+      "spokenText": "bar exam"
+    },
+    "2014-text2-h012": {
+      "offset": 353347,
+      "length": 2708,
+      "term": "debt",
+      "spokenText": "debt"
+    },
+    "2014-text2-h013": {
+      "offset": 356055,
+      "length": 7254,
+      "term": "fearsomely hard",
+      "spokenText": "fearsomely hard"
+    },
+    "2014-text2-h014": {
+      "offset": 363309,
+      "length": 12112,
+      "term": "too conservative to implement",
+      "spokenText": "too conservative to implement"
+    },
+    "2014-text2-h015": {
+      "offset": 375421,
+      "length": 4589,
+      "term": "stern",
+      "spokenText": "stern"
+    },
+    "2014-text2-h016": {
+      "offset": 380010,
+      "length": 5373,
+      "term": "opponents",
+      "spokenText": "opponents"
+    },
+    "2014-text2-h017": {
+      "offset": 385383,
+      "length": 6313,
+      "term": "isolates",
+      "spokenText": "isolates"
+    },
+    "2014-text2-h018": {
+      "offset": 391696,
+      "length": 4746,
+      "term": "ethically",
+      "spokenText": "ethically"
+    },
+    "2014-text2-h019": {
+      "offset": 396442,
+      "length": 8037,
+      "term": "bachelor’s degree",
+      "spokenText": "bachelor's degree"
+    },
+    "2014-text2-h020": {
+      "offset": 404479,
+      "length": 4903,
+      "term": "hindrance",
+      "spokenText": "hindrance"
+    },
+    "2014-text2-h021": {
+      "offset": 409382,
+      "length": 12896,
+      "term": "rigid bodies governing the profession",
+      "spokenText": "rigid bodies governing the profession"
+    },
+    "2014-text2-h022": {
+      "offset": 422278,
+      "length": 10858,
+      "term": "guild-like ownership structure",
+      "spokenText": "guild-like ownership structure"
+    },
+    "2014-text2-h023": {
+      "offset": 433136,
+      "length": 8664,
+      "term": "ethical situation",
+      "spokenText": "ethical situation"
+    },
+    "2014-text2-k001": {
+      "offset": 441800,
+      "length": 24965,
+      "term": "a four-year undergraduate degree ... then a three-year law degree",
+      "spokenText": "a four-year undergraduate degree, then a three-year law degree"
+    },
+    "2014-text2-k002": {
+      "offset": 466765,
+      "length": 18852,
+      "term": "non-lawyers may not own any share of a law firm",
+      "spokenText": "non-lawyers may not own any share of a law firm"
+    },
+    "2014-text3-h001": {
+      "offset": 485617,
+      "length": 8507,
+      "term": "lucrative awards",
+      "spokenText": "lucrative awards"
+    },
+    "2014-text3-h002": {
+      "offset": 494124,
+      "length": 11329,
+      "term": "Internet entrepreneurs",
+      "spokenText": "Internet entrepreneurs"
+    },
+    "2014-text3-h003": {
+      "offset": 505453,
+      "length": 7254,
+      "term": "benefactors",
+      "spokenText": "benefactors"
+    },
+    "2014-text3-h004": {
+      "offset": 512707,
+      "length": 5529,
+      "term": "prestige",
+      "spokenText": "prestige"
+    },
+    "2014-text3-h005": {
+      "offset": 518236,
+      "length": 4903,
+      "term": "distort",
+      "spokenText": "distort"
+    },
+    "2014-text3-h006": {
+      "offset": 523139,
+      "length": 9448,
+      "term": "cement the status quo",
+      "spokenText": "cement the status quo"
+    },
+    "2014-text3-h007": {
+      "offset": 532587,
+      "length": 3649,
+      "term": "fund",
+      "spokenText": "fund"
+    },
+    "2014-text3-h008": {
+      "offset": 536236,
+      "length": 14620,
+      "term": "perpetuate the myth of the lone genius",
+      "spokenText": "perpetuate the myth of the lone genius"
+    },
+    "2014-text3-h009": {
+      "offset": 550856,
+      "length": 4589,
+      "term": "scattered",
+      "spokenText": "scattered"
+    },
+    "2014-text3-h010": {
+      "offset": 555445,
+      "length": 9291,
+      "term": "legitimate concerns",
+      "spokenText": "legitimate concerns"
+    },
+    "2014-text3-h011": {
+      "offset": 564736,
+      "length": 5529,
+      "term": "distributed",
+      "spokenText": "distributed"
+    },
+    "2014-text3-h012": {
+      "offset": 570265,
+      "length": 9918,
+      "term": "unrepresentative view",
+      "spokenText": "unrepresentative view"
+    },
+    "2014-text3-h013": {
+      "offset": 580183,
+      "length": 6470,
+      "term": "recipients",
+      "spokenText": "recipients"
+    },
+    "2014-text3-h014": {
+      "offset": 586653,
+      "length": 5216,
+      "term": "outgrown",
+      "spokenText": "outgrown"
+    },
+    "2014-text3-h015": {
+      "offset": 591869,
+      "length": 8507,
+      "term": "collaborative nature",
+      "spokenText": "collaborative nature"
+    },
+    "2014-text3-h016": {
+      "offset": 600376,
+      "length": 6156,
+      "term": "demonstrated",
+      "spokenText": "demonstrated"
+    },
+    "2014-text3-h017": {
+      "offset": 606532,
+      "length": 7097,
+      "term": "inevitable row",
+      "spokenText": "inevitable row"
+    },
+    "2014-text3-h018": {
+      "offset": 613629,
+      "length": 5373,
+      "term": "intention",
+      "spokenText": "intention"
+    },
+    "2014-text3-h019": {
+      "offset": 619002,
+      "length": 6627,
+      "term": "legitimacy",
+      "spokenText": "legitimacy"
+    },
+    "2014-text3-h020": {
+      "offset": 625629,
+      "length": 6627,
+      "term": "criticize",
+      "spokenText": "criticize"
+    },
+    "2014-text3-h021": {
+      "offset": 632256,
+      "length": 5529,
+      "term": "mechanism",
+      "spokenText": "mechanism"
+    },
+    "2014-text3-h022": {
+      "offset": 637785,
+      "length": 8978,
+      "term": "entrepreneurs’ wealth",
+      "spokenText": "entrepreneurs' wealth"
+    },
+    "2014-text3-h023": {
+      "offset": 646763,
+      "length": 7097,
+      "term": "handsome reward",
+      "spokenText": "handsome reward"
+    },
+    "2014-text3-h024": {
+      "offset": 653860,
+      "length": 6470,
+      "term": "investments",
+      "spokenText": "investments"
+    },
+    "2014-text3-h025": {
+      "offset": 660330,
+      "length": 7410,
+      "term": "profit-oriented",
+      "spokenText": "profit-oriented"
+    },
+    "2014-text3-h026": {
+      "offset": 667740,
+      "length": 5529,
+      "term": "founders",
+      "spokenText": "founders"
+    },
+    "2014-text3-h027": {
+      "offset": 673269,
+      "length": 6470,
+      "term": "Higgs boson",
+      "spokenText": "Higgs boson"
+    },
+    "2014-text3-h028": {
+      "offset": 679739,
+      "length": 5373,
+      "term": "legitimate",
+      "spokenText": "legitimate"
+    },
+    "2014-text3-h029": {
+      "offset": 685112,
+      "length": 16501,
+      "term": "controversies over recipients’ status",
+      "spokenText": "controversies over recipients' status"
+    },
+    "2014-text3-h030": {
+      "offset": 701613,
+      "length": 5529,
+      "term": "endurance",
+      "spokenText": "endurance"
+    },
+    "2014-text3-h031": {
+      "offset": 707142,
+      "length": 6470,
+      "term": "representative",
+      "spokenText": "representative"
+    },
+    "2014-text3-h032": {
+      "offset": 713612,
+      "length": 6313,
+      "term": "in dispute",
+      "spokenText": "in dispute"
+    },
+    "2014-text3-h033": {
+      "offset": 719925,
+      "length": 15404,
+      "term": "subject to undesirable changes",
+      "spokenText": "subject to undesirable changes"
+    },
+    "2014-text3-h034": {
+      "offset": 735329,
+      "length": 16031,
+      "term": "acceptable despite the criticism",
+      "spokenText": "acceptable despite the criticism"
+    },
+    "2014-text3-k001": {
+      "offset": 751360,
+      "length": 20263,
+      "term": "an exercise in self-promotion for those behind them",
+      "spokenText": "an exercise in self-promotion for those behind them"
+    },
+    "2014-text3-k002": {
+      "offset": 771623,
+      "length": 24181,
+      "term": "has long been outgrown by the collaborative nature of modern research",
+      "spokenText": "has long been outgrown by the collaborative nature of modern research"
+    },
+    "2014-text3-k003": {
+      "offset": 795804,
+      "length": 24181,
+      "term": "Time, rather than intention, has given them legitimacy",
+      "spokenText": "Time, rather than intention, has given them legitimacy"
+    },
+    "2014-text3-k004": {
+      "offset": 819985,
+      "length": 24181,
+      "term": "It is wise to take such gifts with gratitude and grace",
+      "spokenText": "It is wise to take such gifts with gratitude and grace"
+    },
+    "2014-text4-h001": {
+      "offset": 844166,
+      "length": 6000,
+      "term": "prosperity",
+      "spokenText": "prosperity"
+    },
+    "2014-text4-h002": {
+      "offset": 850166,
+      "length": 6627,
+      "term": "democracy",
+      "spokenText": "democracy"
+    },
+    "2014-text4-h003": {
+      "offset": 856793,
+      "length": 5843,
+      "term": "regrettably",
+      "spokenText": "regrettably"
+    },
+    "2014-text4-h004": {
+      "offset": 862636,
+      "length": 5059,
+      "term": "scholarship",
+      "spokenText": "scholarship"
+    },
+    "2014-text4-h005": {
+      "offset": 867695,
+      "length": 7567,
+      "term": "prominent figures",
+      "spokenText": "prominent figures"
+    },
+    "2014-text4-h006": {
+      "offset": 875262,
+      "length": 6156,
+      "term": "diplomacy",
+      "spokenText": "diplomacy"
+    },
+    "2014-text4-h007": {
+      "offset": 881418,
+      "length": 4746,
+      "term": "filmmaking",
+      "spokenText": "filmmaking"
+    },
+    "2014-text4-h008": {
+      "offset": 886164,
+      "length": 9761,
+      "term": "representative government",
+      "spokenText": "representative government"
+    },
+    "2014-text4-h009": {
+      "offset": 895925,
+      "length": 7254,
+      "term": "presupposes",
+      "spokenText": "presupposes"
+    },
+    "2014-text4-h010": {
+      "offset": 903179,
+      "length": 6156,
+      "term": "citizenry",
+      "spokenText": "citizenry"
+    },
+    "2014-text4-h011": {
+      "offset": 909335,
+      "length": 6156,
+      "term": "particularly",
+      "spokenText": "particularly"
+    },
+    "2014-text4-h012": {
+      "offset": 915491,
+      "length": 13053,
+      "term": "crafting of coherent curricula",
+      "spokenText": "crafting of coherent curricula"
+    },
+    "2014-text4-h013": {
+      "offset": 928544,
+      "length": 5843,
+      "term": "advocates",
+      "spokenText": "advocates"
+    },
+    "2014-text4-h014": {
+      "offset": 934387,
+      "length": 4746,
+      "term": "inquiry",
+      "spokenText": "inquiry"
+    },
+    "2014-text4-h015": {
+      "offset": 939133,
+      "length": 11015,
+      "term": "vehicles for publicizing",
+      "spokenText": "vehicles for publicizing"
+    },
+    "2014-text4-h016": {
+      "offset": 950148,
+      "length": 6156,
+      "term": "propaganda",
+      "spokenText": "propaganda"
+    },
+    "2014-text4-h017": {
+      "offset": 956304,
+      "length": 5216,
+      "term": "routinely",
+      "spokenText": "routinely"
+    },
+    "2014-text4-h018": {
+      "offset": 961520,
+      "length": 7097,
+      "term": "interpretation",
+      "spokenText": "interpretation"
+    },
+    "2014-text4-h019": {
+      "offset": 968617,
+      "length": 5216,
+      "term": "progressive",
+      "spokenText": "progressive"
+    },
+    "2014-text4-h020": {
+      "offset": 973833,
+      "length": 4746,
+      "term": "portraying",
+      "spokenText": "portraying"
+    },
+    "2014-text4-h021": {
+      "offset": 978579,
+      "length": 6000,
+      "term": "conservative",
+      "spokenText": "conservative"
+    },
+    "2014-text4-h022": {
+      "offset": 984579,
+      "length": 6313,
+      "term": "boundaries",
+      "spokenText": "boundaries"
+    },
+    "2014-text4-h023": {
+      "offset": 990892,
+      "length": 5373,
+      "term": "legitimate",
+      "spokenText": "legitimate"
+    },
+    "2014-text4-h024": {
+      "offset": 996265,
+      "length": 11172,
+      "term": "intellectual investigation",
+      "spokenText": "intellectual investigation"
+    },
+    "2014-text4-h025": {
+      "offset": 1007437,
+      "length": 7410,
+      "term": "enthusiasm",
+      "spokenText": "enthusiasm"
+    },
+    "2014-text4-h026": {
+      "offset": 1014847,
+      "length": 3649,
+      "term": "breadth",
+      "spokenText": "breadth"
+    },
+    "2014-text4-h027": {
+      "offset": 1018496,
+      "length": 5529,
+      "term": "illuminate",
+      "spokenText": "illuminate"
+    },
+    "2014-text4-h028": {
+      "offset": 1024025,
+      "length": 6470,
+      "term": "appreciative",
+      "spokenText": "appreciative"
+    },
+    "2014-text4-h029": {
+      "offset": 1030495,
+      "length": 6783,
+      "term": "contemptuous",
+      "spokenText": "contemptuous"
+    },
+    "2014-text4-h030": {
+      "offset": 1037278,
+      "length": 4589,
+      "term": "retain",
+      "spokenText": "retain"
+    },
+    "2014-text4-h031": {
+      "offset": 1041867,
+      "length": 5373,
+      "term": "emphasis",
+      "spokenText": "emphasis"
+    },
+    "2014-text4-h034": {
+      "offset": 1047240,
+      "length": 14777,
+      "term": "conservative about public policy",
+      "spokenText": "conservative about public policy"
+    },
+    "2014-text4-h033": {
+      "offset": 1062017,
+      "length": 7410,
+      "term": "biased against",
+      "spokenText": "biased against"
+    },
+    "2014-text4-h035": {
+      "offset": 1069427,
+      "length": 11172,
+      "term": "intellectual investigation",
+      "spokenText": "intellectual investigation"
+    },
+    "2014-text4-h032": {
+      "offset": 1080599,
+      "length": 4432,
+      "term": "illiberal",
+      "spokenText": "illiberal"
+    },
+    "2014-text4-k001": {
+      "offset": 1085031,
+      "length": 16971,
+      "term": "deserves praise ... Regrettably, however",
+      "spokenText": "deserves praise, Regrettably, however"
+    },
+    "2014-text4-k002": {
+      "offset": 1102002,
+      "length": 22143,
+      "term": "encourages the use of new digital technologies",
+      "spokenText": "encourages the use of new digital technologies"
+    },
+    "2014-text4-k003": {
+      "offset": 1124145,
+      "length": 18225,
+      "term": "advocates greater study of foreign languages",
+      "spokenText": "advocates greater study of foreign languages"
+    }
+  }
+}

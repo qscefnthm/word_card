@@ -141,7 +141,7 @@ def check_desktop_pronunciation(browser, base, catalog):
         hear(1, rows[1]['term'], 2)
         ok('Changing word cancels previous speech',
            page.evaluate("voiceTest.calls.filter(c => c.type === 'cancel').length") == 1)
-        page.evaluate("voiceTest.finish('error', 'synthesis-failed')")
+        page.evaluate("voiceTest.finish('end')")
         hear(1, rows[1]['term'], 3)
         page.evaluate("voiceTest.finish('end')")
         hear(1, rows[1]['term'], 4)
@@ -173,6 +173,28 @@ def check_desktop_pronunciation(browser, base, catalog):
         expect(say).to_have_attribute('data-speech-state', 'idle')
         ok('Changing the section cancels the old word',
            page.evaluate("!speechSynthesis.speaking && voiceTest.calls.at(-1).type === 'cancel'"))
+        # Force both Edge voices to fail. The recording itself uses real browser media playback.
+        page.evaluate("""() => {
+          window.finishedRecordings = 0;
+          const play = HTMLMediaElement.prototype.play;
+          HTMLMediaElement.prototype.play = function() {
+            this.addEventListener('ended', () => finishedRecordings++, {once:true});
+            return play.call(this);
+          };
+        }""")
+        before = raw_storage(page)
+        say.click()
+        page.evaluate("voiceTest.finish('error', 'network')")
+        page.evaluate("voiceTest.finish('error', 'synthesis-failed')")
+        page.wait_for_function("finishedRecordings === 1")
+        expect(say).to_have_attribute('data-speech-state', 'idle')
+        call_count = page.evaluate("voiceTest.calls.length")
+        say.click()
+        page.wait_for_function("finishedRecordings === 2")
+        ok('After voice failure the session can play the saved clip again immediately',
+           page.evaluate("voiceTest.calls.length") == call_count)
+        expect(page.locator('.review-answer:visible')).to_have_count(0)
+        ok('Recorded pronunciation preserves every storage byte', raw_storage(page) == before)
         untouched(page)
     finally:
         context.close()

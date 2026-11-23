@@ -1,0 +1,125 @@
+{
+  "version": 1,
+  "dataset": "2017-e1-other",
+  "codec": "audio/mpeg",
+  "bytes": 124183,
+  "sha256": "ec6c2ff1aaf571e64fd35896998954d02e432cf06885430c190036e7f441d9a3",
+  "voice": "Piper en_US-ljspeech-medium",
+  "modelCard": "https://huggingface.co/rhasspy/piper-voices/blob/main/en/en_US/ljspeech/medium/MODEL_CARD",
+  "items": {
+    "2017-section1-h001": {
+      "offset": 0,
+      "length": 9134,
+      "term": "susceptibility to",
+      "spokenText": "susceptibility to"
+    },
+    "2017-section1-h002": {
+      "offset": 9134,
+      "length": 4903,
+      "term": "perceived",
+      "spokenText": "perceived"
+    },
+    "2017-section1-h003": {
+      "offset": 14037,
+      "length": 5843,
+      "term": "intimacy",
+      "spokenText": "intimacy"
+    },
+    "2017-section1-h004": {
+      "offset": 19880,
+      "length": 7097,
+      "term": "bonding hormone",
+      "spokenText": "bonding hormone"
+    },
+    "2017-section1-h005": {
+      "offset": 26977,
+      "length": 5373,
+      "term": "inferior",
+      "spokenText": "inferior"
+    },
+    "2017-section1-h006": {
+      "offset": 32350,
+      "length": 6156,
+      "term": "calculated",
+      "spokenText": "calculated"
+    },
+    "2017-section1-h007": {
+      "offset": 38506,
+      "length": 6000,
+      "term": "symptoms",
+      "spokenText": "symptoms"
+    },
+    "2017-section1-h008": {
+      "offset": 44506,
+      "length": 6627,
+      "term": "associated",
+      "spokenText": "associated"
+    },
+    "2017-section1-h009": {
+      "offset": 51133,
+      "length": 5843,
+      "term": "vanishes",
+      "spokenText": "vanishes"
+    },
+    "2017-section2-h001": {
+      "offset": 56976,
+      "length": 5216,
+      "term": "sketches",
+      "spokenText": "sketches"
+    },
+    "2017-section2-h002": {
+      "offset": 62192,
+      "length": 5059,
+      "term": "moralist",
+      "spokenText": "moralist"
+    },
+    "2017-section2-h003": {
+      "offset": 67251,
+      "length": 6000,
+      "term": "satirist",
+      "spokenText": "satirist"
+    },
+    "2017-section2-h004": {
+      "offset": 73251,
+      "length": 4903,
+      "term": "crafted",
+      "spokenText": "crafted"
+    },
+    "2017-section2-h005": {
+      "offset": 78154,
+      "length": 7880,
+      "term": "court stenographer",
+      "spokenText": "court stenographer"
+    },
+    "2017-section2-h006": {
+      "offset": 86034,
+      "length": 6627,
+      "term": "transcribing",
+      "spokenText": "transcribing"
+    },
+    "2017-section2-h007": {
+      "offset": 92661,
+      "length": 5059,
+      "term": "confide",
+      "spokenText": "confide"
+    },
+    "2017-section3-h001": {
+      "offset": 97720,
+      "length": 5216,
+      "term": "monoglot",
+      "spokenText": "monoglot"
+    },
+    "2017-section3-h002": {
+      "offset": 102936,
+      "length": 11329,
+      "term": "a bleak economic future",
+      "spokenText": "a bleak economic future"
+    },
+    "2017-section3-h003": {
+      "offset": 114265,
+      "length": 9918,
+      "term": "primary-school curriculum",
+      "spokenText": "primary-school curriculum"
+    }
+  }
+}

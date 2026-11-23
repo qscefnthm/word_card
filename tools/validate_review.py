@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Mechanical checks for the separate reading-review module; not source proofreading."""
+import hashlib
 import json
 import re
 from pathlib import Path
@@ -24,6 +25,25 @@ class Resources(HTMLParser):
             need(bool(a.get('src')), 'Inline scripts are not permitted')
             self.paths.append(a['src'])
         elif tag=='link' and 'href' in a: self.paths.append(a['href'])
+
+
+def check_recordings(set_id, items):
+    directory = ROOT / 'data/review/audio'
+    index = load(directory / f'{set_id}.json')
+    mp3 = (directory / f'{set_id}.mp3').read_bytes()
+    need(index['version'] == 1 and index['dataset'] == set_id, f'{set_id}: audio index')
+    need(index['codec'] == 'audio/mpeg' and index['bytes'] == len(mp3), f'{set_id}: audio format')
+    need(index['sha256'] == hashlib.sha256(mp3).hexdigest(), f'{set_id}: audio checksum')
+    tracks = index['items']
+    need(set(tracks) == {item['id'] for item in items}, f'{set_id}: audio coverage')
+    offset = 0
+    for item in items:
+        track = tracks[item['id']]
+        need(track['term'] == item['term'] and track['spokenText'].strip(), f"{item['id']}: stale speech text")
+        length = track['length']
+        need(track['offset'] == offset and type(length) is int and length > 0, f"{item['id']}: invalid audio range")
+        offset += length
+    need(offset == len(mp3), f'{set_id}: audio length mismatch')
 
 
 def main():
@@ -76,6 +96,7 @@ def main():
             kinds[item['kind']]+=1;texts[item['text']]+=1
         if 'counts' in entry:
             need(entry['counts']==dict(kinds),'Catalog source counts mismatch')
+        check_recordings(entry['id'], items)
         total+=len(items)
         print(f'PASS review set {entry["id"]}: {len(items)} items; {dict(kinds)}; Text counts {dict(texts)}; {references} verified reference links.')
     for file in ('review.html','index.html','quick.html'):

@@ -1,0 +1,755 @@
+{
+  "version": 1,
+  "dataset": "2017-e1",
+  "codec": "audio/mpeg",
+  "bytes": 1007898,
+  "sha256": "b9b12128a3adf04bdd789625163617ab3c5f3ab4fb50083ae8246df5a96b49eb",
+  "voice": "Piper en_US-ljspeech-medium",
+  "modelCard": "https://huggingface.co/rhasspy/piper-voices/blob/main/en/en_US/ljspeech/medium/MODEL_CARD",
+  "items": {
+    "2017-text1-h001": {
+      "offset": 0,
+      "length": 10388,
+      "term": "security procedures",
+      "spokenText": "security procedures"
+    },
+    "2017-text1-h002": {
+      "offset": 10388,
+      "length": 6156,
+      "term": "terrorists",
+      "spokenText": "terrorists"
+    },
+    "2017-text1-h003": {
+      "offset": 16544,
+      "length": 7880,
+      "term": "tragic reminder",
+      "spokenText": "tragic reminder"
+    },
+    "2017-text1-h004": {
+      "offset": 24424,
+      "length": 8978,
+      "term": "security measures",
+      "spokenText": "security measures"
+    },
+    "2017-text1-h005": {
+      "offset": 33402,
+      "length": 9605,
+      "term": "steep increase",
+      "spokenText": "steep increase"
+    },
+    "2017-text1-h006": {
+      "offset": 43007,
+      "length": 6156,
+      "term": "screeners",
+      "spokenText": "screeners"
+    },
+    "2017-text1-h007": {
+      "offset": 49163,
+      "length": 8507,
+      "term": "screening lanes",
+      "spokenText": "screening lanes"
+    },
+    "2017-text1-h008": {
+      "offset": 57670,
+      "length": 5216,
+      "term": "overpack",
+      "spokenText": "overpack"
+    },
+    "2017-text1-h009": {
+      "offset": 62886,
+      "length": 9761,
+      "term": "remodeling airports",
+      "spokenText": "remodeling airports"
+    },
+    "2017-text1-h010": {
+      "offset": 72647,
+      "length": 7724,
+      "term": "Enroll more people",
+      "spokenText": "Enroll more people"
+    },
+    "2017-text1-h011": {
+      "offset": 80371,
+      "length": 10075,
+      "term": "eligible to use",
+      "spokenText": "eligible to use"
+    },
+    "2017-text1-h012": {
+      "offset": 90446,
+      "length": 6627,
+      "term": "fatal flaw",
+      "spokenText": "fatal flaw"
+    },
+    "2017-text1-h013": {
+      "offset": 97073,
+      "length": 10388,
+      "term": "diverting resources into",
+      "spokenText": "diverting resources into"
+    },
+    "2017-text1-h014": {
+      "offset": 107461,
+      "length": 6627,
+      "term": "underused",
+      "spokenText": "underused"
+    },
+    "2017-text1-h015": {
+      "offset": 114088,
+      "length": 7254,
+      "term": "restrictions on",
+      "spokenText": "restrictions on"
+    },
+    "2017-text1-h016": {
+      "offset": 121342,
+      "length": 5216,
+      "term": "reduction",
+      "spokenText": "reduction"
+    },
+    "2017-text1-h017": {
+      "offset": 126558,
+      "length": 12269,
+      "term": "wrongly-directed implementation",
+      "spokenText": "wrongly-directed implementation"
+    },
+    "2017-text1-h018": {
+      "offset": 138827,
+      "length": 9761,
+      "term": "reluctance to back it",
+      "spokenText": "reluctance to back it"
+    },
+    "2017-text1-h019": {
+      "offset": 148588,
+      "length": 5373,
+      "term": "enrollment",
+      "spokenText": "enrollment"
+    },
+    "2017-text1-h020": {
+      "offset": 153961,
+      "length": 4903,
+      "term": "Screening",
+      "spokenText": "Screening"
+    },
+    "2017-text1-h021": {
+      "offset": 158864,
+      "length": 9134,
+      "term": "a Belated Solution",
+      "spokenText": "a Belated Solution"
+    },
+    "2017-text2-h001": {
+      "offset": 167998,
+      "length": 5843,
+      "term": "Hawaiians",
+      "spokenText": "Hawaiians"
+    },
+    "2017-text2-h002": {
+      "offset": 173841,
+      "length": 5373,
+      "term": "reigning monarch",
+      "spokenText": "reigning monarch"
+    },
+    "2017-text2-h003": {
+      "offset": 179214,
+      "length": 4903,
+      "term": "esteemed",
+      "spokenText": "esteemed"
+    },
+    "2017-text2-h004": {
+      "offset": 184117,
+      "length": 12269,
+      "term": "Protests have erupted",
+      "spokenText": "Protests have erupted"
+    },
+    "2017-text2-h005": {
+      "offset": 196386,
+      "length": 7254,
+      "term": "observatory",
+      "spokenText": "observatory"
+    },
+    "2017-text2-h006": {
+      "offset": 203640,
+      "length": 7724,
+      "term": "revolutionize",
+      "spokenText": "revolutionize"
+    },
+    "2017-text2-h007": {
+      "offset": 211364,
+      "length": 6156,
+      "term": "cosmos",
+      "spokenText": "cosmos"
+    },
+    "2017-text2-h008": {
+      "offset": 217520,
+      "length": 7724,
+      "term": "dormant volcano",
+      "spokenText": "dormant volcano"
+    },
+    "2017-text2-h009": {
+      "offset": 225244,
+      "length": 4432,
+      "term": "worshiped",
+      "spokenText": "worshiped"
+    },
+    "2017-text2-h010": {
+      "offset": 229676,
+      "length": 5529,
+      "term": "the heavens",
+      "spokenText": "the heavens"
+    },
+    "2017-text2-h011": {
+      "offset": 235205,
+      "length": 10702,
+      "term": "Rested in the Pacific Ocean",
+      "spokenText": "Rested in the Pacific Ocean"
+    },
+    "2017-text2-h012": {
+      "offset": 245907,
+      "length": 15717,
+      "term": "the bulk of our planet’s dense atmosphere",
+      "spokenText": "the bulk of our planet's dense atmosphere"
+    },
+    "2017-text2-h013": {
+      "offset": 261624,
+      "length": 5529,
+      "term": "conditions",
+      "spokenText": "conditions"
+    },
+    "2017-text2-h014": {
+      "offset": 267153,
+      "length": 9918,
+      "term": "unsurpassed clarity",
+      "spokenText": "unsurpassed clarity"
+    },
+    "2017-text2-h015": {
+      "offset": 277071,
+      "length": 3805,
+      "term": "vocal",
+      "spokenText": "vocal"
+    },
+    "2017-text2-h016": {
+      "offset": 280876,
+      "length": 7567,
+      "term": "sacred land",
+      "spokenText": "sacred land"
+    },
+    "2017-text2-h017": {
+      "offset": 288443,
+      "length": 6313,
+      "term": "occupation",
+      "spokenText": "occupation"
+    },
+    "2017-text2-h018": {
+      "offset": 294756,
+      "length": 7880,
+      "term": "a sovereign nation",
+      "spokenText": "a sovereign nation"
+    },
+    "2017-text2-h019": {
+      "offset": 302636,
+      "length": 6470,
+      "term": "controversy",
+      "spokenText": "controversy"
+    },
+    "2017-text2-h020": {
+      "offset": 309106,
+      "length": 7410,
+      "term": "prioritize",
+      "spokenText": "prioritize"
+    },
+    "2017-text2-h021": {
+      "offset": 316516,
+      "length": 10702,
+      "term": "fragile ecosystems",
+      "spokenText": "fragile ecosystems"
+    },
+    "2017-text2-h022": {
+      "offset": 327218,
+      "length": 6783,
+      "term": "inhabitants",
+      "spokenText": "inhabitants"
+    },
+    "2017-text2-h023": {
+      "offset": 334001,
+      "length": 6940,
+      "term": "a renaissance",
+      "spokenText": "a renaissance"
+    },
+    "2017-text2-h024": {
+      "offset": 340941,
+      "length": 4903,
+      "term": "shores",
+      "spokenText": "shores"
+    },
+    "2017-text2-h025": {
+      "offset": 345844,
+      "length": 5529,
+      "term": "disassemble",
+      "spokenText": "disassemble"
+    },
+    "2017-text2-h026": {
+      "offset": 351373,
+      "length": 8037,
+      "term": "starry skies",
+      "spokenText": "starry skies"
+    },
+    "2017-text2-h027": {
+      "offset": 359410,
+      "length": 8351,
+      "term": "ancestral homes",
+      "spokenText": "ancestral homes"
+    },
+    "2017-text2-h028": {
+      "offset": 367761,
+      "length": 9761,
+      "term": "making compromises",
+      "spokenText": "making compromises"
+    },
+    "2017-text2-h029": {
+      "offset": 377522,
+      "length": 6940,
+      "term": "archaeological",
+      "spokenText": "archaeological"
+    },
+    "2017-text2-h030": {
+      "offset": 384462,
+      "length": 4432,
+      "term": "remark",
+      "spokenText": "remark"
+    },
+    "2017-text2-h031": {
+      "offset": 388894,
+      "length": 8194,
+      "term": "conservative view",
+      "spokenText": "conservative view"
+    },
+    "2017-text2-h032": {
+      "offset": 397088,
+      "length": 5216,
+      "term": "regrettable",
+      "spokenText": "regrettable"
+    },
+    "2017-text2-h033": {
+      "offset": 402304,
+      "length": 8351,
+      "term": "appreciation of",
+      "spokenText": "appreciation of"
+    },
+    "2017-text2-h034": {
+      "offset": 410655,
+      "length": 9605,
+      "term": "existing infrastructure",
+      "spokenText": "existing infrastructure"
+    },
+    "2017-text2-h035": {
+      "offset": 420260,
+      "length": 8037,
+      "term": "intellectual life",
+      "spokenText": "intellectual life"
+    },
+    "2017-text2-h036": {
+      "offset": 428297,
+      "length": 10232,
+      "term": "a humiliating history",
+      "spokenText": "a humiliating history"
+    },
+    "2017-text2-h037": {
+      "offset": 438529,
+      "length": 9291,
+      "term": "fulfilling the dreams",
+      "spokenText": "fulfilling the dreams"
+    },
+    "2017-text2-h038": {
+      "offset": 447820,
+      "length": 12269,
+      "term": "soften Hawaiians’ hostility",
+      "spokenText": "soften Hawaiians' hostility"
+    },
+    "2017-text2-h039": {
+      "offset": 460089,
+      "length": 7880,
+      "term": "slight hesitancy",
+      "spokenText": "slight hesitancy"
+    },
+    "2017-text3-h001": {
+      "offset": 467969,
+      "length": 6940,
+      "term": "voting to leave",
+      "spokenText": "voting to leave"
+    },
+    "2017-text3-h002": {
+      "offset": 474909,
+      "length": 8351,
+      "term": "predicted to slow",
+      "spokenText": "predicted to slow"
+    },
+    "2017-text3-h003": {
+      "offset": 483260,
+      "length": 10388,
+      "term": "annoyed policymakers",
+      "spokenText": "annoyed policymakers"
+    },
+    "2017-text3-h004": {
+      "offset": 493648,
+      "length": 7567,
+      "term": "flawed concept",
+      "spokenText": "flawed concept"
+    },
+    "2017-text3-h005": {
+      "offset": 501215,
+      "length": 11485,
+      "term": "the envy of the Western world",
+      "spokenText": "the envy of the Western world"
+    },
+    "2017-text3-h006": {
+      "offset": 512700,
+      "length": 10388,
+      "term": "economic prospects",
+      "spokenText": "economic prospects"
+    },
+    "2017-text3-h007": {
+      "offset": 523088,
+      "length": 12583,
+      "term": "convert growth into well-being",
+      "spokenText": "convert growth into well-being"
+    },
+    "2017-text3-h008": {
+      "offset": 535671,
+      "length": 10232,
+      "term": "sheds some light on",
+      "spokenText": "sheds some light on"
+    },
+    "2017-text3-h009": {
+      "offset": 545903,
+      "length": 8664,
+      "term": "poorest performers",
+      "spokenText": "poorest performers"
+    },
+    "2017-text3-h010": {
+      "offset": 554567,
+      "length": 9134,
+      "term": "sets of criteria",
+      "spokenText": "sets of criteria"
+    },
+    "2017-text3-h011": {
+      "offset": 563701,
+      "length": 9134,
+      "term": "consistent themes",
+      "spokenText": "consistent themes"
+    },
+    "2017-text3-h012": {
+      "offset": 572835,
+      "length": 11015,
+      "term": "budding economic recovery",
+      "spokenText": "budding economic recovery"
+    },
+    "2017-text3-h013": {
+      "offset": 583850,
+      "length": 7724,
+      "term": "key indicators",
+      "spokenText": "key indicators"
+    },
+    "2017-text3-h014": {
+      "offset": 591574,
+      "length": 11015,
+      "term": "the sharp hit to growth predicted",
+      "spokenText": "the sharp hit to growth predicted"
+    },
+    "2017-text3-h015": {
+      "offset": 602589,
+      "length": 10545,
+      "term": "lead to a decline",
+      "spokenText": "lead to a decline"
+    },
+    "2017-text3-h016": {
+      "offset": 613134,
+      "length": 8664,
+      "term": "forecasted doom",
+      "spokenText": "forecasted doom"
+    },
+    "2017-text3-h017": {
+      "offset": 621798,
+      "length": 4746,
+      "term": "praised",
+      "spokenText": "praised"
+    },
+    "2017-text3-h018": {
+      "offset": 626544,
+      "length": 6627,
+      "term": "misinterpreted",
+      "spokenText": "misinterpreted"
+    },
+    "2017-text3-h019": {
+      "offset": 633171,
+      "length": 8507,
+      "term": "reluctant to remold",
+      "spokenText": "reluctant to remold"
+    },
+    "2017-text3-h020": {
+      "offset": 641678,
+      "length": 7724,
+      "term": "widely defied",
+      "spokenText": "widely defied"
+    },
+    "2017-text3-h021": {
+      "offset": 649402,
+      "length": 5059,
+      "term": "sponsored",
+      "spokenText": "sponsored"
+    },
+    "2017-text3-h022": {
+      "offset": 654461,
+      "length": 17285,
+      "term": "excludes GDP as an indicator",
+      "spokenText": "excludes G D P as an indicator"
+    },
+    "2017-text3-h023": {
+      "offset": 671746,
+      "length": 6156,
+      "term": "criteria",
+      "spokenText": "criteria"
+    },
+    "2017-text3-h024": {
+      "offset": 677902,
+      "length": 5373,
+      "term": "enlightening",
+      "spokenText": "enlightening"
+    },
+    "2017-text3-h025": {
+      "offset": 683275,
+      "length": 6470,
+      "term": "foreshadows",
+      "spokenText": "foreshadows"
+    },
+    "2017-text3-h026": {
+      "offset": 689745,
+      "length": 9761,
+      "term": "Inadequate Well-being",
+      "spokenText": "Inadequate Well-being"
+    },
+    "2017-text3-s001": {
+      "offset": 699506,
+      "length": 8194,
+      "term": "except / expect",
+      "spokenText": "except, expect"
+    },
+    "2017-text3-s002": {
+      "offset": 707700,
+      "length": 9761,
+      "term": "had a low opinion of",
+      "spokenText": "had a low opinion of"
+    },
+    "2017-text4-h001": {
+      "offset": 717461,
+      "length": 3962,
+      "term": "ruling",
+      "spokenText": "ruling"
+    },
+    "2017-text4-h002": {
+      "offset": 721423,
+      "length": 8821,
+      "term": "corruption conviction",
+      "spokenText": "corruption conviction"
+    },
+    "2017-text4-h003": {
+      "offset": 730244,
+      "length": 6000,
+      "term": "distasteful",
+      "spokenText": "distasteful"
+    },
+    "2017-text4-h004": {
+      "offset": 736244,
+      "length": 4746,
+      "term": "nasty",
+      "spokenText": "nasty"
+    },
+    "2017-text4-h005": {
+      "offset": 740990,
+      "length": 10232,
+      "term": "anti-bribery laws",
+      "spokenText": "anti-bribery laws"
+    },
+    "2017-text4-h006": {
+      "offset": 751222,
+      "length": 9448,
+      "term": "concrete benefits",
+      "spokenText": "concrete benefits"
+    },
+    "2017-text4-h007": {
+      "offset": 760670,
+      "length": 7724,
+      "term": "arranging a meeting",
+      "spokenText": "arranging a meeting"
+    },
+    "2017-text4-h008": {
+      "offset": 768394,
+      "length": 10075,
+      "term": "bureaucratic problems",
+      "spokenText": "bureaucratic problems"
+    },
+    "2017-text4-h009": {
+      "offset": 778469,
+      "length": 10545,
+      "term": "prosecution for bribery",
+      "spokenText": "prosecution for bribery"
+    },
+    "2017-text4-h010": {
+      "offset": 789014,
+      "length": 6156,
+      "term": "assumes",
+      "spokenText": "assumes"
+    },
+    "2017-text4-h011": {
+      "offset": 795170,
+      "length": 7254,
+      "term": "constituents",
+      "spokenText": "constituents"
+    },
+    "2017-text4-h012": {
+      "offset": 802424,
+      "length": 11642,
+      "term": "reinforces the need for",
+      "spokenText": "reinforces the need for"
+    },
+    "2017-text4-h013": {
+      "offset": 814066,
+      "length": 10388,
+      "term": "elected representatives",
+      "spokenText": "elected representatives"
+    },
+    "2017-text4-h014": {
+      "offset": 824454,
+      "length": 7880,
+      "term": "arranging meetings",
+      "spokenText": "arranging meetings"
+    },
+    "2017-text4-h015": {
+      "offset": 832334,
+      "length": 5843,
+      "term": "integrity",
+      "spokenText": "integrity"
+    },
+    "2017-text4-h016": {
+      "offset": 838177,
+      "length": 10075,
+      "term": "government transparency",
+      "spokenText": "government transparency"
+    },
+    "2017-text4-h017": {
+      "offset": 848252,
+      "length": 4746,
+      "term": "lobbying",
+      "spokenText": "lobbying"
+    },
+    "2017-text4-h018": {
+      "offset": 852998,
+      "length": 6000,
+      "term": "Favoritism",
+      "spokenText": "Favoritism"
+    },
+    "2017-text4-h019": {
+      "offset": 858998,
+      "length": 13209,
+      "term": "public perceptions of corruption",
+      "spokenText": "public perceptions of corruption"
+    },
+    "2017-text4-h020": {
+      "offset": 872207,
+      "length": 9918,
+      "term": "democratic society",
+      "spokenText": "democratic society"
+    },
+    "2017-text4-h021": {
+      "offset": 882125,
+      "length": 6627,
+      "term": "inherent worth",
+      "spokenText": "inherent worth"
+    },
+    "2017-text4-h022": {
+      "offset": 888752,
+      "length": 6156,
+      "term": "the extent of",
+      "spokenText": "the extent of"
+    },
+    "2017-text4-h023": {
+      "offset": 894908,
+      "length": 12896,
+      "term": "made no compromise in convicting",
+      "spokenText": "made no compromise in convicting"
+    },
+    "2017-text4-h024": {
+      "offset": 907804,
+      "length": 7567,
+      "term": "contemptuous of",
+      "spokenText": "contemptuous of"
+    },
+    "2017-text4-h025": {
+      "offset": 915371,
+      "length": 6470,
+      "term": "comment on",
+      "spokenText": "comment on"
+    },
+    "2017-text4-h026": {
+      "offset": 921841,
+      "length": 5216,
+      "term": "corruptive",
+      "spokenText": "corruptive"
+    },
+    "2017-text4-h027": {
+      "offset": 927057,
+      "length": 11485,
+      "term": "leaking secrets intentionally",
+      "spokenText": "leaking secrets intentionally"
+    },
+    "2017-text4-h028": {
+      "offset": 938542,
+      "length": 9134,
+      "term": "sizable gains",
+      "spokenText": "sizable gains"
+    },
+    "2017-text4-h029": {
+      "offset": 947676,
+      "length": 9134,
+      "term": "concrete returns",
+      "spokenText": "concrete returns"
+    },
+    "2017-text4-h030": {
+      "offset": 956810,
+      "length": 9134,
+      "term": "bureaucratic issues",
+      "spokenText": "bureaucratic issues"
+    },
+    "2017-text4-h031": {
+      "offset": 965944,
+      "length": 9448,
+      "term": "exempt from conviction",
+      "spokenText": "exempt from conviction"
+    },
+    "2017-text4-h032": {
+      "offset": 975392,
+      "length": 6156,
+      "term": "favoritism",
+      "spokenText": "favoritism"
+    },
+    "2017-text4-h033": {
+      "offset": 981548,
+      "length": 10075,
+      "term": "government transparency",
+      "spokenText": "government transparency"
+    },
+    "2017-text4-h034": {
+      "offset": 991623,
+      "length": 5373,
+      "term": "conscience",
+      "spokenText": "conscience"
+    },
+    "2017-text4-h035": {
+      "offset": 996996,
+      "length": 4746,
+      "term": "lobbying",
+      "spokenText": "lobbying"
+    },
+    "2017-text4-h036": {
+      "offset": 1001742,
+      "length": 6156,
+      "term": "sarcastic",
+      "spokenText": "sarcastic"
+    }
+  }
+}

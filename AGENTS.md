@@ -46,7 +46,7 @@
 - A short excerpt must be labeled “原文定位片段（非完整例句）”; a location without an excerpt is “原文位置”. Only a complete checked source sentence may be labeled “真题正文原句”. Assistant-written text is “补充例句（助手编写，非真题原句）”. Do not mix these provenance labels.
 - “黄标” versus “补充” describes selection provenance, not whether the quoted text is original. Preserve this distinction and all independently verified book/source fields.
 - 红宝书 comparison is required. Distinguish exact entries, inflection/lemma links, related entries and confirmed absence from unresolved source access. Never label an unverified mapping as checked.
-- Read the review workflow in `WORD_CARD_UPDATE_WORKFLOW.md` before adding later years/batches. Review pronunciation uses desktop Edge speech synthesis for each displayed term or phrase. Keep it independent of reveal, rating and position. Legacy MP3 generation applies only to legacy cards.
+- Read the review workflow in `WORD_CARD_UPDATE_WORKFLOW.md` before adding later years/batches. Review pronunciation uses desktop Edge speech synthesis with a same-origin English MP3 fallback for each displayed term or phrase. Update the corresponding review audio bundle when adding a batch or changing its terms. Keep it independent of reveal, rating and position. Legacy MP3 generation applies only to legacy cards.
 
 ## Legacy-card content audit guard (2026-09-27)
 

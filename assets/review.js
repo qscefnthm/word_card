@@ -93,6 +93,70 @@
   // Ask Edge for its voice catalog early. The list can arrive after the first render.
   synth?.getVoices();
 
+  const recordingIndexes = new Map();
+  let preferRecordings = false;
+
+  async function recordingClip(setId, item, signal) {
+    const base = './data/review/audio/' + setId;
+    let index = recordingIndexes.get(setId);
+    if (!index) {
+      const res = await fetch(base + '.json', {signal, cache:'no-cache'});
+      if (!res.ok) throw Error('index');
+      index = await res.json();
+      if (index.version !== 1 || index.dataset !== setId || !/^[a-f0-9]{64}$/.test(index.sha256)) throw Error('index version');
+      recordingIndexes.set(setId, index);
+    }
+    const track = index.items[item.id];
+    if (track?.term !== item.term || !Number.isSafeInteger(track.offset) || track.offset < 0 ||
+        !Number.isSafeInteger(track.length) || track.length <= 0 || track.offset + track.length > index.bytes) {
+      throw Error('track');
+    }
+    // Each range contains one complete, independently decodable MP3 file.
+    const end = track.offset + track.length - 1;
+    const res = await fetch(base + '.mp3?v=' + index.sha256, {
+      headers:{Range:`bytes=${track.offset}-${end}`}, signal
+    });
+    if (!res.ok) throw Error('audio');
+    const blob = await res.blob();
+    if (res.status === 206 && blob.size === track.length &&
+        res.headers.get('Content-Range') === `bytes ${track.offset}-${end}/${index.bytes}`) {
+      return blob.slice(0, track.length, 'audio/mpeg');
+    }
+    // Simple static hosts may ignore Range and return the complete file.
+    if (res.status === 200 && blob.size === index.bytes) {
+      return blob.slice(track.offset, end + 1, 'audio/mpeg');
+    }
+    throw Error('audio range');
+  }
+
+  async function playRecording(item, afterVoiceFailure) {
+    const request = {id:item.id, abort:new AbortController(), state:'pending'};
+    activeSpeech = request;
+    setSpeechState('pending');
+    function failed() {
+      if (activeSpeech !== request) return;
+      preferRecordings = false;
+      stopSpeech();
+      toast('本次发音未能播放，请再点一次喇叭。');
+    }
+    try {
+      const clip = await recordingClip(dataset.id, item, request.abort.signal);
+      if (activeSpeech !== request) return;
+      const player = new Audio();
+      request.player = player;
+      request.url = URL.createObjectURL(clip);
+      player.onplaying = () => {
+        if (activeSpeech !== request) return;
+        if (afterVoiceFailure) preferRecordings = true;
+        setSpeechState('speaking');
+      };
+      player.onended = () => { if (activeSpeech === request) stopSpeech(); };
+      player.onerror = failed;
+      player.src = request.url;
+      await player.play();
+    } catch { failed(); }
+  }
+
   function englishVoices() {
     const voices = synth.getVoices().filter(v => /^en(?:[-_]|$)/i.test(v.lang));
     function preference(voice) {
@@ -113,15 +177,26 @@
   function stopSpeech() {
     if (!activeSpeech) return;
     setSpeechState('idle');
-    clearTimeout(activeSpeech.startTimer);
+    const request = activeSpeech;
     activeSpeech = null;
-    synth.cancel();
+    clearTimeout(request.startTimer);
+    if (request.utterance) synth.cancel();
+    request.abort?.abort();
+    if (request.player) {
+      request.player.onplaying = request.player.onended = request.player.onerror = null;
+      if (!request.player.ended) {
+        request.player.pause();
+        request.player.removeAttribute('src');
+        request.player.load();
+      }
+      URL.revokeObjectURL(request.url);
+    }
   }
 
   function speakTerm(item) {
     stopSpeech();
-    if (!synth || !window.SpeechSynthesisUtterance) {
-      toast('此窗口无法使用语音朗读。请用桌面版 Edge 打开本页。');
+    if (preferRecordings || !synth || !window.SpeechSynthesisUtterance) {
+      playRecording(item, false);
       return;
     }
     const text = item.term.replace(/\s*(?:\.{3}|…|\/)\s*/g, ', ')
@@ -140,7 +215,7 @@
         stopSpeech();
         const local = allowRetry && englishVoices().find(v => v.localService && v !== voice);
         if (local) play(local, false);
-        else toast('英语朗读未能启动。请重试，或检查 Windows 是否已安装英语语音。');
+        else playRecording(item, true);
       }
       utterance.onstart = () => {
         if (activeSpeech !== request) return;
