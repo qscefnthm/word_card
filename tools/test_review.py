@@ -173,20 +173,42 @@ def check_desktop_pronunciation(browser, base, catalog):
         expect(say).to_have_attribute('data-speech-state', 'idle')
         ok('Changing the section cancels the old word',
            page.evaluate("!speechSynthesis.speaking && voiceTest.calls.at(-1).type === 'cancel'"))
-        # Force both Edge voices to fail. The recording itself uses real browser media playback.
+        # Exercise recovery with the real recording index and bytes. Media events here
+        # are simulated; native MP3 decoding and playback are checked in desktop Edge.
         page.evaluate("""() => {
           window.finishedRecordings = 0;
-          const play = HTMLMediaElement.prototype.play;
-          HTMLMediaElement.prototype.play = function() {
-            this.addEventListener('ended', () => finishedRecordings++, {once:true});
-            return play.call(this);
+          const clips = new Map();
+          const createURL = URL.createObjectURL.bind(URL);
+          URL.createObjectURL = blob => {
+            const url = createURL(blob);
+            clips.set(url, blob);
+            return url;
+          };
+          window.Audio = class {
+            async play() {
+              const clip = clips.get(this.src);
+              if (clip?.type !== 'audio/mpeg' || !clip.size) {
+                throw new Error('Missing MP3 clip');
+              }
+              this.onplaying();
+              this.ended = true;
+              this.onended();
+              window.finishedRecordings++;
+            }
           };
         }""")
         before = raw_storage(page)
         say.click()
         page.evaluate("voiceTest.finish('error', 'network')")
         page.evaluate("voiceTest.finish('error', 'synthesis-failed')")
-        page.wait_for_function("finishedRecordings === 1")
+        try:
+            page.wait_for_function("finishedRecordings === 1", timeout=10000)
+        except Exception:
+            print(page.evaluate("""() => ({
+                voiceCalls: voiceTest.calls.slice(-6), error: document.querySelector('#reviewToast').textContent,
+                files: performance.getEntriesByType('resource').filter(e=>e.name.includes('/audio/')).map(e=>e.name)
+            })"""), flush=True)
+            raise
         expect(say).to_have_attribute('data-speech-state', 'idle')
         call_count = page.evaluate("voiceTest.calls.length")
         say.click()
