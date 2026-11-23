@@ -2,8 +2,8 @@
   "version": 1,
   "dataset": "2013-e1",
   "codec": "audio/mpeg",
-  "bytes": 1174857,
-  "sha256": "91c2c4aeb8c64e0f1bc74df948367f365103aea7f88b545a4a3556967fbfbef2",
+  "bytes": 1171252,
+  "sha256": "a511eef8ad6452016b3b3499a636dd2441b8b58db0e8e2b7fdba08e62c449bc6",
   "voice": "Piper en_US-ljspeech-medium",
   "modelCard": "https://huggingface.co/rhasspy/piper-voices/blob/main/en/en_US/ljspeech/medium/MODEL_CARD",
   "items": {
@@ -99,594 +99,594 @@
     },
     "2013-text1-h016": {
       "offset": 142971,
-      "length": 10702,
+      "length": 9448,
       "term": "perfect her craft",
       "spokenText": "perfect her craft"
     },
     "2013-text1-h017": {
-      "offset": 153673,
+      "offset": 152419,
       "length": 7567,
       "term": "can’t be knocked off",
       "spokenText": "can't be knocked off"
     },
     "2013-text1-h018": {
-      "offset": 161240,
+      "offset": 159986,
       "length": 10232,
       "term": "curb their impact on",
       "spokenText": "curb their impact on"
     },
     "2013-text1-h019": {
-      "offset": 171472,
+      "offset": 170218,
       "length": 10388,
       "term": "exhibits the idealism",
       "spokenText": "exhibits the idealism"
     },
     "2013-text1-h020": {
-      "offset": 181860,
+      "offset": 180606,
       "length": 11799,
       "term": "advocates of sustainability",
       "spokenText": "advocates of sustainability"
     },
     "2013-text1-h021": {
-      "offset": 193659,
+      "offset": 192405,
       "length": 10858,
       "term": "Vanity is a constant",
       "spokenText": "Vanity is a constant"
     },
     "2013-text1-h022": {
-      "offset": 204517,
+      "offset": 203263,
       "length": 10545,
       "term": "obsession with high fashion",
       "spokenText": "obsession with high fashion"
     },
     "2013-text1-h023": {
-      "offset": 215062,
+      "offset": 213808,
       "length": 7410,
       "term": "bargaining skill",
       "spokenText": "bargaining skill"
     },
     "2013-text1-h024": {
-      "offset": 222472,
+      "offset": 221218,
       "length": 12426,
       "term": "combat unnecessary waste",
       "spokenText": "combat unnecessary waste"
     },
     "2013-text1-h025": {
-      "offset": 234898,
+      "offset": 233644,
       "length": 14777,
       "term": "resist the influence of advertisements",
       "spokenText": "resist the influence of advertisements"
     },
     "2013-text1-h026": {
-      "offset": 249675,
+      "offset": 248421,
       "length": 10545,
       "term": "the feverish fashion world",
       "spokenText": "the feverish fashion world"
     },
     "2013-text1-h027": {
-      "offset": 260220,
+      "offset": 258966,
       "length": 7410,
       "term": "enthusiasm",
       "spokenText": "enthusiasm"
     },
     "2013-text1-h028": {
-      "offset": 267630,
+      "offset": 266376,
       "length": 6000,
       "term": "accusation",
       "spokenText": "accusation"
     },
     "2013-text1-h029": {
-      "offset": 273630,
+      "offset": 272376,
       "length": 10702,
       "term": "an extravagant lifestyle",
       "spokenText": "an extravagant lifestyle"
     },
     "2013-text1-s001": {
-      "offset": 284332,
+      "offset": 283078,
       "length": 5843,
       "term": "at odds with",
       "spokenText": "at odds with"
     },
     "2013-text1-s002": {
-      "offset": 290175,
+      "offset": 288921,
       "length": 5373,
       "term": "indictment",
       "spokenText": "indictment"
     },
     "2013-text1-s003": {
-      "offset": 295548,
+      "offset": 294294,
       "length": 8978,
       "term": "can't afford not to",
       "spokenText": "can't afford not to"
     },
     "2013-text2-h001": {
-      "offset": 304526,
+      "offset": 303272,
       "length": 8978,
       "term": "illustrated the value",
       "spokenText": "illustrated the value"
     },
     "2013-text2-h002": {
-      "offset": 313504,
+      "offset": 312250,
       "length": 8351,
       "term": "explicit permission",
       "spokenText": "explicit permission"
     },
     "2013-text2-h003": {
-      "offset": 321855,
+      "offset": 320601,
       "length": 7097,
       "term": "proposed adding",
       "spokenText": "proposed adding"
     },
     "2013-text2-h004": {
-      "offset": 328952,
+      "offset": 327698,
       "length": 5843,
       "term": "the industry",
       "spokenText": "the industry"
     },
     "2013-text2-h005": {
-      "offset": 334795,
+      "offset": 333541,
       "length": 20576,
       "term": "get cracking on responding to DNT requests",
       "spokenText": "get cracking on responding to D N T requests"
     },
     "2013-text2-h006": {
-      "offset": 355371,
+      "offset": 354117,
       "length": 5216,
       "term": "horrified",
       "spokenText": "horrified"
     },
     "2013-text2-h007": {
-      "offset": 360587,
+      "offset": 359333,
       "length": 7880,
       "term": "the chief executive",
       "spokenText": "the chief executive"
     },
     "2013-text2-h008": {
-      "offset": 368467,
+      "offset": 367213,
       "length": 13366,
       "term": "oblige anyone to stop tracking",
       "spokenText": "oblige anyone to stop tracking"
     },
     "2013-text2-h009": {
-      "offset": 381833,
-      "length": 14307,
+      "offset": 380579,
+      "length": 13053,
       "term": "objects to behavioural ads",
       "spokenText": "objects to behavioural ads"
     },
     "2013-text2-h010": {
-      "offset": 396140,
+      "offset": 393632,
       "length": 14620,
       "term": "comply with DNT requests",
       "spokenText": "comply with D N T requests"
     },
     "2013-text2-h011": {
-      "offset": 410760,
+      "offset": 408252,
       "length": 6940,
       "term": "almost wholly",
       "spokenText": "almost wholly"
     },
     "2013-text2-h012": {
-      "offset": 417700,
+      "offset": 415192,
       "length": 8507,
       "term": "huge selling point",
       "spokenText": "huge selling point"
     },
     "2013-text2-h013": {
-      "offset": 426207,
+      "offset": 423699,
       "length": 7880,
       "term": "ease competition",
       "spokenText": "ease competition"
     },
     "2013-text2-h014": {
-      "offset": 434087,
+      "offset": 431579,
       "length": 10858,
       "term": "complaints from consumers",
       "spokenText": "complaints from consumers"
     },
     "2013-text2-h015": {
-      "offset": 444945,
+      "offset": 442437,
       "length": 10075,
       "term": "operational costs",
       "spokenText": "operational costs"
     },
     "2013-text2-h016": {
-      "offset": 455020,
+      "offset": 452512,
       "length": 9918,
       "term": "e-commerce conductors",
       "spokenText": "e-commerce conductors"
     },
     "2013-text2-h017": {
-      "offset": 464938,
+      "offset": 462430,
       "length": 6156,
       "term": "indulgence",
       "spokenText": "indulgence"
     },
     "2013-text2-s001": {
-      "offset": 471094,
+      "offset": 468586,
       "length": 6000,
       "term": "do not track",
       "spokenText": "do not track"
     },
     "2013-text2-s002": {
-      "offset": 477094,
+      "offset": 474586,
       "length": 4276,
       "term": "default",
       "spokenText": "default"
     },
     "2013-text2-s003": {
-      "offset": 481370,
+      "offset": 478862,
       "length": 3649,
       "term": "norm",
       "spokenText": "norm"
     },
     "2013-text3-h001": {
-      "offset": 485019,
+      "offset": 482511,
       "length": 8351,
       "term": "glowingly positive",
       "spokenText": "glowingly positive"
     },
     "2013-text3-h002": {
-      "offset": 493370,
+      "offset": 490862,
       "length": 5059,
       "term": "utopia",
       "spokenText": "utopia"
     },
     "2013-text3-h003": {
-      "offset": 498429,
+      "offset": 495921,
       "length": 8194,
       "term": "asteroid strike",
       "spokenText": "asteroid strike"
     },
     "2013-text3-h004": {
-      "offset": 506623,
+      "offset": 504115,
       "length": 7410,
       "term": "climate change",
       "spokenText": "climate change"
     },
     "2013-text3-h005": {
-      "offset": 514033,
+      "offset": 511525,
       "length": 12583,
       "term": "such gloominess is misplaced",
       "spokenText": "such gloominess is misplaced"
     },
     "2013-text3-h006": {
-      "offset": 526616,
-      "length": 7410,
+      "offset": 524108,
+      "length": 6313,
       "term": "fossil record",
       "spokenText": "fossil record"
     },
     "2013-text3-h007": {
-      "offset": 534026,
+      "offset": 530421,
       "length": 14307,
       "term": "have endured for millions of years",
       "spokenText": "have endured for millions of years"
     },
     "2013-text3-h008": {
-      "offset": 548333,
+      "offset": 544728,
       "length": 7880,
       "term": "flagship project",
       "spokenText": "flagship project"
     },
     "2013-text3-h009": {
-      "offset": 556213,
+      "offset": 552608,
       "length": 9134,
       "term": "lengthy timescales",
       "spokenText": "lengthy timescales"
     },
     "2013-text3-h010": {
-      "offset": 565347,
+      "offset": 561742,
       "length": 10232,
       "term": "dazzlingly complicated",
       "spokenText": "dazzlingly complicated"
     },
     "2013-text3-h011": {
-      "offset": 575579,
+      "offset": 571974,
       "length": 8194,
       "term": "futurologists",
       "spokenText": "futurologists"
     },
     "2013-text3-h012": {
-      "offset": 583773,
+      "offset": 580168,
       "length": 5843,
       "term": "envisage",
       "spokenText": "envisage"
     },
     "2013-text3-h013": {
-      "offset": 589616,
+      "offset": 586011,
       "length": 10545,
       "term": "with considerable assurance",
       "spokenText": "with considerable assurance"
     },
     "2013-text3-h014": {
-      "offset": 600161,
+      "offset": 596556,
       "length": 11172,
       "term": "evidence-based forecasts",
       "spokenText": "evidence-based forecasts"
     },
     "2013-text3-h015": {
-      "offset": 611333,
+      "offset": 607728,
       "length": 6313,
       "term": "descendants",
       "spokenText": "descendants"
     },
     "2013-text3-h016": {
-      "offset": 617646,
+      "offset": 614041,
       "length": 15404,
       "term": "the pessimistic view of our prospects",
       "spokenText": "the pessimistic view of our prospects"
     },
     "2013-text3-h017": {
-      "offset": 633050,
+      "offset": 629445,
       "length": 7410,
       "term": "a passing fad",
       "spokenText": "a passing fad"
     },
     "2013-text3-h018": {
-      "offset": 640460,
+      "offset": 636855,
       "length": 4903,
       "term": "rosy",
       "spokenText": "rosy"
     },
     "2013-text3-h019": {
-      "offset": 645363,
+      "offset": 641758,
       "length": 8507,
       "term": "a misplaced race",
       "spokenText": "a misplaced race"
     },
     "2013-text3-h020": {
-      "offset": 653870,
+      "offset": 650265,
       "length": 11172,
       "term": "futurological studies",
       "spokenText": "futurological studies"
     },
     "2013-text3-h021": {
-      "offset": 665042,
+      "offset": 661437,
       "length": 4119,
       "term": "crucial",
       "spokenText": "crucial"
     },
     "2013-text3-h022": {
-      "offset": 669161,
+      "offset": 665556,
       "length": 9134,
       "term": "abundant resources",
       "spokenText": "abundant resources"
     },
     "2013-text3-h023": {
-      "offset": 678295,
+      "offset": 674690,
       "length": 13836,
       "term": "curb our ambition to reshape history",
       "spokenText": "curb our ambition to reshape history"
     },
     "2013-text3-h024": {
-      "offset": 692131,
+      "offset": 688526,
       "length": 14777,
       "term": "The Ever-bright Prospects of Mankind",
       "spokenText": "The Ever-bright Prospects of Mankind"
     },
     "2013-text3-s001": {
-      "offset": 706908,
+      "offset": 703303,
       "length": 4903,
       "term": "epidemic",
       "spokenText": "epidemic"
     },
     "2013-text3-s002": {
-      "offset": 711811,
+      "offset": 708206,
       "length": 4119,
       "term": "hence",
       "spokenText": "hence"
     },
     "2013-text3-s003": {
-      "offset": 715930,
+      "offset": 712325,
       "length": 2865,
       "term": "lot",
       "spokenText": "lot"
     },
     "2013-text4-h001": {
-      "offset": 718795,
+      "offset": 715190,
       "length": 16971,
       "term": "knocked out much of Arizona’s immigration law",
       "spokenText": "knocked out much of Arizona's immigration law"
     },
     "2013-text4-h002": {
-      "offset": 735766,
+      "offset": 732161,
       "length": 7880,
       "term": "the Constitution",
       "spokenText": "the Constitution"
     },
     "2013-text4-h003": {
-      "offset": 743646,
+      "offset": 740041,
       "length": 11485,
       "term": "upset the balance of power",
       "spokenText": "upset the balance of power"
     },
     "2013-text4-h004": {
-      "offset": 755131,
+      "offset": 751526,
       "length": 9448,
       "term": "contested provisions",
       "spokenText": "contested provisions"
     },
     "2013-text4-h005": {
-      "offset": 764579,
+      "offset": 760974,
       "length": 8978,
       "term": "controversial plan",
       "spokenText": "controversial plan"
     },
     "2013-text4-h006": {
-      "offset": 773557,
+      "offset": 769952,
       "length": 13053,
       "term": "enforce federal immigration law",
       "spokenText": "enforce federal immigration law"
     },
     "2013-text4-h007": {
-      "offset": 786610,
+      "offset": 783005,
       "length": 11642,
       "term": "Constitutional principles",
       "spokenText": "Constitutional principles"
     },
     "2013-text4-h008": {
-      "offset": 798252,
+      "offset": 794647,
       "length": 14620,
       "term": "federal laws precede state laws",
       "spokenText": "federal laws precede state laws"
     },
     "2013-text4-h009": {
-      "offset": 812872,
+      "offset": 809267,
       "length": 8037,
       "term": "noncontroversial",
       "spokenText": "noncontroversial"
     },
     "2013-text4-h010": {
-      "offset": 820909,
+      "offset": 817304,
       "length": 13053,
       "term": "flew too close to the federal sun",
       "spokenText": "flew too close to the federal sun"
     },
     "2013-text4-h011": {
-      "offset": 833962,
+      "offset": 830357,
       "length": 12739,
       "term": "deliberately “occupied the field”",
       "spokenText": "deliberately occupied the field"
     },
     "2013-text4-h012": {
-      "offset": 846701,
+      "offset": 843096,
       "length": 17598,
       "term": "intruded on the federal’s privileged powers",
       "spokenText": "intruded on the federal's privileged powers"
     },
     "2013-text4-h013": {
-      "offset": 864299,
+      "offset": 860694,
       "length": 16031,
       "term": "joint federal-state immigration enforcement",
       "spokenText": "joint federal-state immigration enforcement"
     },
     "2013-text4-h014": {
-      "offset": 880330,
+      "offset": 876725,
       "length": 19636,
       "term": "an even more robust defense of state privileges",
       "spokenText": "an even more robust defense of state privileges"
     },
     "2013-text4-h015": {
-      "offset": 899966,
+      "offset": 896361,
       "length": 14777,
       "term": "assertion of federal executive power",
       "spokenText": "assertion of federal executive power"
     },
     "2013-text4-h016": {
-      "offset": 914743,
+      "offset": 911138,
       "length": 10702,
       "term": "enforcement priorities",
       "spokenText": "enforcement priorities"
     },
     "2013-text4-h017": {
-      "offset": 925445,
+      "offset": 921840,
       "length": 17912,
       "term": "invalidate any otherwise legitimate state law",
       "spokenText": "invalidate any otherwise legitimate state law"
     },
     "2013-text4-h018": {
-      "offset": 943357,
+      "offset": 939752,
       "length": 6940,
       "term": "exclusively",
       "spokenText": "exclusively"
     },
     "2013-text4-h019": {
-      "offset": 950297,
+      "offset": 946692,
       "length": 14777,
       "term": "control of citizenship and the borders",
       "spokenText": "control of citizenship and the borders"
     },
     "2013-text4-h020": {
-      "offset": 965074,
+      "offset": 961469,
       "length": 10545,
       "term": "was in essence asserting that",
       "spokenText": "was in essence asserting that"
     },
     "2013-text4-h021": {
-      "offset": 975619,
+      "offset": 972014,
       "length": 12896,
       "term": "rejected this remarkable claim",
       "spokenText": "rejected this remarkable claim"
     },
     "2013-text4-h022": {
-      "offset": 988515,
+      "offset": 984910,
       "length": 5686,
       "term": "provisions",
       "spokenText": "provisions"
     },
     "2013-text4-h023": {
-      "offset": 994201,
+      "offset": 990596,
       "length": 21360,
       "term": "overstepped the authority of federal immigration law",
       "spokenText": "overstepped the authority of federal immigration law"
     },
     "2013-text4-h024": {
-      "offset": 1015561,
+      "offset": 1011956,
       "length": 22770,
       "term": "deprived the federal police of Constitutional powers",
       "spokenText": "deprived the federal police of Constitutional powers"
     },
     "2013-text4-h025": {
-      "offset": 1038331,
+      "offset": 1034726,
       "length": 19792,
       "term": "contradicted both the federal and state policies",
       "spokenText": "contradicted both the federal and state policies"
     },
     "2013-text4-h026": {
-      "offset": 1058123,
+      "offset": 1054518,
       "length": 10702,
       "term": "Congress’s intervention",
       "spokenText": "Congress's intervention"
     },
     "2013-text4-h027": {
-      "offset": 1068825,
+      "offset": 1065220,
       "length": 9761,
       "term": "States’ legitimate role",
       "spokenText": "States' legitimate role"
     },
     "2013-text4-h028": {
-      "offset": 1078586,
+      "offset": 1074981,
       "length": 11799,
       "term": "violated the Constitution",
       "spokenText": "violated the Constitution"
     },
     "2013-text4-h029": {
-      "offset": 1090385,
+      "offset": 1086780,
       "length": 15717,
       "term": "outweighs that held by the states",
       "spokenText": "outweighs that held by the states"
     },
     "2013-text4-h030": {
-      "offset": 1106102,
+      "offset": 1102497,
       "length": 14777,
       "term": "rarely goes against state laws",
       "spokenText": "rarely goes against state laws"
     },
     "2013-text4-h031": {
-      "offset": 1120879,
+      "offset": 1117274,
       "length": 15090,
       "term": "is dominant over immigration issues",
       "spokenText": "is dominant over immigration issues"
     },
     "2013-text4-h032": {
-      "offset": 1135969,
+      "offset": 1132364,
       "length": 11485,
       "term": "coordination with Congress",
       "spokenText": "coordination with Congress"
     },
     "2013-text4-s001": {
-      "offset": 1147454,
+      "offset": 1143849,
       "length": 5216,
       "term": "overturned",
       "spokenText": "overturned"
     },
     "2013-text4-s002": {
-      "offset": 1152670,
+      "offset": 1149065,
       "length": 6156,
       "term": "majority",
       "spokenText": "majority"
     },
     "2013-text4-s003": {
-      "offset": 1158826,
+      "offset": 1155221,
       "length": 16031,
       "term": "complied with federal statutes to the letter",
       "spokenText": "complied with federal statutes to the letter"

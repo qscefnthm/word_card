@@ -35,13 +35,17 @@ def spoken_text(term):
     return text.strip(" ,")
 
 
-# English homographs need the stress or pronunciation of their sense in the passage.
-# The custom phonemes control only the audio; term and spokenText retain normal spelling.
-PRONUNCIATION = {
+# Piper's phonemizer chooses the adjective "perfect" and noun "objects" in
+# these isolated excerpts. Supply each whole phrase so stress is corrected
+# without inserting a pause between the verb and the following words.
+PHRASE_PHONEMES = {
+    "perfect her craft": "pəfˈɛkt hɜː kɹˈaft",
+    "objects to behavioural ads": "əbdʒˈɛkts tə bɪhˈeɪvjəɹəl ˈadz",
+}
+
+# Fixed pronunciations for these short excerpts were used in the initial recording.
+WORD_PHONEMES = {
     "suspects": ("suspects", "sˈʌspɛkts"),
-    "perfect her craft": ("perfect", "pɚfˈɛkt"),
-    "objects to behavioural ads": ("objects", "əb dʒˈɛkts".replace(" ", "")),
-    "fossil record": ("record", "ɹˈɛkɚd"),
     "steep increase": ("increase", "ˈɪnkɹiːs"),
     "eligible to use": ("use", "jˈuːz"),
     "Protests have erupted": ("Protests", "pɹˈoʊtɛsts"),
@@ -67,9 +71,9 @@ def convert(raw, args):
 
 
 def render(text):
-    phonetic_text = text
-    if text in PRONUNCIATION:
-        word, phones = PRONUNCIATION[text]
+    phonetic_text = f"[[{PHRASE_PHONEMES[text]}]]" if text in PHRASE_PHONEMES else text
+    if text in WORD_PHONEMES:
+        word, phones = WORD_PHONEMES[text]
         phonetic_text = text.replace(word, "[[" + phones + "]]", 1)
     chunks = [c.audio_int16_bytes for c in VOICE.synthesize(
         phonetic_text, syn_config=SynthesisConfig(length_scale=1.05)
