@@ -153,7 +153,7 @@ def check_desktop_pronunciation(browser, base, catalog):
         before = raw_storage(page)
         hear(0, rows[0]['term'], 5)
         page.evaluate("voiceTest.addLocal(); voiceTest.finish('error', 'network')")
-        page.wait_for_function("voiceTest.calls.at(-1)?.voice === 'Microsoft David'")
+        page.wait_for_function("() => voiceTest.calls.at(-1)?.voice === 'Microsoft David'")
         ok('Online failure retries the same English on a local voice',
            page.evaluate("voiceTest.calls.at(-1).text") == rows[0]['term'])
         expect(say).to_have_attribute('data-speech-state', 'speaking')
@@ -202,7 +202,7 @@ def check_desktop_pronunciation(browser, base, catalog):
         page.evaluate("voiceTest.finish('error', 'network')")
         page.evaluate("voiceTest.finish('error', 'synthesis-failed')")
         try:
-            page.wait_for_function("finishedRecordings === 1", timeout=10000)
+            page.wait_for_function("() => window.finishedRecordings === 1", timeout=10000)
         except Exception:
             print(page.evaluate("""() => ({
                 voiceCalls: voiceTest.calls.slice(-6), error: document.querySelector('#reviewToast').textContent,
@@ -212,7 +212,7 @@ def check_desktop_pronunciation(browser, base, catalog):
         expect(say).to_have_attribute('data-speech-state', 'idle')
         call_count = page.evaluate("voiceTest.calls.length")
         say.click()
-        page.wait_for_function("finishedRecordings === 2")
+        page.wait_for_function("() => window.finishedRecordings === 2")
         ok('After voice failure the session can play the saved clip again immediately',
            page.evaluate("voiceTest.calls.length") == call_count)
         expect(page.locator('.review-answer:visible')).to_have_count(0)
