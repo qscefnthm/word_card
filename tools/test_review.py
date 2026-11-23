@@ -161,6 +161,18 @@ def check_desktop_pronunciation(browser, base, catalog):
         expect(say).to_have_attribute('data-speech-state', 'idle')
         expect(page.locator('.review-answer:visible')).to_have_count(0)
         ok('Single item listening leaves ratings and position intact', raw_storage(page) == before)
+
+        other = next(entry for entry in catalog['sets'] if entry['id'] == '2017-e1-other')
+        page.select_option('#reviewDataset', other['id'])
+        expect(page.locator('#reviewTitle')).to_have_text(other['title'])
+        page.select_option('#reviewScope', '1')
+        first_cloze = next(row for row in json.loads((R / other['file']).read_text())['items']
+                           if row['text'] == 1)
+        hear(0, first_cloze['term'], 7)
+        page.select_option('#reviewScope', '3')
+        expect(say).to_have_attribute('data-speech-state', 'idle')
+        ok('Changing the section cancels the old word',
+           page.evaluate("!speechSynthesis.speaking && voiceTest.calls.at(-1).type === 'cancel'"))
         untouched(page)
     finally:
         context.close()
