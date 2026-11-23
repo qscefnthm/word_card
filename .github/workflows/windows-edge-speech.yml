@@ -1,0 +1,38 @@
+name: 'One-off Windows Edge speech probe'
+
+on:
+  push:
+    branches: ['qa/edge-speech-*']
+  workflow_dispatch:
+
+env:
+  PYTHONUTF8: '1'
+
+permissions:
+  contents: read
+
+jobs:
+  speak:
+    runs-on: windows-2025
+    timeout-minutes: 7
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Inspect Windows speech and audio devices
+        shell: powershell
+        run: |
+          foreach ($service in @('AudioEndpointBuilder', 'Audiosrv')) {
+            try { Start-Service $service -ErrorAction Stop } catch { Write-Host $_ }
+            Get-Service $service | Select-Object Name, Status
+          }
+          Get-CimInstance Win32_SoundDevice | Select-Object Name, Status
+          try {
+            $voice = New-Object -ComObject SAPI.SpVoice
+            $voice.GetVoices() | ForEach-Object { Write-Host "SAPI:" $_.GetDescription() }
+          } catch { Write-Host $_ }
+      - name: Install test harness
+        run: python -m pip install playwright
+      - name: Observe genuine start and end after an actual Edge click
+        run: python edge_audio_qa/edge_smoke.py
