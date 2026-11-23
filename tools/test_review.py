@@ -22,6 +22,58 @@ def columns_align(page):
 def upload(page,payload):
     page.locator('#reviewImportInput').set_input_files({'name':'synthetic.json','mimeType':'application/json','buffer':(payload if isinstance(payload,str) else json.dumps(payload)).encode()})
     expect(page.locator('#reviewImportInput')).to_have_value('')
+
+def check_real_batch_routes(browser, base, catalog):
+    sets = {entry['id']: entry for entry in catalog['sets']}
+    context = browser.new_context(viewport={'width': 390, 'height': 844})
+    page = context.new_page()
+    page.on('pageerror', lambda error: errors.append(str(error)))
+
+    def expected_rows(set_id, sections):
+        data = json.loads((R / sets[set_id]['file']).read_text())
+        return [row for row in data['items'] if row['text'] in sections]
+
+    def check_rows(name, rows):
+        expected = [row['id'] for row in rows]
+        expect(page.locator('.review-item')).to_have_count(len(expected))
+        actual = page.locator('.review-item').evaluate_all('(els)=>els.map(el=>el.dataset.item)')
+        ok(name, bool(expected) and actual == expected)
+
+    try:
+        page.goto(base + '/review.html?set=2012-e1&scope=4')
+        expect(page.locator('#reviewTitle')).to_have_text(sets['2012-e1']['title'])
+        expect(page.locator('#reviewScope')).to_have_value('4')
+        scope_values = page.locator('#reviewScope option').evaluate_all('(options)=>options.map(o=>o.value)')
+        ok('Single-Text year presents only available scopes', set(scope_values) == {'all', '4'})
+        check_rows('2012 Text 4 deep link loads exact rows', expected_rows('2012-e1', [4]))
+
+        page.select_option('#reviewDataset', '2017-e1-other')
+        expect(page.locator('#reviewTitle')).to_have_text(sets['2017-e1-other']['title'])
+        for value, label in [('1', '完形填空'), ('2', '新题型'), ('3', '翻译')]:
+            rows = expected_rows('2017-e1-other', [int(value)])
+            page.select_option('#reviewScope', value)
+            expect(page.locator('#reviewScope option:checked')).to_contain_text(label)
+            check_rows('2017 ' + label + ' loads the correct entries', rows)
+            ok(label + ' labels match the entries', label in page.locator('.review-meta').first.inner_text())
+            expect(page.locator('.review-answer:visible')).to_have_count(0)
+            page.click('#reviewShowAll')
+            expect(page.locator('.review-meaning:visible')).to_have_text([row['context_meaning'] for row in rows])
+            if value == '2':
+                page.reload()
+                expect(page.locator('#reviewTitle')).to_have_text(sets['2017-e1-other']['title'])
+                expect(page.locator('#reviewScope')).to_have_value('2')
+                check_rows('2017 section route survives refresh', rows)
+                ok('Ordering section uses passage letters', '选段 ' in page.locator('.review-meta').first.inner_text())
+
+        page.select_option('#reviewDataset', '2015-e1')
+        expect(page.locator('#reviewTitle')).to_have_text(sets['2015-e1']['title'])
+        for scope, sections in [('1-2', [1,2]), ('3-4', [3,4])]:
+            page.select_option('#reviewScope', scope)
+            check_rows('Paired reading scope returns after switching batch '+scope, expected_rows('2015-e1', sections))
+            expect(page.locator('.review-answer:visible')).to_have_count(0)
+    finally:
+        context.close()
+
 class Quiet(http.server.SimpleHTTPRequestHandler):
     def log_message(self,*args):pass
 server=http.server.ThreadingHTTPServer(('127.0.0.1',0),functools.partial(Quiet,directory=str(R)))
@@ -126,6 +178,7 @@ try:
     legacy=browser.new_page();legacy.goto(BASE+'/#legacy');legacy.wait_for_selector('#workspace:visible');ok('Legacy hash opens unchanged app',legacy.locator('#legacy').get_attribute('open') is not None and legacy.locator('#word').inner_text()=='sympathy')
     legacy.goto(BASE+'/?deck=2012-e1-text2');legacy.wait_for_selector('#workspace:visible');expect(legacy.locator('#deckSelect')).to_have_value('2012-e1-text2');expect(legacy.locator('#deckTitle')).to_have_text('2012 · 英语一 · Text 2');ok('Legacy query loads requested non-default deck',legacy.locator('#legacy').get_attribute('open') is not None)
     legacy.goto(BASE+'/quick.html?deck=2012-e1-text1');legacy.wait_for_selector('#quickWorkspace:visible');expect(legacy.locator('#deckSelect')).to_have_value('2012-e1-text1');quick_data=json.loads((R/'data/decks/2012-e1-text1.json').read_text());expect(legacy.locator('#cardTerm')).to_have_text(quick_data['cards'][0]['term']);ok('Quick deep link loads requested non-default deck',legacy.locator('script[src*="quick.js"]').count()==1)
+    check_real_batch_routes(browser, BASE, cat)
     ok('No runtime exceptions in primary review flow',not errors);browser.close()
 finally:server.shutdown()
 result={'mode':'Real localhost HTTP, Chromium native localStorage; real repository review JSON','checksPassed':len(checks),'checks':checks,'runtimeErrors':errors,'boundaries':['No live deployment test','320/390/600px emulation, not physical phone','Synthetic records only','Source/book factual verification is separate']}

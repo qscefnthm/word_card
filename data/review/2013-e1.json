@@ -1,0 +1,5327 @@
+{
+  "schemaVersion": 1,
+  "id": "2013-e1",
+  "title": "2013 · 英语一 · 阅读词汇复盘",
+  "version": "2026-11-23.1",
+  "year": 2013,
+  "exam": "英语一",
+  "description": "按卷面勾画和原文位置整理。语境义与词书原释义独立展示。",
+  "source_notes": [
+    "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。",
+    "同一词在不同位置可分别出现；补充表达单独标注。"
+  ],
+  "items": [
+    {
+      "id": "2013-text1-h001",
+      "text": 1,
+      "term": "scolds her … assistant for imagining",
+      "context_meaning": "因助手以为……而斥责她；scold sb for doing sth",
+      "loc": "P1",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "scold",
+          "entry_id": 2623,
+          "a4_page": 132,
+          "english_page": 66,
+          "original_meaning": "vt. vi. 训斥,责骂",
+          "match_type": "phrase_component",
+          "matched_part": "scolds",
+          "mapping_note": "表达中的 scolds 对应词书条目 scold。"
+        },
+        {
+          "headword": "assistant",
+          "entry_id": 1660,
+          "a4_page": 83,
+          "english_page": 42,
+          "original_meaning": "n. 助手,助理;售货员 adj. 助理的,副的",
+          "match_type": "phrase_component",
+          "matched_part": "assistant",
+          "mapping_note": "表达中的 assistant 对应词书条目 assistant。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "scolds her … assistant for imagining",
+          "scolds",
+          "scold",
+          "assistant"
+        ],
+        "not_found_forms": [
+          "scolds her … assistant for imagining",
+          "scolds"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 1,
+        "highlight_parts": [
+          "scolds",
+          "assistant"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text1-h002",
+      "text": 1,
+      "term": "descended … from fashion shows to department stores",
+      "context_meaning": "（某种颜色）从时装秀一路传到百货商店",
+      "loc": "P1",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "descend",
+          "entry_id": 2291,
+          "a4_page": 115,
+          "english_page": 58,
+          "original_meaning": "vi. vt. 下来,下降,向下 vi. (黑夜等) 降临;是某人的后裔",
+          "match_type": "phrase_component",
+          "matched_part": "descended",
+          "mapping_note": "表达中的 descended 对应词书条目 descend。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "descended … from fashion shows to department stores",
+          "descended",
+          "descend"
+        ],
+        "not_found_forms": [
+          "descended … from fashion shows to department stores",
+          "descended"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 1,
+        "highlight_parts": [
+          "descended"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text1-h003",
+      "text": 1,
+      "term": "bargain bin",
+      "context_meaning": "（商店的）特价商品筐",
+      "loc": "P1",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "bargain",
+          "entry_id": 77,
+          "a4_page": 4,
+          "english_page": 2,
+          "original_meaning": "n. 便宜货;协议,协定 vi. 讨价还价,洽谈,谈条件",
+          "match_type": "phrase_component",
+          "matched_part": "bargain",
+          "mapping_note": "表达中的 bargain 对应词书条目 bargain。"
+        },
+        {
+          "headword": "bin",
+          "entry_id": 3220,
+          "a4_page": 161,
+          "english_page": 81,
+          "original_meaning": "n. 垃圾箱;箱子,储物箱 vt. 扔掉",
+          "match_type": "phrase_component",
+          "matched_part": "bin",
+          "mapping_note": "表达中的 bin 对应词书条目 bin。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "bargain bin",
+          "bargain",
+          "bin"
+        ],
+        "not_found_forms": [
+          "bargain bin"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 1,
+        "highlight_parts": [
+          "bargain bin"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text1-h004",
+      "text": 1,
+      "term": "garment",
+      "context_meaning": "这件衣服，这里指上文的毛衣",
+      "loc": "P1",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "garment",
+          "entry_id": 5127,
+          "a4_page": 257,
+          "english_page": 129,
+          "original_meaning": "n. 衣服,服装",
+          "match_type": "exact",
+          "matched_part": "garment",
+          "mapping_note": "与所列词头相同。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "exact_found",
+        "searched_forms": [
+          "garment"
+        ],
+        "not_found_forms": [],
+        "note": "已核对两份红宝书中的词头、编号及页码。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 1,
+        "highlight_parts": [
+          "garment"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text1-h005",
+      "text": 1,
+      "term": "feverish",
+      "context_meaning": "（形容快时尚行业）狂热而忙乱的",
+      "loc": "P2",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "feverish",
+          "entry_id": 6010,
+          "a4_page": 301,
+          "english_page": 151,
+          "original_meaning": "adj. 发烧的;狂热的,焦虑不安的",
+          "match_type": "exact",
+          "matched_part": "feverish",
+          "mapping_note": "与所列词头相同。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "exact_found",
+        "searched_forms": [
+          "feverish"
+        ],
+        "not_found_forms": [],
+        "note": "已核对两份红宝书中的词头、编号及页码。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 1,
+        "highlight_parts": [
+          "feverish"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text1-h006",
+      "text": 1,
+      "term": "Quicker turnarounds",
+      "context_meaning": "更短的周转周期",
+      "loc": "P2",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "turnaround",
+          "entry_id": 5580,
+          "a4_page": 279,
+          "english_page": 140,
+          "original_meaning": "n. 周转期,时限;好转;彻底转变",
+          "match_type": "phrase_component",
+          "matched_part": "turnarounds",
+          "mapping_note": "表达中的 turnarounds 对应词书条目 turnaround。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "Quicker turnarounds",
+          "turnarounds",
+          "turnaround"
+        ],
+        "not_found_forms": [
+          "Quicker turnarounds",
+          "turnarounds"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 1,
+        "highlight_parts": [
+          "turnarounds"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text1-h007",
+      "text": 1,
+      "term": "wasted inventory",
+      "context_meaning": "积压而造成浪费的库存",
+      "loc": "P2",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "inventory",
+          "entry_id": 4036,
+          "a4_page": 202,
+          "english_page": 101,
+          "original_meaning": "n. 存货清单;储备,存货,库存 vt. 开列...的清单,把...编入目录",
+          "match_type": "phrase_component",
+          "matched_part": "inventory",
+          "mapping_note": "表达中的 inventory 对应词书条目 inventory。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "wasted inventory",
+          "inventory"
+        ],
+        "not_found_forms": [
+          "wasted inventory"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 1,
+        "highlight_parts": [
+          "inventory"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text1-h008",
+      "text": 1,
+      "term": "style-conscious consumers",
+      "context_meaning": "讲究时尚的消费者",
+      "loc": "P2",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "style",
+          "entry_id": 4170,
+          "a4_page": 209,
+          "english_page": 105,
+          "original_meaning": "n. 方式;款式;时髦;风度;风格 vt. 把...设计成某种式样;称呼",
+          "match_type": "phrase_component",
+          "matched_part": "style",
+          "mapping_note": "表达中的 style 对应词书条目 style。"
+        },
+        {
+          "headword": "conscious",
+          "entry_id": 1285,
+          "a4_page": 65,
+          "english_page": 33,
+          "original_meaning": "adj. 意识到的;清醒的;有意的 suff. 注重...的,有...意识的",
+          "match_type": "phrase_component",
+          "matched_part": "conscious",
+          "mapping_note": "表达中的 conscious 对应词书条目 conscious。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "style-conscious consumers",
+          "style",
+          "conscious"
+        ],
+        "not_found_forms": [
+          "style-conscious consumers"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 1,
+        "highlight_parts": [
+          "style-conscious"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text1-h009",
+      "text": 1,
+      "term": "see clothes as disposable",
+      "context_meaning": "把衣服看作用过就可以扔的东西",
+      "loc": "P2",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "disposable",
+          "entry_id": 6386,
+          "a4_page": 320,
+          "english_page": 160,
+          "original_meaning": "adj. 一次性的;可自由支配的 n. 一次性用品",
+          "match_type": "phrase_component",
+          "matched_part": "disposable",
+          "mapping_note": "表达中的 disposable 对应词书条目 disposable。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "see clothes as disposable",
+          "disposable"
+        ],
+        "not_found_forms": [
+          "see clothes as disposable"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 1,
+        "highlight_parts": [
+          "disposable"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text1-h010",
+      "text": 1,
+      "term": "Cline argues",
+      "context_meaning": "克莱因认为……。Cline 是书中作者的姓，argues 在这里用来引述她的观点。",
+      "loc": "P2",
+      "kind": "highlight",
+      "note": "卷面标黄的是作者姓氏 Cline；红宝书可对照的词是旁边的 argue。",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "argue",
+          "entry_id": 1085,
+          "a4_page": 55,
+          "english_page": 28,
+          "original_meaning": "vi. 争吵,争论 vi. vt. 论证,主张 vt. 证明,表明",
+          "match_type": "phrase_component",
+          "matched_part": "argues",
+          "mapping_note": "表达中的 argues 对应词书条目 argue。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "Cline argues",
+          "argues",
+          "argue"
+        ],
+        "not_found_forms": [
+          "Cline argues",
+          "argues"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 1,
+        "highlight_parts": [
+          "Cline"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text1-h011",
+      "text": 1,
+      "term": "accustomed to a seasonal pace",
+      "context_meaning": "习惯于按季节更替的节奏；be accustomed to 表示习惯于",
+      "loc": "P2",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "accustom",
+          "entry_id": 4783,
+          "a4_page": 240,
+          "english_page": 120,
+          "original_meaning": "vt. 使习惯于,使适应",
+          "match_type": "phrase_component",
+          "matched_part": "accustomed",
+          "mapping_note": "表达中的 accustomed 对应词书条目 accustom。"
+        },
+        {
+          "headword": "seasonal",
+          "entry_id": 5544,
+          "a4_page": 278,
+          "english_page": 139,
+          "original_meaning": "adj. 季节性的;合时令的",
+          "match_type": "phrase_component",
+          "matched_part": "seasonal",
+          "mapping_note": "表达中的 seasonal 对应词书条目 seasonal。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "accustomed to a seasonal pace",
+          "accustomed",
+          "accustom",
+          "seasonal"
+        ],
+        "not_found_forms": [
+          "accustomed to a seasonal pace",
+          "accustomed"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 1,
+        "highlight_parts": [
+          "accustomed",
+          "seasonal"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text1-h012",
+      "text": 1,
+      "term": "overseas labor",
+      "context_meaning": "海外劳动力",
+      "loc": "P3",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "overseas",
+          "entry_id": 1271,
+          "a4_page": 64,
+          "english_page": 32,
+          "original_meaning": "adv. 在国外,在海外 adj. 国外的,海外的",
+          "match_type": "phrase_component",
+          "matched_part": "overseas",
+          "mapping_note": "表达中的 overseas 对应词书条目 overseas。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "overseas labor",
+          "overseas"
+        ],
+        "not_found_forms": [
+          "overseas labor"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 1,
+        "highlight_parts": [
+          "overseas"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text1-h013",
+      "text": 1,
+      "term": "massive amounts of harmful chemicals",
+      "context_meaning": "大量有害化学品；amounts of 修饰不可数名词",
+      "loc": "P3",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "amount",
+          "entry_id": 1245,
+          "a4_page": 63,
+          "english_page": 32,
+          "original_meaning": "n. 数量;金额 vi. 共计;等同于;发展成",
+          "match_type": "phrase_component",
+          "matched_part": "amounts",
+          "mapping_note": "表达中的 amounts 对应词书条目 amount。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "massive amounts of harmful chemicals",
+          "amounts",
+          "amount"
+        ],
+        "not_found_forms": [
+          "massive amounts of harmful chemicals",
+          "amounts"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 1,
+        "highlight_parts": [
+          "amounts"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text1-h014",
+      "text": 1,
+      "term": "Overdressed",
+      "context_meaning": "《过度着装》，文中讨论的书名",
+      "loc": "P4",
+      "kind": "highlight",
+      "note": "书名意为《过度着装》。红宝书列的是基础词 dress。",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "dress",
+          "entry_id": 4110,
+          "a4_page": 206,
+          "english_page": 103,
+          "original_meaning": "n. 连衣裙;服装 vi. vt. (给...) 穿衣服 vi. 穿正式服装 vt. 清洗,包扎;给...加调味酱",
+          "match_type": "derivation",
+          "matched_part": "Overdressed",
+          "mapping_note": "Overdressed 与 dress 是同词族的不同形式，请结合左侧语境义辨认。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "Overdressed",
+          "dress"
+        ],
+        "not_found_forms": [
+          "Overdressed"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 1,
+        "highlight_parts": [
+          "Overdressed"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text1-h015",
+      "text": 1,
+      "term": "roughly",
+      "context_meaning": "大约",
+      "loc": "P4",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "rough",
+          "entry_id": 4081,
+          "a4_page": 205,
+          "english_page": 103,
+          "original_meaning": "adj. 粗糙的;大致的;粗暴的 adj. 艰难的 n. 草稿,草图 adv. 粗鲁地,粗野地",
+          "match_type": "derivation",
+          "matched_part": "roughly",
+          "mapping_note": "roughly 与 rough 是同词族的不同形式，请结合左侧语境义辨认。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "roughly",
+          "rough"
+        ],
+        "not_found_forms": [
+          "roughly"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 1,
+        "highlight_parts": [
+          "roughly"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text1-h016",
+      "text": 1,
+      "term": "perfect her craft",
+      "context_meaning": "磨炼她的手艺，使之精湛",
+      "loc": "P5",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "craft",
+          "entry_id": 4174,
+          "a4_page": 209,
+          "english_page": 105,
+          "original_meaning": "n. 手艺;技巧;船;飞行器;诡计 vt. 精心制作",
+          "match_type": "phrase_component",
+          "matched_part": "craft",
+          "mapping_note": "表达中的 craft 对应词书条目 craft。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "perfect her craft",
+          "craft"
+        ],
+        "not_found_forms": [
+          "perfect her craft"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 1,
+        "highlight_parts": [
+          "craft"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text1-h017",
+      "text": 1,
+      "term": "can’t be knocked off",
+      "context_meaning": "（她的做法）很难被轻易仿效或复制",
+      "loc": "P5",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "knock",
+          "entry_id": 4910,
+          "a4_page": 246,
+          "english_page": 123,
+          "original_meaning": "vi. 敲,击 vt. 猛力击打,撞 vt. vi. 碰上,撞上 n. 敲击声;打击,敲击,撞击",
+          "match_type": "phrase_component",
+          "matched_part": "knocked",
+          "mapping_note": "表达中的 knocked 对应词书条目 knock。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "can’t be knocked off",
+          "knocked",
+          "knock"
+        ],
+        "not_found_forms": [
+          "can’t be knocked off",
+          "knocked"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 1,
+        "highlight_parts": [
+          "knocked"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text1-h018",
+      "text": 1,
+      "term": "curb their impact on",
+      "context_meaning": "减轻它们对……的影响；curb 在这里指控制、限制。",
+      "loc": "P6",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "curb",
+          "entry_id": 4307,
+          "a4_page": 216,
+          "english_page": 108,
+          "original_meaning": "vt. 控制,限制,抑制 n. 控制,限制,抑制;马路牙子",
+          "match_type": "phrase_component",
+          "matched_part": "curb",
+          "mapping_note": "表达中的 curb 对应词书条目 curb。"
+        },
+        {
+          "headword": "impact",
+          "entry_id": 914,
+          "a4_page": 46,
+          "english_page": 23,
+          "original_meaning": "n. 影响;撞击,碰撞 vi. vt. 影响;撞击,碰撞",
+          "match_type": "phrase_component",
+          "matched_part": "impact",
+          "mapping_note": "表达中的 impact 对应词书条目 impact。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "curb their impact on",
+          "curb",
+          "impact"
+        ],
+        "not_found_forms": [
+          "curb their impact on"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 1,
+        "highlight_parts": [
+          "curb"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text1-h019",
+      "text": 1,
+      "term": "exhibits the idealism",
+      "context_meaning": "表现出这种理想主义",
+      "loc": "P6",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "exhibit",
+          "entry_id": 3794,
+          "a4_page": 190,
+          "english_page": 95,
+          "original_meaning": "vt. vi. 展览,展出;表现出,显示出 n. 展品;展览会;证物,证据",
+          "match_type": "phrase_component",
+          "matched_part": "exhibits",
+          "mapping_note": "表达中的 exhibits 对应词书条目 exhibit。"
+        },
+        {
+          "headword": "idealism",
+          "entry_id": 5658,
+          "a4_page": 283,
+          "english_page": 142,
+          "original_meaning": "n. 理想主义;唯心主义,唯心论",
+          "match_type": "phrase_component",
+          "matched_part": "idealism",
+          "mapping_note": "表达中的 idealism 对应词书条目 idealism。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "exhibits the idealism",
+          "exhibits",
+          "exhibit",
+          "idealism"
+        ],
+        "not_found_forms": [
+          "exhibits the idealism",
+          "exhibits"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 1,
+        "highlight_parts": [
+          "exhibits"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text1-h020",
+      "text": 1,
+      "term": "advocates of sustainability",
+      "context_meaning": "可持续发展的倡导者；advocates 在这里是名词",
+      "loc": "P6",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "advocate",
+          "entry_id": 827,
+          "a4_page": 42,
+          "english_page": 21,
+          "original_meaning": "vt. 提倡,主张 n. 拥护者,提倡者;辩护律师",
+          "match_type": "phrase_component",
+          "matched_part": "advocates",
+          "mapping_note": "表达中的 advocates 对应词书条目 advocate。"
+        },
+        {
+          "headword": "sustainable",
+          "entry_id": 5891,
+          "a4_page": 295,
+          "english_page": 148,
+          "original_meaning": "adj. 可持续的",
+          "match_type": "phrase_component",
+          "matched_part": "sustainability",
+          "mapping_note": "表达中的 sustainability 对应词书条目 sustainable。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "advocates of sustainability",
+          "advocates",
+          "advocate",
+          "sustainability",
+          "sustainable"
+        ],
+        "not_found_forms": [
+          "advocates of sustainability",
+          "advocates",
+          "sustainability"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 1,
+        "highlight_parts": [
+          "advocates"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text1-h021",
+      "text": 1,
+      "term": "Vanity is a constant",
+      "context_meaning": "爱慕虚荣的心理一直都在；constant 在这里是名词",
+      "loc": "P6",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "vanity",
+          "entry_id": 3024,
+          "a4_page": 152,
+          "english_page": 76,
+          "original_meaning": "n. 自负,虚荣;梳妆台",
+          "match_type": "phrase_component",
+          "matched_part": "Vanity",
+          "mapping_note": "表达中的 Vanity 对应词书条目 vanity。"
+        },
+        {
+          "headword": "constant",
+          "entry_id": 1435,
+          "a4_page": 72,
+          "english_page": 36,
+          "original_meaning": "adj. 经常的,不断的;恒定的 n. 不变的事物,常数,常量",
+          "match_type": "phrase_component",
+          "matched_part": "constant",
+          "mapping_note": "表达中的 constant 对应词书条目 constant。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "Vanity is a constant",
+          "Vanity",
+          "vanity",
+          "constant"
+        ],
+        "not_found_forms": [
+          "Vanity is a constant"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 1,
+        "highlight_parts": [
+          "constant"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text1-h022",
+      "text": 1,
+      "term": "obsession with high fashion",
+      "context_meaning": "对高级时装的痴迷",
+      "loc": "Q21B",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "obsession",
+          "entry_id": 28,
+          "a4_page": 2,
+          "english_page": 1,
+          "original_meaning": "n. 痴迷,着魔",
+          "match_type": "phrase_component",
+          "matched_part": "obsession",
+          "mapping_note": "表达中的 obsession 对应词书条目 obsession。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "obsession with high fashion",
+          "obsession"
+        ],
+        "not_found_forms": [
+          "obsession with high fashion"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 2,
+        "highlight_parts": [
+          "obsession"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "question"
+    },
+    {
+      "id": "2013-text1-h023",
+      "text": 1,
+      "term": "bargaining skill",
+      "context_meaning": "讨价还价的本领",
+      "loc": "Q21C",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "bargain",
+          "entry_id": 77,
+          "a4_page": 4,
+          "english_page": 2,
+          "original_meaning": "n. 便宜货;协议,协定 vi. 讨价还价,洽谈,谈条件",
+          "match_type": "phrase_component",
+          "matched_part": "bargaining",
+          "mapping_note": "表达中的 bargaining 对应词书条目 bargain。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "bargaining skill",
+          "bargaining",
+          "bargain"
+        ],
+        "not_found_forms": [
+          "bargaining skill",
+          "bargaining"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 2,
+        "highlight_parts": [
+          "bargaining"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "question"
+    },
+    {
+      "id": "2013-text1-h024",
+      "text": 1,
+      "term": "combat unnecessary waste",
+      "context_meaning": "遏制不必要的浪费",
+      "loc": "Q22A",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "combat",
+          "entry_id": 881,
+          "a4_page": 45,
+          "english_page": 23,
+          "original_meaning": "n. 战斗,搏斗 vt. 与...作斗争,打击,战斗",
+          "match_type": "phrase_component",
+          "matched_part": "combat",
+          "mapping_note": "表达中的 combat 对应词书条目 combat。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "combat unnecessary waste",
+          "combat"
+        ],
+        "not_found_forms": [
+          "combat unnecessary waste"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 2,
+        "highlight_parts": [
+          "combat"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "question"
+    },
+    {
+      "id": "2013-text1-h025",
+      "text": 1,
+      "term": "resist the influence of advertisements",
+      "context_meaning": "抵制广告的影响",
+      "loc": "Q22C",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "resist",
+          "entry_id": 1788,
+          "a4_page": 90,
+          "english_page": 45,
+          "original_meaning": "vt. vi. 按捺,克制;抵抗,抵制;抵御 vt. 经得起,抗 (伤害)",
+          "match_type": "phrase_component",
+          "matched_part": "resist",
+          "mapping_note": "表达中的 resist 对应词书条目 resist。"
+        },
+        {
+          "headword": "advertise",
+          "entry_id": 2534,
+          "a4_page": 127,
+          "english_page": 64,
+          "original_meaning": "vi. vt. 为...做广告;(在报纸等上) 征聘 vt. 宣扬,宣传",
+          "match_type": "phrase_component",
+          "matched_part": "advertisements",
+          "mapping_note": "表达中的 advertisements 对应词书条目 advertise。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "resist the influence of advertisements",
+          "resist",
+          "advertisements",
+          "advertise"
+        ],
+        "not_found_forms": [
+          "resist the influence of advertisements",
+          "advertisements"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 2,
+        "highlight_parts": [
+          "resist"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "question"
+    },
+    {
+      "id": "2013-text1-h026",
+      "text": 1,
+      "term": "the feverish fashion world",
+      "context_meaning": "狂热的时尚界",
+      "loc": "Q22D",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "feverish",
+          "entry_id": 6010,
+          "a4_page": 301,
+          "english_page": 151,
+          "original_meaning": "adj. 发烧的;狂热的,焦虑不安的",
+          "match_type": "phrase_component",
+          "matched_part": "feverish",
+          "mapping_note": "表达中的 feverish 对应词书条目 feverish。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "the feverish fashion world",
+          "feverish"
+        ],
+        "not_found_forms": [
+          "the feverish fashion world"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 2,
+        "highlight_parts": [
+          "feverish"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "question"
+    },
+    {
+      "id": "2013-text1-h027",
+      "text": 1,
+      "term": "enthusiasm",
+      "context_meaning": "热情",
+      "loc": "Q23C",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "enthusiasm",
+          "entry_id": 3251,
+          "a4_page": 163,
+          "english_page": 82,
+          "original_meaning": "n. 热爱,热情;热衷的活动",
+          "match_type": "exact",
+          "matched_part": "enthusiasm",
+          "mapping_note": "与所列词头相同。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "exact_found",
+        "searched_forms": [
+          "enthusiasm"
+        ],
+        "not_found_forms": [],
+        "note": "已核对两份红宝书中的词头、编号及页码。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 2,
+        "highlight_parts": [
+          "enthusiasm"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "question"
+    },
+    {
+      "id": "2013-text1-h028",
+      "text": 1,
+      "term": "accusation",
+      "context_meaning": "指责，控诉",
+      "loc": "Q23D",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "accusation",
+          "entry_id": 5550,
+          "a4_page": 278,
+          "english_page": 139,
+          "original_meaning": "n. 指控,谴责",
+          "match_type": "exact",
+          "matched_part": "accusation",
+          "mapping_note": "与所列词头相同。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "exact_found",
+        "searched_forms": [
+          "accusation"
+        ],
+        "not_found_forms": [],
+        "note": "已核对两份红宝书中的词头、编号及页码。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 2,
+        "highlight_parts": [
+          "accusation"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "question"
+    },
+    {
+      "id": "2013-text1-h029",
+      "text": 1,
+      "term": "an extravagant lifestyle",
+      "context_meaning": "奢侈的生活方式",
+      "loc": "Q25A",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "extravagant",
+          "entry_id": 1704,
+          "a4_page": 86,
+          "english_page": 43,
+          "original_meaning": "adj. 奢侈的,铺张浪费的;离谱的",
+          "match_type": "phrase_component",
+          "matched_part": "extravagant",
+          "mapping_note": "表达中的 extravagant 对应词书条目 extravagant。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "an extravagant lifestyle",
+          "extravagant"
+        ],
+        "not_found_forms": [
+          "an extravagant lifestyle"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 2,
+        "highlight_parts": [
+          "extravagant"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "question"
+    },
+    {
+      "id": "2013-text1-s001",
+      "text": 1,
+      "term": "at odds with",
+      "context_meaning": "与……不一致／相冲突",
+      "loc": "P2",
+      "kind": "supplement",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "odds",
+          "entry_id": 2667,
+          "a4_page": 134,
+          "english_page": 67,
+          "original_meaning": "n. 几率,可能性;困难,不利条件",
+          "match_type": "phrase_component",
+          "matched_part": "odds",
+          "mapping_note": "表达中的 odds 对应词书条目 odds。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "at odds with",
+          "odds"
+        ],
+        "not_found_forms": [
+          "at odds with"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 1,
+        "highlight_parts": [],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text1-s002",
+      "text": 1,
+      "term": "indictment",
+      "context_meaning": "严厉指责；批判",
+      "loc": "P2",
+      "kind": "supplement",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "indictment",
+          "entry_id": 5764,
+          "a4_page": 289,
+          "english_page": 145,
+          "original_meaning": "n. 控告;起诉书;衰败迹象",
+          "match_type": "exact",
+          "matched_part": "indictment",
+          "mapping_note": "与所列词头相同。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "exact_found",
+        "searched_forms": [
+          "indictment"
+        ],
+        "not_found_forms": [],
+        "note": "已核对两份红宝书中的词头、编号及页码。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 1,
+        "highlight_parts": [],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text1-s003",
+      "text": 1,
+      "term": "can't afford not to",
+      "context_meaning": "从经济上讲不得不这么做",
+      "loc": "P6",
+      "kind": "supplement",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "afford",
+          "entry_id": 882,
+          "a4_page": 45,
+          "english_page": 23,
+          "original_meaning": "vt. 买得起;承担得起;提供,给予",
+          "match_type": "phrase_component",
+          "matched_part": "afford",
+          "mapping_note": "表达中的 afford 对应词书条目 afford。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "can't afford not to",
+          "afford"
+        ],
+        "not_found_forms": [
+          "can't afford not to"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 1,
+        "highlight_parts": [],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text2-h001",
+      "text": 2,
+      "term": "illustrated the value",
+      "context_meaning": "说明了……的价值",
+      "loc": "P2",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "illustrate",
+          "entry_id": 294,
+          "a4_page": 15,
+          "english_page": 8,
+          "original_meaning": "vt. 说明,阐明;给...加插图;表明",
+          "match_type": "phrase_component",
+          "matched_part": "illustrated",
+          "mapping_note": "表达中的 illustrated 对应词书条目 illustrate。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "illustrated the value",
+          "illustrated",
+          "illustrate"
+        ],
+        "not_found_forms": [
+          "illustrated the value",
+          "illustrated"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 3,
+        "highlight_parts": [
+          "illustrated"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text2-h002",
+      "text": 2,
+      "term": "explicit permission",
+      "context_meaning": "明确的许可",
+      "loc": "P2",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "explicit",
+          "entry_id": 4145,
+          "a4_page": 208,
+          "english_page": 104,
+          "original_meaning": "adj. 清楚的,明确的;露骨的",
+          "match_type": "phrase_component",
+          "matched_part": "explicit",
+          "mapping_note": "表达中的 explicit 对应词书条目 explicit。"
+        },
+        {
+          "headword": "permission",
+          "entry_id": 2703,
+          "a4_page": 136,
+          "english_page": 68,
+          "original_meaning": "n. 许可 (证),批准",
+          "match_type": "phrase_component",
+          "matched_part": "permission",
+          "mapping_note": "表达中的 permission 对应词书条目 permission。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "explicit permission",
+          "explicit",
+          "permission"
+        ],
+        "not_found_forms": [
+          "explicit permission"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 3,
+        "highlight_parts": [
+          "explicit"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text2-h003",
+      "text": 2,
+      "term": "proposed adding",
+      "context_meaning": "提议增设……",
+      "loc": "P3",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "propose",
+          "entry_id": 1818,
+          "a4_page": 91,
+          "english_page": 46,
+          "original_meaning": "vt. 提议;打算;提出 (某观点等) vi. vt. 求婚",
+          "match_type": "phrase_component",
+          "matched_part": "proposed",
+          "mapping_note": "表达中的 proposed 对应词书条目 propose。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "proposed adding",
+          "proposed",
+          "propose"
+        ],
+        "not_found_forms": [
+          "proposed adding",
+          "proposed"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 3,
+        "highlight_parts": [
+          "proposed"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text2-h004",
+      "text": 2,
+      "term": "the industry",
+      "context_meaning": "该行业，业界。第 27 题要求判断这个说法具体指哪一方。",
+      "loc": "P3",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "industry",
+          "entry_id": 1134,
+          "a4_page": 57,
+          "english_page": 29,
+          "original_meaning": "n. 工业;行业,产业;勤奋",
+          "match_type": "phrase_component",
+          "matched_part": "industry",
+          "mapping_note": "表达中的 industry 对应词书条目 industry。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "the industry",
+          "industry"
+        ],
+        "not_found_forms": [
+          "the industry"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 3,
+        "highlight_parts": [
+          "industry"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text2-h005",
+      "text": 2,
+      "term": "get cracking on responding to DNT requests",
+      "context_meaning": "立即着手处理“请勿追踪”请求",
+      "loc": "P3",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "crack",
+          "entry_id": 4166,
+          "a4_page": 209,
+          "english_page": 105,
+          "original_meaning": "vi. vt. (使) 破裂,裂开;砸开,破开 vt. 重击,猛击;找到解决方法 n. 裂缝;缝隙;爆裂声;尝试 adj. 训练有素的,一流的",
+          "match_type": "phrase_component",
+          "matched_part": "cracking",
+          "mapping_note": "表达中的 cracking 对应词书条目 crack。"
+        },
+        {
+          "headword": "respond",
+          "entry_id": 1780,
+          "a4_page": 89,
+          "english_page": 45,
+          "original_meaning": "vi. vt. 回复,回答 vi. 作出反应;有良好反应",
+          "match_type": "phrase_component",
+          "matched_part": "responding",
+          "mapping_note": "表达中的 responding 对应词书条目 respond。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "get cracking on responding to DNT requests",
+          "cracking",
+          "crack",
+          "responding",
+          "respond"
+        ],
+        "not_found_forms": [
+          "get cracking on responding to DNT requests",
+          "cracking",
+          "responding"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 3,
+        "highlight_parts": [
+          "cracking"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text2-h006",
+      "text": 2,
+      "term": "horrified",
+      "context_meaning": "极为震惊的，惊恐的",
+      "loc": "P5",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "horrify",
+          "entry_id": 6304,
+          "a4_page": 316,
+          "english_page": 158,
+          "original_meaning": "vt. 使惊恐,使震惊",
+          "match_type": "inflection",
+          "matched_part": "horrified",
+          "mapping_note": "horrified 对应词书原形 horrify。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "horrified",
+          "horrify"
+        ],
+        "not_found_forms": [
+          "horrified"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 3,
+        "highlight_parts": [
+          "horrified"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text2-h007",
+      "text": 2,
+      "term": "the chief executive",
+      "context_meaning": "首席执行官，负责人",
+      "loc": "P5",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "chief",
+          "entry_id": 1977,
+          "a4_page": 99,
+          "english_page": 50,
+          "original_meaning": "adj. 首要的;首席的;为首的 n. 首领,最高领导人;酋长,族长",
+          "match_type": "phrase_component",
+          "matched_part": "chief",
+          "mapping_note": "表达中的 chief 对应词书条目 chief。"
+        },
+        {
+          "headword": "executive",
+          "entry_id": 1236,
+          "a4_page": 62,
+          "english_page": 31,
+          "original_meaning": "n. 经理,主管;行政部门 adj. 执行的,行政的;高级的",
+          "match_type": "phrase_component",
+          "matched_part": "executive",
+          "mapping_note": "表达中的 executive 对应词书条目 executive。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "the chief executive",
+          "chief",
+          "executive"
+        ],
+        "not_found_forms": [
+          "the chief executive"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 3,
+        "highlight_parts": [
+          "chief"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text2-h008",
+      "text": 2,
+      "term": "oblige anyone to stop tracking",
+      "context_meaning": "使任何人负有停止追踪的义务；原文前有 does not",
+      "loc": "P6",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "oblige",
+          "entry_id": 51,
+          "a4_page": 3,
+          "english_page": 2,
+          "original_meaning": "vt. (因法律或义务) 强迫,迫使 vi. vt. 帮忙,效劳",
+          "match_type": "phrase_component",
+          "matched_part": "oblige",
+          "mapping_note": "表达中的 oblige 对应词书条目 oblige。"
+        },
+        {
+          "headword": "track",
+          "entry_id": 455,
+          "a4_page": 23,
+          "english_page": 12,
+          "original_meaning": "n. 小径;踪迹;轨道;跑道;路线 n. 站台;田径;歌曲;音轨 vt. 跟踪,追踪;留下足迹",
+          "match_type": "phrase_component",
+          "matched_part": "tracking",
+          "mapping_note": "表达中的 tracking 对应词书条目 track。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "oblige anyone to stop tracking",
+          "oblige",
+          "tracking",
+          "track"
+        ],
+        "not_found_forms": [
+          "oblige anyone to stop tracking",
+          "tracking"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 3,
+        "highlight_parts": [
+          "oblige"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text2-h009",
+      "text": 2,
+      "term": "objects to behavioural ads",
+      "context_meaning": "反对根据用户行为定向投放的广告",
+      "loc": "P6",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "object",
+          "entry_id": 20,
+          "a4_page": 1,
+          "english_page": 1,
+          "original_meaning": "n. 物体,物品;目标;对象;宾语 vi. 不同意,反对 vt. 提出...作为反对的理由",
+          "match_type": "phrase_component",
+          "matched_part": "objects",
+          "mapping_note": "表达中的 objects 对应词书条目 object。"
+        },
+        {
+          "headword": "behavioral",
+          "entry_id": 5710,
+          "a4_page": 286,
+          "english_page": 143,
+          "original_meaning": "adj. 行为的,行为研究的",
+          "match_type": "phrase_component",
+          "matched_part": "behavioural",
+          "mapping_note": "表达中的 behavioural 对应词书条目 behavioral。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "objects to behavioural ads",
+          "objects",
+          "object",
+          "behavioural",
+          "behavioral"
+        ],
+        "not_found_forms": [
+          "objects to behavioural ads",
+          "objects",
+          "behavioural"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 3,
+        "highlight_parts": [
+          "objects"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text2-h010",
+      "text": 2,
+      "term": "comply with DNT requests",
+      "context_meaning": "遵从“请勿追踪”请求",
+      "loc": "P7",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "comply",
+          "entry_id": 538,
+          "a4_page": 27,
+          "english_page": 14,
+          "original_meaning": "vi. 服从,遵守",
+          "match_type": "phrase_component",
+          "matched_part": "comply",
+          "mapping_note": "表达中的 comply 对应词书条目 comply。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "comply with DNT requests",
+          "comply"
+        ],
+        "not_found_forms": [
+          "comply with DNT requests"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 3,
+        "highlight_parts": [
+          "comply"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text2-h011",
+      "text": 2,
+      "term": "almost wholly",
+      "context_meaning": "几乎完全地",
+      "loc": "P7",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "wholly",
+          "entry_id": 3533,
+          "a4_page": 177,
+          "english_page": 89,
+          "original_meaning": "adv. 完全地,完整地",
+          "match_type": "phrase_component",
+          "matched_part": "wholly",
+          "mapping_note": "表达中的 wholly 对应词书条目 wholly。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "almost wholly",
+          "wholly"
+        ],
+        "not_found_forms": [
+          "almost wholly"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 3,
+        "highlight_parts": [
+          "wholly"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text2-h012",
+      "text": 2,
+      "term": "huge selling point",
+      "context_meaning": "一大卖点",
+      "loc": "P7",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "huge",
+          "entry_id": 4102,
+          "a4_page": 206,
+          "english_page": 103,
+          "original_meaning": "adj. 巨大的,极多的,程度深的",
+          "match_type": "phrase_component",
+          "matched_part": "huge",
+          "mapping_note": "表达中的 huge 对应词书条目 huge。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "huge selling point",
+          "huge"
+        ],
+        "not_found_forms": [
+          "huge selling point"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 3,
+        "highlight_parts": [
+          "huge"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text2-h013",
+      "text": 2,
+      "term": "ease competition",
+      "context_meaning": "缓解竞争",
+      "loc": "Q26B",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "ease",
+          "entry_id": 2815,
+          "a4_page": 141,
+          "english_page": 71,
+          "original_meaning": "n. 容易,轻易;舒适,安逸 vi. vt. (使) 宽慰,缓解;(使) 缓缓移动 vt. 使...容易些",
+          "match_type": "phrase_component",
+          "matched_part": "ease",
+          "mapping_note": "表达中的 ease 对应词书条目 ease。"
+        },
+        {
+          "headword": "competition",
+          "entry_id": 562,
+          "a4_page": 29,
+          "english_page": 15,
+          "original_meaning": "n. 竞争;比赛;竞争对手",
+          "match_type": "phrase_component",
+          "matched_part": "competition",
+          "mapping_note": "表达中的 competition 对应词书条目 competition。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "ease competition",
+          "ease",
+          "competition"
+        ],
+        "not_found_forms": [
+          "ease competition"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 4,
+        "highlight_parts": [
+          "ease"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "question"
+    },
+    {
+      "id": "2013-text2-h014",
+      "text": 2,
+      "term": "complaints from consumers",
+      "context_meaning": "来自消费者的投诉或抱怨",
+      "loc": "Q26C",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "complaint",
+          "entry_id": 586,
+          "a4_page": 30,
+          "english_page": 15,
+          "original_meaning": "n. 抱怨,投诉;使人不满的事;疾病",
+          "match_type": "phrase_component",
+          "matched_part": "complaints",
+          "mapping_note": "表达中的 complaints 对应词书条目 complaint。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "complaints from consumers",
+          "complaints",
+          "complaint"
+        ],
+        "not_found_forms": [
+          "complaints from consumers",
+          "complaints"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 4,
+        "highlight_parts": [
+          "complaints"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "question"
+    },
+    {
+      "id": "2013-text2-h015",
+      "text": 2,
+      "term": "operational costs",
+      "context_meaning": "运营成本",
+      "loc": "Q26D",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "operational",
+          "entry_id": 425,
+          "a4_page": 22,
+          "english_page": 11,
+          "original_meaning": "adj. 可运转的;运营的;军事行动的",
+          "match_type": "phrase_component",
+          "matched_part": "operational",
+          "mapping_note": "表达中的 operational 对应词书条目 operational。"
+        },
+        {
+          "headword": "cost",
+          "entry_id": 3608,
+          "a4_page": 181,
+          "english_page": 91,
+          "original_meaning": "n. 费用;成本;代价,损失 vt. 需付费,价钱为;使损失",
+          "match_type": "phrase_component",
+          "matched_part": "costs",
+          "mapping_note": "表达中的 costs 对应词书条目 cost。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "operational costs",
+          "operational",
+          "costs",
+          "cost"
+        ],
+        "not_found_forms": [
+          "operational costs",
+          "costs"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 4,
+        "highlight_parts": [
+          "operational"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "question"
+    },
+    {
+      "id": "2013-text2-h016",
+      "text": 2,
+      "term": "e-commerce conductors",
+      "context_meaning": "电子商务经营者",
+      "loc": "Q27C",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "commerce",
+          "entry_id": 877,
+          "a4_page": 44,
+          "english_page": 22,
+          "original_meaning": "n. 商业,贸易",
+          "match_type": "phrase_component",
+          "matched_part": "commerce",
+          "mapping_note": "表达中的 commerce 对应词书条目 commerce。"
+        },
+        {
+          "headword": "conductor",
+          "entry_id": 1366,
+          "a4_page": 69,
+          "english_page": 35,
+          "original_meaning": "n. 指挥;列车长;售票员;导体",
+          "match_type": "phrase_component",
+          "matched_part": "conductors",
+          "mapping_note": "表达中的 conductors 对应词书条目 conductor。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "e-commerce conductors",
+          "commerce",
+          "conductors",
+          "conductor"
+        ],
+        "not_found_forms": [
+          "e-commerce conductors",
+          "conductors"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 4,
+        "highlight_parts": [
+          "conductors"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "question"
+    },
+    {
+      "id": "2013-text2-h017",
+      "text": 2,
+      "term": "indulgence",
+      "context_meaning": "纵容，宽容迁就的态度",
+      "loc": "Q30A",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "indulge",
+          "entry_id": 2013,
+          "a4_page": 101,
+          "english_page": 51,
+          "original_meaning": "vt. vi. (使自己) 沉迷 (于) vt. 满足 (欲望等);纵容,迁就",
+          "match_type": "derivation",
+          "matched_part": "indulgence",
+          "mapping_note": "indulgence 与 indulge 是同词族的不同形式，请结合左侧语境义辨认。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "indulgence",
+          "indulge"
+        ],
+        "not_found_forms": [
+          "indulgence"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 4,
+        "highlight_parts": [
+          "indulgence"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "question"
+    },
+    {
+      "id": "2013-text2-s001",
+      "text": 2,
+      "term": "do not track",
+      "context_meaning": "请勿追踪；由浏览器传达用户意愿，本文说这一信号本身不强制广告商停止跟踪。",
+      "loc": "P3",
+      "kind": "supplement",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "track",
+          "entry_id": 455,
+          "a4_page": 23,
+          "english_page": 12,
+          "original_meaning": "n. 小径;踪迹;轨道;跑道;路线 n. 站台;田径;歌曲;音轨 vt. 跟踪,追踪;留下足迹",
+          "match_type": "phrase_component",
+          "matched_part": "track",
+          "mapping_note": "表达中的 track 对应词书条目 track。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "do not track",
+          "track"
+        ],
+        "not_found_forms": [
+          "do not track"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 3,
+        "highlight_parts": [],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text2-s002",
+      "text": 2,
+      "term": "default",
+      "context_meaning": "默认设置",
+      "loc": "P4",
+      "kind": "supplement",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "default",
+          "entry_id": 2170,
+          "a4_page": 109,
+          "english_page": 55,
+          "original_meaning": "n. 默认,系统设定值;违约 vi. 违约,不履行;默认,预设",
+          "match_type": "exact",
+          "matched_part": "default",
+          "mapping_note": "与所列词头相同。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "exact_found",
+        "searched_forms": [
+          "default"
+        ],
+        "not_found_forms": [],
+        "note": "已核对两份红宝书中的词头、编号及页码。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 3,
+        "highlight_parts": [],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text2-s003",
+      "text": 2,
+      "term": "norm",
+      "context_meaning": "常态；惯例",
+      "loc": "P7",
+      "kind": "supplement",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "norm",
+          "entry_id": 1563,
+          "a4_page": 79,
+          "english_page": 40,
+          "original_meaning": "n. 常态;规范,准则;平均水平",
+          "match_type": "exact",
+          "matched_part": "norm",
+          "mapping_note": "与所列词头相同。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "exact_found",
+        "searched_forms": [
+          "norm"
+        ],
+        "not_found_forms": [],
+        "note": "已核对两份红宝书中的词头、编号及页码。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 3,
+        "highlight_parts": [],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text3-h001",
+      "text": 3,
+      "term": "glowingly positive",
+      "context_meaning": "十分乐观的，充满憧憬的",
+      "loc": "P1",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "glowingly",
+          "entry_id": 6404,
+          "a4_page": 321,
+          "english_page": 161,
+          "original_meaning": "adv. 热情赞扬地",
+          "match_type": "phrase_component",
+          "matched_part": "glowingly",
+          "mapping_note": "表达中的 glowingly 对应词书条目 glowingly。"
+        },
+        {
+          "headword": "positive",
+          "entry_id": 1457,
+          "a4_page": 73,
+          "english_page": 37,
+          "original_meaning": "adj. 积极的;有益的;表示赞同的 adj. 确信的;阳性的 n. 优势,优点;阳性结果",
+          "match_type": "phrase_component",
+          "matched_part": "positive",
+          "mapping_note": "表达中的 positive 对应词书条目 positive。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "glowingly positive",
+          "glowingly",
+          "positive"
+        ],
+        "not_found_forms": [
+          "glowingly positive"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 5,
+        "highlight_parts": [
+          "glowingly"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text3-h002",
+      "text": 3,
+      "term": "utopia",
+      "context_meaning": "乌托邦；理想社会",
+      "loc": "P2",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "utopia",
+          "entry_id": 5685,
+          "a4_page": 285,
+          "english_page": 143,
+          "original_meaning": "n. 乌托邦,空想的完美世界",
+          "match_type": "exact",
+          "matched_part": "utopia",
+          "mapping_note": "与所列词头相同。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "exact_found",
+        "searched_forms": [
+          "utopia"
+        ],
+        "not_found_forms": [],
+        "note": "已核对两份红宝书中的词头、编号及页码。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 5,
+        "highlight_parts": [
+          "utopia"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text3-h003",
+      "text": 3,
+      "term": "asteroid strike",
+      "context_meaning": "小行星撞击",
+      "loc": "P2",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "asteroid",
+          "entry_id": 6045,
+          "a4_page": 303,
+          "english_page": 152,
+          "original_meaning": "n. 小行星",
+          "match_type": "phrase_component",
+          "matched_part": "asteroid",
+          "mapping_note": "表达中的 asteroid 对应词书条目 asteroid。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "asteroid strike",
+          "asteroid"
+        ],
+        "not_found_forms": [
+          "asteroid strike"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 5,
+        "highlight_parts": [
+          "asteroid"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text3-h004",
+      "text": 3,
+      "term": "climate change",
+      "context_meaning": "气候变化",
+      "loc": "P2",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "climate",
+          "entry_id": 2326,
+          "a4_page": 117,
+          "english_page": 59,
+          "original_meaning": "n. 气候;气候带;局势,风气",
+          "match_type": "phrase_component",
+          "matched_part": "climate",
+          "mapping_note": "表达中的 climate 对应词书条目 climate。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "climate change",
+          "climate"
+        ],
+        "not_found_forms": [
+          "climate change"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 5,
+        "highlight_parts": [
+          "climate"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text3-h005",
+      "text": 3,
+      "term": "such gloominess is misplaced",
+      "context_meaning": "这样的悲观情绪并无充分根据；gloominess 是悲观，misplaced 是不恰当的",
+      "loc": "P3",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "gloomy",
+          "entry_id": 2106,
+          "a4_page": 106,
+          "english_page": 53,
+          "original_meaning": "adj. 昏暗的;沮丧的;前景黯淡的",
+          "match_type": "phrase_component",
+          "matched_part": "gloominess",
+          "mapping_note": "表达中的 gloominess 对应词书条目 gloomy。"
+        },
+        {
+          "headword": "misplace",
+          "entry_id": 5673,
+          "a4_page": 284,
+          "english_page": 142,
+          "original_meaning": "vt. 随意搁置,乱放 (而一时找不到)",
+          "match_type": "phrase_component",
+          "matched_part": "misplaced",
+          "mapping_note": "表达中的 misplaced 对应词书条目 misplace。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "such gloominess is misplaced",
+          "gloominess",
+          "gloomy",
+          "misplaced",
+          "misplace"
+        ],
+        "not_found_forms": [
+          "such gloominess is misplaced",
+          "gloominess",
+          "misplaced"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 5,
+        "highlight_parts": [
+          "gloominess",
+          "misplaced"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text3-h006",
+      "text": 3,
+      "term": "fossil record",
+      "context_meaning": "化石记录",
+      "loc": "P3",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "fossil",
+          "entry_id": 5189,
+          "a4_page": 260,
+          "english_page": 130,
+          "original_meaning": "n. 化石;老古董,老顽固",
+          "match_type": "phrase_component",
+          "matched_part": "fossil",
+          "mapping_note": "表达中的 fossil 对应词书条目 fossil。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "fossil record",
+          "fossil"
+        ],
+        "not_found_forms": [
+          "fossil record"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 5,
+        "highlight_parts": [
+          "fossil"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text3-h007",
+      "text": 3,
+      "term": "have endured for millions of years",
+      "context_meaning": "已存续数百万年",
+      "loc": "P3",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "endure",
+          "entry_id": 2315,
+          "a4_page": 116,
+          "english_page": 58,
+          "original_meaning": "vt. 忍耐,忍受 vi. 持续,延续,持久",
+          "match_type": "phrase_component",
+          "matched_part": "endured",
+          "mapping_note": "表达中的 endured 对应词书条目 endure。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "have endured for millions of years",
+          "endured",
+          "endure"
+        ],
+        "not_found_forms": [
+          "have endured for millions of years",
+          "endured"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 5,
+        "highlight_parts": [
+          "endured"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text3-h008",
+      "text": 3,
+      "term": "flagship project",
+      "context_meaning": "旗舰项目，最具代表性的项目",
+      "loc": "P4",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "flagship",
+          "entry_id": 6516,
+          "a4_page": 326,
+          "english_page": 163,
+          "original_meaning": "n. 旗舰;旗舰产品,旗舰商店",
+          "match_type": "phrase_component",
+          "matched_part": "flagship",
+          "mapping_note": "表达中的 flagship 对应词书条目 flagship。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "flagship project",
+          "flagship"
+        ],
+        "not_found_forms": [
+          "flagship project"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 5,
+        "highlight_parts": [
+          "flagship"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text3-h009",
+      "text": 3,
+      "term": "lengthy timescales",
+      "context_meaning": "漫长的时间跨度",
+      "loc": "P5",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "timescale",
+          "entry_id": 5971,
+          "a4_page": 299,
+          "english_page": 150,
+          "original_meaning": "n. 做某事所需要的时间,期限",
+          "match_type": "phrase_component",
+          "matched_part": "timescales",
+          "mapping_note": "表达中的 timescales 对应词书条目 timescale。"
+        },
+        {
+          "headword": "length",
+          "entry_id": 4839,
+          "a4_page": 242,
+          "english_page": 121,
+          "original_meaning": "n. 长度;时间的长短;篇幅,片长",
+          "match_type": "phrase_component",
+          "matched_part": "lengthy",
+          "mapping_note": "表达中的 lengthy 对应词书条目 length。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "lengthy timescales",
+          "timescales",
+          "timescale",
+          "lengthy",
+          "length"
+        ],
+        "not_found_forms": [
+          "lengthy timescales",
+          "timescales",
+          "lengthy"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 5,
+        "highlight_parts": [
+          "timescales"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text3-h010",
+      "text": 3,
+      "term": "dazzlingly complicated",
+      "context_meaning": "复杂得令人眼花缭乱",
+      "loc": "P5",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "dazzlingly",
+          "entry_id": 5590,
+          "a4_page": 280,
+          "english_page": 140,
+          "original_meaning": "adv. 耀眼地;令人赞叹地",
+          "match_type": "phrase_component",
+          "matched_part": "dazzlingly",
+          "mapping_note": "表达中的 dazzlingly 对应词书条目 dazzlingly。"
+        },
+        {
+          "headword": "complicated",
+          "entry_id": 561,
+          "a4_page": 29,
+          "english_page": 15,
+          "original_meaning": "adj. 复杂的,难懂的",
+          "match_type": "phrase_component",
+          "matched_part": "complicated",
+          "mapping_note": "表达中的 complicated 对应词书条目 complicated。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "dazzlingly complicated",
+          "dazzlingly",
+          "complicated"
+        ],
+        "not_found_forms": [
+          "dazzlingly complicated"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 5,
+        "highlight_parts": [
+          "dazzlingly"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text3-h011",
+      "text": 3,
+      "term": "futurologists",
+      "context_meaning": "未来学家",
+      "loc": "P5",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "futurologist",
+          "entry_id": 6497,
+          "a4_page": 325,
+          "english_page": 163,
+          "original_meaning": "n. 未来学家",
+          "match_type": "inflection",
+          "matched_part": "futurologists",
+          "mapping_note": "futurologists 对应词书原形 futurologist。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "futurologists",
+          "futurologist"
+        ],
+        "not_found_forms": [
+          "futurologists"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 5,
+        "highlight_parts": [
+          "futurologists"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text3-h012",
+      "text": 3,
+      "term": "envisage",
+      "context_meaning": "设想，想象",
+      "loc": "P5",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "envisage",
+          "entry_id": 3384,
+          "a4_page": 170,
+          "english_page": 85,
+          "original_meaning": "vt. 设想,展望",
+          "match_type": "exact",
+          "matched_part": "envisage",
+          "mapping_note": "与所列词头相同。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "exact_found",
+        "searched_forms": [
+          "envisage"
+        ],
+        "not_found_forms": [],
+        "note": "已核对两份红宝书中的词头、编号及页码。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 5,
+        "highlight_parts": [
+          "envisage"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text3-h013",
+      "text": 3,
+      "term": "with considerable assurance",
+      "context_meaning": "相当有把握地",
+      "loc": "P6",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "considerable",
+          "entry_id": 1050,
+          "a4_page": 53,
+          "english_page": 27,
+          "original_meaning": "adj. 相当多的,相当大的",
+          "match_type": "phrase_component",
+          "matched_part": "considerable",
+          "mapping_note": "表达中的 considerable 对应词书条目 considerable。"
+        },
+        {
+          "headword": "assurance",
+          "entry_id": 1732,
+          "a4_page": 87,
+          "english_page": 44,
+          "original_meaning": "n. 担保,保证;把握;(人寿) 保险",
+          "match_type": "phrase_component",
+          "matched_part": "assurance",
+          "mapping_note": "表达中的 assurance 对应词书条目 assurance。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "with considerable assurance",
+          "considerable",
+          "assurance"
+        ],
+        "not_found_forms": [
+          "with considerable assurance"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 5,
+        "highlight_parts": [
+          "assurance"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text3-h014",
+      "text": 3,
+      "term": "evidence-based forecasts",
+      "context_meaning": "有证据支持的预测",
+      "loc": "P6",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "forecast",
+          "entry_id": 685,
+          "a4_page": 35,
+          "english_page": 18,
+          "original_meaning": "n. 预测,预报 vt. 预测,预报",
+          "match_type": "phrase_component",
+          "matched_part": "forecasts",
+          "mapping_note": "表达中的 forecasts 对应词书条目 forecast。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "evidence-based forecasts",
+          "forecasts",
+          "forecast"
+        ],
+        "not_found_forms": [
+          "evidence-based forecasts",
+          "forecasts"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 5,
+        "highlight_parts": [
+          "forecasts"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text3-h015",
+      "text": 3,
+      "term": "descendants",
+      "context_meaning": "后代",
+      "loc": "P6",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "descendant",
+          "entry_id": 2289,
+          "a4_page": 115,
+          "english_page": 58,
+          "original_meaning": "n. 后代,后裔;衍生物",
+          "match_type": "inflection",
+          "matched_part": "descendants",
+          "mapping_note": "descendants 对应词书原形 descendant。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "descendants",
+          "descendant"
+        ],
+        "not_found_forms": [
+          "descendants"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 5,
+        "highlight_parts": [
+          "descendants"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text3-h016",
+      "text": 3,
+      "term": "the pessimistic view of our prospects",
+      "context_meaning": "对我们前景的悲观看法；prospects 在这里指前景",
+      "loc": "P7",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "pessimistic",
+          "entry_id": 1013,
+          "a4_page": 51,
+          "english_page": 26,
+          "original_meaning": "adj. 悲观的",
+          "match_type": "phrase_component",
+          "matched_part": "pessimistic",
+          "mapping_note": "表达中的 pessimistic 对应词书条目 pessimistic。"
+        },
+        {
+          "headword": "prospect",
+          "entry_id": 1828,
+          "a4_page": 92,
+          "english_page": 46,
+          "original_meaning": "n. 可能性;展望;前景,前途 vi. 勘探,探矿",
+          "match_type": "phrase_component",
+          "matched_part": "prospects",
+          "mapping_note": "表达中的 prospects 对应词书条目 prospect。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "the pessimistic view of our prospects",
+          "pessimistic",
+          "prospects",
+          "prospect"
+        ],
+        "not_found_forms": [
+          "the pessimistic view of our prospects",
+          "prospects"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 5,
+        "highlight_parts": [
+          "pessimistic",
+          "prospects"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text3-h017",
+      "text": 3,
+      "term": "a passing fad",
+      "context_meaning": "一时的风潮",
+      "loc": "P7",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "fad",
+          "entry_id": 6300,
+          "a4_page": 315,
+          "english_page": 158,
+          "original_meaning": "n. 一时的风尚,短暂的狂热",
+          "match_type": "phrase_component",
+          "matched_part": "fad",
+          "mapping_note": "表达中的 fad 对应词书条目 fad。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "a passing fad",
+          "fad"
+        ],
+        "not_found_forms": [
+          "a passing fad"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 5,
+        "highlight_parts": [
+          "fad"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text3-h018",
+      "text": 3,
+      "term": "rosy",
+      "context_meaning": "（前景）光明的、美好的；原句 not all rosy 表示并非一片光明",
+      "loc": "P7",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "rosy",
+          "entry_id": 5928,
+          "a4_page": 297,
+          "english_page": 149,
+          "original_meaning": "adj. 玫瑰色的;乐观的",
+          "match_type": "exact",
+          "matched_part": "rosy",
+          "mapping_note": "与所列词头相同。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "exact_found",
+        "searched_forms": [
+          "rosy"
+        ],
+        "not_found_forms": [],
+        "note": "已核对两份红宝书中的词头、编号及页码。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 5,
+        "highlight_parts": [
+          "rosy"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text3-h019",
+      "text": 3,
+      "term": "a misplaced race",
+      "context_meaning": "一个处在错误位置的种族；此处是干扰项，misplaced 在正文中修饰悲观情绪",
+      "loc": "Q32D",
+      "kind": "highlight",
+      "note": "此处为选项中的形容词用法，正文中 misplaced 形容的是悲观情绪。",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "misplace",
+          "entry_id": 5673,
+          "a4_page": 284,
+          "english_page": 142,
+          "original_meaning": "vt. 随意搁置,乱放 (而一时找不到)",
+          "match_type": "phrase_component",
+          "matched_part": "misplaced",
+          "mapping_note": "表达中的 misplaced 对应词书条目 misplace。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "a misplaced race",
+          "misplaced",
+          "misplace"
+        ],
+        "not_found_forms": [
+          "a misplaced race",
+          "misplaced"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 6,
+        "highlight_parts": [
+          "misplaced"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "question"
+    },
+    {
+      "id": "2013-text3-h020",
+      "text": 3,
+      "term": "futurological studies",
+      "context_meaning": "未来学研究",
+      "loc": "Q33B",
+      "kind": "highlight",
+      "note": "futurological 修饰 studies，意为“关于未来学的”。红宝书列的是同词族名词 futurologist（未来学家）。",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "futurologist",
+          "entry_id": 6497,
+          "a4_page": 325,
+          "english_page": 163,
+          "original_meaning": "n. 未来学家",
+          "match_type": "phrase_component",
+          "matched_part": "futurological",
+          "mapping_note": "表达中的 futurological 对应词书条目 futurologist。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "futurological studies",
+          "futurological",
+          "futurologist"
+        ],
+        "not_found_forms": [
+          "futurological studies",
+          "futurological"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 6,
+        "highlight_parts": [
+          "futurological"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "question"
+    },
+    {
+      "id": "2013-text3-h021",
+      "text": 3,
+      "term": "crucial",
+      "context_meaning": "至关重要的",
+      "loc": "Q34",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "crucial",
+          "entry_id": 1562,
+          "a4_page": 79,
+          "english_page": 40,
+          "original_meaning": "adj. 至关重要的,关键性的",
+          "match_type": "exact",
+          "matched_part": "crucial",
+          "mapping_note": "与所列词头相同。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "exact_found",
+        "searched_forms": [
+          "crucial"
+        ],
+        "not_found_forms": [],
+        "note": "已核对两份红宝书中的词头、编号及页码。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 6,
+        "note": "题干",
+        "highlight_parts": [
+          "crucial"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "question"
+    },
+    {
+      "id": "2013-text3-h022",
+      "text": 3,
+      "term": "abundant resources",
+      "context_meaning": "丰富的资源",
+      "loc": "Q34C",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "abundant",
+          "entry_id": 2835,
+          "a4_page": 142,
+          "english_page": 71,
+          "original_meaning": "adj. 大量的,丰富的,充足的",
+          "match_type": "phrase_component",
+          "matched_part": "abundant",
+          "mapping_note": "表达中的 abundant 对应词书条目 abundant。"
+        },
+        {
+          "headword": "resource",
+          "entry_id": 1783,
+          "a4_page": 90,
+          "english_page": 45,
+          "original_meaning": "n. 资源,物力;资料;机敏 vt. 向...提供资金 (或设备)",
+          "match_type": "phrase_component",
+          "matched_part": "resources",
+          "mapping_note": "表达中的 resources 对应词书条目 resource。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "abundant resources",
+          "abundant",
+          "resources",
+          "resource"
+        ],
+        "not_found_forms": [
+          "abundant resources",
+          "resources"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 6,
+        "highlight_parts": [
+          "abundant"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "question"
+    },
+    {
+      "id": "2013-text3-h023",
+      "text": 3,
+      "term": "curb our ambition to reshape history",
+      "context_meaning": "抑制我们重塑历史的雄心",
+      "loc": "Q34D",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "curb",
+          "entry_id": 4307,
+          "a4_page": 216,
+          "english_page": 108,
+          "original_meaning": "vt. 控制,限制,抑制 n. 控制,限制,抑制;马路牙子",
+          "match_type": "phrase_component",
+          "matched_part": "curb",
+          "mapping_note": "表达中的 curb 对应词书条目 curb。"
+        },
+        {
+          "headword": "ambition",
+          "entry_id": 1466,
+          "a4_page": 74,
+          "english_page": 37,
+          "original_meaning": "n. 野心,抱负,理想",
+          "match_type": "phrase_component",
+          "matched_part": "ambition",
+          "mapping_note": "表达中的 ambition 对应词书条目 ambition。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "curb our ambition to reshape history",
+          "curb",
+          "ambition"
+        ],
+        "not_found_forms": [
+          "curb our ambition to reshape history"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 6,
+        "highlight_parts": [
+          "curb",
+          "ambition"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "question"
+    },
+    {
+      "id": "2013-text3-h024",
+      "text": 3,
+      "term": "The Ever-bright Prospects of Mankind",
+      "context_meaning": "人类始终光明的前景；选项标题",
+      "loc": "Q35A",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "prospect",
+          "entry_id": 1828,
+          "a4_page": 92,
+          "english_page": 46,
+          "original_meaning": "n. 可能性;展望;前景,前途 vi. 勘探,探矿",
+          "match_type": "phrase_component",
+          "matched_part": "Prospects",
+          "mapping_note": "表达中的 Prospects 对应词书条目 prospect。"
+        },
+        {
+          "headword": "mankind",
+          "entry_id": 2644,
+          "a4_page": 133,
+          "english_page": 67,
+          "original_meaning": "n. 人类",
+          "match_type": "phrase_component",
+          "matched_part": "Mankind",
+          "mapping_note": "表达中的 Mankind 对应词书条目 mankind。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "The Ever-bright Prospects of Mankind",
+          "Prospects",
+          "prospect",
+          "Mankind",
+          "mankind"
+        ],
+        "not_found_forms": [
+          "The Ever-bright Prospects of Mankind",
+          "Prospects"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 6,
+        "highlight_parts": [
+          "Prospects"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "question"
+    },
+    {
+      "id": "2013-text3-s001",
+      "text": 3,
+      "term": "epidemic",
+      "context_meaning": "流行性的，指疾病广泛流行；epidemic flu 指流行性感冒。",
+      "loc": "P2",
+      "kind": "supplement",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "epidemic",
+          "entry_id": 1487,
+          "a4_page": 75,
+          "english_page": 38,
+          "original_meaning": "n. 流行病;泛滥,猖獗 adj. 泛滥的,猖獗的",
+          "match_type": "exact",
+          "matched_part": "epidemic",
+          "mapping_note": "与所列词头相同。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "exact_found",
+        "searched_forms": [
+          "epidemic"
+        ],
+        "not_found_forms": [],
+        "note": "已核对两份红宝书中的词头、编号及页码。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 5,
+        "highlight_parts": [],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text3-s002",
+      "text": 3,
+      "term": "hence",
+      "context_meaning": "从现在往后；thousands of years hence 是“数千年后”。",
+      "loc": "P4",
+      "kind": "supplement",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "hence",
+          "entry_id": 2376,
+          "a4_page": 119,
+          "english_page": 60,
+          "original_meaning": "adv. 因此,由此;以后",
+          "match_type": "exact",
+          "matched_part": "hence",
+          "mapping_note": "与所列词头相同。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "exact_found",
+        "searched_forms": [
+          "hence"
+        ],
+        "not_found_forms": [],
+        "note": "已核对两份红宝书中的词头、编号及页码。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 5,
+        "highlight_parts": [],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text3-s003",
+      "text": 3,
+      "term": "lot",
+      "context_meaning": "处境，命运。文中 the lot of those to come 指后人的处境。",
+      "loc": "P7",
+      "kind": "supplement",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "lot",
+          "entry_id": 5458,
+          "a4_page": 273,
+          "english_page": 137,
+          "original_meaning": "pron. det. 大量,许多 adv. 很,非常 n. 一块地;命运;组,群",
+          "match_type": "exact",
+          "matched_part": "lot",
+          "mapping_note": "与所列词头相同。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "exact_found",
+        "searched_forms": [
+          "lot"
+        ],
+        "not_found_forms": [],
+        "note": "已核对两份红宝书中的词头、编号及页码。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 5,
+        "highlight_parts": [],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text4-h001",
+      "text": 4,
+      "term": "knocked out much of Arizona’s immigration law",
+      "context_meaning": "推翻了亚利桑那州移民法中的许多规定",
+      "loc": "P1",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "knock",
+          "entry_id": 4910,
+          "a4_page": 246,
+          "english_page": 123,
+          "original_meaning": "vi. 敲,击 vt. 猛力击打,撞 vt. vi. 碰上,撞上 n. 敲击声;打击,敲击,撞击",
+          "match_type": "phrase_component",
+          "matched_part": "knocked",
+          "mapping_note": "表达中的 knocked 对应词书条目 knock。"
+        },
+        {
+          "headword": "immigration",
+          "entry_id": 5715,
+          "a4_page": 286,
+          "english_page": 143,
+          "original_meaning": "n. 移民,移民人数;移民局检查处",
+          "match_type": "phrase_component",
+          "matched_part": "immigration",
+          "mapping_note": "表达中的 immigration 对应词书条目 immigration。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "knocked out much of Arizona’s immigration law",
+          "knocked",
+          "knock",
+          "immigration"
+        ],
+        "not_found_forms": [
+          "knocked out much of Arizona’s immigration law",
+          "knocked"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 7,
+        "highlight_parts": [
+          "knocked",
+          "immigration"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text4-h002",
+      "text": 4,
+      "term": "the Constitution",
+      "context_meaning": "（美国）宪法",
+      "loc": "P1",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "constitution",
+          "entry_id": 1414,
+          "a4_page": 71,
+          "english_page": 36,
+          "original_meaning": "n. 宪法,章程;体质;构成,成分",
+          "match_type": "phrase_component",
+          "matched_part": "Constitution",
+          "mapping_note": "表达中的 Constitution 对应词书条目 constitution。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "the Constitution",
+          "Constitution",
+          "constitution"
+        ],
+        "not_found_forms": [
+          "the Constitution"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 7,
+        "highlight_parts": [
+          "Constitution"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text4-h003",
+      "text": 4,
+      "term": "upset the balance of power",
+      "context_meaning": "打破权力平衡",
+      "loc": "P1",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "upset",
+          "entry_id": 177,
+          "a4_page": 9,
+          "english_page": 5,
+          "original_meaning": "adj. 难过的,心烦的;肠胃不适的 vt. 使烦恼;打乱;使 (肠胃) 不适 n. 意外结果,冷门;肠胃病;苦恼",
+          "match_type": "phrase_component",
+          "matched_part": "upset",
+          "mapping_note": "表达中的 upset 对应词书条目 upset。"
+        },
+        {
+          "headword": "balance",
+          "entry_id": 272,
+          "a4_page": 14,
+          "english_page": 7,
+          "original_meaning": "n. 平衡,均衡;余额;债务余款 vi. vt. (使) 保持平衡;相抵,抵消 vt. 使均衡;权衡;结平 (账目)",
+          "match_type": "phrase_component",
+          "matched_part": "balance",
+          "mapping_note": "表达中的 balance 对应词书条目 balance。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "upset the balance of power",
+          "upset",
+          "balance"
+        ],
+        "not_found_forms": [
+          "upset the balance of power"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 7,
+        "highlight_parts": [
+          "upset"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text4-h004",
+      "text": 4,
+      "term": "contested provisions",
+      "context_meaning": "有争议的条款",
+      "loc": "P2",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "contest",
+          "entry_id": 1247,
+          "a4_page": 63,
+          "english_page": 32,
+          "original_meaning": "n. 比赛,竞赛;争夺,竞争 vt. 争辩,提出异议;争取赢得",
+          "match_type": "phrase_component",
+          "matched_part": "contested",
+          "mapping_note": "表达中的 contested 对应词书条目 contest。"
+        },
+        {
+          "headword": "provision",
+          "entry_id": 4223,
+          "a4_page": 212,
+          "english_page": 106,
+          "original_meaning": "n. 提供,供给;准备;储粮;条款 vt. 给...提供所需物品",
+          "match_type": "phrase_component",
+          "matched_part": "provisions",
+          "mapping_note": "表达中的 provisions 对应词书条目 provision。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "contested provisions",
+          "contested",
+          "contest",
+          "provisions",
+          "provision"
+        ],
+        "not_found_forms": [
+          "contested provisions",
+          "contested",
+          "provisions"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 7,
+        "highlight_parts": [
+          "contested"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text4-h005",
+      "text": 4,
+      "term": "controversial plan",
+      "context_meaning": "引发争议的方案",
+      "loc": "P2",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "controversial",
+          "entry_id": 1645,
+          "a4_page": 83,
+          "english_page": 42,
+          "original_meaning": "adj. 有争议的,引发争论的",
+          "match_type": "phrase_component",
+          "matched_part": "controversial",
+          "mapping_note": "表达中的 controversial 对应词书条目 controversial。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "controversial plan",
+          "controversial"
+        ],
+        "not_found_forms": [
+          "controversial plan"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 7,
+        "highlight_parts": [
+          "controversial"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text4-h006",
+      "text": 4,
+      "term": "enforce federal immigration law",
+      "context_meaning": "执行联邦移民法",
+      "loc": "P2",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "enforce",
+          "entry_id": 680,
+          "a4_page": 34,
+          "english_page": 17,
+          "original_meaning": "vt. 强制执行;迫使",
+          "match_type": "phrase_component",
+          "matched_part": "enforce",
+          "mapping_note": "表达中的 enforce 对应词书条目 enforce。"
+        },
+        {
+          "headword": "federal",
+          "entry_id": 632,
+          "a4_page": 32,
+          "english_page": 16,
+          "original_meaning": "adj. 联邦制的;联邦政府的",
+          "match_type": "phrase_component",
+          "matched_part": "federal",
+          "mapping_note": "表达中的 federal 对应词书条目 federal。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "enforce federal immigration law",
+          "enforce",
+          "federal"
+        ],
+        "not_found_forms": [
+          "enforce federal immigration law"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 7,
+        "highlight_parts": [
+          "enforce"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text4-h007",
+      "text": 4,
+      "term": "Constitutional principles",
+      "context_meaning": "宪法原则",
+      "loc": "P2",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "constitutional",
+          "entry_id": 5664,
+          "a4_page": 284,
+          "english_page": 142,
+          "original_meaning": "adj. 宪法的,章程的;宪法允许的 n. 健身散步",
+          "match_type": "phrase_component",
+          "matched_part": "Constitutional",
+          "mapping_note": "表达中的 Constitutional 对应词书条目 constitutional。"
+        },
+        {
+          "headword": "principle",
+          "entry_id": 1397,
+          "a4_page": 70,
+          "english_page": 35,
+          "original_meaning": "n. 原则;原理;定律",
+          "match_type": "phrase_component",
+          "matched_part": "principles",
+          "mapping_note": "表达中的 principles 对应词书条目 principle。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "Constitutional principles",
+          "Constitutional",
+          "constitutional",
+          "principles",
+          "principle"
+        ],
+        "not_found_forms": [
+          "Constitutional principles",
+          "principles"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 7,
+        "highlight_parts": [
+          "Constitutional principles"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text4-h008",
+      "text": 4,
+      "term": "federal laws precede state laws",
+      "context_meaning": "联邦法律优先于州法律",
+      "loc": "P2",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "precede",
+          "entry_id": 1179,
+          "a4_page": 59,
+          "english_page": 30,
+          "original_meaning": "vt. vi. 先于...(发生或存在) vt. 走在...之前",
+          "match_type": "phrase_component",
+          "matched_part": "precede",
+          "mapping_note": "表达中的 precede 对应词书条目 precede。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "federal laws precede state laws",
+          "precede"
+        ],
+        "not_found_forms": [
+          "federal laws precede state laws"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 7,
+        "highlight_parts": [
+          "precede"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text4-h009",
+      "text": 4,
+      "term": "noncontroversial",
+      "context_meaning": "没有争议的",
+      "loc": "P2",
+      "kind": "highlight",
+      "note": "前缀 non- 表示否定，整词意思与词书中的 controversial 相反。",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "controversial",
+          "entry_id": 1645,
+          "a4_page": 83,
+          "english_page": 42,
+          "original_meaning": "adj. 有争议的,引发争论的",
+          "match_type": "derivation",
+          "matched_part": "noncontroversial",
+          "mapping_note": "noncontroversial 与 controversial 是同词族的不同形式，请结合左侧语境义辨认。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "noncontroversial",
+          "controversial"
+        ],
+        "not_found_forms": [
+          "noncontroversial"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 7,
+        "highlight_parts": [
+          "noncontroversial"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text4-h010",
+      "text": 4,
+      "term": "flew too close to the federal sun",
+      "context_meaning": "字面是“飞得离联邦这轮太阳太近”；暗指州越过权限界限",
+      "loc": "P3",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "fly",
+          "entry_id": 3402,
+          "a4_page": 171,
+          "english_page": 86,
+          "original_meaning": "vi. 飞;航行,飞行;疾驰;飞逝 vt. vi. 驾驶 (飞机等);(旗) 飘扬 vt. 空运;乘飞行器飞越 n. 蝇,苍蝇",
+          "match_type": "phrase_component",
+          "matched_part": "flew",
+          "mapping_note": "表达中的 flew 对应词书条目 fly。"
+        },
+        {
+          "headword": "federal",
+          "entry_id": 632,
+          "a4_page": 32,
+          "english_page": 16,
+          "original_meaning": "adj. 联邦制的;联邦政府的",
+          "match_type": "phrase_component",
+          "matched_part": "federal",
+          "mapping_note": "表达中的 federal 对应词书条目 federal。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "flew too close to the federal sun",
+          "flew",
+          "fly",
+          "federal"
+        ],
+        "not_found_forms": [
+          "flew too close to the federal sun",
+          "flew"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 7,
+        "highlight_parts": [
+          "flew"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text4-h011",
+      "text": 4,
+      "term": "deliberately “occupied the field”",
+      "context_meaning": "有意通过立法占据了该领域",
+      "loc": "P3",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "deliberate",
+          "entry_id": 201,
+          "a4_page": 11,
+          "english_page": 6,
+          "original_meaning": "adj. 故意的;(动作) 从容的 vi. vt. 慎重考虑",
+          "match_type": "phrase_component",
+          "matched_part": "deliberately",
+          "mapping_note": "表达中的 deliberately 对应词书条目 deliberate。"
+        },
+        {
+          "headword": "occupy",
+          "entry_id": 330,
+          "a4_page": 17,
+          "english_page": 9,
+          "original_meaning": "vt. 占用;占领;使忙于;担任",
+          "match_type": "phrase_component",
+          "matched_part": "occupied",
+          "mapping_note": "表达中的 occupied 对应词书条目 occupy。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "deliberately “occupied the field”",
+          "deliberately",
+          "deliberate",
+          "occupied",
+          "occupy"
+        ],
+        "not_found_forms": [
+          "deliberately “occupied the field”",
+          "deliberately",
+          "occupied"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 7,
+        "highlight_parts": [
+          "deliberately",
+          "occupied"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text4-h012",
+      "text": 4,
+      "term": "intruded on the federal’s privileged powers",
+      "context_meaning": "侵入了联邦的专属权限",
+      "loc": "P3",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "intrude",
+          "entry_id": 3633,
+          "a4_page": 182,
+          "english_page": 91,
+          "original_meaning": "vi. 闯入,侵入;打扰,干涉",
+          "match_type": "phrase_component",
+          "matched_part": "intruded",
+          "mapping_note": "表达中的 intruded 对应词书条目 intrude。"
+        },
+        {
+          "headword": "privilege",
+          "entry_id": 1242,
+          "a4_page": 63,
+          "english_page": 32,
+          "original_meaning": "n. 特权;荣幸;权势 vt. 给予...特权,给予...优待",
+          "match_type": "phrase_component",
+          "matched_part": "privileged",
+          "mapping_note": "表达中的 privileged 对应词书条目 privilege。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "intruded on the federal’s privileged powers",
+          "intruded",
+          "intrude",
+          "privileged",
+          "privilege"
+        ],
+        "not_found_forms": [
+          "intruded on the federal’s privileged powers",
+          "intruded",
+          "privileged"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 7,
+        "highlight_parts": [
+          "intruded",
+          "privileged"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text4-h013",
+      "text": 4,
+      "term": "joint federal-state immigration enforcement",
+      "context_meaning": "联邦与州共同执行移民法",
+      "loc": "P4",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "joint",
+          "entry_id": 2563,
+          "a4_page": 129,
+          "english_page": 65,
+          "original_meaning": "adj. 联合的,共同的 n. 关节;接合处;大块肉",
+          "match_type": "phrase_component",
+          "matched_part": "joint",
+          "mapping_note": "表达中的 joint 对应词书条目 joint。"
+        },
+        {
+          "headword": "enforce",
+          "entry_id": 680,
+          "a4_page": 34,
+          "english_page": 17,
+          "original_meaning": "vt. 强制执行;迫使",
+          "match_type": "phrase_component",
+          "matched_part": "enforcement",
+          "mapping_note": "表达中的 enforcement 对应词书条目 enforce。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "joint federal-state immigration enforcement",
+          "joint",
+          "enforcement",
+          "enforce"
+        ],
+        "not_found_forms": [
+          "joint federal-state immigration enforcement",
+          "enforcement"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 7,
+        "highlight_parts": [
+          "joint"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text4-h014",
+      "text": 4,
+      "term": "an even more robust defense of state privileges",
+      "context_meaning": "更为有力地为州的权限辩护。",
+      "loc": "P5",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "robust",
+          "entry_id": 3653,
+          "a4_page": 183,
+          "english_page": 92,
+          "original_meaning": "adj. 强健的;结实的;坚定的",
+          "match_type": "phrase_component",
+          "matched_part": "robust",
+          "mapping_note": "表达中的 robust 对应词书条目 robust。"
+        },
+        {
+          "headword": "privilege",
+          "entry_id": 1242,
+          "a4_page": 63,
+          "english_page": 32,
+          "original_meaning": "n. 特权;荣幸;权势 vt. 给予...特权,给予...优待",
+          "match_type": "phrase_component",
+          "matched_part": "privileges",
+          "mapping_note": "表达中的 privileges 对应词书条目 privilege。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "an even more robust defense of state privileges",
+          "robust",
+          "privileges",
+          "privilege"
+        ],
+        "not_found_forms": [
+          "an even more robust defense of state privileges",
+          "privileges"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 7,
+        "highlight_parts": [
+          "robust",
+          "privileges"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text4-h015",
+      "text": 4,
+      "term": "assertion of federal executive power",
+      "context_meaning": "对联邦行政权力的主张",
+      "loc": "P6",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "assertion",
+          "entry_id": 5799,
+          "a4_page": 290,
+          "english_page": 145,
+          "original_meaning": "n. 断言,声明,主张",
+          "match_type": "phrase_component",
+          "matched_part": "assertion",
+          "mapping_note": "表达中的 assertion 对应词书条目 assertion。"
+        },
+        {
+          "headword": "executive",
+          "entry_id": 1236,
+          "a4_page": 62,
+          "english_page": 31,
+          "original_meaning": "n. 经理,主管;行政部门 adj. 执行的,行政的;高级的",
+          "match_type": "phrase_component",
+          "matched_part": "executive",
+          "mapping_note": "表达中的 executive 对应词书条目 executive。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "assertion of federal executive power",
+          "assertion",
+          "executive"
+        ],
+        "not_found_forms": [
+          "assertion of federal executive power"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 7,
+        "highlight_parts": [
+          "assertion",
+          "executive"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text4-h016",
+      "text": 4,
+      "term": "enforcement priorities",
+      "context_meaning": "执法时优先处理的事项",
+      "loc": "P6",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "enforce",
+          "entry_id": 680,
+          "a4_page": 34,
+          "english_page": 17,
+          "original_meaning": "vt. 强制执行;迫使",
+          "match_type": "phrase_component",
+          "matched_part": "enforcement",
+          "mapping_note": "表达中的 enforcement 对应词书条目 enforce。"
+        },
+        {
+          "headword": "priority",
+          "entry_id": 1199,
+          "a4_page": 60,
+          "english_page": 30,
+          "original_meaning": "n. 当务之急;优先权;优先通行权",
+          "match_type": "phrase_component",
+          "matched_part": "priorities",
+          "mapping_note": "表达中的 priorities 对应词书条目 priority。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "enforcement priorities",
+          "enforcement",
+          "enforce",
+          "priorities",
+          "priority"
+        ],
+        "not_found_forms": [
+          "enforcement priorities",
+          "enforcement",
+          "priorities"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 7,
+        "highlight_parts": [
+          "priorities"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text4-h017",
+      "text": 4,
+      "term": "invalidate any otherwise legitimate state law",
+      "context_meaning": "使任何原本合法的州法律失效",
+      "loc": "P6",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "invalidate",
+          "entry_id": 6421,
+          "a4_page": 322,
+          "english_page": 161,
+          "original_meaning": "vt. 使无效,使作废;证明...错误",
+          "match_type": "phrase_component",
+          "matched_part": "invalidate",
+          "mapping_note": "表达中的 invalidate 对应词书条目 invalidate。"
+        },
+        {
+          "headword": "legitimate",
+          "entry_id": 339,
+          "a4_page": 17,
+          "english_page": 9,
+          "original_meaning": "adj. 合法的;正当的;婚生的 vt. 使合法化,使合理化",
+          "match_type": "phrase_component",
+          "matched_part": "legitimate",
+          "mapping_note": "表达中的 legitimate 对应词书条目 legitimate。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "invalidate any otherwise legitimate state law",
+          "invalidate",
+          "legitimate"
+        ],
+        "not_found_forms": [
+          "invalidate any otherwise legitimate state law"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 7,
+        "highlight_parts": [
+          "invalidate",
+          "legitimate"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text4-h018",
+      "text": 4,
+      "term": "exclusively",
+      "context_meaning": "专属地，排他地",
+      "loc": "P7",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "exclusive",
+          "entry_id": 1058,
+          "a4_page": 53,
+          "english_page": 27,
+          "original_meaning": "adj. 独占的;高档的;排斥的 adj. 不包括...的 n. 独家新闻,独家报道",
+          "match_type": "derivation",
+          "matched_part": "exclusively",
+          "mapping_note": "exclusively 与 exclusive 是同词族的不同形式，请结合左侧语境义辨认。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "exclusively",
+          "exclusive"
+        ],
+        "not_found_forms": [
+          "exclusively"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 7,
+        "highlight_parts": [
+          "exclusively"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text4-h019",
+      "text": 4,
+      "term": "control of citizenship and the borders",
+      "context_meaning": "对公民身份与边境的管理权",
+      "loc": "P7",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "citizenship",
+          "entry_id": 6289,
+          "a4_page": 315,
+          "english_page": 158,
+          "original_meaning": "n. 公民身份,国籍;公民义务",
+          "match_type": "phrase_component",
+          "matched_part": "citizenship",
+          "mapping_note": "表达中的 citizenship 对应词书条目 citizenship。"
+        },
+        {
+          "headword": "border",
+          "entry_id": 688,
+          "a4_page": 35,
+          "english_page": 18,
+          "original_meaning": "n. 边界,国界;镶边;狭长花坛 vt. 与...接壤;沿...的边",
+          "match_type": "phrase_component",
+          "matched_part": "borders",
+          "mapping_note": "表达中的 borders 对应词书条目 border。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "control of citizenship and the borders",
+          "citizenship",
+          "borders",
+          "border"
+        ],
+        "not_found_forms": [
+          "control of citizenship and the borders",
+          "borders"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 7,
+        "highlight_parts": [
+          "citizenship",
+          "borders"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text4-h020",
+      "text": 4,
+      "term": "was in essence asserting that",
+      "context_meaning": "实质上是在声称……",
+      "loc": "P7",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "essence",
+          "entry_id": 1126,
+          "a4_page": 57,
+          "english_page": 29,
+          "original_meaning": "n. 本质,精髓;精油,香精",
+          "match_type": "phrase_component",
+          "matched_part": "essence",
+          "mapping_note": "表达中的 essence 对应词书条目 essence。"
+        },
+        {
+          "headword": "assert",
+          "entry_id": 1323,
+          "a4_page": 67,
+          "english_page": 34,
+          "original_meaning": "vt. 断言;坚持 (主张);维护 (权威)",
+          "match_type": "phrase_component",
+          "matched_part": "asserting",
+          "mapping_note": "表达中的 asserting 对应词书条目 assert。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "was in essence asserting that",
+          "essence",
+          "asserting",
+          "assert"
+        ],
+        "not_found_forms": [
+          "was in essence asserting that",
+          "asserting"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 7,
+        "highlight_parts": [
+          "essence asserting"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text4-h021",
+      "text": 4,
+      "term": "rejected this remarkable claim",
+      "context_meaning": "驳回了这一非同寻常的主张",
+      "loc": "P7",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "reject",
+          "entry_id": 1314,
+          "a4_page": 66,
+          "english_page": 33,
+          "original_meaning": "vt. 拒绝接受;不录用;抛弃;排斥 n. 次品,不合格者",
+          "match_type": "phrase_component",
+          "matched_part": "rejected",
+          "mapping_note": "表达中的 rejected 对应词书条目 reject。"
+        },
+        {
+          "headword": "remarkable",
+          "entry_id": 3504,
+          "a4_page": 176,
+          "english_page": 88,
+          "original_meaning": "adj. 非凡的,不同寻常的",
+          "match_type": "phrase_component",
+          "matched_part": "remarkable",
+          "mapping_note": "表达中的 remarkable 对应词书条目 remarkable。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "rejected this remarkable claim",
+          "rejected",
+          "reject",
+          "remarkable"
+        ],
+        "not_found_forms": [
+          "rejected this remarkable claim",
+          "rejected"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 7,
+        "highlight_parts": [
+          "rejected",
+          "remarkable"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text4-h022",
+      "text": 4,
+      "term": "provisions",
+      "context_meaning": "条款，规定",
+      "loc": "Q36",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "provision",
+          "entry_id": 4223,
+          "a4_page": 212,
+          "english_page": 106,
+          "original_meaning": "n. 提供,供给;准备;储粮;条款 vt. 给...提供所需物品",
+          "match_type": "inflection",
+          "matched_part": "provisions",
+          "mapping_note": "provisions 对应词书原形 provision。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "provisions",
+          "provision"
+        ],
+        "not_found_forms": [
+          "provisions"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 8,
+        "note": "题干",
+        "highlight_parts": [
+          "provisions"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "question"
+    },
+    {
+      "id": "2013-text4-h023",
+      "text": 4,
+      "term": "overstepped the authority of federal immigration law",
+      "context_meaning": "超越了联邦移民法的权限范围",
+      "loc": "Q36B",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "overstep",
+          "entry_id": 6098,
+          "a4_page": 305,
+          "english_page": 153,
+          "original_meaning": "vt. 僭越,逾越",
+          "match_type": "phrase_component",
+          "matched_part": "overstepped",
+          "mapping_note": "表达中的 overstepped 对应词书条目 overstep。"
+        },
+        {
+          "headword": "authority",
+          "entry_id": 1544,
+          "a4_page": 78,
+          "english_page": 39,
+          "original_meaning": "n. 权威;权力;当权者,官方;授权",
+          "match_type": "phrase_component",
+          "matched_part": "authority",
+          "mapping_note": "表达中的 authority 对应词书条目 authority。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "overstepped the authority of federal immigration law",
+          "overstepped",
+          "overstep",
+          "authority"
+        ],
+        "not_found_forms": [
+          "overstepped the authority of federal immigration law",
+          "overstepped"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 8,
+        "highlight_parts": [
+          "overstepped"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "question"
+    },
+    {
+      "id": "2013-text4-h024",
+      "text": 4,
+      "term": "deprived the federal police of Constitutional powers",
+      "context_meaning": "剥夺了联邦警察的宪法权力；deprive sb of sth",
+      "loc": "Q36C",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "deprive",
+          "entry_id": 918,
+          "a4_page": 46,
+          "english_page": 23,
+          "original_meaning": "vt. 剥夺,使不能享有",
+          "match_type": "phrase_component",
+          "matched_part": "deprived",
+          "mapping_note": "表达中的 deprived 对应词书条目 deprive。"
+        },
+        {
+          "headword": "constitutional",
+          "entry_id": 5664,
+          "a4_page": 284,
+          "english_page": 142,
+          "original_meaning": "adj. 宪法的,章程的;宪法允许的 n. 健身散步",
+          "match_type": "phrase_component",
+          "matched_part": "Constitutional",
+          "mapping_note": "表达中的 Constitutional 对应词书条目 constitutional。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "deprived the federal police of Constitutional powers",
+          "deprived",
+          "deprive",
+          "Constitutional",
+          "constitutional"
+        ],
+        "not_found_forms": [
+          "deprived the federal police of Constitutional powers",
+          "deprived"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 8,
+        "highlight_parts": [
+          "deprived",
+          "Constitutional"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "question"
+    },
+    {
+      "id": "2013-text4-h025",
+      "text": 4,
+      "term": "contradicted both the federal and state policies",
+      "context_meaning": "与联邦和州两级政策都相抵触",
+      "loc": "Q36D",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "contradict",
+          "entry_id": 1232,
+          "a4_page": 62,
+          "english_page": 31,
+          "original_meaning": "vt. 反驳,否认;相矛盾",
+          "match_type": "phrase_component",
+          "matched_part": "contradicted",
+          "mapping_note": "表达中的 contradicted 对应词书条目 contradict。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "contradicted both the federal and state policies",
+          "contradicted",
+          "contradict"
+        ],
+        "not_found_forms": [
+          "contradicted both the federal and state policies",
+          "contradicted"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 8,
+        "highlight_parts": [
+          "contradicted"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "question"
+    },
+    {
+      "id": "2013-text4-h026",
+      "text": 4,
+      "term": "Congress’s intervention",
+      "context_meaning": "国会的介入或干预",
+      "loc": "Q37A",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "intervene",
+          "entry_id": 3853,
+          "a4_page": 193,
+          "english_page": 97,
+          "original_meaning": "vi. 干涉,介入;干扰;介于...之间 vt. vi. 打断,插嘴",
+          "match_type": "phrase_component",
+          "matched_part": "intervention",
+          "mapping_note": "表达中的 intervention 对应词书条目 intervene。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "Congress’s intervention",
+          "intervention",
+          "intervene"
+        ],
+        "not_found_forms": [
+          "Congress’s intervention",
+          "intervention"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 8,
+        "highlight_parts": [
+          "intervention"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "question"
+    },
+    {
+      "id": "2013-text4-h027",
+      "text": 4,
+      "term": "States’ legitimate role",
+      "context_meaning": "各州的合法作用",
+      "loc": "Q37C",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "legitimate",
+          "entry_id": 339,
+          "a4_page": 17,
+          "english_page": 9,
+          "original_meaning": "adj. 合法的;正当的;婚生的 vt. 使合法化,使合理化",
+          "match_type": "phrase_component",
+          "matched_part": "legitimate",
+          "mapping_note": "表达中的 legitimate 对应词书条目 legitimate。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "States’ legitimate role",
+          "legitimate"
+        ],
+        "not_found_forms": [
+          "States’ legitimate role"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 8,
+        "highlight_parts": [
+          "legitimate"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "question"
+    },
+    {
+      "id": "2013-text4-h028",
+      "text": 4,
+      "term": "violated the Constitution",
+      "context_meaning": "违反宪法",
+      "loc": "Q38D",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "violate",
+          "entry_id": 1873,
+          "a4_page": 94,
+          "english_page": 47,
+          "original_meaning": "vt. 违反,违背;侵犯,搅扰;亵渎",
+          "match_type": "phrase_component",
+          "matched_part": "violated",
+          "mapping_note": "表达中的 violated 对应词书条目 violate。"
+        },
+        {
+          "headword": "constitution",
+          "entry_id": 1414,
+          "a4_page": 71,
+          "english_page": 36,
+          "original_meaning": "n. 宪法,章程;体质;构成,成分",
+          "match_type": "phrase_component",
+          "matched_part": "Constitution",
+          "mapping_note": "表达中的 Constitution 对应词书条目 constitution。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "violated the Constitution",
+          "violated",
+          "violate",
+          "Constitution",
+          "constitution"
+        ],
+        "not_found_forms": [
+          "violated the Constitution",
+          "violated"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 8,
+        "highlight_parts": [
+          "violated"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "question"
+    },
+    {
+      "id": "2013-text4-h029",
+      "text": 4,
+      "term": "outweighs that held by the states",
+      "context_meaning": "（联邦的执法权）在分量上超过各州的执法权",
+      "loc": "Q39C",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "outweigh",
+          "entry_id": 5755,
+          "a4_page": 288,
+          "english_page": 144,
+          "original_meaning": "vt. 重于,大于,超过",
+          "match_type": "phrase_component",
+          "matched_part": "outweighs",
+          "mapping_note": "表达中的 outweighs 对应词书条目 outweigh。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "outweighs that held by the states",
+          "outweighs",
+          "outweigh"
+        ],
+        "not_found_forms": [
+          "outweighs that held by the states",
+          "outweighs"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 8,
+        "highlight_parts": [
+          "outweighs"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "question"
+    },
+    {
+      "id": "2013-text4-h030",
+      "text": 4,
+      "term": "rarely goes against state laws",
+      "context_meaning": "很少与州法律相抵触",
+      "loc": "Q39D",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "rarely",
+          "entry_id": 983,
+          "a4_page": 50,
+          "english_page": 25,
+          "original_meaning": "adv. 难得地,少见地",
+          "match_type": "phrase_component",
+          "matched_part": "rarely",
+          "mapping_note": "表达中的 rarely 对应词书条目 rarely。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "rarely goes against state laws",
+          "rarely"
+        ],
+        "not_found_forms": [
+          "rarely goes against state laws"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 8,
+        "highlight_parts": [
+          "rarely"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "question"
+    },
+    {
+      "id": "2013-text4-h031",
+      "text": 4,
+      "term": "is dominant over immigration issues",
+      "context_meaning": "在移民事务上占主导地位",
+      "loc": "Q40B",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "dominant",
+          "entry_id": 1634,
+          "a4_page": 82,
+          "english_page": 41,
+          "original_meaning": "adj. 占支配 (统治) 地位的;显性的",
+          "match_type": "phrase_component",
+          "matched_part": "dominant",
+          "mapping_note": "表达中的 dominant 对应词书条目 dominant。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "is dominant over immigration issues",
+          "dominant"
+        ],
+        "not_found_forms": [
+          "is dominant over immigration issues"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 8,
+        "highlight_parts": [
+          "dominant"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "question"
+    },
+    {
+      "id": "2013-text4-h032",
+      "text": 4,
+      "term": "coordination with Congress",
+      "context_meaning": "与国会的协调",
+      "loc": "Q40C",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "coordinate",
+          "entry_id": 3724,
+          "a4_page": 187,
+          "english_page": 94,
+          "original_meaning": "vt. 使...协调 vi. vt. (使衣服等) 搭配 n. 坐标,坐标值 adj. (在句中) 并列的",
+          "match_type": "phrase_component",
+          "matched_part": "coordination",
+          "mapping_note": "表达中的 coordination 对应词书条目 coordinate。"
+        },
+        {
+          "headword": "congress",
+          "entry_id": 1275,
+          "a4_page": 64,
+          "english_page": 32,
+          "original_meaning": "n. 代表大会;国会",
+          "match_type": "phrase_component",
+          "matched_part": "Congress",
+          "mapping_note": "表达中的 Congress 对应词书条目 congress。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "coordination with Congress",
+          "coordination",
+          "coordinate",
+          "Congress",
+          "congress"
+        ],
+        "not_found_forms": [
+          "coordination with Congress",
+          "coordination"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 8,
+        "highlight_parts": [
+          "coordination"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "question"
+    },
+    {
+      "id": "2013-text4-s001",
+      "text": 4,
+      "term": "overturned",
+      "context_meaning": "推翻；否定",
+      "loc": "P2",
+      "kind": "supplement",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "overturn",
+          "entry_id": 1708,
+          "a4_page": 86,
+          "english_page": 43,
+          "original_meaning": "vi. vt. (使) 翻倒,打翻 vt. 推翻 (判决等);颠覆 (政府等)",
+          "match_type": "inflection",
+          "matched_part": "overturned",
+          "mapping_note": "overturned 对应词书原形 overturn。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "overturned",
+          "overturn"
+        ],
+        "not_found_forms": [
+          "overturned"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 7,
+        "highlight_parts": [],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text4-s002",
+      "text": 4,
+      "term": "majority",
+      "context_meaning": "（最高法院中）持多数意见的法官。the majority held 意为“多数法官认为”。",
+      "loc": "P3",
+      "kind": "supplement",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "majority",
+          "entry_id": 7,
+          "a4_page": 1,
+          "english_page": 1,
+          "original_meaning": "n. 大部分,大多数;多数票",
+          "match_type": "exact",
+          "matched_part": "majority",
+          "mapping_note": "与所列词头相同。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "exact_found",
+        "searched_forms": [
+          "majority"
+        ],
+        "not_found_forms": [],
+        "note": "已核对两份红宝书中的词头、编号及页码。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 7,
+        "highlight_parts": [],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2013-text4-s003",
+      "text": 4,
+      "term": "complied with federal statutes to the letter",
+      "context_meaning": "严格遵守联邦成文法的每项规定；to the letter 表示严格按字面、一丝不差地。",
+      "loc": "P6",
+      "kind": "supplement",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "comply",
+          "entry_id": 538,
+          "a4_page": 27,
+          "english_page": 14,
+          "original_meaning": "vi. 服从,遵守",
+          "match_type": "phrase_component",
+          "matched_part": "complied",
+          "mapping_note": "表达中的 complied 对应词书条目 comply。"
+        },
+        {
+          "headword": "statute",
+          "entry_id": 1378,
+          "a4_page": 69,
+          "english_page": 35,
+          "original_meaning": "n. 法令,法规",
+          "match_type": "phrase_component",
+          "matched_part": "statutes",
+          "mapping_note": "表达中的 statutes 对应词书条目 statute。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "complied with federal statutes to the letter",
+          "complied",
+          "comply",
+          "statutes",
+          "statute"
+        ],
+        "not_found_forms": [
+          "complied with federal statutes to the letter",
+          "complied",
+          "statutes"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 7,
+        "highlight_parts": [],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    }
+  ],
+  "verification": {
+    "total_items": 114,
+    "highlight_groups": 102,
+    "supplement_groups": 12,
+    "verified_items": 114,
+    "not_found_items": 0,
+    "unverified_items": 0,
+    "exact_found_items": 15,
+    "mapped_items": 99,
+    "book_entry_relations": 161,
+    "unique_book_entries": 142,
+    "by_text": [
+      {
+        "text": 1,
+        "total": 32,
+        "highlight": 29,
+        "supplement": 3,
+        "verified": 32,
+        "not_found": 0
+      },
+      {
+        "text": 2,
+        "total": 20,
+        "highlight": 17,
+        "supplement": 3,
+        "verified": 20,
+        "not_found": 0
+      },
+      {
+        "text": 3,
+        "total": 27,
+        "highlight": 24,
+        "supplement": 3,
+        "verified": 27,
+        "not_found": 0
+      },
+      {
+        "text": 4,
+        "total": 35,
+        "highlight": 32,
+        "supplement": 3,
+        "verified": 35,
+        "not_found": 0
+      }
+    ]
+  }
+}

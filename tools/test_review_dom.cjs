@@ -6,6 +6,7 @@ const code=fs.readFileSync(root+'/assets/review.js','utf8');
 const html=fs.readFileSync(root+'/review.html','utf8');
 const data=JSON.parse(fs.readFileSync(root+'/data/review/2014-e1.json','utf8'));
 const catalog=JSON.parse(fs.readFileSync(root+'/data/review/catalog.json','utf8'));
+const audited2014 = catalog.sets.find(set=>set.id===data.id);
 const KEY='exam-reading-review-v1';
 const OLD=['word-card-site-v2','word-card-quick-v1','word-card-recall-v1','zhou-night-vocab-2010t4-v1'];
 let checks=[];
@@ -30,15 +31,21 @@ async function boot(saved={},options={}) {
 }
 (async()=>{
  const saved=Object.fromEntries(OLD.map(k=>[k,' SENTINEL '+k+' ']));const original=structuredClone(saved);let p=await boot(saved);
- ok('129 audited items load',p.document.querySelectorAll('.review-item').length===129);
+ const roster = [27, 23, 34, 35];
+ for (let i=0;i<roster.length;i++){
+   const count=data.items.filter(item=>item.text===i+1 && item.kind==='highlight').length;
+   ok('Audited 2014 highlights in Text '+(i+1),count===roster[i]);
+ }
+ ok('Audited 2014 supplement count',audited2014.counts.supplement===12);
+ ok('All catalogued 2014 items load',p.document.querySelectorAll('.review-item').length===audited2014.count);
  ok('All meanings start concealed',p.document.querySelectorAll('.review-answer:not([hidden])').length===0);
  const beforeBulk=JSON.stringify(saved);
- for(let i=0;i<3;i++){p.click('#reviewShowAll');ok('Bulk display reveals all meanings without per-word clicks',p.document.querySelectorAll('.review-answer:not([hidden])').length===129);p.click('#reviewHideAll');ok('Bulk hide conceals all meanings',p.document.querySelectorAll('.review-answer:not([hidden])').length===0);}
+ for(let i=0;i<3;i++){p.click('#reviewShowAll');ok('Bulk display reveals all meanings without per-word clicks',p.document.querySelectorAll('.review-answer:not([hidden])').length===audited2014.count);p.click('#reviewHideAll');ok('Bulk hide conceals all meanings',p.document.querySelectorAll('.review-answer:not([hidden])').length===0);}
  ok('Bulk visibility never rewrites saved bytes',JSON.stringify(saved)===beforeBulk);
  p.click('#reviewShowAll');p.change('#reviewScope','1');ok('Scope change conceals Chinese',p.document.querySelectorAll('.review-answer:not([hidden])').length===0);
  p.click('#reviewShowAll');p.input('UPFRONT');ok('Search change conceals Chinese',p.document.querySelectorAll('.review-answer:not([hidden])').length===0);p.input('');
  for(const scope of ['1','2','3','4','1-2','3-4','all']){p.change('#reviewScope',scope);ok('Scope '+scope,p.document.querySelectorAll('.review-item').length===data.items.filter(x=>scope==='all'||scope.split('-').map(Number).includes(x.text)).length);}
- p.change('#reviewKind','supplement');ok('12 supplemental groups',p.document.querySelectorAll('.review-item').length===12);p.change('#reviewKind','highlight');ok('117 highlight groups',p.document.querySelectorAll('.review-item').length===117);p.change('#reviewKind','all');
+ p.change('#reviewKind','supplement');ok('Supplemental groups match the catalog',p.document.querySelectorAll('.review-item').length===audited2014.counts.supplement);p.change('#reviewKind','highlight');ok('Highlight groups match the catalog',p.document.querySelectorAll('.review-item').length===audited2014.counts.highlight);p.change('#reviewKind','all');
  p.input('UPFRONT');ok('Case-insensitive search',p.document.querySelectorAll('.review-item').length===1);p.input('nothing123');ok('Empty filter shown',!p.$('#reviewEmpty').hidden);p.input('');
  p.click('[data-reveal]');ok('Reveals meaning and book',p.document.querySelectorAll('.review-answer:not([hidden])').length===1&&p.$('.review-answer').textContent.includes(data.items[0].book[0].original_meaning));
  p.click('[data-rate="unknown"]');const rk=data.id+'/'+data.items[0].id;ok('Rating records per batch ID',p.state().ratings[rk].status==='unknown');

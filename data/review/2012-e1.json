@@ -1,0 +1,1320 @@
+{
+  "schemaVersion": 1,
+  "id": "2012-e1",
+  "title": "2012 · 英语一 · Text 4 阅读词汇复盘",
+  "version": "2026-11-23.1",
+  "year": 2012,
+  "exam": "英语一",
+  "description": "按卷面勾画和原文位置整理。语境义与词书原释义独立展示。",
+  "source_notes": [
+    "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。",
+    "同一词在不同位置可分别出现；补充表达单独标注。"
+  ],
+  "items": [
+    {
+      "id": "2012-text4-h001",
+      "text": 4,
+      "term": "trade unionist",
+      "context_meaning": "工会成员；这里指工会人士",
+      "loc": "P1",
+      "kind": "highlight",
+      "note": "原卷照片（印刷第9页），已逐项核对实际黄色荧光笔。",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "union",
+          "entry_id": 481,
+          "a4_page": 25,
+          "english_page": 13,
+          "original_meaning": "n. 工会;协会;联盟;联合",
+          "match_type": "derivation",
+          "matched_part": "unionist",
+          "mapping_note": "unionist 与 union 是同词族的不同形式，请结合左侧语境义辨认。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "trade unionist",
+          "unionist",
+          "union"
+        ],
+        "not_found_forms": [
+          "trade unionist",
+          "unionist"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "note": "原卷照片（印刷第9页），已逐项核对实际黄色荧光笔。",
+        "highlight_parts": [
+          "unionist"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2012-text4-h002",
+      "text": 4,
+      "term": "represent",
+      "context_meaning": "代表……的利益",
+      "loc": "P1",
+      "kind": "highlight",
+      "note": "原卷照片（印刷第9页），已逐项核对实际黄色荧光笔。",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "represent",
+          "entry_id": 3414,
+          "a4_page": 171,
+          "english_page": 86,
+          "original_meaning": "vt. 代表;体现;表示;描绘 vlink. 相当于,意味着",
+          "match_type": "exact",
+          "matched_part": "represent",
+          "mapping_note": "与所列词头相同。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "exact_found",
+        "searched_forms": [
+          "represent"
+        ],
+        "not_found_forms": [],
+        "note": "已核对两份红宝书中的词头、编号及页码。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "note": "原卷照片（印刷第9页），已逐项核对实际黄色荧光笔。",
+        "highlight_parts": [
+          "represent"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2012-text4-h003",
+      "text": 4,
+      "term": "civil servants",
+      "context_meaning": "公务员",
+      "loc": "P1",
+      "kind": "highlight",
+      "note": "原卷照片（印刷第9页），已逐项核对实际黄色荧光笔。",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "civil",
+          "entry_id": 2032,
+          "a4_page": 102,
+          "english_page": 51,
+          "original_meaning": "adj. 公民的,国内的;民用的 adj. 民法的;文明的",
+          "match_type": "phrase_component",
+          "matched_part": "civil",
+          "mapping_note": "表达中的 civil 对应词书条目 civil。"
+        },
+        {
+          "headword": "servant",
+          "entry_id": 890,
+          "a4_page": 45,
+          "english_page": 23,
+          "original_meaning": "n. 仆人;政府雇员;受制于...的人",
+          "match_type": "inflection",
+          "matched_part": "servants",
+          "mapping_note": "servants 对应词书原形 servant。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "civil servants",
+          "civil",
+          "servants",
+          "servant"
+        ],
+        "not_found_forms": [
+          "civil servants",
+          "servants"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "note": "原卷照片（印刷第9页），已逐项核对实际黄色荧光笔。",
+        "highlight_parts": [
+          "civil"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2012-text4-h004",
+      "text": 4,
+      "term": "public sector",
+      "context_meaning": "公共部门",
+      "loc": "P1",
+      "kind": "highlight",
+      "note": "原卷照片（印刷第9页），已逐项核对实际黄色荧光笔。",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "sector",
+          "entry_id": 2676,
+          "a4_page": 134,
+          "english_page": 67,
+          "original_meaning": "n. 部门,行业;军事管制区;扇形",
+          "match_type": "phrase_component",
+          "matched_part": "sector",
+          "mapping_note": "表达中的 sector 对应词书条目 sector。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "public sector",
+          "sector"
+        ],
+        "not_found_forms": [
+          "public sector"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "note": "原卷照片（印刷第9页），已逐项核对实际黄色荧光笔。",
+        "highlight_parts": [
+          "sector"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2012-text4-h005",
+      "text": 4,
+      "term": "fellow members",
+      "context_meaning": "同属工会的其他会员",
+      "loc": "P1",
+      "kind": "highlight",
+      "note": "原卷照片（印刷第9页），已逐项核对实际黄色荧光笔。",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "fellow",
+          "entry_id": 2046,
+          "a4_page": 103,
+          "english_page": 52,
+          "original_meaning": "adj. 同伴的,同类的 n. 小伙子;同事,伙伴;研究员",
+          "match_type": "phrase_component",
+          "matched_part": "fellow",
+          "mapping_note": "表达中的 fellow 对应词书条目 fellow。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "fellow members",
+          "fellow"
+        ],
+        "not_found_forms": [
+          "fellow members"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "note": "原卷照片（印刷第9页），已逐项核对实际黄色荧光笔。",
+        "highlight_parts": [
+          "fellow"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2012-text4-h006",
+      "text": 4,
+      "term": "dominate left-of-centre politics",
+      "context_meaning": "在中间偏左的政治阵营中占主导地位",
+      "loc": "P2",
+      "kind": "highlight",
+      "note": "原卷照片（印刷第9页），已逐项核对实际黄色荧光笔。",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "dominate",
+          "entry_id": 1640,
+          "a4_page": 82,
+          "english_page": 41,
+          "original_meaning": "vt. vi. 主宰,统治,支配 vt. 高耸,耸立",
+          "match_type": "phrase_component",
+          "matched_part": "dominate",
+          "mapping_note": "表达中的 dominate 对应词书条目 dominate。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "dominate left-of-centre politics",
+          "dominate"
+        ],
+        "not_found_forms": [
+          "dominate left-of-centre politics"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "note": "原卷照片（印刷第9页），已逐项核对实际黄色荧光笔。",
+        "highlight_parts": [
+          "dominate"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2012-text4-h007",
+      "text": 4,
+      "term": "associated with trade unionism",
+      "context_meaning": "与工会运动有联系",
+      "loc": "P2",
+      "kind": "highlight",
+      "note": "原卷照片（印刷第9页），已逐项核对实际黄色荧光笔。",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "associate",
+          "entry_id": 1226,
+          "a4_page": 62,
+          "english_page": 31,
+          "original_meaning": "vt. 联想,联系 vi. 与...为伍,混在一起 n. 同事,(生意) 伙伴 adj. (等级或头衔) 准的,副的",
+          "match_type": "inflection",
+          "matched_part": "associated",
+          "mapping_note": "associated 对应词书原形 associate。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "associated with trade unionism",
+          "associated",
+          "associate"
+        ],
+        "not_found_forms": [
+          "associated with trade unionism",
+          "associated"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "note": "原卷照片（印刷第9页），已逐项核对实际黄色荧光笔。",
+        "highlight_parts": [
+          "associated"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2012-text4-h008",
+      "text": 4,
+      "term": "votes from public-sector unions",
+      "context_meaning": "来自公共部门工会的选票",
+      "loc": "P2",
+      "kind": "highlight",
+      "note": "原卷照片（印刷第9页），已逐项核对实际黄色荧光笔。",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "vote",
+          "entry_id": 1527,
+          "a4_page": 77,
+          "english_page": 39,
+          "original_meaning": "vt. vi. 投票,表决,选举 vt. 选出,推举;表明,公认;提议 n. 选票;投票;投票权",
+          "match_type": "inflection",
+          "matched_part": "votes",
+          "mapping_note": "votes 对应词书原形 vote。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "votes from public-sector unions",
+          "votes",
+          "vote"
+        ],
+        "not_found_forms": [
+          "votes from public-sector unions",
+          "votes"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "note": "原卷照片（印刷第9页），已逐项核对实际黄色荧光笔。",
+        "highlight_parts": [
+          "votes"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2012-text4-h009",
+      "text": 4,
+      "term": "fearsome",
+      "context_meaning": "令人畏惧的；这里形容工会影响力之强",
+      "loc": "P3",
+      "kind": "highlight",
+      "note": "原卷照片（印刷第9页），已逐项核对实际黄色荧光笔。",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "fearsome",
+          "entry_id": 5953,
+          "a4_page": 298,
+          "english_page": 149,
+          "original_meaning": "adj. 很可怕的,十分吓人的",
+          "match_type": "exact",
+          "matched_part": "fearsome",
+          "mapping_note": "与所列词头相同。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "exact_found",
+        "searched_forms": [
+          "fearsome"
+        ],
+        "not_found_forms": [],
+        "note": "已核对两份红宝书中的词头、编号及页码。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "note": "原卷照片（印刷第9页），已逐项核对实际黄色荧光笔。",
+        "highlight_parts": [
+          "fearsome"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2012-text4-h010",
+      "text": 4,
+      "term": "patrolled by unions",
+      "context_meaning": "受到工会严密监督；patrol 本义为巡逻",
+      "loc": "P3",
+      "kind": "highlight",
+      "note": "原卷照片（印刷第9页），已逐项核对实际黄色荧光笔。",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "patrol",
+          "entry_id": 2498,
+          "a4_page": 125,
+          "english_page": 63,
+          "original_meaning": "vt. vi. 巡逻,巡查 vt. (尤指威胁性地) 逛荡,闲逛 n. 巡逻,巡查;巡逻队,巡逻车队",
+          "match_type": "inflection",
+          "matched_part": "patrolled",
+          "mapping_note": "patrolled 对应词书原形 patrol。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "patrolled by unions",
+          "patrolled",
+          "patrol"
+        ],
+        "not_found_forms": [
+          "patrolled by unions",
+          "patrolled"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "note": "原卷照片（印刷第9页），已逐项核对实际黄色荧光笔。",
+        "highlight_parts": [
+          "patrolled"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2012-text4-h011",
+      "text": 4,
+      "term": "average wages",
+      "context_meaning": "平均工资",
+      "loc": "P4",
+      "kind": "highlight",
+      "note": "原卷照片（印刷第9页），已逐项核对实际黄色荧光笔。",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "wage",
+          "entry_id": 454,
+          "a4_page": 23,
+          "english_page": 12,
+          "original_meaning": "n. 工资,工钱 vt. 发动,进行 (运动或战争)",
+          "match_type": "inflection",
+          "matched_part": "wages",
+          "mapping_note": "wages 对应词书原形 wage。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "average wages",
+          "wages",
+          "wage"
+        ],
+        "not_found_forms": [
+          "average wages",
+          "wages"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "note": "原卷照片（印刷第9页），已逐项核对实际黄色荧光笔。",
+        "highlight_parts": [
+          "wages"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2012-text4-h012",
+      "text": 4,
+      "term": "pensions",
+      "context_meaning": "养老金；退休金",
+      "loc": "P4",
+      "kind": "highlight",
+      "note": "原卷照片（印刷第9页），已逐项核对实际黄色荧光笔。",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "pension",
+          "entry_id": 2707,
+          "a4_page": 136,
+          "english_page": 68,
+          "original_meaning": "n. 养老金;膳宿公寓 vt. 给...发养老金,使...退休",
+          "match_type": "inflection",
+          "matched_part": "pensions",
+          "mapping_note": "pensions 对应词书原形 pension。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "pensions",
+          "pension"
+        ],
+        "not_found_forms": [
+          "pensions"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "note": "原卷照片（印刷第9页），已逐项核对实际黄色荧光笔。",
+        "highlight_parts": [
+          "pensions"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2012-text4-h013",
+      "text": 4,
+      "term": "vigorously opposed",
+      "context_meaning": "受到强烈反对",
+      "loc": "P5",
+      "kind": "highlight",
+      "note": "原卷照片（印刷第9页），已逐项核对实际黄色荧光笔。",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "vigorous",
+          "entry_id": 4433,
+          "a4_page": 222,
+          "english_page": 111,
+          "original_meaning": "adj. 精力旺盛的;强有力的,积极的",
+          "match_type": "derivation",
+          "matched_part": "vigorously",
+          "mapping_note": "vigorously 与 vigorous 是同词族的不同形式，请结合左侧语境义辨认。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "vigorously opposed",
+          "vigorously",
+          "vigorous"
+        ],
+        "not_found_forms": [
+          "vigorously opposed",
+          "vigorously"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "note": "原卷照片（印刷第9页），已逐项核对实际黄色荧光笔。",
+        "highlight_parts": [
+          "vigorously"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2012-text4-h014",
+      "text": 4,
+      "term": "notoriously",
+      "context_meaning": "出了名地；此处带有负面评价",
+      "loc": "P5",
+      "kind": "highlight",
+      "note": "原卷照片（印刷第9页），已逐项核对实际黄色荧光笔。",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "notorious",
+          "entry_id": 3345,
+          "a4_page": 168,
+          "english_page": 84,
+          "original_meaning": "adj. 臭名昭著的,声名狼藉的",
+          "match_type": "derivation",
+          "matched_part": "notoriously",
+          "mapping_note": "notoriously 与 notorious 是同词族的不同形式，请结合左侧语境义辨认。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "notoriously",
+          "notorious"
+        ],
+        "not_found_forms": [
+          "notoriously"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "note": "原卷照片（印刷第9页），已逐项核对实际黄色荧光笔。",
+        "highlight_parts": [
+          "notoriously"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2012-text4-h015",
+      "text": 4,
+      "term": "merit pay",
+      "context_meaning": "绩效工资；按工作表现发放的报酬",
+      "loc": "P5",
+      "kind": "highlight",
+      "note": "原卷照片（印刷第9页），已逐项核对实际黄色荧光笔。",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "merit",
+          "entry_id": 3085,
+          "a4_page": 155,
+          "english_page": 78,
+          "original_meaning": "n. 优秀品质,价值;优点,长处 vt. 值得,应受到",
+          "match_type": "phrase_component",
+          "matched_part": "merit",
+          "mapping_note": "表达中的 merit 对应词书条目 merit。"
+        },
+        {
+          "headword": "pay",
+          "entry_id": 434,
+          "a4_page": 22,
+          "english_page": 11,
+          "original_meaning": "vt. vi. 付费,付酬;受益,划算 vt. 交纳,偿还 vi. 付出代价;盈利,创收 n. 工资,薪水",
+          "match_type": "phrase_component",
+          "matched_part": "pay",
+          "mapping_note": "表达中的 pay 对应词书条目 pay。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "merit pay",
+          "merit",
+          "pay"
+        ],
+        "not_found_forms": [
+          "merit pay"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "note": "原卷照片（印刷第9页），已逐项核对实际黄色荧光笔。",
+        "highlight_parts": [
+          "merit"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2012-text4-h016",
+      "text": 4,
+      "term": "plenty of evidence",
+      "context_meaning": "充分的证据",
+      "loc": "P5",
+      "kind": "highlight",
+      "note": "原卷照片（印刷第9页），已逐项核对实际黄色荧光笔。",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "plenty",
+          "entry_id": 4651,
+          "a4_page": 233,
+          "english_page": 117,
+          "original_meaning": "pron. 大量,充足 adv. 非常,相当 n. 富裕,充裕 det. 大量,充足",
+          "match_type": "phrase_component",
+          "matched_part": "plenty",
+          "mapping_note": "表达中的 plenty 对应词书条目 plenty。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "plenty of evidence",
+          "plenty"
+        ],
+        "not_found_forms": [
+          "plenty of evidence"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "note": "原卷照片（印刷第9页），已逐项核对实际黄色荧光笔。",
+        "highlight_parts": [
+          "plenty"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2012-text4-h017",
+      "text": 4,
+      "term": "clearer",
+      "context_meaning": "更清楚的；这里指现行制度的成本愈发明显",
+      "loc": "P6",
+      "kind": "highlight",
+      "note": "原卷照片（印刷第9页），已逐项核对实际黄色荧光笔。",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "clear",
+          "entry_id": 697,
+          "a4_page": 35,
+          "english_page": 18,
+          "original_meaning": "adj. 清楚的;明显的;无疑的 vt. 清理,清除,移走;使人离开 vi. 变晴朗,变清澈;散去,消失 vt. vi. 兑现 (支票);获利,净赚",
+          "match_type": "inflection",
+          "matched_part": "clearer",
+          "mapping_note": "clearer 对应词书原形 clear。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "clearer",
+          "clear"
+        ],
+        "not_found_forms": [
+          "clearer"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "note": "原卷照片（印刷第9页），已逐项核对实际黄色荧光笔。",
+        "highlight_parts": [
+          "clearer"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2012-text4-h018",
+      "text": 4,
+      "term": "clamp down",
+      "context_meaning": "采取严厉措施加以限制",
+      "loc": "P6",
+      "kind": "highlight",
+      "note": "原卷照片（印刷第9页），已逐项核对实际黄色荧光笔。",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "clamp",
+          "entry_id": 6293,
+          "a4_page": 315,
+          "english_page": 158,
+          "original_meaning": "vt. vi. 紧紧抓住,被抓住,被夹紧 vt. 夹紧,固定;用夹锁锁住 n. 夹具,夹子",
+          "match_type": "phrase_component",
+          "matched_part": "clamp",
+          "mapping_note": "表达中的 clamp 对应词书条目 clamp。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "clamp down",
+          "clamp"
+        ],
+        "not_found_forms": [
+          "clamp down"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "note": "原卷照片（印刷第9页），已逐项核对实际黄色荧光笔。",
+        "highlight_parts": [
+          "clamp"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2012-text4-h019",
+      "text": 4,
+      "term": "rallied thousands of supporters",
+      "context_meaning": "召集了成千上万名支持者",
+      "loc": "P6",
+      "kind": "highlight",
+      "note": "原卷照片（印刷第9页），已逐项核对实际黄色荧光笔。",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "rally",
+          "entry_id": 414,
+          "a4_page": 21,
+          "english_page": 11,
+          "original_meaning": "n. 公众集会;拉力赛;止跌回升 vi. vt. 召集,集合 vi. 复原,恢复健康;止跌回升",
+          "match_type": "inflection",
+          "matched_part": "rallied",
+          "mapping_note": "rallied 对应词书原形 rally。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "rallied thousands of supporters",
+          "rallied",
+          "rally"
+        ],
+        "not_found_forms": [
+          "rallied thousands of supporters",
+          "rallied"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "note": "原卷照片（印刷第9页），已逐项核对实际黄色荧光笔。",
+        "highlight_parts": [
+          "rallied"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2012-text4-h020",
+      "text": 4,
+      "term": "the hardline Republican governor",
+      "context_meaning": "立场强硬的共和党籍州长",
+      "loc": "P6",
+      "kind": "highlight",
+      "note": "原卷照片（印刷第9页），已逐项核对实际黄色荧光笔。",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "hard-line",
+          "entry_id": 5574,
+          "a4_page": 279,
+          "english_page": 140,
+          "original_meaning": "adj. 立场坚定的,强硬的",
+          "match_type": "phrase_component",
+          "matched_part": "hardline",
+          "mapping_note": "表达中的 hardline 对应词书条目 hard-line。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "the hardline Republican governor",
+          "hardline",
+          "hard-line"
+        ],
+        "not_found_forms": [
+          "the hardline Republican governor",
+          "hardline"
+        ],
+        "note": "书中词头 hard-line 与原卷 hardline 为同一形容词的连字符拼写变体，所示短语未作为独立词头收录。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "note": "原卷照片（印刷第9页），已逐项核对实际黄色荧光笔。",
+        "highlight_parts": [
+          "hardline"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2012-text4-h021",
+      "text": 4,
+      "term": "public-sector membership",
+      "context_meaning": "工会在公共部门的会员人数",
+      "loc": "Q36C",
+      "kind": "highlight",
+      "note": "原卷照片（印刷第10页），已逐项核对实际黄色荧光笔。",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "public",
+          "entry_id": 1538,
+          "a4_page": 77,
+          "english_page": 39,
+          "original_meaning": "adj. 大众的;公共的;政府的;公开的 n. 公众,民众",
+          "match_type": "phrase_component",
+          "matched_part": "public",
+          "mapping_note": "表达中的 public 对应词书条目 public。"
+        },
+        {
+          "headword": "sector",
+          "entry_id": 2676,
+          "a4_page": 134,
+          "english_page": 67,
+          "original_meaning": "n. 部门,行业;军事管制区;扇形",
+          "match_type": "phrase_component",
+          "matched_part": "sector",
+          "mapping_note": "表达中的 sector 对应词书条目 sector。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "public-sector membership",
+          "public",
+          "sector"
+        ],
+        "not_found_forms": [
+          "public-sector membership"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "note": "原卷照片（印刷第10页），已逐项核对实际黄色荧光笔。",
+        "highlight_parts": [
+          "public-sector"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "question"
+    },
+    {
+      "id": "2012-text4-h022",
+      "text": 4,
+      "term": "prudent in taking actions",
+      "context_meaning": "采取行动时审慎的",
+      "loc": "Q37A",
+      "kind": "highlight",
+      "note": "原卷照片（印刷第10页），已逐项核对实际黄色荧光笔。",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "prudent",
+          "entry_id": 1203,
+          "a4_page": 61,
+          "english_page": 31,
+          "original_meaning": "adj. 谨慎的,慎重的,精明的",
+          "match_type": "phrase_component",
+          "matched_part": "prudent",
+          "mapping_note": "表达中的 prudent 对应词书条目 prudent。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "prudent in taking actions",
+          "prudent"
+        ],
+        "not_found_forms": [
+          "prudent in taking actions"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "note": "原卷照片（印刷第10页），已逐项核对实际黄色荧光笔。",
+        "highlight_parts": [
+          "prudent"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "question"
+    },
+    {
+      "id": "2012-text4-h023",
+      "text": 4,
+      "term": "seldom get in trouble",
+      "context_meaning": "很少惹上麻烦",
+      "loc": "Q37D",
+      "kind": "highlight",
+      "note": "原卷照片（印刷第10页），已逐项核对实际黄色荧光笔。",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "seldom",
+          "entry_id": 5083,
+          "a4_page": 255,
+          "english_page": 128,
+          "original_meaning": "adv. 很少,难得",
+          "match_type": "phrase_component",
+          "matched_part": "seldom",
+          "mapping_note": "表达中的 seldom 对应词书条目 seldom。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "seldom get in trouble",
+          "seldom"
+        ],
+        "not_found_forms": [
+          "seldom get in trouble"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "note": "原卷照片（印刷第10页），已逐项核对实际黄色荧光笔。",
+        "highlight_parts": [
+          "seldom"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "question"
+    },
+    {
+      "id": "2012-text4-h024",
+      "text": 4,
+      "term": "income in the state sector",
+      "context_meaning": "公共部门的收入",
+      "loc": "Q38",
+      "kind": "highlight",
+      "note": "原卷照片（印刷第10页），已逐项核对实际黄色荧光笔。",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "income",
+          "entry_id": 708,
+          "a4_page": 36,
+          "english_page": 18,
+          "original_meaning": "n. 收入,所得,收益",
+          "match_type": "phrase_component",
+          "matched_part": "income",
+          "mapping_note": "表达中的 income 对应词书条目 income。"
+        },
+        {
+          "headword": "sector",
+          "entry_id": 2676,
+          "a4_page": 134,
+          "english_page": 67,
+          "original_meaning": "n. 部门,行业;军事管制区;扇形",
+          "match_type": "phrase_component",
+          "matched_part": "sector",
+          "mapping_note": "表达中的 sector 对应词书条目 sector。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "income in the state sector",
+          "income",
+          "sector"
+        ],
+        "not_found_forms": [
+          "income in the state sector"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "note": "原卷照片（印刷第10页），已逐项核对实际黄色荧光笔。",
+        "highlight_parts": [
+          "income"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "question"
+    },
+    {
+      "id": "2012-text4-h025",
+      "text": 4,
+      "term": "illegally secured",
+      "context_meaning": "通过非法方式获得的；此处 secure 是动词",
+      "loc": "Q38A",
+      "kind": "highlight",
+      "note": "原卷照片（印刷第10页），已逐项核对实际黄色荧光笔。",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "secure",
+          "entry_id": 419,
+          "a4_page": 21,
+          "english_page": 11,
+          "original_meaning": "adj. 安全的;牢靠的;安心的 vt. 获得,确保;固定;保卫",
+          "match_type": "inflection",
+          "matched_part": "secured",
+          "mapping_note": "secured 对应词书原形 secure。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "illegally secured",
+          "secured",
+          "secure"
+        ],
+        "not_found_forms": [
+          "illegally secured",
+          "secured"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "note": "原卷照片（印刷第10页），已逐项核对实际黄色荧光笔。",
+        "highlight_parts": [
+          "secured"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "question"
+    },
+    {
+      "id": "2012-text4-h026",
+      "text": 4,
+      "term": "indirectly augmented",
+      "context_meaning": "间接增加的",
+      "loc": "Q38B",
+      "kind": "highlight",
+      "note": "原卷照片（印刷第10页），已逐项核对实际黄色荧光笔。",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "augment",
+          "entry_id": 4113,
+          "a4_page": 206,
+          "english_page": 103,
+          "original_meaning": "vt. 增大,增加,加强",
+          "match_type": "inflection",
+          "matched_part": "augmented",
+          "mapping_note": "augmented 对应词书原形 augment。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "indirectly augmented",
+          "augmented",
+          "augment"
+        ],
+        "not_found_forms": [
+          "indirectly augmented",
+          "augmented"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "note": "原卷照片（印刷第10页），已逐项核对实际黄色荧光笔。",
+        "highlight_parts": [
+          "augmented"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "question"
+    },
+    {
+      "id": "2012-text4-h027",
+      "text": 4,
+      "term": "excessively increased",
+      "context_meaning": "增加过多的",
+      "loc": "Q38C",
+      "kind": "highlight",
+      "note": "原卷照片（印刷第10页），已逐项核对实际黄色荧光笔。",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "excessive",
+          "entry_id": 5120,
+          "a4_page": 256,
+          "english_page": 128,
+          "original_meaning": "adj. 过分的,过多的",
+          "match_type": "derivation",
+          "matched_part": "excessively",
+          "mapping_note": "excessively 与 excessive 是同词族的不同形式，请结合左侧语境义辨认。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "excessively increased",
+          "excessively",
+          "excessive"
+        ],
+        "not_found_forms": [
+          "excessively increased",
+          "excessively"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "note": "原卷照片（印刷第10页），已逐项核对实际黄色荧光笔。",
+        "highlight_parts": [
+          "excessively"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "question"
+    },
+    {
+      "id": "2012-text4-h028",
+      "text": 4,
+      "term": "a barrier to public-sector reforms",
+      "context_meaning": "公共部门改革的一道障碍",
+      "loc": "Q39C",
+      "kind": "highlight",
+      "note": "原卷照片（印刷第10页），已逐项核对实际黄色荧光笔。",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "barrier",
+          "entry_id": 2523,
+          "a4_page": 127,
+          "english_page": 64,
+          "original_meaning": "n. 障碍,壁垒;障碍物;屏障",
+          "match_type": "phrase_component",
+          "matched_part": "barrier",
+          "mapping_note": "表达中的 barrier 对应词书条目 barrier。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "a barrier to public-sector reforms",
+          "barrier"
+        ],
+        "not_found_forms": [
+          "a barrier to public-sector reforms"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "note": "原卷照片（印刷第10页），已逐项核对实际黄色荧光笔。",
+        "highlight_parts": [
+          "barrier"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "question"
+    },
+    {
+      "id": "2012-text4-h029",
+      "text": 4,
+      "term": "appreciation",
+      "context_meaning": "赞赏；这里指对某一制度的态度",
+      "loc": "Q40B",
+      "kind": "highlight",
+      "note": "原卷照片（印刷第10页），已逐项核对实际黄色荧光笔。",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "appreciate",
+          "entry_id": 1186,
+          "a4_page": 60,
+          "english_page": 30,
+          "original_meaning": "vt. 欣赏;感激;理解,体会到 vi. 升值,增值",
+          "match_type": "derivation",
+          "matched_part": "appreciation",
+          "mapping_note": "appreciation 与 appreciate 是同词族的不同形式，请结合左侧语境义辨认。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "appreciation",
+          "appreciate"
+        ],
+        "not_found_forms": [
+          "appreciation"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "note": "原卷照片（印刷第10页），已逐项核对实际黄色荧光笔。",
+        "highlight_parts": [
+          "appreciation"
+        ],
+        "location_verified": true
+      },
+      "location_kind": "question"
+    }
+  ],
+  "availableTexts": [
+    4
+  ],
+  "verification": {
+    "total_items": 29,
+    "highlight_groups": 29,
+    "supplement_groups": 0,
+    "verified_items": 29,
+    "not_found_items": 0,
+    "unverified_items": 0,
+    "exact_found_items": 2,
+    "mapped_items": 27,
+    "book_entry_relations": 33,
+    "unique_book_entries": 31,
+    "by_text": [
+      {
+        "text": 4,
+        "total": 29,
+        "highlight": 29,
+        "supplement": 0,
+        "verified": 29,
+        "not_found": 0
+      }
+    ]
+  }
+}

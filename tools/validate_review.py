@@ -52,8 +52,10 @@ def main():
             for field in ('term','context_meaning','loc'):
                 need(isinstance(item.get(field),str) and item[field].strip(),f'{name}: missing {field}')
             need(item.get('kind') in ('highlight','supplement'), f'{name}: source kind')
-            need(type(item.get('text')) is int and 1<=item['text']<=4, f'{name}: Text number')
-            need(re.fullmatch(r'[PQ]\d+(?:[–-]\d+)?(?:[A-D])?',item['loc']) is not None, f'{name}: source location')
+            other = data.get('sections') == 'cloze-order-translation'
+            need(type(item.get('text')) is int and 1<=item['text']<=(3 if other else 4), f'{name}: section number')
+            location_pattern = r'选段 [A-G]' if other and item['text'] == 2 else r'[PQ]\d+(?:[–-]\d+)?(?:[A-D])?'
+            need(re.fullmatch(location_pattern,item['loc']) is not None, f'{name}: source location')
             need(item.get('book_status') in ('verified','not_found'), f'{name}: unresolved book source')
             need(isinstance(item.get('book'),list), f'{name}: book array')
             need(bool(item['book']) or item['book_status']=='not_found', f'{name}: verified without references')

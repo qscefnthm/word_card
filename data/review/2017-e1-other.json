@@ -1,0 +1,830 @@
+{
+  "schemaVersion": 1,
+  "id": "2017-e1-other",
+  "title": "2017 · 英语一 · 完形、新题型与翻译",
+  "version": "2026-11-23.1",
+  "year": 2017,
+  "exam": "英语一",
+  "description": "按卷面勾画和原文位置整理。语境义与词书原释义独立展示。",
+  "source_notes": [
+    "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。",
+    "同一词在不同位置可分别出现；补充表达单独标注。"
+  ],
+  "items": [
+    {
+      "id": "2017-section1-h001",
+      "text": 1,
+      "term": "susceptibility to",
+      "context_meaning": "容易受……影响的倾向，文中指患感冒的可能性",
+      "loc": "P2",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "susceptible",
+          "entry_id": 1697,
+          "a4_page": 85,
+          "english_page": 43,
+          "original_meaning": "adj. 易受影响的,易患病的;敏感的",
+          "match_type": "phrase_component",
+          "matched_part": "susceptibility",
+          "mapping_note": "表达中的 susceptibility 对应词书条目 susceptible。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "susceptibility to",
+          "susceptibility",
+          "susceptible"
+        ],
+        "not_found_forms": [
+          "susceptibility to",
+          "susceptibility"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "highlight_parts": [
+          "susceptibility"
+        ],
+        "pdf_page": 1,
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2017-section1-h002",
+      "text": 1,
+      "term": "perceived",
+      "context_meaning": "感受到，察觉到（别人给予的支持）",
+      "loc": "P2",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "perceive",
+          "entry_id": 384,
+          "a4_page": 20,
+          "english_page": 10,
+          "original_meaning": "vt. 看待,视为;注意到,察觉",
+          "match_type": "inflection",
+          "matched_part": "perceived",
+          "mapping_note": "perceived 对应词书原形 perceive。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "perceived",
+          "perceive"
+        ],
+        "not_found_forms": [
+          "perceived"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "highlight_parts": [
+          "perceived"
+        ],
+        "pdf_page": 1,
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2017-section1-h003",
+      "text": 1,
+      "term": "intimacy",
+      "context_meaning": "亲密，亲近感",
+      "loc": "P3",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "intimate",
+          "entry_id": 3609,
+          "a4_page": 181,
+          "english_page": 91,
+          "original_meaning": "adj. 亲密的;隐私的;幽静舒适的 vt. 透露,(间接) 表示,暗示 n. 知己,密友,至交",
+          "match_type": "derivation",
+          "matched_part": "intimacy",
+          "mapping_note": "intimacy 与 intimate 是同词族的不同形式，请结合左侧语境义辨认。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "intimacy",
+          "intimate"
+        ],
+        "not_found_forms": [
+          "intimacy"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "highlight_parts": [
+          "intimacy"
+        ],
+        "pdf_page": 1,
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2017-section1-h004",
+      "text": 1,
+      "term": "bonding hormone",
+      "context_meaning": "促进情感联结的激素（指催产素）",
+      "loc": "P4",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "hormone",
+          "entry_id": 3127,
+          "a4_page": 157,
+          "english_page": 79,
+          "original_meaning": "n. 激素,荷尔蒙",
+          "match_type": "phrase_component",
+          "matched_part": "hormone",
+          "mapping_note": "表达中的 hormone 对应词书条目 hormone。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "bonding hormone",
+          "hormone"
+        ],
+        "not_found_forms": [
+          "bonding hormone"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "highlight_parts": [
+          "hormone"
+        ],
+        "pdf_page": 1,
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2017-section1-h005",
+      "text": 1,
+      "term": "inferior",
+      "context_meaning": "较差的，不如……的",
+      "loc": "Q2D",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "inferior",
+          "entry_id": 1262,
+          "a4_page": 64,
+          "english_page": 32,
+          "original_meaning": "adj. 较差的,较次的;级别低的 n. 下级,下属",
+          "match_type": "exact",
+          "matched_part": "inferior",
+          "mapping_note": "与所列词头相同。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "exact_found",
+        "searched_forms": [
+          "inferior"
+        ],
+        "not_found_forms": [],
+        "note": "已核对两份红宝书中的词头、编号及页码。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "highlight_parts": [
+          "inferior"
+        ],
+        "pdf_page": 2,
+        "location_verified": true
+      },
+      "location_kind": "question"
+    },
+    {
+      "id": "2017-section1-h006",
+      "text": 1,
+      "term": "calculated",
+      "context_meaning": "计算得出",
+      "loc": "Q9A",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "calculate",
+          "entry_id": 260,
+          "a4_page": 13,
+          "english_page": 7,
+          "original_meaning": "vt. 计算,核算;预测,推测",
+          "match_type": "inflection",
+          "matched_part": "calculated",
+          "mapping_note": "calculated 对应词书原形 calculate。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "calculated",
+          "calculate"
+        ],
+        "not_found_forms": [
+          "calculated"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "highlight_parts": [
+          "calculated"
+        ],
+        "pdf_page": 2,
+        "location_verified": true
+      },
+      "location_kind": "question"
+    },
+    {
+      "id": "2017-section1-h007",
+      "text": 1,
+      "term": "symptoms",
+      "context_meaning": "症状",
+      "loc": "Q12B",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "symptom",
+          "entry_id": 4269,
+          "a4_page": 214,
+          "english_page": 107,
+          "original_meaning": "n. 症状;征兆",
+          "match_type": "inflection",
+          "matched_part": "symptoms",
+          "mapping_note": "symptoms 对应词书原形 symptom。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "symptoms",
+          "symptom"
+        ],
+        "not_found_forms": [
+          "symptoms"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "highlight_parts": [
+          "symptoms"
+        ],
+        "pdf_page": 2,
+        "location_verified": true
+      },
+      "location_kind": "question"
+    },
+    {
+      "id": "2017-section1-h008",
+      "text": 1,
+      "term": "associated",
+      "context_meaning": "有关联的（卷中与 with 连用）",
+      "loc": "Q14B",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "associate",
+          "entry_id": 1226,
+          "a4_page": 62,
+          "english_page": 31,
+          "original_meaning": "vt. 联想,联系 vi. 与...为伍,混在一起 n. 同事,(生意) 伙伴 adj. (等级或头衔) 准的,副的",
+          "match_type": "inflection",
+          "matched_part": "associated",
+          "mapping_note": "associated 对应词书原形 associate。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "associated",
+          "associate"
+        ],
+        "not_found_forms": [
+          "associated"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "highlight_parts": [
+          "associated"
+        ],
+        "pdf_page": 2,
+        "location_verified": true
+      },
+      "location_kind": "question"
+    },
+    {
+      "id": "2017-section1-h009",
+      "text": 1,
+      "term": "vanishes",
+      "context_meaning": "消失",
+      "loc": "Q19B",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "vanish",
+          "entry_id": 466,
+          "a4_page": 24,
+          "english_page": 12,
+          "original_meaning": "vi. 突然消失;消亡,灭绝",
+          "match_type": "inflection",
+          "matched_part": "vanishes",
+          "mapping_note": "vanishes 对应词书原形 vanish。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "vanishes",
+          "vanish"
+        ],
+        "not_found_forms": [
+          "vanishes"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "highlight_parts": [
+          "vanishes"
+        ],
+        "pdf_page": 2,
+        "location_verified": true
+      },
+      "location_kind": "question"
+    },
+    {
+      "id": "2017-section2-h001",
+      "text": 2,
+      "term": "sketches",
+      "context_meaning": "（描写人物或生活场景的）短文，文学小品",
+      "loc": "选段 A",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "sketch",
+          "entry_id": 98,
+          "a4_page": 5,
+          "english_page": 3,
+          "original_meaning": "n. 素描,草图;简报,概述;小品 vt. vi. 画素描,画速写 vt. 概述,简述",
+          "match_type": "inflection",
+          "matched_part": "sketches",
+          "mapping_note": "sketches 对应词书原形 sketch。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "sketches",
+          "sketch"
+        ],
+        "not_found_forms": [
+          "sketches"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "highlight_parts": [
+          "sketches"
+        ],
+        "pdf_page": 11,
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2017-section2-h002",
+      "text": 2,
+      "term": "moralist",
+      "context_meaning": "探讨、评论道德问题的人",
+      "loc": "选段 D",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "moral",
+          "entry_id": 1249,
+          "a4_page": 63,
+          "english_page": 32,
+          "original_meaning": "adj. 道德的;出于道义的;有道德的 n. 品行,道德;寓意",
+          "match_type": "derivation",
+          "matched_part": "moralist",
+          "mapping_note": "moralist 与 moral 是同词族的不同形式，请结合左侧语境义辨认。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "moralist",
+          "moral"
+        ],
+        "not_found_forms": [
+          "moralist"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "highlight_parts": [
+          "moralist"
+        ],
+        "pdf_page": 11,
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2017-section2-h003",
+      "text": 2,
+      "term": "satirist",
+      "context_meaning": "讽刺作家",
+      "loc": "选段 D",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "satire",
+          "entry_id": 3009,
+          "a4_page": 151,
+          "english_page": 76,
+          "original_meaning": "n. 讽刺,讽刺作品",
+          "match_type": "derivation",
+          "matched_part": "satirist",
+          "mapping_note": "satirist 与 satire 是同词族的不同形式，请结合左侧语境义辨认。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "satirist",
+          "satire"
+        ],
+        "not_found_forms": [
+          "satirist"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "highlight_parts": [
+          "satirist"
+        ],
+        "pdf_page": 11,
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2017-section2-h004",
+      "text": 2,
+      "term": "crafted",
+      "context_meaning": "精心构思、创作（情节和人物）",
+      "loc": "选段 D",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "craft",
+          "entry_id": 4174,
+          "a4_page": 209,
+          "english_page": 105,
+          "original_meaning": "n. 手艺;技巧;船;飞行器;诡计 vt. 精心制作",
+          "match_type": "inflection",
+          "matched_part": "crafted",
+          "mapping_note": "crafted 对应词书原形 craft。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "crafted",
+          "craft"
+        ],
+        "not_found_forms": [
+          "crafted"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "highlight_parts": [
+          "crafted"
+        ],
+        "pdf_page": 11,
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2017-section2-h005",
+      "text": 2,
+      "term": "court stenographer",
+      "context_meaning": "法庭速记员",
+      "loc": "选段 E",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "stenographer",
+          "entry_id": 5876,
+          "a4_page": 294,
+          "english_page": 147,
+          "original_meaning": "n. 速记员",
+          "match_type": "phrase_component",
+          "matched_part": "stenographer",
+          "mapping_note": "表达中的 stenographer 对应词书条目 stenographer。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "court stenographer",
+          "stenographer"
+        ],
+        "not_found_forms": [
+          "court stenographer"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "highlight_parts": [
+          "stenographer"
+        ],
+        "pdf_page": 11,
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2017-section2-h006",
+      "text": 2,
+      "term": "transcribing",
+      "context_meaning": "记录下来，用文字描绘（身边的生活）",
+      "loc": "选段 E",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "transcribe",
+          "entry_id": 6276,
+          "a4_page": 314,
+          "english_page": 157,
+          "original_meaning": "vt. 记录,抄录,转录;改编 (乐曲)",
+          "match_type": "inflection",
+          "matched_part": "transcribing",
+          "mapping_note": "transcribing 对应词书原形 transcribe。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "transcribing",
+          "transcribe"
+        ],
+        "not_found_forms": [
+          "transcribing"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "highlight_parts": [
+          "transcribing"
+        ],
+        "pdf_page": 11,
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2017-section2-h007",
+      "text": 2,
+      "term": "confide",
+      "context_meaning": "向信任的人倾诉、吐露",
+      "loc": "选段 F",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "confidence",
+          "entry_id": 1178,
+          "a4_page": 59,
+          "english_page": 30,
+          "original_meaning": "n. 信心,信任;自信;把握;秘密",
+          "match_type": "derivation",
+          "matched_part": "confide",
+          "mapping_note": "confide 与 confidence 是同词族的不同形式，请结合左侧语境义辨认。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "confide",
+          "confidence"
+        ],
+        "not_found_forms": [
+          "confide"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "highlight_parts": [
+          "confide"
+        ],
+        "pdf_page": 12,
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2017-section3-h001",
+      "text": 3,
+      "term": "monoglot",
+      "context_meaning": "只会说一种语言的",
+      "loc": "P3",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "monoglot",
+          "entry_id": 5702,
+          "a4_page": 286,
+          "english_page": 143,
+          "original_meaning": "n. 掌握单一语言者 adj. 掌握单一语言的",
+          "match_type": "exact",
+          "matched_part": "monoglot",
+          "mapping_note": "与所列词头相同。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "exact_found",
+        "searched_forms": [
+          "monoglot"
+        ],
+        "not_found_forms": [],
+        "note": "已核对两份红宝书中的词头、编号及页码。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "highlight_parts": [
+          "monoglot"
+        ],
+        "pdf_page": 13,
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2017-section3-h002",
+      "text": 3,
+      "term": "a bleak economic future",
+      "context_meaning": "暗淡的经济前景",
+      "loc": "P3",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "bleak",
+          "entry_id": 3385,
+          "a4_page": 170,
+          "english_page": 85,
+          "original_meaning": "adj. 没有希望的;阴冷的;荒凉的",
+          "match_type": "phrase_component",
+          "matched_part": "bleak",
+          "mapping_note": "表达中的 bleak 对应词书条目 bleak。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "a bleak economic future",
+          "bleak"
+        ],
+        "not_found_forms": [
+          "a bleak economic future"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "highlight_parts": [
+          "bleak"
+        ],
+        "pdf_page": 13,
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    },
+    {
+      "id": "2017-section3-h003",
+      "text": 3,
+      "term": "primary-school curriculum",
+      "context_meaning": "小学课程（体系）",
+      "loc": "P3",
+      "kind": "highlight",
+      "note": "见翻译第 48 题所在的第三段。",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "curriculum",
+          "entry_id": 4334,
+          "a4_page": 217,
+          "english_page": 109,
+          "original_meaning": "n. 课程",
+          "match_type": "phrase_component",
+          "matched_part": "curriculum",
+          "mapping_note": "表达中的 curriculum 对应词书条目 curriculum。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "primary-school curriculum",
+          "curriculum"
+        ],
+        "not_found_forms": [
+          "primary-school curriculum"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "highlight_parts": [
+          "curriculum"
+        ],
+        "pdf_page": 13,
+        "location_verified": true
+      },
+      "location_kind": "passage"
+    }
+  ],
+  "sections": "cloze-order-translation",
+  "verification": {
+    "total_items": 19,
+    "highlight_groups": 19,
+    "supplement_groups": 0,
+    "verified_items": 19,
+    "not_found_items": 0,
+    "unverified_items": 0,
+    "exact_found_items": 2,
+    "mapped_items": 17,
+    "book_entry_relations": 19,
+    "unique_book_entries": 19,
+    "by_text": [
+      {
+        "text": 1,
+        "total": 9,
+        "highlight": 9,
+        "supplement": 0,
+        "verified": 9,
+        "not_found": 0
+      },
+      {
+        "text": 2,
+        "total": 7,
+        "highlight": 7,
+        "supplement": 0,
+        "verified": 7,
+        "not_found": 0
+      },
+      {
+        "text": 3,
+        "total": 3,
+        "highlight": 3,
+        "supplement": 0,
+        "verified": 3,
+        "not_found": 0
+      }
+    ]
+  }
+}

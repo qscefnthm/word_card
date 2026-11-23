@@ -9,6 +9,16 @@
   const esc = v => String(v ?? '').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const names = {known:'认识',fuzzy:'模糊',unknown:'不认识'};
   const scopes = {'all':'Text 1–4 · 全部','1':'Text 1','2':'Text 2','3':'Text 3','4':'Text 4','1-2':'Text 1 + 2 · 第一批','3-4':'Text 3 + 4 · 第二批'};
+  const otherScopes = {all:'全部题型', '1':'完形填空', '2':'新题型', '3':'翻译'};
+  function scopesFor(data) {
+    if (data.sections === 'cloze-order-translation') return otherScopes;
+    if (!Array.isArray(data.availableTexts)) return scopes;
+    const texts = new Set(data.availableTexts);
+    const available = Object.entries(scopes).filter(([key]) => key !== 'all' && key.split('-').every(n => texts.has(Number(n))));
+    return {all:'本批全部', ...Object.fromEntries(available)};
+  }
+  let visibleScopes = scopes;
+  const sectionLabel = item => visibleScopes[String(item.text)];
   const date = value => typeof value === 'string' && Number.isFinite(Date.parse(value)) && Date.parse(value) >= 0 && Date.parse(value) <= Date.now() + 86400000;
   const now = () => new Date().toISOString();
   const fresh = () => ({version:1,theme:'night',dataset:'2014-e1',scope:'all',view:'list',kind:'all',status:'all',ratings:{},positions:{},updatedAt:now()});
@@ -80,7 +90,7 @@
   }
   function row(item) {
     const show=opened.has(item.id), id='answer-'+item.id;
-    return `<article class="review-item" id="item-${esc(item.id)}" data-item="${esc(item.id)}"><div class="review-item-top"><button class="review-term-button" data-reveal="${esc(item.id)}" aria-label="${esc(item.term)}：${show?'单独遮蔽':'单独显示'}中文" aria-expanded="${show}" aria-controls="${id}"><span class="review-term" lang="en">${esc(item.term)}</span><span class="review-meta"><span>Text ${item.text} · ${esc(item.loc)}</span><span class="${isSupplement(item)?'source-supplement':'source-highlight'}">${source(item)}</span></span></button><span class="review-state">${names[status(item)]||'未自评'}</span></div><div class="review-mask" ${show?'hidden':''}><span aria-hidden="true">••••••</span><span>中文已遮蔽</span></div><div class="review-answer" id="${id}" ${show?'':'hidden'}><h3>真题语境义 · 整理讲解</h3><p class="review-meaning">${esc(item.context_meaning)}</p><details class="review-detail" ${state.view==='cards'?'open':''}><summary>原文 · 红宝书对照 · 自评</summary><p class="review-note">原文位置：Text ${item.text} · ${esc(item.loc)}${item.source_evidence?.pdf_page?' · 原卷 PDF 第 '+esc(item.source_evidence.pdf_page)+' 页':''}。${item.kind==='highlight'&&item.source_evidence?.highlight_parts?.length?'实际黄标：'+esc(item.source_evidence.highlight_parts.join(' / '))+'。本条可含必要的未标黄上下文。':'补充关键表达，不计为黄标分组。'}</p>${item.note?`<p class="review-note">${esc(item.note)}</p>`:''}<h3>红宝书原释义 · 独立对照</h3>${bookHTML(item)}<div class="review-rating" role="group" aria-label="${esc(item.term)} 的熟悉度">${Object.entries(names).map(([k,v])=>`<button data-rate="${k}" data-id="${item.id}" aria-pressed="${status(item)===k}">${v}</button>`).join('')}</div></details></div></article>`;
+    return `<article class="review-item" id="item-${esc(item.id)}" data-item="${esc(item.id)}"><div class="review-item-top"><button class="review-term-button" data-reveal="${esc(item.id)}" aria-label="${esc(item.term)}：${show?'单独遮蔽':'单独显示'}中文" aria-expanded="${show}" aria-controls="${id}"><span class="review-term" lang="en">${esc(item.term)}</span><span class="review-meta"><span>${esc(sectionLabel(item))} · ${esc(item.loc)}</span><span class="${isSupplement(item)?'source-supplement':'source-highlight'}">${source(item)}</span></span></button><span class="review-state">${names[status(item)]||'未自评'}</span></div><div class="review-mask" ${show?'hidden':''}><span aria-hidden="true">••••••</span><span>中文已遮蔽</span></div><div class="review-answer" id="${id}" ${show?'':'hidden'}><h3>真题语境义 · 整理讲解</h3><p class="review-meaning">${esc(item.context_meaning)}</p><details class="review-detail" ${state.view==='cards'?'open':''}><summary>原文 · 红宝书对照 · 自评</summary><p class="review-note">原文位置：${esc(sectionLabel(item))} · ${esc(item.loc)}${item.source_evidence?.pdf_page?' · 原卷 PDF 第 '+esc(item.source_evidence.pdf_page)+' 页':''}。${item.kind==='highlight'&&item.source_evidence?.highlight_parts?.length?'实际黄标：'+esc(item.source_evidence.highlight_parts.join(' / '))+'。本条可含必要的未标黄上下文。':'补充关键表达，不计为黄标分组。'}</p>${item.note?`<p class="review-note">${esc(item.note)}</p>`:''}<h3>红宝书原释义 · 独立对照</h3>${bookHTML(item)}<div class="review-rating" role="group" aria-label="${esc(item.term)} 的熟悉度">${Object.entries(names).map(([k,v])=>`<button data-rate="${k}" data-id="${item.id}" aria-pressed="${status(item)===k}">${v}</button>`).join('')}</div></details></div></article>`;
   }
   function applyFilters(restore=true) {
     const query=$('reviewSearch').value.trim().toLowerCase();
@@ -97,7 +107,7 @@
     $('reviewVisibilityStatus').textContent=visible?`中文已显示 ${visible} / ${shown.length} 项`:'中文已遮蔽';
     $('reviewShowAll').disabled=!shown.length;
     $('reviewHideAll').disabled=!shown.length;
-    $('reviewCount').textContent=`当前 ${filtered.length} 项 · ${scopes[state.scope]}`;
+    $('reviewCount').textContent=`当前 ${filtered.length} 项 · ${visibleScopes[state.scope]}`;
     const rated=dataset.items.filter(c=>!!status(c)).length;
     $('reviewProgress').textContent=`本试卷已自评 ${rated} / ${dataset.items.length} 项`;
     $('reviewPagination').hidden=state.view!=='cards'||!filtered.length;
@@ -118,10 +128,11 @@
       const res=await fetch('./'+entry.file,{cache:'no-cache'});if(!res.ok)throw new Error('dataset');
       const data=await res.json();if(data.schemaVersion!==1||data.id!==entry.id||!Array.isArray(data.items)||data.items.length!==entry.count||data.items.some(c=>!validID(c.id)||!Number.isInteger(c.text)||typeof c.term!=='string'||typeof c.context_meaning!=='string'||typeof c.loc!=='string'||!['highlight','supplement'].includes(c.kind)||!['verified','not_found'].includes(c.book_status)||!Array.isArray(c.book)||c.book.some(b=>!object(b)||typeof b.headword!=='string'||typeof b.original_meaning!=='string'||!Number.isInteger(b.entry_id)||!Number.isInteger(b.a4_page)||!Number.isInteger(b.english_page))))throw new Error('dataset schema');
       if(token!==serial)return;
-      catalog=cat;dataset=data;state.dataset=dataset.id;
-      const selected=params.get('scope');if(Object.hasOwn(scopes,selected))state.scope=selected;
+      catalog=cat;dataset=data;visibleScopes=scopesFor(data);state.dataset=dataset.id;
+      const selected=params.get('scope');if(Object.hasOwn(visibleScopes,selected))state.scope=selected;
+      if(!Object.hasOwn(visibleScopes,state.scope))state.scope='all';
       $('reviewDataset').innerHTML=cat.sets.map(s=>`<option value="${esc(s.id)}">${esc(s.title)}</option>`).join('');
-      $('reviewScope').innerHTML=Object.entries(scopes).map(([k,v])=>`<option value="${k}">${v}</option>`).join('');
+      $('reviewScope').innerHTML=Object.entries(visibleScopes).map(([k,v])=>`<option value="${k}">${v}</option>`).join('');
       settingsToUI();$('reviewTitle').textContent=dataset.title;$('reviewEdition').textContent=`READING REVIEW · ${dataset.version||cat.version}`;
       $('reviewWorkspace').hidden=false;$('reviewLoading').hidden=true;
       ['reviewExport','reviewImport','reviewReset'].forEach(id=>$(id).disabled=false);

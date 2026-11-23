@@ -1,18 +1,82 @@
 {
   "schemaVersion": 1,
-  "version": "2026-11-09.1",
+  "version": "2026-11-23.1",
   "defaultSet": "2014-e1",
   "sets": [
+    {
+      "id": "2012-e1",
+      "title": "2012 · 英语一 · Text 4 阅读词汇复盘",
+      "file": "data/review/2012-e1.json",
+      "count": 29,
+      "counts": {
+        "highlight": 29
+      },
+      "updated": "2026-11-23"
+    },
+    {
+      "id": "2013-e1",
+      "title": "2013 · 英语一 · 阅读词汇复盘",
+      "file": "data/review/2013-e1.json",
+      "count": 114,
+      "counts": {
+        "highlight": 102,
+        "supplement": 12
+      },
+      "updated": "2026-11-23"
+    },
     {
       "id": "2014-e1",
       "title": "2014 · 英语一 · 阅读词汇复盘",
       "file": "data/review/2014-e1.json",
-      "count": 129,
+      "count": 131,
       "counts": {
-        "highlight": 117,
+        "highlight": 119,
         "supplement": 12
       },
-      "updated": "2026-11-09"
+      "updated": "2026-11-23"
+    },
+    {
+      "id": "2015-e1",
+      "title": "2015 · 英语一 · 阅读词汇复盘",
+      "file": "data/review/2015-e1.json",
+      "count": 145,
+      "counts": {
+        "highlight": 134,
+        "supplement": 11
+      },
+      "updated": "2026-11-23"
+    },
+    {
+      "id": "2016-e1",
+      "title": "2016 · 英语一 · 阅读词汇复盘",
+      "file": "data/review/2016-e1.json",
+      "count": 120,
+      "counts": {
+        "highlight": 100,
+        "supplement": 20
+      },
+      "updated": "2026-11-23"
+    },
+    {
+      "id": "2017-e1",
+      "title": "2017 · 英语一 · 阅读词汇复盘",
+      "file": "data/review/2017-e1.json",
+      "count": 124,
+      "counts": {
+        "highlight": 122,
+        "supplement": 2
+      },
+      "updated": "2026-11-23"
+    },
+    {
+      "id": "2017-e1-other",
+      "title": "2017 · 英语一 · 完形、新题型与翻译",
+      "file": "data/review/2017-e1-other.json",
+      "count": 19,
+      "counts": {
+        "highlight": 19
+      },
+      "updated": "2026-11-23"
     }
   ]
 }

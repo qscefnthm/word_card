@@ -2,20 +2,20 @@
   "schemaVersion": 1,
   "id": "2014-e1",
   "title": "2014 · 英语一 · 阅读词汇复盘",
-  "version": "2026-11-09.1",
+  "version": "2026-11-23.1",
   "year": 2014,
   "exam": "英语一",
-  "description": "依据已读真题整理的117个黄标复盘分组与12个补充关键表达；分组数不是独立黄词、笔画或去重词汇数。",
+  "description": "四篇阅读共119组黄标及12项补充。相同词在正文、选项的不同出处分别保留。",
   "verification": {
-    "total_items": 129,
-    "highlight_groups": 117,
+    "total_items": 131,
+    "highlight_groups": 119,
     "supplement_groups": 12,
-    "verified_items": 127,
+    "verified_items": 129,
     "not_found_items": 2,
     "unverified_items": 0,
     "exact_found_items": 38,
-    "mapped_items": 89,
-    "book_entry_relations": 209,
+    "mapped_items": 91,
+    "book_entry_relations": 212,
     "unique_book_entries": 174,
     "by_text": [
       {
@@ -44,10 +44,10 @@
       },
       {
         "text": 4,
-        "total": 36,
-        "highlight": 33,
+        "total": 38,
+        "highlight": 35,
         "supplement": 3,
-        "verified": 36,
+        "verified": 38,
         "not_found": 0
       }
     ]
@@ -777,7 +777,7 @@
       "id": "2014-text1-h015",
       "text": 1,
       "term": "indulge",
-      "context_meaning": "纵容／迁就（indulge your falsehood）",
+      "context_meaning": "纵容；indulge your falsehood 指政府纵容申领者的欺骗行为，是作者对政策预设的反讽。",
       "loc": "P4",
       "kind": "highlight",
       "book_status": "verified",
@@ -1983,7 +1983,7 @@
       "id": "2014-text2-h010",
       "text": 2,
       "term": "authorized",
-      "context_meaning": "获准认可的／经批准的",
+      "context_meaning": "经认可的；schools authorized by the American Bar Association 指经美国律师协会认可的法学院。",
       "loc": "P3",
       "kind": "highlight",
       "book_status": "not_found",
@@ -3278,7 +3278,7 @@
       "id": "2014-text3-h010",
       "text": 3,
       "term": "legitimate concerns",
-      "context_meaning": "合理的担忧",
+      "context_meaning": "有道理的顾虑；指对新旧科学奖颁发方式的质疑。",
       "loc": "P4",
       "kind": "highlight",
       "book_status": "verified",
@@ -3470,7 +3470,7 @@
       "id": "2014-text3-h014",
       "text": 3,
       "term": "outgrown",
-      "context_meaning": "已不再适应（现代需要）",
+      "context_meaning": "在此是被动式 has long been outgrown：现代科研的协作性早已超出这一规则所能容纳的范围。",
       "loc": "P4",
       "kind": "highlight",
       "book_status": "verified",
@@ -3567,7 +3567,7 @@
       "id": "2014-text3-h016",
       "text": 3,
       "term": "demonstrated",
-      "context_meaning": "被证明／被体现",
+      "context_meaning": "在 as will be demonstrated by … 中指“正如……将会表明的那样”。",
       "loc": "P4",
       "kind": "highlight",
       "book_status": "verified",
@@ -6111,41 +6111,43 @@
       "location_kind": "question"
     },
     {
-      "id": "2014-text4-h032",
+      "id": "2014-text4-h034",
       "text": 4,
-      "term": "illiberal",
-      "context_meaning": "不自由的／违背自由教育精神的",
-      "loc": "Q40",
+      "term": "conservative about public policy",
+      "context_meaning": "在公共政策问题上持保守态度",
+      "loc": "Q39B",
       "kind": "highlight",
       "book_status": "verified",
       "book": [
         {
-          "headword": "illiberal",
-          "entry_id": 6086,
-          "a4_page": 305,
-          "english_page": 153,
-          "original_meaning": "adj. 不开明的,(言论等) 不自由的  adj. 吝啬的,小气的",
-          "match_type": "exact",
-          "matched_part": "illiberal",
-          "mapping_note": "原词与红宝书词头相同；语境义另见 context_meaning，不替换词书原释义。"
+          "headword": "conservative",
+          "entry_id": 1054,
+          "a4_page": 53,
+          "english_page": 27,
+          "original_meaning": "adj. 保守的;保守党的 n. 保守党党员;保守的人",
+          "match_type": "phrase_component",
+          "matched_part": "conservative",
+          "mapping_note": "表达中的 conservative 对应词书条目 conservative。"
         }
       ],
       "book_lookup": {
-        "term_status": "exact_found",
+        "term_status": "mapped",
         "searched_forms": [
-          "illiberal"
+          "conservative about public policy",
+          "conservative"
         ],
-        "not_found_forms": [],
-        "note": "完整词头索引及两份原PDF核验；本词有独立词条。",
+        "not_found_forms": [
+          "conservative about public policy"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
         "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
       },
       "source_evidence": {
-        "pdf_page": 8,
-        "location_verified": true,
         "highlight_parts": [
-          "Illiberal"
+          "conservative"
         ],
-        "note": "Q40[B] 的 Illiberal 标黄；P4 同词未标黄。"
+        "pdf_page": 8,
+        "location_verified": true
       },
       "location_kind": "question"
     },
@@ -6188,6 +6190,99 @@
           "biased"
         ],
         "note": "Q39[C] 仅 biased 标黄，against 未标黄；term 保留搭配。"
+      },
+      "location_kind": "question"
+    },
+    {
+      "id": "2014-text4-h035",
+      "text": 4,
+      "term": "intellectual investigation",
+      "context_meaning": "学术探究，思想上的探讨",
+      "loc": "Q39D",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "intellectual",
+          "entry_id": 1753,
+          "a4_page": 88,
+          "english_page": 44,
+          "original_meaning": "adj. 智力的,脑力的;有才智的 n. 知识分子",
+          "match_type": "phrase_component",
+          "matched_part": "intellectual",
+          "mapping_note": "表达中的 intellectual 对应词书条目 intellectual。"
+        },
+        {
+          "headword": "investigate",
+          "entry_id": 1565,
+          "a4_page": 79,
+          "english_page": 40,
+          "original_meaning": "vi. vt. 调查,研究",
+          "match_type": "derivation",
+          "matched_part": "investigation",
+          "mapping_note": "investigation 与 investigate 是同词族的不同形式，请结合左侧语境义辨认。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "mapped",
+        "searched_forms": [
+          "intellectual investigation",
+          "intellectual",
+          "investigation",
+          "investigate"
+        ],
+        "not_found_forms": [
+          "intellectual investigation",
+          "investigation"
+        ],
+        "note": "所列原释义属于对应基础词。搭配及派生形式的语境义另列。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "highlight_parts": [
+          "intellectual"
+        ],
+        "pdf_page": 8,
+        "location_verified": true
+      },
+      "location_kind": "question"
+    },
+    {
+      "id": "2014-text4-h032",
+      "text": 4,
+      "term": "illiberal",
+      "context_meaning": "不自由的／违背自由教育精神的",
+      "loc": "Q40",
+      "kind": "highlight",
+      "book_status": "verified",
+      "book": [
+        {
+          "headword": "illiberal",
+          "entry_id": 6086,
+          "a4_page": 305,
+          "english_page": 153,
+          "original_meaning": "adj. 不开明的,(言论等) 不自由的  adj. 吝啬的,小气的",
+          "match_type": "exact",
+          "matched_part": "illiberal",
+          "mapping_note": "原词与红宝书词头相同；语境义另见 context_meaning，不替换词书原释义。"
+        }
+      ],
+      "book_lookup": {
+        "term_status": "exact_found",
+        "searched_forms": [
+          "illiberal"
+        ],
+        "not_found_forms": [],
+        "note": "完整词头索引及两份原PDF核验；本词有独立词条。",
+        "search_scope": "用户提供的2027考研英语红宝书（乱序版）A4默写版（328页）及英文词表（164页），共6550个编号词条、6549个不同词头；页码按各PDF第1页起算。"
+      },
+      "source_evidence": {
+        "pdf_page": 8,
+        "location_verified": true,
+        "highlight_parts": [
+          "Illiberal"
+        ],
+        "note": "Q40[B] 的 Illiberal 标黄；P4 同词未标黄。"
       },
       "location_kind": "question"
     },
